@@ -6,7 +6,8 @@ import { renderFinanceBriefHtml } from "./render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const OUTPUT_DIR = path.join(ROOT, "output");
+// GitHub Pages serves the site from the `docs/` folder on the default branch.
+const OUTPUT_DIR = path.join(ROOT, "docs");
 const TEMPLATE_PATH = path.join(ROOT, "templates", "finance-brief.html");
 
 /** Load every persisted brief JSON, newest first; skip malformed files. */

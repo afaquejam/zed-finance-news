@@ -11,7 +11,8 @@ import { renderFinanceBriefHtml } from "./render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const OUTPUT_DIR = path.join(ROOT, "output");
+// GitHub Pages serves the site from the `docs/` folder on the default branch.
+const OUTPUT_DIR = path.join(ROOT, "docs");
 const TEMPLATE_PATH = path.join(ROOT, "templates", "finance-brief.html");
 
 // The prompt Claude Code runs. `/finance-brief` invokes the skill at
@@ -160,6 +161,55 @@ async function main() {
   await writeFile(path.join(OUTPUT_DIR, "latest.html"), latestHtml, "utf-8");
   await writeFile(path.join(OUTPUT_DIR, "index.html"), latestHtml, "utf-8");
   console.log(`[finance-brief] wrote latest.html + index.html`);
+
+  publishToGit(brief.date);
+}
+
+/**
+ * Commit the regenerated site and push it to GitHub Pages. Enabled only when
+ * FINANCE_BRIEF_PUBLISH=1 (the scheduled launchd job sets it) so manual/dev
+ * runs don't push. Failures are logged and mark the run as failed, but never
+ * throw — the HTML is already written to disk by this point.
+ */
+function publishToGit(date: string): void {
+  if (process.env.FINANCE_BRIEF_PUBLISH !== "1") {
+    console.log(
+      "[finance-brief] git publish skipped (set FINANCE_BRIEF_PUBLISH=1 to enable)",
+    );
+    return;
+  }
+
+  const git = (args: string[]) =>
+    spawnSync("git", args, { cwd: ROOT, encoding: "utf-8", env: process.env });
+
+  const add = git(["add", "docs"]);
+  if (add.status !== 0) {
+    console.error(`[finance-brief] git add failed:\n${add.stderr}`);
+    process.exitCode = 1;
+    return;
+  }
+
+  // Commit only if something is staged (`diff --cached --quiet` exits 1 when
+  // there are staged changes).
+  if (git(["diff", "--cached", "--quiet"]).status !== 0) {
+    const commit = git(["commit", "-m", `Finance brief ${date}`]);
+    if (commit.status !== 0) {
+      console.error(`[finance-brief] git commit failed:\n${commit.stderr}`);
+      process.exitCode = 1;
+      return;
+    }
+    console.log("[finance-brief] committed website changes");
+  } else {
+    console.log("[finance-brief] no website changes to commit");
+  }
+
+  const push = git(["push", "origin", "master"]);
+  if (push.status !== 0) {
+    console.error(`[finance-brief] git push failed:\n${push.stderr}`);
+    process.exitCode = 1;
+    return;
+  }
+  console.log("[finance-brief] pushed to origin/master");
 }
 
 main().catch((err) => {

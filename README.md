@@ -12,7 +12,7 @@ src/types.ts                            <- zod schema / TS types for that JSON
 src/runFinanceBrief.ts                  <- runs `claude -p` headlessly, validates, orchestrates
 src/render.ts                           <- JSON -> HTML
 templates/finance-brief.html            <- HTML shell with {{PLACEHOLDER}} slots
-output/                                 <- finance-brief-YYYY-MM-DD.html + latest.html
+docs/                                   <- finance-brief-YYYY-MM-DD.html + latest.html (GitHub Pages)
 ```
 
 Flow each run:
@@ -25,7 +25,9 @@ Flow each run:
    `src/types.ts` — if the model's output doesn't match, the run fails loudly
    instead of publishing bad data.
 4. `render.ts` fills the HTML template and the orchestrator writes both a
-   dated file and `output/latest.html`.
+   dated file and `docs/latest.html`.
+5. When `FINANCE_BRIEF_PUBLISH=1` (set by the scheduled job), the orchestrator
+   commits `docs/` and runs `git push origin master` so GitHub Pages updates.
 
 ## Setup
 
@@ -44,7 +46,9 @@ standard API rates instead of running under your Claude Code subscription.
 npm run brief
 ```
 
-Output lands in `output/finance-brief-<date>.html` and `output/latest.html`.
+Output lands in `docs/finance-brief-<date>.html` and `docs/latest.html`
+(served by GitHub Pages). A manual `npm run brief` does **not** push; set
+`FINANCE_BRIEF_PUBLISH=1` to commit + push after generating.
 
 ## Schedule it (cron)
 
