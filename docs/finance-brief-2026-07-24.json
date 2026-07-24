@@ -1,31 +1,45 @@
 {
   "date": "2026-07-24",
-  "generatedAt": "2026-07-24T14:30:00Z",
+  "generatedAt": "2026-07-24T13:30:00Z",
   "sections": [
     {
       "key": "sp500",
       "label": "S&P 500",
       "items": [
         {
-          "headline": "S&P 500 sinks 1.2% in worst day in a month",
-          "detail": "The S&P 500 fell 90.66 points (-1.2%) to 7,408.30; the Dow lost 506.93 points (-1.0%) to 51,711.65 and the Nasdaq slid 2.2% to 25,137.69.",
-          "why": "A megacap-tech earnings slump collided with crude oil spiking past $102/bbl on escalating Middle East conflict, reigniting inflation and AI-spending fears.",
-          "sourceName": "The Motley Fool",
-          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/23/stock-market-today-july-23-tesla-drops-15-leading-tech-stock-slide/"
+          "emoji": "📉",
+          "detail": "The S&P 500 fell **1.21% to 7,408.30**, with the Dow also down over 1% and the *Nasdaq 100 sliding 2%* in the worst megacap session in months.",
+          "why": "A surge in oil above $100 a barrel and rising bond yields collided with disappointing megacap earnings, triggering a broad risk-off move.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-july-23-dow-sp-500-nasdaq-oil-bonds-earnings-084444369.html"
         },
         {
-          "headline": "Alphabet and Tesla lead a megacap rout",
-          "detail": "Alphabet dropped about 7% and Tesla fell roughly 14-15% after their earnings reports, dragging the Nasdaq down more than 2%.",
-          "why": "Both reports intensified worries that heavy AI capital spending is outrunning near-term profit, triggering the worst megacap selloff in weeks.",
-          "sourceName": "TheStreet",
-          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-23-2026"
+          "emoji": "🛢️",
+          "detail": "Brent crude jumped **7% to settle at $100.69/bbl**, its highest since before the US–Iran ceasefire, and WTI followed.",
+          "why": "Yemen's Iran-backed Houthis claimed attacks on *two Saudi tankers in the Red Sea*, reigniting Middle East supply fears.",
+          "sourceName": "Fortune",
+          "sourceUrl": "https://fortune.com/article/price-of-oil-07-23-2026/"
         },
         {
-          "headline": "Oil surge past $102 is the macro swing factor",
-          "detail": "US crude climbed above $102/bbl (up ~31% since July 2), lifting Treasury yields and pressuring rate-sensitive equities.",
-          "why": "Escalation in the Iran/Middle East conflict is squeezing supply and reviving inflation expectations, which weighs on stock valuations.",
-          "sourceName": "TheStreet",
-          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-23-2026"
+          "emoji": "🤖",
+          "detail": "**Alphabet sank ~6.5%** after lifting its capital-spending forecast, while **Tesla tumbled 14%** as profit fell despite strong EV deliveries.",
+          "why": "Alphabet's raised capex reignited fears over the payoff on AI-infrastructure spending, and Tesla's margin squeeze soured megacap sentiment.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/22/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield hit 4.707%**, its highest since January 2025, with the 2-year at 4.343% and the 30-year at *5.188%*.",
+          "why": "Oil's climb above $100 rekindled inflation fears, pushing yields to 2026 highs.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Fed funds futures now price a **more than 80% chance of a September rate hike**, up from 52% a week ago, with odds of a *quarter-point move* at ~48%.",
+          "why": "Traders repriced Fed expectations toward tightening as the oil-driven inflation impulse intensified.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/23/fed-interest-rate-odds-oil-jobless-claims.html"
         }
       ]
     },
@@ -34,31 +48,32 @@
       "label": "NIFTY 50",
       "items": [
         {
-          "headline": "Nifty extends losing streak to five sessions",
-          "detail": "The Nifty 50 slid below 23,650 and the Sensex fell 331.62 points (-0.43%) to 76,059.77, though both recovered off morning lows.",
-          "why": "Elevated crude, geopolitical tension and persistent foreign selling kept sentiment cautious despite an intraday bounce.",
-          "sourceName": "Sunday Guardian",
-          "sourceUrl": "https://sundayguardianlive.com/business/nifty-today-live-nifty-50-extends-five-day-losing-streak-slides-below-23650-as-oil-prices-and-weak-earnings-weigh-on-sentiment-top-gainers-losers-outlook-244982/"
+          "emoji": "📉",
+          "detail": "The **Nifty 50 fell 102 points to 23,767.45 (-0.43%)** and the Sensex dropped 332 points to 76,059.77, extending losses to a *fifth straight session*.",
+          "why": "Elevated crude prices and the escalating Iran-linked conflict kept risk appetite weak and dragged energy and auto stocks lower.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/bse-nse-sensex-july-24-2026-close-report-sensex-nifty-decline-for-fifth-day-as-elevated-oil-iran-war-hurt-stocks"
         },
         {
-          "headline": "Auto, energy and metals drag; IT outperforms",
-          "detail": "Auto, energy and metal stocks led the decline while IT names outperformed and Bank Nifty ended marginally higher.",
-          "why": "Higher oil raises input-cost and margin fears for autos and energy-heavy sectors, while defensive/export-linked IT drew relative buying.",
+          "emoji": "🛢️",
+          "detail": "**Auto, energy and metal stocks led the decline** — Nifty Energy fell 0.57% and Nifty Metal 0.55% — while *IT outperformed* and Bank Nifty edged up 0.18%.",
+          "why": "Brent above $100 stoked fears over India's trade deficit, import bill and corporate margins, hitting oil-sensitive sectors hardest.",
           "sourceName": "Liquide",
           "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-falls-332-points-nifty-ends-below-23-800-auto-leads-decline-while-it-outperforms/"
         },
         {
-          "headline": "Crude near $100 and FPI selling pressure the rupee",
-          "detail": "Brent briefly crossed $100/bbl and foreign portfolio investors kept offloading in the cash segment; the Nifty lost 2.33% and Sensex 2.70% on the week.",
-          "why": "A higher oil bill widens India's trade deficit and pressures the rupee, feeding FPI outflows and inflation worries.",
-          "sourceName": "Business Standard",
-          "sourceUrl": "https://www.business-standard.com/markets/news/markets-fall-for-fourth-session-as-higher-crude-prices-fpi-selling-weigh-126072301399_1.html"
+          "emoji": "💱",
+          "detail": "The **rupee traded near a record low of ~96.57 per US dollar**, opening weaker around 96.63.",
+          "why": "Rising energy import costs and a stronger dollar amid the oil spike pressured the currency.",
+          "sourceName": "Goodreturns",
+          "sourceUrl": "https://www.goodreturns.in/news/stock-market-outlook-today-24-july-2026-sensex-nifty-likely-to-stay-under-pressure-amid-rising-cr-1524047.html"
         },
         {
-          "headline": "Record DII buying is cushioning the fall",
-          "detail": "Strong domestic institutional buying — with DII ownership at an all-time high near 20.9% — has limited the downside during heavy foreign selling.",
-          "sourceName": "Republic World",
-          "sourceUrl": "https://www.republicworld.com/business/fii-buying-indian-equities-reversal-july-2026-reasons-largecaps-2026-07-20-132875"
+          "emoji": "🏦",
+          "detail": "**FIIs remained net sellers**, offloading roughly *₹3,000 crore* of Indian equities in the prior session and sustaining outflow pressure.",
+          "why": "Higher US yields and the oil-driven risk-off shift pulled foreign money out of emerging-market equities.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/bse-nse-sensex-july-23-2026-close-report-sensex-nifty-fall-for-fourth-straight-session-as-oil-iran-continue-to-weigh"
         }
       ]
     },
@@ -67,35 +82,35 @@
       "label": "Crypto",
       "items": [
         {
-          "headline": "Bitcoin slides to ~$65K as risk-off deepens",
-          "detail": "BTC traded around $64,962, down ~1.4% on the day; total crypto market cap fell ~1.3% to about $2.3 trillion and Fear & Greed dropped to 28.",
-          "why": "The same oil-driven, higher-yield risk-off wave hitting equities spilled into crypto as inflation concerns returned.",
-          "sourceName": "CoinGabbar",
-          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-24-july-btc-eth-pi-drop-defi-market-surges"
+          "emoji": "₿",
+          "detail": "**Bitcoin slipped to ~$65,055**, down 0.6% from the prior open near $66,081, consolidating in a *$65K–$66K range* as the July rally paused.",
+          "why": "Momentum stalled amid the broader risk-off move in equities and higher yields, leaving traders debating whether crypto has bottomed.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-july-23-prices-mixed-as-analysts-debate-crypto-bottom-152654561.html"
         },
         {
-          "headline": "Cooling ETF inflows sap institutional bid",
-          "detail": "US spot Bitcoin ETF net inflows fell from $203.14M on July 21 to just $68.99M on July 22, a 66% drop, despite a seven-day inflow streak.",
-          "why": "Institutional buyers eased off as macro risk rose, removing a key pillar that had been supporting prices.",
-          "sourceName": "The Motley Fool",
-          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/23/crypto-market-today-july-23-bitcoin-slides-as-odds-of-passing-clarity-act-fall/"
+          "emoji": "📊",
+          "detail": "**Spot Bitcoin ETFs added $69M**, nearing a *$1 billion, seven-session inflow streak*, while Ether ETFs drew $72.6M led by BlackRock — but Solana ETFs saw a small $1.27M outflow.",
+          "why": "Steady institutional demand into BTC and ETH products offset weak SOL flows, cushioning prices during the pause.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/bitcoin-etfs-add-69-million-as-7-session-streak-nears-1-billion/"
         },
         {
-          "headline": "Regulatory hopes fade as Clarity Act odds fall",
-          "detail": "Bitcoin weakened further as confidence dimmed that legislators would advance the Clarity Act in August.",
-          "why": "A narrowing legislative window revived regulatory uncertainty, adding a crypto-specific drag on top of the macro selloff.",
-          "sourceName": "The Motley Fool",
-          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/23/crypto-market-today-july-23-bitcoin-slides-as-odds-of-passing-clarity-act-fall/"
+          "emoji": "⚖️",
+          "detail": "Bitcoin found support as **Treasury Secretary Bessent signaled the CLARITY Act is nearing Senate passage** before the August recess.",
+          "why": "Renewed signals that the digital-asset market bill has a real timeline — with an *August 10 deadline* — revived optimism that clearer SEC/CFTC rules could end 'crypto winter.'",
+          "sourceName": "Crypto Briefing",
+          "sourceUrl": "https://cryptobriefing.com/bitcoin-rallies-bessent-clarity-act-senate/"
         },
         {
-          "headline": "Solana holds flat; BSOL ETF keeps drawing inflows",
-          "detail": "SOL held near $77.65 (roughly flat on the day, +1% on the week) as Bitwise's Solana ETF (BSOL) added $2.64M, lifting cumulative inflows to about $1.14 billion.",
-          "why": "Steady ETF demand for SOL offset the broader risk-off drag, leaving it more resilient than BTC and ETH.",
-          "sourceName": "CoinGecko",
-          "sourceUrl": "https://www.coingecko.com/en/coins/solana"
+          "emoji": "◎",
+          "detail": "**Ether traded around $1,899–$1,933** and *Solana held above $80* (reaching as high as ~$83.50) during the period.",
+          "why": "ETH was buoyed by leading ETF inflows, while SOL steadied despite modest ETF outflows.",
+          "sourceName": "CoinReporter",
+          "sourceUrl": "https://www.coinreporter.io/2026/07/crypto-market-analysis/"
         }
       ]
     }
   ],
-  "crossCuttingTheme": "Crude oil spiking above $100/bbl on escalating Middle East conflict is the shared driver: it lifts Treasury yields and inflation expectations, fueling a simultaneous risk-off move that hit US equities, dragged the Nifty via a weaker rupee and FPI outflows, and pulled crypto lower as ETF demand cooled."
+  "crossCuttingTheme": "Brent crude spiking above $100 on Red Sea tanker attacks is the shared driver: it is pushing US yields and Fed hike odds up, dragging both the S&P 500 and oil-import-heavy NIFTY into a fifth-day risk-off slide, and stalling crypto's July rally as higher rates sap risk appetite."
 }
