@@ -12,29 +12,16 @@ function escapeHtml(input: string): string {
 }
 
 /**
- * Escape HTML, then render a safe subset of markdown emphasis:
- * `**bold**` -> <strong>, `*italic*` / `_italic_` -> <em>. Because we escape
- * first and only introduce our own tags, this stays XSS-safe. When the source
- * has no markdown (e.g. older archived briefs), fall back to auto-bolding
- * unambiguous financial figures (percentages and $ amounts).
+ * Escape HTML, then render markdown bold as <strong>. The model decides what
+ * to emphasize; only bold is supported (no italics, no auto-bolding). Both
+ * `**x**` and a lone `*x*` map to bold so stray asterisks never leak as
+ * literal text. Escaping happens first and we only add our own tags, so this
+ * stays XSS-safe.
  */
 function applyEmphasis(raw: string): string {
-  const escaped = escapeHtml(raw);
-  const hasMarkdown = /\*\*[^*]+\*\*|_[^_]+_|(?:^|[^*])\*[^*]+\*/.test(raw);
-
-  if (hasMarkdown) {
-    return escaped
-      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-      .replace(/_([^_]+)_/g, "<em>$1</em>");
-  }
-
-  // Fallback: bold clearly-financial tokens only ($ amounts, percentages).
-  // Restricted to avoid touching numeric HTML entities like &#39;.
-  return escaped.replace(
-    /([+\-−]?\$\d[\d,]*(?:\.\d+)?|[+\-−]?\d[\d,]*(?:\.\d+)?%)/g,
-    "<strong>$1</strong>",
-  );
+  return escapeHtml(raw)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<strong>$1</strong>");
 }
 
 /** Parse a YYYY-MM-DD string into a UTC Date (avoids TZ off-by-one). */

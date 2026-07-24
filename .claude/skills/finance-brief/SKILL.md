@@ -70,8 +70,8 @@ Return exactly one JSON object matching this shape:
       "items": [
         {
           "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🛢️ oil, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
-          "detail": "1-2 precise, self-contained sentences with the key fact(s) and exact numbers. This is the single primary statement of the item — do NOT also write a separate headline that repeats it. Use markdown **bold** on the single most important figure/fact and *italics* for secondary emphasis.",
-          "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Markdown **bold**/*italics* emphasis is allowed here too.",
+          "detail": "1-2 precise, self-contained sentences with the key fact(s) and exact numbers. This is the single primary statement of the item — do NOT also write a separate headline that repeats it. Use markdown **bold** to highlight the most important words/figures; you decide what matters most.",
+          "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Use markdown **bold** for the key driver where it helps.",
           "sourceName": "Publication name",
           "sourceUrl": "https://..."
         }
@@ -94,11 +94,11 @@ Rules:
 - `emoji` should be exactly one emoji that fits the item's content; pick
   something relevant rather than decorative, and avoid repeating the same
   emoji for every item in a section.
-- Use markdown emphasis sparingly and purposefully: **bold** the key number
-  or fact the reader should not miss, *italics* for a secondary qualifier.
-  Do not bold entire sentences — emphasis loses meaning if overused. Only
-  `**bold**`, `*italics*` and `_italics_` are supported; other markdown is
-  rendered literally.
+- Use markdown **bold** sparingly and purposefully to highlight the key
+  number or fact the reader should not miss; you choose what to bold. Do not
+  bold entire sentences — emphasis loses meaning if overused. Only `**bold**`
+  is supported (italics/underscores are treated as bold too); other markdown
+  is rendered literally.
 - Only include a `sourceUrl` if you have a real one from search results —
   never fabricate a link. Omit the field entirely rather than guess. The same
   discipline applies to `why`: base it on what sources actually say, don't
