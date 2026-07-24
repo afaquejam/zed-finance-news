@@ -1,0 +1,20 @@
+{
+  "name": "finance-brief",
+  "version": "1.0.0",
+  "description": "Daily S&P 500 / NIFTY 50 / crypto brief, generated via a Claude Code skill and rendered to HTML.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/runFinanceBrief.js",
+    "brief": "npm run build && npm run start",
+    "render": "npm run build && node dist/renderArchive.js"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.3"
+  }
+}

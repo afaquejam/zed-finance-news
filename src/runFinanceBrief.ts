@@ -1,0 +1,168 @@
+import { spawnSync } from "node:child_process";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import {
+  FinanceBriefSchema,
+  type ClaudeCliJsonEnvelope,
+  type FinanceBrief,
+} from "./types.js";
+import { renderFinanceBriefHtml } from "./render.js";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const ROOT = path.resolve(__dirname, "..");
+const OUTPUT_DIR = path.join(ROOT, "output");
+const TEMPLATE_PATH = path.join(ROOT, "templates", "finance-brief.html");
+
+// The prompt Claude Code runs. `/finance-brief` invokes the skill at
+// .claude/skills/finance-brief/SKILL.md. Override via env var if you rename
+// the skill or want to pass extra instructions.
+const PROMPT = process.env.FINANCE_BRIEF_PROMPT ?? "/finance-brief";
+
+// NOTE: CLI flags occasionally change between Claude Code releases — run
+// `claude -p --help` to confirm these are current before relying on them
+// in production.
+const CLAUDE_ARGS = [
+  "-p",
+  PROMPT,
+  "--output-format",
+  "json",
+  "--allowedTools",
+  "WebSearch",
+  "--permission-mode",
+  "acceptEdits",
+  "--max-turns",
+  "20",
+];
+
+function todayIso(): string {
+  return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+}
+
+/**
+ * Load every persisted brief JSON from the output dir, most-recent first.
+ * Invalid/unparseable files are skipped with a warning so one bad archive
+ * file can't break the whole rebuild.
+ */
+async function loadArchivedBriefs(dir: string): Promise<FinanceBrief[]> {
+  const files = await readdir(dir).catch(() => [] as string[]);
+  const jsonFiles = files.filter((f) => /^finance-brief-\d{4}-\d{2}-\d{2}\.json$/.test(f));
+
+  const briefs: FinanceBrief[] = [];
+  for (const file of jsonFiles) {
+    try {
+      const raw = await readFile(path.join(dir, file), "utf-8");
+      briefs.push(FinanceBriefSchema.parse(JSON.parse(raw)));
+    } catch (err) {
+      console.warn(
+        `[finance-brief] skipping malformed archive ${file}: ${err instanceof Error ? err.message : err}`,
+      );
+    }
+  }
+  return briefs.sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/** Strips ```json fences if the model wraps its output despite instructions. */
+function stripCodeFence(raw: string): string {
+  const trimmed = raw.trim();
+  const fenced = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
+  return fenced ? fenced[1] : trimmed;
+}
+
+function runClaudeCode(): ClaudeCliJsonEnvelope {
+  const result = spawnSync("claude", CLAUDE_ARGS, {
+    cwd: ROOT,
+    encoding: "utf-8",
+    maxBuffer: 1024 * 1024 * 32, // 32MB, search results can be verbose
+    env: process.env,
+  });
+
+  if (result.error) {
+    throw new Error(
+      `Failed to launch "claude" CLI. Is @anthropic-ai/claude-code installed and on PATH? Original error: ${result.error.message}`,
+    );
+  }
+
+  if (result.status !== 0) {
+    throw new Error(
+      `claude exited with status ${result.status}.\nstderr:\n${result.stderr}`,
+    );
+  }
+
+  let envelope: ClaudeCliJsonEnvelope;
+  try {
+    envelope = JSON.parse(result.stdout);
+  } catch (err) {
+    throw new Error(
+      `Could not parse claude CLI stdout as JSON. Raw stdout:\n${result.stdout}`,
+    );
+  }
+
+  if (envelope.subtype !== "success") {
+    throw new Error(
+      `claude run did not succeed (subtype: ${envelope.subtype}). Full envelope:\n${JSON.stringify(envelope, null, 2)}`,
+    );
+  }
+
+  return envelope;
+}
+
+async function main() {
+  const date = todayIso();
+
+  console.log(`[finance-brief] running Claude Code skill for ${date}...`);
+  const envelope = runClaudeCode();
+
+  console.log(
+    `[finance-brief] claude run complete (cost: $${envelope.total_cost_usd ?? "?"}, turns: ${envelope.num_turns ?? "?"})`,
+  );
+
+  const jsonText = stripCodeFence(envelope.result);
+
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(jsonText);
+  } catch (err) {
+    throw new Error(
+      `Skill output was not valid JSON after fence-stripping. Raw result:\n${jsonText}`,
+    );
+  }
+
+  const brief = FinanceBriefSchema.parse(parsed);
+
+  await mkdir(OUTPUT_DIR, { recursive: true });
+
+  // Persist today's brief as JSON so pages can be re-rendered later when the
+  // template changes (the JSON is the source of truth, HTML is derived).
+  const jsonPath = path.join(OUTPUT_DIR, `finance-brief-${brief.date}.json`);
+  await writeFile(jsonPath, JSON.stringify(brief, null, 2), "utf-8");
+  console.log(`[finance-brief] wrote ${jsonPath}`);
+
+  // Merge today's brief with the archive (today's copy wins on date collision),
+  // then re-render every page so the whole archive shares the current design
+  // and an up-to-date 7-day nav.
+  const archived = await loadArchivedBriefs(OUTPUT_DIR);
+  const byDate = new Map<string, FinanceBrief>();
+  for (const b of archived) byDate.set(b.date, b);
+  byDate.set(brief.date, brief);
+
+  const allBriefs = [...byDate.values()].sort((a, b) => b.date.localeCompare(a.date));
+  const availableDates = allBriefs.map((b) => b.date);
+
+  for (const b of allBriefs) {
+    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates);
+    await writeFile(path.join(OUTPUT_DIR, `finance-brief-${b.date}.html`), html, "utf-8");
+  }
+  console.log(`[finance-brief] re-rendered ${allBriefs.length} page(s)`);
+
+  // latest.html + index.html mirror the newest brief (today's).
+  const latestHtml = await renderFinanceBriefHtml(brief, TEMPLATE_PATH, availableDates);
+  await writeFile(path.join(OUTPUT_DIR, "latest.html"), latestHtml, "utf-8");
+  await writeFile(path.join(OUTPUT_DIR, "index.html"), latestHtml, "utf-8");
+  console.log(`[finance-brief] wrote latest.html + index.html`);
+}
+
+main().catch((err) => {
+  console.error("[finance-brief] FAILED:", err instanceof Error ? err.message : err);
+  process.exitCode = 1;
+});
