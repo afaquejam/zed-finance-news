@@ -24,6 +24,17 @@ function applyEmphasis(raw: string): string {
     .replace(/\*([^*]+)\*/g, "<strong>$1</strong>");
 }
 
+/**
+ * Render text with NO emphasis: strip markdown bold markers so nothing renders
+ * bold and no literal asterisks leak, then escape. Used for the `why` line.
+ */
+function stripEmphasis(raw: string): string {
+  const plain = raw
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1");
+  return escapeHtml(plain);
+}
+
 /** Parse a YYYY-MM-DD string into a UTC Date (avoids TZ off-by-one). */
 function parseIsoDate(iso: string): Date {
   const [y, m, d] = iso.split("-").map(Number);
@@ -115,7 +126,7 @@ function renderItem(item: FinanceBriefItem, sectionKey: string): string {
         : "";
 
   const why = item.why
-    ? `<div class="why"><span class="why-label">Why</span> ${applyEmphasis(item.why)}</div>`
+    ? `<div class="why"><span class="why-label">Why</span> ${stripEmphasis(item.why)}</div>`
     : "";
 
   return `<li>

@@ -71,7 +71,7 @@ Return exactly one JSON object matching this shape:
         {
           "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🛢️ oil, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
           "detail": "1-2 precise, self-contained sentences with the key fact(s) and exact numbers. This is the single primary statement of the item — do NOT also write a separate headline that repeats it. Use markdown **bold** to highlight the most important words/figures; you decide what matters most.",
-          "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Use markdown **bold** for the key driver where it helps.",
+          "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Plain text only — do NOT use bold or any markdown here.",
           "sourceName": "Publication name",
           "sourceUrl": "https://..."
         }
