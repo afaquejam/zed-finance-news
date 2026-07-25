@@ -1,0 +1,107 @@
+{
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T06:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **S&P 500 fell 1.2%** to close at **7,408.30** on Thursday, while the Nasdaq sank **2.2% to 25,137.69** — a second brutal session led by megacap tech.",
+          "why": "Big Tech Q2 earnings reignited AI capital-spending fears just as Brent crude broke $100 on Middle East supply threats, driving a broad risk-off move.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-24-132200865.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Alphabet slid ~5%** after lifting its 2026 capex guidance to as much as **$205 billion**, and Tesla's Elon Musk flagged a \"massive capex year\" — the Magnificent Seven shed roughly **$797 billion** in a single session, their worst drop since April 2025.",
+          "why": "Investors read the record spending as proof that AI demand, while strong, is becoming far more expensive to deliver and is squeezing free cash flow.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-23-2026"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "**Brent crude topped $100/bbl** for the first time in the cycle, adding an inflation shock on top of the tech selloff and lifting the US 10-year Treasury yield toward **4.7%**.",
+          "why": "Yemen's Houthis claimed attacks on two Saudi tankers in the Red Sea and President Trump threatened to strike Iranian infrastructure, spiking geopolitical risk premium.",
+          "sourceName": "US News / Reuters",
+          "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-07-23/wall-st-futures-ease-as-big-tech-results-revive-ai-spending-worries-oil-jumps"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Friday's session stabilized: the **S&P 500 edged up 0.05% to 7,411.98** and the Dow rose ~0.5%, though the Nasdaq slipped another 0.6% and **Sandisk tumbled 11%**.",
+          "why": "Oil retreated modestly and real estate and financials led a rotation out of technology, letting the broad index steady even as chip and megacap names kept falling.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/24/stock-market-today-july-24-dow-recovers-and-sandisk-tumbles-11-as-tech-stocks-fall-further/"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **Nifty 50 fell 0.43% to 23,767.45** and the Sensex dropped 331.62 points to **76,059.77**, closing below 23,800 for a **fifth straight losing session**.",
+          "why": "Brent crude crossing $100 on Red Sea attacks revived fears over India's import bill, trade deficit, rupee and corporate margins, keeping investors defensive.",
+          "sourceName": "India Infoline",
+          "sourceUrl": "https://www.indiainfoline.com/news/markets/closing-bell-nifty-falls-to-23767-for-fifth-straight-session-as-brent-crude-crosses-100-on-red-sea-attacks"
+        },
+        {
+          "emoji": "🚗",
+          "detail": "**Auto was the biggest laggard**, followed by energy, metals and realty, while the **Nifty IT index bucked the trend, rising ~0.8%**.",
+          "why": "Costlier crude threatens fuel-sensitive autos and margins for energy and metals, whereas dollar-earning IT names benefit from a weaker rupee.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-falls-332-points-nifty-ends-below-23-800-auto-leads-decline-while-it-outperforms/"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The **rupee weakened toward ₹96.63/$** and foreign investors stayed net sellers, having offloaded roughly **₹3,000 crore** of equities in the prior session.",
+          "why": "The US 10-year yield near 4.7% makes US debt more attractive versus emerging-market equities, pressuring the rupee and fueling continued FII outflows.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/bse-nse-sensex-july-24-2026-close-report-sensex-nifty-decline-for-fifth-day-as-elevated-oil-iran-war-hurt-stocks"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin fell ~1.6%**, sliding from an open near **$65,048 to about $64,305**, as digital assets tracked the broader risk-off move.",
+          "why": "Higher oil prices and new tariff measures lifted US inflation expectations and Treasury yields, luring institutional money away from risk assets like crypto.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "US spot Bitcoin ETFs posted **$225.2 million in net outflows**, snapping a seven-day inflow streak that had gathered roughly **$999 million**.",
+          "why": "The global risk-asset selloff and rising yields prompted institutions to pull back from the ETFs despite the recent legislative momentum on crypto.",
+          "sourceName": "CoinGape",
+          "sourceUrl": "https://coingape.com/markets/crypto-market-brief-july-24-liquidations-btc-etf-outflows-1-4b-options-an-bankruptcy/"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "**Ethereum dropped ~2.9% to about $1,861** and **Solana slid ~2.8% to $73.97**, the biggest loser among the top-10 coins, with XRP down ~2.5%.",
+          "why": "Higher-beta altcoins amplified Bitcoin's decline as leverage flushed out — roughly $280 million in positions were liquidated across the market.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The **CLARITY Act remains stalled** in the Senate at Calendar No. 423, with three disputes — ethics rules, DeFi developer shields and stablecoin yield — blocking the Democratic votes needed to clear the 60-vote threshold before the August recess.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/clarity-act-stalls-senate-three-100403007.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "About **$1.43 billion** of Bitcoin and Ethereum options expired on July 24, and Poolin Technology — once the largest Bitcoin mining pool — filed for **Chapter 11 bankruptcy**.",
+          "sourceName": "CoinGape",
+          "sourceUrl": "https://coingape.com/markets/crypto-market-brief-july-24-liquidations-btc-etf-outflows-1-4b-options-an-bankruptcy/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Brent crude above $100 on Red Sea tanker attacks and Iran conflict is the shared driver — it is lifting inflation expectations and US Treasury yields toward 4.7%, triggering a synchronized, inflation-led risk-off that is hitting US equities, Indian stocks and the rupee, and crypto all at once."
+}
