@@ -31,6 +31,29 @@ the move (earnings, a data release, oil/rates, geopolitics, flows, a
 regulatory headline), not just that it moved. Explicitly look for the
 catalyst behind each index/price action.
 
+## Novelty — lead with what changed, don't repeat yesterday
+
+The pipeline appends **yesterday's brief** to your prompt (under a
+`PREVIOUS BRIEF` heading). Treat it as already-published: your job is to tell
+the reader what is *new or different* since then, not to re-run the same story.
+
+- **Lead each section with the newest development** — the most recent close,
+  the latest print, an overnight move — not the same session yesterday already
+  covered.
+- **Do not re-report a fact from the previous brief** (same index level, same
+  earnings, same headline) unless it is still the single dominant driver. If it
+  is, frame it explicitly as a continuation ("now a fifth straight session…",
+  "extending Thursday's selloff…") rather than presenting it as fresh news, and
+  add what has changed about it (magnitude, follow-through, new catalyst).
+- **Weekends and holidays:** if no new equity session has closed since the last
+  brief (e.g. a Saturday/Sunday run for the S&P 500 or NIFTY), do not pad the
+  section with the same stale close. Instead pivot to genuinely new material:
+  weekend crypto action (BTC/ETH/SOL trade 24/7), futures/pre-market moves, and
+  **forward-looking** items — the upcoming week's earnings, data releases, and
+  events that matter for the next session.
+- If a section genuinely has little new to say, it is better to have fewer,
+  truly-new items than to refill it with yesterday's numbers.
+
 ## Quality bar — explain, don't just report
 
 The single most important quality of this brief is **causation**. Every item

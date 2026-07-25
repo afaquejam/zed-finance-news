@@ -15,26 +15,11 @@ const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_DIR = path.join(ROOT, "docs");
 const TEMPLATE_PATH = path.join(ROOT, "templates", "finance-brief.html");
 
-// The prompt Claude Code runs. `/finance-brief` invokes the skill at
+// The base prompt Claude Code runs. `/finance-brief` invokes the skill at
 // .claude/skills/finance-brief/SKILL.md. Override via env var if you rename
-// the skill or want to pass extra instructions.
+// the skill or want to pass extra instructions. The previous brief (for
+// deduplication) is appended to this at runtime — see buildPrompt().
 const PROMPT = process.env.FINANCE_BRIEF_PROMPT ?? "/finance-brief";
-
-// NOTE: CLI flags occasionally change between Claude Code releases — run
-// `claude -p --help` to confirm these are current before relying on them
-// in production.
-const CLAUDE_ARGS = [
-  "-p",
-  PROMPT,
-  "--output-format",
-  "json",
-  "--allowedTools",
-  "WebSearch",
-  "--permission-mode",
-  "acceptEdits",
-  "--max-turns",
-  "20",
-];
 
 function todayIso(): string {
   return new Date().toISOString().slice(0, 10); // YYYY-MM-DD
@@ -70,8 +55,64 @@ function stripCodeFence(raw: string): string {
   return fenced ? fenced[1] : trimmed;
 }
 
-function runClaudeCode(): ClaudeCliJsonEnvelope {
-  const result = spawnSync("claude", CLAUDE_ARGS, {
+/**
+ * Condense a prior brief into a compact, model-readable summary so the skill
+ * can see what was already published and avoid re-reporting it. We pass only
+ * the detail/why lines (not the full JSON) to keep the prompt small and to
+ * discourage the model from copying entire items verbatim.
+ */
+function formatPreviousBrief(brief: FinanceBrief): string {
+  const lines: string[] = [];
+  for (const section of brief.sections) {
+    lines.push(`## ${section.label}`);
+    for (const item of section.items) {
+      lines.push(`- ${item.detail}${item.why ? ` (why: ${item.why})` : ""}`);
+    }
+  }
+  if (brief.crossCuttingTheme) {
+    lines.push(`## Cross-cutting theme`);
+    lines.push(brief.crossCuttingTheme);
+  }
+  return lines.join("\n");
+}
+
+/**
+ * Build the full prompt: the skill invocation plus, if we have one, a
+ * condensed copy of the most recent prior brief so the skill can lead with
+ * what changed instead of re-reporting the same session.
+ */
+function buildPrompt(previous: FinanceBrief | undefined): string {
+  if (!previous) return PROMPT;
+  return [
+    PROMPT,
+    "",
+    `PREVIOUS BRIEF (published ${previous.date}) — do NOT re-report these facts.`,
+    "Lead each section with what is NEW or has CHANGED since this brief. Only",
+    "repeat a prior fact if it is still the single dominant driver, and frame it",
+    "as an ongoing continuation rather than fresh news:",
+    "",
+    formatPreviousBrief(previous),
+  ].join("\n");
+}
+
+function runClaudeCode(prompt: string): ClaudeCliJsonEnvelope {
+  // NOTE: CLI flags occasionally change between Claude Code releases — run
+  // `claude -p --help` to confirm these are current before relying on them
+  // in production.
+  const claudeArgs = [
+    "-p",
+    prompt,
+    "--output-format",
+    "json",
+    "--allowedTools",
+    "WebSearch",
+    "--permission-mode",
+    "acceptEdits",
+    "--max-turns",
+    "20",
+  ];
+
+  const result = spawnSync("claude", claudeArgs, {
     cwd: ROOT,
     encoding: "utf-8",
     maxBuffer: 1024 * 1024 * 32, // 32MB, search results can be verbose
@@ -111,8 +152,18 @@ function runClaudeCode(): ClaudeCliJsonEnvelope {
 async function main() {
   const date = todayIso();
 
+  // Load the archive up front so we can hand the most recent prior brief to
+  // the skill for deduplication (the newest brief whose date isn't today's).
+  const archived = await loadArchivedBriefs(OUTPUT_DIR);
+  const previous = archived.find((b) => b.date !== date);
+  if (previous) {
+    console.log(`[finance-brief] passing previous brief (${previous.date}) as dedup context`);
+  } else {
+    console.log(`[finance-brief] no prior brief found — running without dedup context`);
+  }
+
   console.log(`[finance-brief] running Claude Code skill for ${date}...`);
-  const envelope = runClaudeCode();
+  const envelope = runClaudeCode(buildPrompt(previous));
 
   console.log(
     `[finance-brief] claude run complete (cost: $${envelope.total_cost_usd ?? "?"}, turns: ${envelope.num_turns ?? "?"})`,
@@ -139,10 +190,10 @@ async function main() {
   await writeFile(jsonPath, JSON.stringify(brief, null, 2), "utf-8");
   console.log(`[finance-brief] wrote ${jsonPath}`);
 
-  // Merge today's brief with the archive (today's copy wins on date collision),
-  // then re-render every page so the whole archive shares the current design
-  // and an up-to-date 7-day nav.
-  const archived = await loadArchivedBriefs(OUTPUT_DIR);
+  // Merge today's brief with the archive loaded earlier (today's copy wins on
+  // date collision — today's JSON is the only file added since that load), then
+  // re-render every page so the whole archive shares the current design and an
+  // up-to-date 7-day nav.
   const byDate = new Map<string, FinanceBrief>();
   for (const b of archived) byDate.set(b.date, b);
   byDate.set(brief.date, brief);
