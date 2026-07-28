@@ -1,5 +1,17 @@
 import { z } from "zod";
 
+/**
+ * An optional string that also tolerates an explicit JSON `null` from the
+ * model (which emits `"field": null` non-deterministically instead of omitting
+ * the key). `.optional()` alone rejects `null`; this coerces it to `undefined`
+ * so the inferred type stays `string | undefined`.
+ */
+const optionalString = () =>
+  z
+    .string()
+    .nullish()
+    .transform((v) => v ?? undefined);
+
 /** One news item within a section. */
 export const FinanceBriefItemSchema = z.object({
   /**
@@ -7,18 +19,22 @@ export const FinanceBriefItemSchema = z.object({
    * new briefs lead with a self-contained `detail` and omit this to avoid the
    * title/text redundancy.
    */
-  headline: z.string().optional(),
+  headline: optionalString(),
   /** A single emoji that fits the item, for visual engagement. Optional. */
-  emoji: z.string().optional(),
+  emoji: optionalString(),
   detail: z.string().min(1),
   /**
    * The causal "why" behind the item — the driver/catalyst/mechanism that
    * explains the move, not just the number. Optional (some items are context,
    * not moves), but strongly preferred for any price/index action.
    */
-  why: z.string().optional(),
-  sourceName: z.string().optional(),
-  sourceUrl: z.string().url().optional(),
+  why: optionalString(),
+  sourceName: optionalString(),
+  sourceUrl: z
+    .string()
+    .url()
+    .nullish()
+    .transform((v) => v ?? undefined),
 });
 export type FinanceBriefItem = z.infer<typeof FinanceBriefItemSchema>;
 
@@ -35,7 +51,7 @@ export const FinanceBriefSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   generatedAt: z.string(),
   sections: z.array(FinanceBriefSectionSchema).min(1),
-  crossCuttingTheme: z.string().optional(),
+  crossCuttingTheme: optionalString(),
 });
 export type FinanceBrief = z.infer<typeof FinanceBriefSchema>;
 

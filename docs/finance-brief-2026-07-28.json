@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T06:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Wall Street steadied Monday: the **S&P 500 closed essentially flat at 7,413.18** (+0.02%) and the **Dow rose 262.83 points (0.51%) to 52,210.08**, but the **Nasdaq slipped 0.18% to 24,932.08** as a fresh chip rout capped the tech-heavy index.",
+          "why": "A deeper plunge in oil lifted the Dow and rate-sensitive names, but an intraday reversal in semiconductors dragged the Nasdaq back into the red.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/07/27/stock-market-today-july-27-dow-rises-on-oil-retreat-and-sandisk-plunges-11-on-memory-weakness/"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "A new, sharper leg of the chip selloff hit Monday: **Nvidia fell ~5%**, **AMD dropped more than 8%**, **ASML lost over 7%** and the VanEck Semiconductor ETF slid ~4%, extending its one-month decline past 9%.",
+          "why": "A report that a Chinese firm cracked a lithography manufacturing step Western chipmakers thought they still controlled sparked fears the AI hardware moat is narrowing, forcing leveraged sellers out of equipment and chip names.",
+          "sourceName": "Babypips",
+          "sourceUrl": "https://www.babypips.com/news/headline-ai-chip-stocks-selloff-july-2026-china-lithography-fed"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude accelerated its slide, with **Brent futures down 8.7% to $88.36** and **WTI off 7.5% to $82.61** — a second straight session of heavy losses that unwinds the entire Middle East war premium.",
+          "why": "President Trump said the U.S. and Iran are in talks to end the conflict and strikes have paused, easing Strait of Hormuz supply fears that had briefly pushed oil above $100 last week.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/27/oil-price-wti-brent-slide-as-iran-reportedly-may-halt-attacks.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The FOMC decision lands **Wednesday, July 29 at 2:00 p.m. EDT**, and pricing has flipped to a hold: **CME FedWatch now shows a ~65% chance of no change** at the 3.50%–3.75% range, versus the ~35% hike odds carried into last week.",
+          "why": "The collapse in oil back below $90 pulled the inflation impulse out of the market, shifting bets from a possible July hike toward a data-dependent pause, with the tightening debate pushed to September.",
+          "sourceName": "TradingKey",
+          "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262054021-july-fomc-fed-oil-us-oil-tradingkey"
+        },
+        {
+          "emoji": "📈",
+          "detail": "The megacap earnings gauntlet begins after Monday's close this week: **Microsoft and Meta report July 29**, followed by **Apple and Amazon on July 30**, with Microsoft seen at ~$4.23 EPS on ~$87.6B revenue and Amazon guided to ~$196B in sales.",
+          "why": "With the Fed on hold, investors will lean on Big Tech capex commentary and AI-cloud growth to judge whether the semiconductor scare is a genuine demand threat or a valuation reset.",
+          "sourceName": "FXLeaders",
+          "sourceUrl": "https://www.fxleaders.com/news/2026/07/26/top-earnings-to-watch-this-week-july-27-31-what-to-expect-from-msft-meta-aapl-amzn-ko-ba-and-f/"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities snapped their five-session losing streak Monday: the **Nifty 50 jumped 228.50 points (0.96%) to 23,995.95** and the **Sensex surged 776.01 points (1.02%) to 76,835.78**, a decisive rebound from Friday's 23,767 close.",
+          "why": "Sliding crude and easing West Asia tensions lifted sentiment and unwound the oil-import fear that had driven the prior week's slide.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-july-28/article-197648/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The relief is extending Tuesday, with the **Sensex and Nifty opening flat below 24,000** even as **Brent slid further to about $86.89 a barrel**, deepening a tailwind for India's import bill, trade deficit and rupee.",
+          "why": "As a major net oil importer, India benefits mechanically from cheaper crude, but caution capped the open ahead of Wednesday's Fed decision and Tuesday's monthly F&O expiry.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/sensex-flat-nifty-below-24-000-amid-mixed-global-cues-nikkei-kospi-shanghai-market-in-red-2026-07-28-1049591"
+        },
+        {
+          "emoji": "🌏",
+          "detail": "Global cues turned mixed overnight, with **Japan's Nikkei 225 down ~3.9%** and Korean and Chinese benchmarks in the red as the chipmaker rout spread across Asia, threatening to pressure Indian IT and tech-linked names.",
+          "why": "The China lithography report that sank U.S. chip stocks Monday rippled into Asian semiconductor and hardware supply chains overnight.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/sensex-flat-nifty-below-24-000-amid-mixed-global-cues-nikkei-kospi-shanghai-market-in-red-2026-07-28-1049591"
+        },
+        {
+          "emoji": "💰",
+          "detail": "Foreign investors stayed on the sell side even into Monday's rally, with **FIIs offloading roughly ₹1,688 crore of cash equities** and holding a large net-short index-futures position, while **DIIs continued to absorb the supply**.",
+          "why": "Elevated U.S. yields and a cautious pre-Fed stance kept foreign money trimming emerging-market exposure, leaving domestic institutions to underpin the bounce.",
+          "sourceName": "Trendlyne",
+          "sourceUrl": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin steadied near $64,850** (+0.3% Monday) after opening ~1.6% higher, clawing back from last week's break below $64K but stalling well short of reclaiming the $65K–$66K range.",
+          "why": "Traders welcomed the Middle East de-escalation and falling energy prices as disinflationary, but held back from fresh buying ahead of Wednesday's Fed decision.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-27-2026-can-positive-price-trends-hold-this-week-132757216.html"
+        },
+        {
+          "emoji": "💎",
+          "detail": "Ether outperformed again, **rising 1.6% to about $1,944** after opening 4.3% above Sunday, while **Solana added 0.7% to ~$75.84**, both recovering ground lost in Friday's risk-off slide.",
+          "why": "The broader relief rally on cooling oil and geopolitical tension lifted higher-beta majors, with ETH continuing to draw the strongest bid.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-july-27-2026-can-positive-price-trends-hold-this-week-132757216.html"
+        },
+        {
+          "emoji": "😨",
+          "detail": "Sentiment remains fragile: the **Crypto Fear & Greed Index is still stuck in 'Fear' in the mid-20s to low-30s**, showing traders have not shaken the caution that built during last week's equity and ETF selloff.",
+          "why": "A converging cluster of event risk — the Fed decision, the CLARITY Act deadline and market-structure uncertainty — is keeping positioning defensive despite the price stabilization.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/bitcoin-enters-volatility-trap-as-fed-decision-clarity-act-and-fork-drama-converge/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The regulatory clock is now the dominant swing factor: the **CLARITY Act faces an August 10 final deadline**, but a Senate floor vote before the recess remains uncertain after Republicans released updated bill text.",
+          "why": "Passage would be the summer's biggest institutional catalyst by clarifying SEC/CFTC jurisdiction, while a stall or failure risks renewed downside pressure on Bitcoin.",
+          "sourceName": "Bitcoin Foundation",
+          "sourceUrl": "https://bitcoinfoundation.org/news/regulation/clarity-act-whats-next-why-aug-10-could-be-cryptos-biggest-deadline-in-2026/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil's collapse below $90 on U.S.–Iran de-escalation is the unifying driver — it has flipped Fed pricing from a possible hike to a ~65% hold, powered a near-1% rebound in Indian equities and steadied Bitcoin — but a new China lithography breakthrough has opened a second front, sending a fresh chipmaker rout from Wall Street across Asia and capping the risk-on relief."
+}
