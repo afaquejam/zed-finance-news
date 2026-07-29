@@ -1,0 +1,123 @@
+{
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T09:45:00-04:00",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "All eyes turn to the **FOMC decision today at 2:00 p.m. EDT**, Kevin Warsh's first July meeting as Fed chair, with markets pricing a **~70–75% chance of a hold** at 3.50%–3.75% and any surprise seen as a hike, not a cut.",
+          "why": "Warsh is expected to hold to avoid prejudging the inflation, AI and communications task forces he launched, even as he keeps calling inflation 'too high,' pushing the tightening debate to September.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/28/warsh-fed-rate-decision-trump-powell-analysis.html"
+        },
+        {
+          "emoji": "📈",
+          "detail": "Wall Street closed higher Tuesday: the **S&P 500 added 0.21% to 7,428.78** and the **Dow jumped 537.24 points (1.03%) to 52,747.32**, while the **Nasdaq slipped 0.22% to 24,876.91** as chips again capped the tech index.",
+          "why": "Cheaper oil and solid non-tech earnings powered the Dow to a fresh high, but a deepening semiconductor selloff offset megacap strength and held the Nasdaq back.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-28-2026"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The chip rout broadened into memory names Tuesday: **Micron slumped 8.8%**, **AMD lost 8.1%**, **Intel fell 5.9%** and **SanDisk tumbled 14.2%**, spreading the damage well beyond last week's equipment and logic leaders.",
+          "why": "On top of the China lithography scare, fresh worries about the 'circular' nature of AI data-center funding — chipmakers financing the customers who buy their chips — hit compute and memory suppliers.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-28-2026"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**Microsoft and Meta report after Wednesday's close**, with Microsoft seen at **~$4.24 EPS (+16% YoY)** and Meta at **~$7.18 EPS on ~$60.2B revenue (+27%)** — but with beats ~95% priced in, capex guidance is the real swing factor.",
+          "why": "Investors are focused on whether Microsoft's ~$190B and Meta's $125–145B AI capex plans can be justified by Azure growth and ad strength, making the reports a referendum on the AI-spending fears driving the chip selloff.",
+          "sourceName": "TipRanks",
+          "sourceUrl": "https://www.tipranks.com/news/big-tech-earnings-showdown-meta-and-microsoft-in-focus-ahead-of-july-29-earnings-report"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude kept sliding into the Fed decision, with **WTI down 4.03% to $79.28** and **Brent off 0.94% to $87.53**, holding oil firmly below $90 for a third straight session.",
+          "why": "Continued optimism over U.S.–Iran diplomacy and a pause in strikes keeps unwinding the Strait of Hormuz supply premium, extending the disinflationary tailwind that flipped Fed pricing toward a hold.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/crude-oil"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities gapped up sharply Wednesday: the **Sensex opened 657.85 points (0.85%) higher at 77,423.77** and the **Nifty jumped 191.3 points to 24,176.65**, hitting an intraday high of 24,203 and clearing 24,000 decisively.",
+          "why": "A blowout June-quarter earnings beat from Larsen & Toubro after Tuesday's close, plus a broad IT rally, powered the gap-up open and reversed the prior session's flat drift.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/sensex-surges-657-points-nifty-above-24-150-it-stocks-infosys-lt-tcs-rally-amid-mixed-global-cues-2026-07-29-1049708"
+        },
+        {
+          "emoji": "💻",
+          "detail": "IT stocks led Wednesday's charge, with **Infosys surging 3.89%** and TCS, L&T, Tech Mahindra and Hindustan Unilever among the top Sensex gainers, shrugging off the global chipmaker rout.",
+          "why": "Bargain-hunting in beaten-down IT names and L&T's earnings surprise lifted the tech and capital-goods pack, decoupling Indian software from the semiconductor-hardware fears pressuring Asian chip stocks.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/sensex-surges-over-700-points-nifty-50-firm-above-24-150-led-by-larsen-and-toubro/article-197739/"
+        },
+        {
+          "emoji": "💹",
+          "detail": "Foreign flows flipped positive: **FIIs bought roughly ₹755 crore of cash equities Tuesday** while **DIIs added ₹1,664 crore**, a notable shift after FIIs had been persistent net sellers through the prior week's slide.",
+          "why": "Sliding crude, a firmer rupee outlook and pre-Fed positioning coaxed some foreign money back to the buy side, reinforcing the domestic-institution bid that has been underpinning the market.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-july-29/article-197729/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The rally builds on a cheaper-oil tailwind, with **Brent around $87.5 and WTI near $79**, keeping downward pressure on India's import bill, trade deficit and inflation path.",
+          "why": "As a major net oil importer, India benefits mechanically from crude below $90, cushioning the rupee and giving the RBI more room even as global risk sentiment stays choppy.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin slid to about $63,200–$63,700** on Tuesday (down ~2.8%), breaking below last week's $64,850 area and testing the key **$63K support** ahead of the Fed decision.",
+          "why": "Risk-off pre-Fed positioning combined with a wave of negative headlines around 'circular' AI data-center funding pulled speculative money out of crypto despite the calmer oil backdrop.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-july-28-2026-crypto-prices-slide-ahead-of-fed-meeting-125210301.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Majors sold off harder than Bitcoin: **Ether dropped ~3.5% to about $1,872–$1,890** and **Solana fell ~4% to $73.08**, dragging the total crypto market cap down to roughly **$2.17 trillion**.",
+          "why": "Higher-beta majors bore the brunt of the pre-Fed de-risking, unwinding the previous session's relief bounce as traders trimmed exposure before Wednesday's rate call.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-july-28-2026-crypto-prices-slide-ahead-of-fed-meeting-125210301.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Spot Bitcoin ETFs kept bleeding, posting a **net outflow of ~$11.6M on July 27** (led by BlackRock's IBIT at -$8.8M) after their worst month on record in June at roughly **-$4.5B**, while spot Ether ETFs drew a **+$9.2M inflow**.",
+          "why": "Institutional demand stays cautious and rotational — money is trickling out of Bitcoin funds and modestly into Ether — as allocators wait for the Fed and the AI-funding scare to resolve.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-bitcoin-ethereum-xrp-inflow-outflow-july-28"
+        },
+        {
+          "emoji": "😨",
+          "detail": "The **Crypto Fear & Greed Index sits at 28–29 ('Fear')**, edging up from 25 (Extreme Fear) a week ago but still deep in defensive territory as the Fed decision looms.",
+          "why": "Prices have stabilized off the lows but persistent ETF outflows and event risk have kept sentiment stuck, preventing traders from rebuilding conviction.",
+          "sourceName": "CoinNess",
+          "sourceUrl": "https://coinness.com/en/news/1162649"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The **CLARITY Act remains stuck short of the 60 votes** it needs, with Senate leader Thune aiming for a floor vote before the August recess but still **hunting at least 10 Democratic votes** amid DOJ opposition and an ethics-provision impasse.",
+          "why": "A near-final draft now bars the president, VP and members of Congress from issuing digital assets, but the bipartisan gap and Justice Department pushback leave passage — the summer's biggest institutional catalyst — in genuine doubt.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/clarity-act-faces-senate-vote-despite-60-vote-gap/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A converging cluster of event risk — today's Warsh-led FOMC decision and the 'circular AI funding' scare now spreading from chip equities into memory names and crypto — is driving pre-Fed de-risking that knocked Bitcoin below $63K and capped the Nasdaq, even as sub-$90 oil keeps powering the Dow to record highs and a gap-up rally in oil-importer India."
+}
