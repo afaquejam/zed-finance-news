@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T07:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Wall Street reversed sharply on Fed day: the **Dow plunged 1,153.18 points (2.19%) to 51,594.14** — its worst day since April 2025 — the **S&P 500 slid 1.52%** and the **Nasdaq fell 1.74%**, ending more than **10% off its intraday record**.",
+          "why": "A hawkish Fed hold and a fresh oil spike from the reignited Middle East war combined to send Treasury yields soaring and crush high-beta growth multiples.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-29-2026stock-market-today-july-29-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Fed held at **3.50%–3.75%** for a fifth straight meeting but in a hawkish **9–3 vote**, with Hammack, Kashkari and Logan dissenting in favor of a **hike**; the **30-year yield hit its highest since 2007** and the 10-year jumped 7bps above **4.67%**.",
+          "why": "The three hike dissents and Warsh's continued 'inflation too high' message gutted remaining hopes for near-term cuts and repriced the curve toward tightening.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**Microsoft jumped ~7% after the close**: fiscal Q4 revenue rose **18% to $90B**, **Azure grew 43%** and crossed **$100B in annual revenue**, and CFO Amy Hood guided FY27 capex to roughly **$175B** with Q4 capex of **$41B, up 69%**.",
+          "why": "Accelerating cloud growth and Copilot adoption let management frame surging AI capex as demand-driven rather than speculative, easing the AI-spending fears that hammered chips.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Meta slipped after hours** on a mixed print: revenue rose **28% to $60.8B** but **EPS of $6.18 missed the ~$7.22 estimate**, net income fell 14% to $15.85B, and **free cash flow collapsed 91% to $784M** as it raised the low end of 2026 capex to **$130–145B**.",
+          "why": "A single quarter of ~$31B in AI infrastructure spending obliterated free cash flow and profits, validating exactly the AI-capex anxiety weighing on the sector.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/earnings/26/07/60781217/meta-reports-mixed-q2-results-raises-low-end-of-capex-guidance-range-shares-move-lower"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The oil tailwind flipped violently: **Brent settled up 7.91% and WTI up 6.56%** in one of the war's sharpest spikes, before easing Thursday with **Brent down 0.9% to $87.30** and **WTI off 0.9% to $83.70**.",
+          "why": "Iran-backed militias drone-struck Saudi oil facilities for a second straight day and the U.S.–Iran conflict spread, reversing the diplomacy-driven slide that had pushed WTI under $80 and reviving inflation risk.",
+          "sourceName": "U.S. News",
+          "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-07-29/oil-prices-slip-as-tankers-continue-to-ply-middle-east-conflict-zones"
+        },
+        {
+          "emoji": "📈",
+          "detail": "Futures pointed to a partial rebound Thursday, with **Nasdaq-100 futures up 0.78%**, **S&P 500 futures up 0.35%** and **Dow futures up 0.14%** after the Fed-day rout.",
+          "why": "Microsoft's blowout results and constructive capex commentary lifted megacap sentiment enough to steady tape after the worst Dow session in over a year.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/29/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities closed sharply higher Wednesday: the **Sensex surged 888.68 points (1.16%) to 77,654.60** and the **Nifty gained 264.85 points (1.10%) to 24,250.20**, its strongest single-day percentage gain since June 12.",
+          "why": "L&T's earnings beat and heavy bargain-hunting in beaten-down IT names drove a rotation out of crowded global AI-chip trades and into Indian software and capital goods.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-july-29-2026-sensex-nifty-rise-1-percent-it-stocks"
+        },
+        {
+          "emoji": "🏭",
+          "detail": "The rally was broad, with **14 of 16 sectoral indices higher**, **Bank Nifty above 57,200**, and midcap and smallcap indices up roughly **0.8% and 1.5%**, as IT, metal, FMCG and pharma led and Adani Ports and autos lagged.",
+          "why": "Strength across IT, metals and defensives reflected domestic-led buying that decoupled Indian software from the semiconductor-hardware fears pressuring Asian chip stocks.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-soars-889-points-nifty-closes-above-24-250-it-and-metal-rally-while-adani-ports-auto-drag/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The cheaper-oil tailwind India has been riding is now at risk, with **Brent back near $87** after the crude spike and the Strait of Hormuz threat resurfacing.",
+          "why": "As a major net importer, India benefits when crude sits below $90; the renewed Middle East war and the 6–8% oil rebound reintroduce pressure on the import bill, rupee and inflation path.",
+          "sourceName": "U.S. News",
+          "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-07-29/oil-prices-slip-as-tankers-continue-to-ply-middle-east-conflict-zones"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "The Thursday session opens against a hostile global backdrop — a **2.19% Dow rout**, a hawkish Fed with three hike dissents, and renewed oil-price risk — after Wednesday's close was set before the FOMC decision landed.",
+          "why": "India's Wednesday advance predated the U.S. Fed-day selloff, so the domestic market must digest sharply higher U.S. yields and the oil reversal in one go."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin held near $63,900** but slipped after the Fed, and the past 24 hours saw **~$401M in liquidations** across 112,341 traders — **longs accounting for $298M** — as leveraged bets on a dovish outcome were wiped out.",
+          "why": "The hawkish 9–3 hold with three officials seeking a hike, plus the spike in Treasury yields, pulled risk appetite out of crypto even though the decision itself was widely expected.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/07/30/bitcoin-ethereum-fall-after-fomc-meeting-keeps-rates-unchanged/"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Majors and DeFi bore the brunt: **Ether traded near $1,900** and the **DeFi market fell 11.5%**, underperforming Bitcoin as the total sector de-risked post-FOMC.",
+          "why": "Higher-beta tokens and DeFi took the largest hit as the hawkish Fed tone and rising yields prompted traders to trim exposure across the risk curve.",
+          "sourceName": "Coingabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-bitcoin-eth-coti-pi-coin-defi-market-update"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Spot Bitcoin ETFs logged a **third straight week of net inflows** despite a **~$465M late-week outflow surge**, though cumulative redemptions still total roughly **$8.2B over the last eight weeks**.",
+          "why": "Institutional flows remain choppy and defensive — buyers returned but were nearly offset by hedging-driven redemptions — leaving ETF demand a swing factor as macro risk lingers.",
+          "sourceName": "TechTimes",
+          "sourceUrl": "https://www.techtimes.com/articles/321696/20260727/bitcoin-etf-streak-reaches-three-weeks-traders-drop-downside-hedges.htm"
+        },
+        {
+          "emoji": "⚔️",
+          "detail": "Crypto now sits between two live shocks — a **hawkish Fed** and a **re-escalating Middle East war** that spiked oil 6–8% — with the **Fear & Greed Index stuck at 28 ('Fear')**.",
+          "why": "The renewed Hormuz-region conflict revives the inflation threat just as the Fed signals it may still hike, a combination that keeps speculative capital cautious and sentiment defensive.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/07/30/bitcoin-ethereum-fall-after-fomc-meeting-keeps-rates-unchanged/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A double macro shock — a hawkish 9-3 Fed hold with three officials voting to hike, driving 30-year yields to 2007 highs, plus a resumption of the Middle East war that spiked oil 6-8% and revived inflation fears — reversed last week's disinflation-and-rate-cut optimism, triggering the worst Dow day since April 2025 and dragging crypto lower, even as Microsoft's blowout cloud earnings and an India IT-led rally offered pockets of resilience."
+}
