@@ -1,0 +1,113 @@
+{
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Wall Street rebounded to close a wild July: the **S&P 500 rose 0.7% to 7,489.72**, the **Nasdaq climbed 1% to 25,373.85** and the **Dow added 276.97 points (0.53%) to 52,485.03**, with the Dow booking a **fourth straight winning month**.",
+          "why": "A blowout Amazon cloud print reignited AI optimism and dragged the tape higher even as a sharp Apple selloff and climbing oil prices capped the gains.",
+          "sourceName": "The Washington Post",
+          "sourceUrl": "https://www.washingtonpost.com/business/2026/07/31/wall-street-stocks-dow-nasdaq/ee08da40-8d1d-11f1-8912-d71e69d679d7_story.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Amazon soared ~15%** after Q2 revenue rose **20% to $200.6B** and **AWS grew 37% to $42.2B** — its fastest cloud expansion in 18 quarters — with management noting its AI and custom-chip units each cleared a **$25B annual run rate**.",
+          "why": "Accelerating cloud and AI-chip revenue reframed Amazon's heavy AI capex as demand-driven, easing the same AI-spending fears that had whipsawed megacaps all week.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-soars-15-as-e-commerce-giants-aws-cloud-business-booms-in-home-run-quarter-122456315.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "**Apple plunged ~7.4% to $308.91**, shedding close to **$500B in market value**, even though fiscal Q3 revenue grew **16% to $109B** and iPhone sales jumped **22% to $54B**; it guided Q4 revenue up just **9–11%** versus the ~12.1% Street forecast.",
+          "why": "Apple warned that component shortages and soaring costs from the AI data-center boom are straining its supply chain and squeezing margins, prompting an analyst downgrade in Tim Cook's final earnings as CEO.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/investing/2026/07/31/why-apple-stock-dropped-on-friday/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil extended its surge, with **Brent climbing above $88** and **WTI up more than 1% to about $84.67**, capping a monthly advance of **more than 20%**.",
+          "why": "Iran said it attacked two tankers in the Strait of Hormuz while Houthi involvement grew and Saudi forces joined U.S. operations against Iran-backed groups in Iraq, keeping a war-driven inflation premium in crude.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/07/31/oil-prices-today-brent-wti-hormuz-trump-iran-.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "Attention now shifts to the week ahead, where fresh labor-market data and the aftermath of last week's hawkish 9–3 Fed hold will test whether the Amazon-led rebound can hold against a still-elevated **30-year yield** and a >20% monthly oil spike."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Indian equities edged higher Friday, with the **Sensex near 78,000** and the **Nifty holding above 24,350**, extending Wednesday's rebound into a modest but positive weekly finish.",
+          "why": "Positive global cues from Amazon's cloud blowout and steady domestic buying offset a hostile backdrop of higher U.S. yields and firmer oil.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/sensex-near-78-000-nifty-above-24-350-amid-positive-global-cues-bajaj-finance-mahindra-maruti-shares-in-focus-2026-07-31-1049936"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Domestic institutions did the heavy lifting: **DIIs were net buyers of ₹2,260.4 crore** while **FIIs bought a modest ₹277.5 crore** in the cash segment, keeping benchmarks supported despite global volatility.",
+          "why": "Robust DII inflows cushioned the market as foreign investors stayed cautious amid a spike in U.S. Treasury yields and renewed oil-price risk.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-july-31/article-197876/"
+        },
+        {
+          "emoji": "💻",
+          "detail": "The leadership flipped from Wednesday: **IT was the biggest drag, sliding more than 2%**, and FMCG lagged, while **auto and financials led** the advance.",
+          "why": "Indian software gave back part of its recent bargain-hunting rally as global tech sentiment turned choppy, rotating buying into rate-sensitive autos and financials.",
+          "sourceName": "Sunday Guardian",
+          "sourceUrl": "https://sundayguardianlive.com/business/stock-market-today-sensex-nifty-open-higher-amid-fii-inflows-crude-oil-relief-and-sectoral-trends-check-top-gainers-and-losers-250213/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The renewed oil rally is now the market's chief overhang, with **Brent back above $88** and its monthly gain topping **20%** as the Strait of Hormuz threat intensifies.",
+          "why": "As a major net crude importer, India faces a heavier import bill, rupee pressure and inflation risk whenever oil sustains above $90, eroding a tailwind the market had enjoyed for weeks.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/blog/sensex-nifty-stock-market-live-updates-july-31-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin is trading near $62,865** entering August, having failed to reclaim the upper boundary of its descending channel after ending July under renewed selling pressure.",
+          "why": "Last week's hawkish Fed hold and the jump in Treasury yields kept risk appetite subdued, leaving BTC unable to confirm a bullish breakout.",
+          "sourceName": "Coinpedia",
+          "sourceUrl": "https://coinpedia.org/price-analysis/bitcoin-ethereum-and-xrp-price-prediction-for-august-2026-can-the-bullish-momentum-continue/"
+        },
+        {
+          "emoji": "📉",
+          "detail": "**Ether is trading near $1,865**, slipping below the rising trendline that had supported its July recovery as the broader sector stays defensive.",
+          "why": "Higher-beta majors continue to underperform Bitcoin as elevated yields and lingering macro risk push traders to trim exposure across the risk curve.",
+          "sourceName": "Coinpedia",
+          "sourceUrl": "https://coinpedia.org/price-analysis/bitcoin-ethereum-and-xrp-price-prediction-for-august-2026-can-the-bullish-momentum-continue/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Spot Bitcoin ETFs limped to the finish, pulling in just **~$205M of net inflows in July — the smallest monthly total on record**, as a $999M inflow streak from July 14–22 was largely undone by roughly **$526M of outflows** over the following four sessions.",
+          "why": "Institutional demand has turned anemic and hedging-driven, following $2.43B of May outflows and $4.52B in June, leaving ETF flows a fragile swing factor amid macro stress.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/daybook-us/2026/07/30/bitcoin-etfs-on-track-for-the-smallest-monthly-inflows-ever"
+        },
+        {
+          "emoji": "😨",
+          "detail": "Sentiment remains fragile with the **Fear & Greed Index stuck at 28 ('Fear')**, and analysts flag a **hidden liquidation wall near $39,900** as a downside risk if selling accelerates.",
+          "why": "The combination of a still-hawkish Fed and a re-escalating Hormuz-region oil shock keeps speculative capital cautious and leverage vulnerable to a cascade.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/forget-etf-flows-bitcoins-real-threat-is-a-hidden-39900-liquidation-wall/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "AI-capex was the market's fault line this week: Amazon's 37% AWS surge validated the AI spend and drove a broad megacap rebound, while Apple's supply-chain warning showed the same data-center boom straining hardware — even as Brent above $88 on the Strait of Hormuz conflict revived an inflation premium that pressured Indian IT, kept the Fed hawkish and left crypto defensive."
+}
