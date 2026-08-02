@@ -89,16 +89,18 @@ export async function loadWeeklyBriefs(dir: string): Promise<FinanceBrief[]> {
 }
 
 /**
- * Find the newest weekly page (`finance-brief-weekly-YYYY-MM-DD.html`) in a
- * dir and return its basename, or undefined if none exists yet. Used to link
- * daily pages to the latest weekly wrap.
+ * List every weekly wrap's end-date (`finance-brief-weekly-YYYY-MM-DD.json`),
+ * most-recent first. Read from the JSON (the source of truth) so the list is
+ * available even before a page is rendered. Used to build the week-nav that
+ * lets any page jump to any weekly wrap.
  */
-export async function findLatestWeeklyHref(dir: string): Promise<string | undefined> {
+export async function listWeeklyDates(dir: string): Promise<string[]> {
   const files = await readdir(dir).catch(() => [] as string[]);
-  const weekly = files
-    .filter((f) => /^finance-brief-weekly-\d{4}-\d{2}-\d{2}\.html$/.test(f))
-    .sort();
-  return weekly.length ? weekly[weekly.length - 1] : undefined;
+  return files
+    .map((f) => f.match(/^finance-brief-weekly-(\d{4}-\d{2}-\d{2})\.json$/)?.[1])
+    .filter((d): d is string => Boolean(d))
+    .sort()
+    .reverse();
 }
 
 /** Strips ```json fences if the model wraps its output despite instructions. */

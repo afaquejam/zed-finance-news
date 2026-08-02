@@ -6,6 +6,7 @@ import {
   OUTPUT_DIR,
   TEMPLATE_PATH,
   formatBriefForPrompt,
+  listWeeklyDates,
   loadArchivedBriefs,
   parseBrief,
   publishToGit,
@@ -89,7 +90,9 @@ async function main() {
   // eyebrow, week-range header, and a back-link to the latest daily. Pass the
   // daily archive dates so the day-nav still links to the dailies.
   const dailyDates = archived.map((b) => b.date);
-  const html = await renderWeeklyBriefHtml(brief, TEMPLATE_PATH, dailyDates, monday);
+  // JSON was just written above, so this includes the current week's wrap.
+  const weekDates = await listWeeklyDates(OUTPUT_DIR);
+  const html = await renderWeeklyBriefHtml(brief, TEMPLATE_PATH, dailyDates, weekDates, monday);
   const htmlPath = path.join(OUTPUT_DIR, `finance-brief-weekly-${brief.date}.html`);
   await writeFile(htmlPath, html, "utf-8");
   console.log(`[weekly-brief] wrote ${htmlPath}`);

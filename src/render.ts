@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import type { FinanceBrief, FinanceBriefItem, FinanceBriefSection } from "./types.js";
+import { weekStartMonday } from "./lib.js";
 
 /** Minimal HTML-escaping since section content originates from web/LLM output. */
 function escapeHtml(input: string): string {
@@ -67,9 +68,14 @@ function formatWeekRange(startIso: string, endIso: string): string {
   return `${start} – ${end}`;
 }
 
-/** Filename a given brief date is written to. */
+/** Filename a given daily brief date is written to. */
 function briefFileName(iso: string): string {
   return `finance-brief-${iso}.html`;
+}
+
+/** Filename a given weekly wrap (keyed by its end-date) is written to. */
+function weeklyFileName(iso: string): string {
+  return `finance-brief-weekly-${iso}.html`;
 }
 
 /**
@@ -91,10 +97,36 @@ function renderDayNav(currentDate: string, availableDates: string[]): string {
       const isActive = iso === currentDate;
       const inner = `<span class="dow">${escapeHtml(dow)}</span><span class="dom">${escapeHtml(dom)}</span>`;
       return isActive
-        ? `<span class="day-chip active" aria-current="date">${inner}</span>`
-        : `<a class="day-chip" href="${escapeHtml(briefFileName(iso))}">${inner}</a>`;
+        ? `<span class="chip active" aria-current="date">${inner}</span>`
+        : `<a class="chip" href="${escapeHtml(briefFileName(iso))}">${inner}</a>`;
     })
     .join("\n      ");
+}
+
+/**
+ * Build the weekly-wrap chip nav — the same interaction as the day-nav but one
+ * scale up. Each chip is a two-line "WEEK / date-range" pointing at a weekly
+ * page. `weekDates` are the wrap end-dates (newest first); the newest 6 show.
+ * `activeWeek` (set only on a weekly page) renders as the non-clickable "you
+ * are here" chip. Returns the whole `<nav>` block, or "" when no wraps exist.
+ */
+function renderWeekNav(weekDates: string[], activeWeek?: string): string {
+  const weeks = Array.from(new Set(weekDates)).sort().reverse().slice(0, 6);
+  if (weeks.length === 0) return "";
+
+  const chips = weeks
+    .map((iso) => {
+      const range = formatWeekRange(weekStartMonday(iso), iso);
+      const inner = `<span class="dow">Week</span><span class="dom">${escapeHtml(range)}</span>`;
+      return iso === activeWeek
+        ? `<span class="chip active" aria-current="true">${inner}</span>`
+        : `<a class="chip" href="${escapeHtml(weeklyFileName(iso))}">${inner}</a>`;
+    })
+    .join("\n      ");
+
+  return `<nav class="chip-nav week-nav" aria-label="Weekly wraps">
+      ${chips}
+    </nav>`;
 }
 
 /** Default emoji per section, used when nothing more specific matches. */
@@ -164,7 +196,7 @@ function renderSection(section: FinanceBriefSection): string {
 
 /** Per-render options that let one template serve both daily and weekly pages. */
 export interface RenderOptions {
-  /** "daily" (default) or "weekly" — drives the eyebrow and header link. */
+  /** "daily" (default) or "weekly" — drives the eyebrow. */
   variant?: "daily" | "weekly";
   /**
    * Which date to highlight in the day-nav. Defaults to the brief's own date.
@@ -174,21 +206,10 @@ export interface RenderOptions {
   navCurrentDate?: string;
   /** Overrides the h1 date text — weekly pages pass a "Jul 27 – Aug 1" range. */
   headerDateOverride?: string;
-  /** Daily pages: href of the latest weekly page, to surface a "wrap" link. */
-  weeklyHref?: string;
-  /** Weekly page: href of the latest daily page, for the back link. */
-  latestDailyHref?: string;
-}
-
-/** The app-bar link that ties daily and weekly pages together (or ""). */
-function renderHeaderLink(variant: "daily" | "weekly", opts: RenderOptions): string {
-  if (variant === "weekly" && opts.latestDailyHref) {
-    return `<a class="wrap-link" href="${escapeHtml(opts.latestDailyHref)}">&larr; Daily brief</a>`;
-  }
-  if (variant === "daily" && opts.weeklyHref) {
-    return `<a class="wrap-link" href="${escapeHtml(opts.weeklyHref)}">📊 This week&rsquo;s wrap &rarr;</a>`;
-  }
-  return "";
+  /** End-dates of every weekly wrap, newest first, for the week-nav chips. */
+  availableWeeks?: string[];
+  /** Weekly page: its own end-date, so its week-chip renders as active. */
+  activeWeek?: string;
 }
 
 export async function renderFinanceBriefHtml(
@@ -215,9 +236,9 @@ export async function renderFinanceBriefHtml(
     .replaceAll("{{DATE}}", escapeHtml(brief.date))
     .replaceAll("{{HEADER_DATE}}", escapeHtml(headerDate))
     .replaceAll("{{EYEBROW}}", escapeHtml(eyebrow))
-    .replace("{{HEADER_LINK}}", renderHeaderLink(variant, opts))
     .replaceAll("{{GENERATED_AT}}", escapeHtml(brief.generatedAt))
     .replace("{{DAY_NAV}}", renderDayNav(navCurrent, availableDates))
+    .replace("{{WEEK_NAV}}", renderWeekNav(opts.availableWeeks ?? [], opts.activeWeek))
     .replace("{{SECTIONS}}", sectionsHtml)
     .replace("{{CROSS_CUTTING}}", crossCuttingHtml);
 }
@@ -225,13 +246,15 @@ export async function renderFinanceBriefHtml(
 /**
  * Render a weekly brief page: reuses the daily template but flips the eyebrow
  * to "Weekly Wrap", shows the week range in the header, highlights the latest
- * daily in the day-nav, and links back to it. `dailyDates` are the archive's
- * daily dates; `weekStartIso` is the Monday the week began.
+ * daily in the day-nav, and marks its own chip active in the week-nav.
+ * `dailyDates` are the archive's daily dates; `weekDates` are every weekly
+ * wrap's end-date; `weekStartIso` is the Monday the week began.
  */
 export async function renderWeeklyBriefHtml(
   brief: FinanceBrief,
   templatePath: string,
   dailyDates: string[],
+  weekDates: string[],
   weekStartIso: string,
 ): Promise<string> {
   const latestDaily = dailyDates.length
@@ -241,6 +264,7 @@ export async function renderWeeklyBriefHtml(
     variant: "weekly",
     headerDateOverride: formatWeekRange(weekStartIso, brief.date),
     navCurrentDate: latestDaily,
-    latestDailyHref: latestDaily ? `finance-brief-${latestDaily}.html` : undefined,
+    availableWeeks: weekDates,
+    activeWeek: brief.date,
   });
 }

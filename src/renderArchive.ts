@@ -4,7 +4,7 @@ import { renderFinanceBriefHtml, renderWeeklyBriefHtml } from "./render.js";
 import {
   OUTPUT_DIR,
   TEMPLATE_PATH,
-  findLatestWeeklyHref,
+  listWeeklyDates,
   loadArchivedBriefs,
   loadWeeklyBriefs,
   weekStartMonday,
@@ -27,16 +27,16 @@ async function main() {
   }
 
   const availableDates = briefs.map((b) => b.date);
-  const weeklyHref = await findLatestWeeklyHref(OUTPUT_DIR);
+  const availableWeeks = await listWeeklyDates(OUTPUT_DIR);
 
   for (const b of briefs) {
-    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates, { weeklyHref });
+    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates, { availableWeeks });
     await writeFile(path.join(OUTPUT_DIR, `finance-brief-${b.date}.html`), html, "utf-8");
   }
 
   // latest.html + index.html mirror the newest daily brief.
   const latestHtml = await renderFinanceBriefHtml(briefs[0], TEMPLATE_PATH, availableDates, {
-    weeklyHref,
+    availableWeeks,
   });
   await writeFile(path.join(OUTPUT_DIR, "latest.html"), latestHtml, "utf-8");
   await writeFile(path.join(OUTPUT_DIR, "index.html"), latestHtml, "utf-8");
@@ -44,7 +44,13 @@ async function main() {
   // Re-render any weekly wrap pages from their persisted JSON too.
   const weeklies = await loadWeeklyBriefs(OUTPUT_DIR);
   for (const w of weeklies) {
-    const html = await renderWeeklyBriefHtml(w, TEMPLATE_PATH, availableDates, weekStartMonday(w.date));
+    const html = await renderWeeklyBriefHtml(
+      w,
+      TEMPLATE_PATH,
+      availableDates,
+      availableWeeks,
+      weekStartMonday(w.date),
+    );
     await writeFile(path.join(OUTPUT_DIR, `finance-brief-weekly-${w.date}.html`), html, "utf-8");
   }
 

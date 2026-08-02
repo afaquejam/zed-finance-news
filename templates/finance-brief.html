@@ -91,27 +91,8 @@
     color: var(--md-sys-color-on-surface);
   }
   h1 .date { color: var(--md-sys-color-primary); }
-  .app-bar-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-  .wrap-link {
-    flex-shrink: 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: var(--md-sys-color-on-secondary-container);
-    background: var(--md-sys-color-secondary-container);
-    padding: 6px 12px;
-    border-radius: 999px;
-    white-space: nowrap;
-    transition: background 0.15s;
-  }
-  .wrap-link:hover { background: var(--md-sys-color-surface-container-high); }
-
-  /* ---------- 7-day nav (MD3 chips) ---------- */
-  nav.day-nav {
+  /* ---------- Chip navs (7-day + weekly wraps, MD3 chips) ---------- */
+  nav.chip-nav {
     display: flex;
     gap: 8px;
     overflow-x: auto;
@@ -119,8 +100,9 @@
     margin: 0 0 8px;
     scrollbar-width: none;
   }
-  nav.day-nav::-webkit-scrollbar { display: none; }
-  .day-chip {
+  nav.chip-nav::-webkit-scrollbar { display: none; }
+  nav.week-nav { padding-top: 4px; margin-bottom: 12px; }
+  .chip {
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
@@ -134,10 +116,10 @@
     text-decoration: none;
     transition: background 0.15s ease, border-color 0.15s ease;
   }
-  .day-chip:hover { background: var(--md-sys-color-surface-container-high); }
-  .day-chip .dow { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
-  .day-chip .dom { font-size: 0.9375rem; font-weight: 600; white-space: nowrap; }
-  .day-chip.active {
+  .chip:hover { background: var(--md-sys-color-surface-container-high); }
+  .chip .dow { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+  .chip .dom { font-size: 0.9375rem; font-weight: 600; white-space: nowrap; }
+  .chip.active {
     background: var(--md-sys-color-primary-container);
     border-color: transparent;
     color: var(--md-sys-color-on-primary-container);
@@ -260,18 +242,17 @@
 <body>
   <div class="app-bar">
     <div class="app-bar-inner">
-      <div class="app-bar-head">
-        <p class="eyebrow">{{EYEBROW}}</p>
-        {{HEADER_LINK}}
-      </div>
+      <p class="eyebrow">{{EYEBROW}}</p>
       <h1>Finance News: <span class="date">{{HEADER_DATE}}</span></h1>
     </div>
   </div>
 
   <div class="wrap">
-    <nav class="day-nav" aria-label="Last 7 days">
+    <nav class="chip-nav day-nav" aria-label="Last 7 days">
       {{DAY_NAV}}
     </nav>
+
+    {{WEEK_NAV}}
 
     {{SECTIONS}}
 

@@ -5,7 +5,7 @@ import { renderFinanceBriefHtml } from "./render.js";
 import {
   OUTPUT_DIR,
   TEMPLATE_PATH,
-  findLatestWeeklyHref,
+  listWeeklyDates,
   formatBriefForPrompt,
   loadArchivedBriefs,
   parseBrief,
@@ -80,17 +80,17 @@ async function main() {
   const allBriefs = [...byDate.values()].sort((a, b) => b.date.localeCompare(a.date));
   const availableDates = allBriefs.map((b) => b.date);
 
-  // Link every daily page to the latest weekly wrap, if one exists.
-  const weeklyHref = await findLatestWeeklyHref(OUTPUT_DIR);
+  // Every daily page carries the week-nav so any weekly wrap is reachable.
+  const availableWeeks = await listWeeklyDates(OUTPUT_DIR);
 
   for (const b of allBriefs) {
-    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates, { weeklyHref });
+    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates, { availableWeeks });
     await writeFile(path.join(OUTPUT_DIR, `finance-brief-${b.date}.html`), html, "utf-8");
   }
   console.log(`[finance-brief] re-rendered ${allBriefs.length} page(s)`);
 
   // latest.html + index.html mirror the newest brief (today's).
-  const latestHtml = await renderFinanceBriefHtml(brief, TEMPLATE_PATH, availableDates, { weeklyHref });
+  const latestHtml = await renderFinanceBriefHtml(brief, TEMPLATE_PATH, availableDates, { availableWeeks });
   await writeFile(path.join(OUTPUT_DIR, "latest.html"), latestHtml, "utf-8");
   await writeFile(path.join(OUTPUT_DIR, "index.html"), latestHtml, "utf-8");
   console.log(`[finance-brief] wrote latest.html + index.html`);

@@ -4,6 +4,21 @@ Daily S&P 500 / NIFTY 50 / crypto brief. A Claude Code **skill** does the
 research (web search), a small TypeScript orchestrator runs it headlessly,
 validates the JSON it returns, and renders it into a static HTML page.
 
+## Commands
+
+```bash
+npm run brief          # generate today's daily brief
+npm run brief:weekly   # generate the weekly wrap-up from the week's daily briefs
+npm run render         # re-render all HTML from saved JSON (no API call)
+```
+
+Manual runs do **not** push. Prefix with `FINANCE_BRIEF_PUBLISH=1` to commit
+`docs/` and `git push origin master` after generating:
+
+```bash
+FINANCE_BRIEF_PUBLISH=1 npm run brief
+```
+
 ## How it fits together
 
 ```
