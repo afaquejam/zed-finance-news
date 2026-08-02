@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.finance-brief.weekly</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>export PATH="/usr/local/bin:$PATH"; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; . "$NVM_DIR/nvm.sh"; export FINANCE_BRIEF_PUBLISH=1; cd /Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief &amp;&amp; npm run brief:weekly</string>
+  </array>
+  <!-- Runs Saturday at 08:20 (Weekday: 0/7=Sun, 1=Mon … 6=Sat), 20 min after
+       the 08:00 daily so Saturday's daily (Friday's close) is in the archive
+       and included in the weekly synthesis. Synthesizes the week's daily
+       briefs into a ≤3-bullet-per-section weekly wrap. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>6</integer>
+    <key>Hour</key><integer>8</integer>
+    <key>Minute</key><integer>20</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief/logs/launchd.weekly.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief/logs/launchd.weekly.err.log</string>
+</dict>
+</plist>

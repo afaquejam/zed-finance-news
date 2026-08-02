@@ -91,6 +91,24 @@
     color: var(--md-sys-color-on-surface);
   }
   h1 .date { color: var(--md-sys-color-primary); }
+  .app-bar-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .wrap-link {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+    padding: 6px 12px;
+    border-radius: 999px;
+    white-space: nowrap;
+    transition: background 0.15s;
+  }
+  .wrap-link:hover { background: var(--md-sys-color-surface-container-high); }
 
   /* ---------- 7-day nav (MD3 chips) ---------- */
   nav.day-nav {
@@ -242,7 +260,10 @@
 <body>
   <div class="app-bar">
     <div class="app-bar-inner">
-      <p class="eyebrow">Daily Market Brief</p>
+      <div class="app-bar-head">
+        <p class="eyebrow">Daily Market Brief</p>
+        <a class="wrap-link" href="finance-brief-weekly-2026-08-02.html">📊 This week&rsquo;s wrap &rarr;</a>
+      </div>
       <h1>Finance News: <span class="date">July 25, 2026</span></h1>
     </div>
   </div>

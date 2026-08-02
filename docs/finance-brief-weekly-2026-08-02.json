@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T12:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **S&P 500 ground out a net gain to close the week at 7,489.72** (from ~7,413 Monday), but the path was violent — the Dow suffered its **worst day since April 2025** on Fed day before an Amazon-led Friday rebound left the index modestly higher.",
+          "why": "Early-week disinflation optimism gave way to a hawkish Fed and an oil shock mid-week, then blowout cloud earnings pulled the tape back up into the weekly close."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Fed held at **3.50%–3.75% in a hawkish 9–3 vote** with three officials dissenting for a hike, sending the **30-year yield to its highest since 2007** and triggering a 2.19% Dow rout.",
+          "why": "The hike dissents and Warsh's 'inflation too high' message gutted rate-cut hopes and repriced the curve toward tightening just as oil re-spiked."
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Megacap earnings split the tape along the AI-capex fault line: **Amazon soared ~15% (AWS +37% to $42.2B)** and Microsoft jumped ~7% on 43% Azure growth, while **Apple plunged ~7.4%** (shedding ~$500B) and Meta slid on a 91% free-cash-flow collapse.",
+          "why": "Accelerating cloud revenue reframed AI spend as demand-driven, but Apple's data-center-driven supply-chain and margin warning showed the same boom straining hardware."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities finished the week higher, with the **Nifty climbing from ~23,996 to above 24,350** and the **Sensex nearing 78,000**, decoupling from a hostile global backdrop of surging U.S. yields and rebounding oil.",
+          "why": "A domestic-led rally and heavy DII buying overrode the Wall Street Fed-day selloff and the crude reversal that hit other markets."
+        },
+        {
+          "emoji": "💻",
+          "detail": "An **L&T earnings beat and IT bargain-hunting** powered the week's engine — a mid-week surge (the strongest day since June 12) led by Infosys — though **IT reversed to slide more than 2% Friday** as global tech sentiment turned choppy.",
+          "why": "Beaten-down software and capital-goods names drew rotation out of crowded global AI-chip trades, before profit-taking rotated buying into autos and financials."
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The cheaper-oil tailwind flipped into the market's chief overhang, with **Brent swinging from below $90 to above $88** on a >20% monthly surge as the Strait of Hormuz conflict reignited, while **DIIs (₹2,260 cr Friday) outmuscled cautious FIIs**.",
+          "why": "As a major net crude importer, India faces renewed import-bill, rupee and inflation pressure whenever oil sustains above $90, so domestic institutions had to underpin the bid."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin ended the week lower near $62,865** (from ~$64,850 Monday) and **Ether slipped to ~$1,865** (from ~$1,944), failing to reclaim the upper edge of a descending channel.",
+          "why": "Pre-Fed de-risking followed by the hawkish hold and rising Treasury yields kept risk appetite subdued and blocked a bullish breakout."
+        },
+        {
+          "emoji": "📉",
+          "detail": "The hawkish Fed plus the re-escalating Middle East oil shock triggered **~$401M in liquidations** (longs ~$298M) and an 11.5% DeFi drop, leaving the **Fear & Greed Index stuck at 28 ('Fear')** all week.",
+          "why": "A hawkish 9–3 hold and a renewed Hormuz-region conflict revived inflation risk simultaneously, keeping speculative capital defensive across the risk curve."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Spot Bitcoin ETFs limped to the finish with just **~$205M of net inflows in July — the smallest monthly total on record**, as a mid-month $999M streak was largely undone by ~$526M of late outflows.",
+          "why": "Institutional demand has turned anemic and hedging-driven amid macro stress, following $2.43B of May and $4.52B of June outflows."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A double macro shock — a hawkish 9–3 Fed hold that drove 30-year yields to 2007 highs and a re-escalating Strait of Hormuz war that flipped Brent from below $90 to a >20% monthly surge — reversed the week's early disinflation optimism, while the AI-capex fault line (Amazon/Microsoft cloud beats vs. Apple/Meta strain) split megacaps, pressured Indian IT and left crypto defensive."
+}

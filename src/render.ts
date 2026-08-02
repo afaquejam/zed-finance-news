@@ -51,6 +51,22 @@ function formatHeaderDate(iso: string): string {
   });
 }
 
+/** "2026-07-27" + "2026-08-01" -> "Jul 27 – Aug 1, 2026" for the weekly header. */
+function formatWeekRange(startIso: string, endIso: string): string {
+  const start = parseIsoDate(startIso).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+  const end = parseIsoDate(endIso).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+  return `${start} – ${end}`;
+}
+
 /** Filename a given brief date is written to. */
 function briefFileName(iso: string): string {
   return `finance-brief-${iso}.html`;
@@ -146,12 +162,43 @@ function renderSection(section: FinanceBriefSection): string {
   </section>`;
 }
 
+/** Per-render options that let one template serve both daily and weekly pages. */
+export interface RenderOptions {
+  /** "daily" (default) or "weekly" — drives the eyebrow and header link. */
+  variant?: "daily" | "weekly";
+  /**
+   * Which date to highlight in the day-nav. Defaults to the brief's own date.
+   * Weekly pages pass the latest DAILY date so the nav highlights a real,
+   * existing daily page rather than the (dateless) weekly.
+   */
+  navCurrentDate?: string;
+  /** Overrides the h1 date text — weekly pages pass a "Jul 27 – Aug 1" range. */
+  headerDateOverride?: string;
+  /** Daily pages: href of the latest weekly page, to surface a "wrap" link. */
+  weeklyHref?: string;
+  /** Weekly page: href of the latest daily page, for the back link. */
+  latestDailyHref?: string;
+}
+
+/** The app-bar link that ties daily and weekly pages together (or ""). */
+function renderHeaderLink(variant: "daily" | "weekly", opts: RenderOptions): string {
+  if (variant === "weekly" && opts.latestDailyHref) {
+    return `<a class="wrap-link" href="${escapeHtml(opts.latestDailyHref)}">&larr; Daily brief</a>`;
+  }
+  if (variant === "daily" && opts.weeklyHref) {
+    return `<a class="wrap-link" href="${escapeHtml(opts.weeklyHref)}">📊 This week&rsquo;s wrap &rarr;</a>`;
+  }
+  return "";
+}
+
 export async function renderFinanceBriefHtml(
   brief: FinanceBrief,
   templatePath: string,
   availableDates: string[] = [],
+  opts: RenderOptions = {},
 ): Promise<string> {
   const template = await readFile(templatePath, "utf-8");
+  const variant = opts.variant ?? "daily";
 
   const sectionsHtml = brief.sections.map(renderSection).join("\n");
   const crossCuttingHtml = brief.crossCuttingTheme
@@ -160,11 +207,40 @@ export async function renderFinanceBriefHtml(
       )}</span></div>`
     : "";
 
+  const eyebrow = variant === "weekly" ? "Weekly Wrap" : "Daily Market Brief";
+  const headerDate = opts.headerDateOverride ?? formatHeaderDate(brief.date);
+  const navCurrent = opts.navCurrentDate ?? brief.date;
+
   return template
     .replaceAll("{{DATE}}", escapeHtml(brief.date))
-    .replaceAll("{{HEADER_DATE}}", escapeHtml(formatHeaderDate(brief.date)))
+    .replaceAll("{{HEADER_DATE}}", escapeHtml(headerDate))
+    .replaceAll("{{EYEBROW}}", escapeHtml(eyebrow))
+    .replace("{{HEADER_LINK}}", renderHeaderLink(variant, opts))
     .replaceAll("{{GENERATED_AT}}", escapeHtml(brief.generatedAt))
-    .replace("{{DAY_NAV}}", renderDayNav(brief.date, availableDates))
+    .replace("{{DAY_NAV}}", renderDayNav(navCurrent, availableDates))
     .replace("{{SECTIONS}}", sectionsHtml)
     .replace("{{CROSS_CUTTING}}", crossCuttingHtml);
+}
+
+/**
+ * Render a weekly brief page: reuses the daily template but flips the eyebrow
+ * to "Weekly Wrap", shows the week range in the header, highlights the latest
+ * daily in the day-nav, and links back to it. `dailyDates` are the archive's
+ * daily dates; `weekStartIso` is the Monday the week began.
+ */
+export async function renderWeeklyBriefHtml(
+  brief: FinanceBrief,
+  templatePath: string,
+  dailyDates: string[],
+  weekStartIso: string,
+): Promise<string> {
+  const latestDaily = dailyDates.length
+    ? [...dailyDates].sort().reverse()[0]
+    : undefined;
+  return renderFinanceBriefHtml(brief, templatePath, dailyDates, {
+    variant: "weekly",
+    headerDateOverride: formatWeekRange(weekStartIso, brief.date),
+    navCurrentDate: latestDaily,
+    latestDailyHref: latestDaily ? `finance-brief-${latestDaily}.html` : undefined,
+  });
 }
