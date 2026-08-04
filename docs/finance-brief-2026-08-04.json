@@ -1,0 +1,109 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T09:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Wall Street ripped higher to open August: the **S&P 500 jumped 1.48% to 7,600.50**, the **Nasdaq surged 2.1%** and the **Dow rose ~1.3% to a record close**, more than reversing Friday's cautious tone.",
+          "why": "President Trump said he called off a planned strike on Iran and reopened talks to reopen the Strait of Hormuz, sending oil sharply lower and reigniting risk appetite as a heavy earnings week began.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-3-dow-sp-500-nasdaq-big-tech-oil-092516872.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil violently reversed last month's war premium, with **Brent tumbling below $83** and **WTI settling near $78.93, down close to 7%** to a three-week low — a stark turn after both contracts rose more than **20% in July**.",
+          "why": "Trump's decision to postpone strikes and pursue a deal to reopen the Strait of Hormuz eased the supply-shock fears that had driven the July crude spike.",
+          "sourceName": "Yahoo Finance UK",
+          "sourceUrl": "https://uk.finance.yahoo.com/news/oil-prices-drop-trump-cancels-145435527.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Big Tech led the advance**, with communications-services and software names powering the Nasdaq's 2.1% gain as the AI-capex trade shifted back to offense following Amazon's blowout AWS print last week.",
+          "why": "Cheaper oil lowered the inflation and rates overhang just as investors leaned back into megacaps at the start of a dense corporate earnings calendar.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/02/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Focus now turns to **Friday's July jobs report** and a packed week of earnings, the next test of whether the oil-driven rebound can extend against a still-hawkish Fed that held rates at **3.5%–3.75%**.",
+          "why": "",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-aug-3-2026-dow-futures-climb-as-oil-slides-on-renewed-iran-talks"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities surged for a **fourth straight session to a five-month high**: the **Nifty 50 jumped 390.70 points (1.60%) to 24,774.30** and the **Sensex added 544.39 points (0.70%) to 78,639.03**, a decisive break above last week's ~24,350 range.",
+          "why": "A sharp slide in crude prices after Trump paused strikes on Iran eased India's import-bill and inflation worries, the exact overhang flagged as the market's chief risk just days earlier.",
+          "sourceName": "JapanNews24",
+          "sourceUrl": "https://japannews24.com/nifty-jumps-391-points-to-24774-sensex-closes-at-78639-as-lower-crude-prices-fii-inflows-fuel-rally/"
+        },
+        {
+          "emoji": "💻",
+          "detail": "Leadership flipped hard from last week: **Nifty IT was the top sector, surging 2.68%**, with FMCG (+1.72%), metals (+1.55%), auto (+1.48%) and PSU banks (+1.41%) all higher and every major index bar media in the green.",
+          "why": "Indian software rebounded sharply from its prior >2% slide as the global tech rally and firmer risk sentiment revived buying in the beaten-down sector.",
+          "sourceName": "hdfcsky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-august-3-2026-nifty-sensex-rise-fourth-day-it-stocks-lead-rally"
+        },
+        {
+          "emoji": "💰",
+          "detail": "Flows turned supportive on both sides: **FIIs bought ₹922 crore** and **DIIs added ₹1,517 crore** in the cash segment, a notable pickup in foreign appetite after weeks of cautious, DII-led support.",
+          "why": "The crude pullback and easing Middle East tensions coaxed foreign investors back in, complementing steady domestic buying to broaden the rally.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-august-4/article-198039/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Benchmarks are set to **open flat to slightly lower on Tuesday**, with GIFT Nifty down ~6 points to 24,646, as subdued Asian cues test whether the four-day, oil-fueled run can extend.",
+          "why": "",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/blog/sensex-nifty-stock-market-live-updates-august-4-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin slipped to around $62,643** and **Ether eased to roughly $1,840** on Monday, both drifting lower and failing to join the equity and oil-driven risk rally even as geopolitical tension eased.",
+          "why": "The de-escalation that lifted stocks and sank oil failed to spark crypto momentum, as a still-hawkish Fed and stalled US regulatory progress kept speculative capital sidelined.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-3-2026-prices-pulling-back-this-morning-despite-de-escalation-with-iran-131220661.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "A fresh homegrown headwind emerged as the **US Senate delayed the Digital Asset Market Clarity Act**, denting hopes for a near-term institutional-grade regulatory framework.",
+          "why": "The legislative delay removed a potential positive catalyst, leaving crypto without the regulatory clarity investors had been counting on to draw fresh institutional capital.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-3-2026-prices-pulling-back-this-morning-despite-de-escalation-with-iran-131220661.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Spot Bitcoin ETFs are showing tentative signs of a thaw: **2026 cumulative net outflows narrowed to ~$4.84B** from roughly $5.4B in July, with **three consecutive weeks of positive inflows** breaking the year's persistent bleed.",
+          "why": "A modest return of institutional demand is beginning to offset the record outflows seen earlier in 2026, though flows remain fragile and macro-driven.",
+          "sourceName": "IBTimes",
+          "sourceUrl": "https://www.ibtimes.sg/bitcoin-falls-25-2026-fed-policy-clouds-cryptos-outlook-more-etf-outflows-low-volume-91073"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The macro calendar now dominates: with the **Fed holding at 3.5%–3.75%** and the **next FOMC decision on September 16**, traders are eyeing upcoming CPI/jobs prints and the August 27–29 Jackson Hole symposium as the key swing factors.",
+          "why": "",
+          "sourceName": "Decrypt",
+          "sourceUrl": "https://decrypt.co/374672/bitcoin-ethereum-price-fed-holds-rates-steady"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil was the master switch this session: Trump calling off Iran strikes sent Brent below $83 and WTI down ~7%, collapsing the war-driven inflation premium and igniting record-setting US equity gains and a five-month-high Nifty rally led by rate-sensitive IT and autos — yet crypto sat out the risk-on move, weighed by a still-hawkish Fed and a stalled US regulatory bill."
+}
