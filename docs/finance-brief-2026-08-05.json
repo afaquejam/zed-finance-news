@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T06:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Wall Street extended its record run: the **S&P 500 climbed 1.79% to a record 7,737** — its first all-time high in two months — while the **Dow surged more than 900 points (1.71%) to close above 54,000 for the first time ever**.",
+          "why": "Blowout AI-linked earnings from Palantir and Caterpillar combined with fresh hopes for an Iran war deal that dragged crude and Treasury yields lower, reinforcing the risk-on tone.",
+          "sourceName": "CNN Business",
+          "sourceUrl": "https://us.cnn.com/2026/08/04/investing/us-stock-market"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Palantir rocketed ~29.5%** — its biggest daily gain since February 2024 — after reporting **revenue up 93% to $1.94 billion** and delivering its largest-ever guidance raise, lifting full-year revenue guidance by roughly $498 million to about **$8.15 billion**.",
+          "why": "Surging U.S. commercial demand (up 149%) and the record guidance raise validated the AI-software growth story and reignited enthusiasm for the AI trade.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/equities/26/08/60920438/tocks-hit-records-palantir-earnings-oil-sink-hormuz-deal-hopes-markets-tuesday"
+        },
+        {
+          "emoji": "🏗️",
+          "detail": "Industrial bellwether **Caterpillar jumped 5.6%** to a record after raising its annual revenue-growth forecast, adding heft to the broadening rally beyond megacap tech.",
+          "why": "The AI data-center buildout has fueled demand for Caterpillar's power-generation and construction equipment, extending the AI-capex theme into the industrial economy.",
+          "sourceName": "Reuters / Lufkin Daily News",
+          "sourceUrl": "https://lufkindailynews.com/news_reuters/business/ai-linked-earnings-mideast-deal-hopes-send-dow-s-p-500-to-record-highs/article_5dbd6a80-783e-574a-8fb6-17382f295914.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The AI euphoria cracked after the bell: **AMD sank nearly 9% in after-hours trade** despite record **$11.54 billion revenue** and data-center sales that **more than doubled (+107%) to $6.7 billion**, both topping estimates.",
+          "why": "An underwhelming sales outlook and rising-capex concerns disappointed shareholders who had priced in more upside from the AI data-center expansion, a warning sign for Wednesday's session.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil extended its slide with crude slipping further **below $80**, keeping downward pressure on Treasury yields and the inflation outlook as the rally broadened. Attention now turns to **Friday's July jobs report** as the next macro test.",
+          "why": "Persistent hopes for a deal to reopen the Strait of Hormuz continued to unwind July's war-driven supply premium, easing the rates-and-inflation overhang for equities."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities pushed higher again on Wednesday: the **Sensex jumped over 600 points** and the **Nifty 50 opened above 24,650** (opening near 24,669), building on the multi-session recovery.",
+          "why": "Crude oil sliding below $80 a barrel kept easing India's import-bill and inflation worries, sustaining the risk appetite that has powered the recent rally.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/5-august-2026-stock-market-updates-sensex-zooms-626-points-nifty-above-24-650-as-crude-falls-below-80-2026-08-05-1050385"
+        },
+        {
+          "emoji": "✈️",
+          "detail": "Leadership rotated toward rate-sensitive and cyclical names, with **IndiGo up ~2%** and **L&T up ~1.8%** leading gainers alongside Bajaj Finance, M&M, Wipro and Tata Motors.",
+          "why": "Cheaper crude directly lifts fuel-heavy airlines and rate-sensitive financials and autos, channeling the oil-relief trade into the most exposed sectors.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-opens-at-24-669-sensex-jumps-over-600-points-amid-lower-crude-oil-prices-indi-go-l-and-t-among-top-gainers/article-198125/"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Flows flipped from the prior session's pattern: **FIIs stepped up buying to ₹2,446 crore** on Aug 4 while **DIIs turned net sellers of ₹936 crore** — a marked pickup in foreign appetite as domestic funds booked profits.",
+          "why": "The sustained crude pullback and firmer global risk sentiment drew foreign investors back more aggressively, reversing the DII-led support that had underpinned earlier gains.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/5-august-2026-stock-market-updates-sensex-zooms-626-points-nifty-above-24-650-as-crude-falls-below-80-2026-08-05-1050385"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto finally edged into the risk-on move: **Bitcoin held above $64,000** (near $64,037–$64,266, up ~1% on the day) and **Ether firmed to about $1,864**, both recovering from the prior session's drift lower.",
+          "why": "A steady return of spot-ETF demand and lingering CLARITY Act optimism offset a still-hawkish Fed, helping crypto shake off the earlier de-escalation-driven apathy.",
+          "sourceName": "Coingabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-august-5-bitcoin-eth-cysic-defi-market-rises"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF thaw is firming: US spot Bitcoin ETFs logged **~$132 million of inflows across four consecutive sessions**, extending into a **third straight week of net inflows**, though 2026 flows remain net negative at about **$5.2 billion**.",
+          "why": "A modest, persistent return of institutional demand is slowly refilling the year's outflow hole, providing the price support that carried BTC back above $64K.",
+          "sourceName": "TokenPost",
+          "sourceUrl": "https://tokenpost.com/news/investing/22162"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Regulatory hopes cooled sharply: **Polymarket odds for the CLARITY Act passing slid to just 27%** ahead of the Senate's **August 7 recess**, denting expectations for a near-term federal crypto framework.",
+          "why": "With the bill still not brought to the Senate floor before the recess, traders faded the odds of a 2026 passage, removing a potential institutional catalyst.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/market-updates/btc-pushes-toward-64k-as-clarity-act-odds-slide-to-27/"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The macro and legislative calendar dominates from here: the **Senate breaks for recess on August 7**, while Friday's US July jobs report and the Fed's **3.5%–3.75%** hold ahead of the **September 16 FOMC** remain the key swing factors for risk assets.",
+          "why": "With no fresh regulatory catalyst imminent, crypto's direction hinges on macro data and rate expectations rather than crypto-specific news."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Crude sliding below $80 on Iran-deal hopes remained the master switch lifting US and Indian equities and finally coaxing crypto higher, but a new fault line emerged within the AI trade — Palantir's and Caterpillar's blowout guidance drove record S&P 500 and Dow closes even as AMD's ~9% after-hours drop on a soft outlook exposed how much AI-capex optimism is already priced in."
+}
