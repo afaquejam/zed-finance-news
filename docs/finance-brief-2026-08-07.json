@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T14:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "US stocks turned higher Friday, capping a banner week: the **S&P 500 rose 0.3%**, the **Nasdaq climbed 0.9%** and the **Dow added 67 points (0.1%)** after a shock July jobs report.",
+          "why": "Wall Street read the surprise drop in payrolls as raising the odds the Fed holds rather than hikes, reviving the easing hopes that underpin the rally.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The rally paused Thursday: the **S&P 500 slipped 0.2% to 7,723.55** and the **Nasdaq snapped a four-day win streak**, though the **Dow bucked the trend to a fresh record 54,349.12** (+263 points).",
+          "why": "Oil rebounded to about $83 a barrel and Treasury yields rose after Iran's parliament was reported to be reviewing a bill barring 'hostile' vessels from the Strait of Hormuz, pressuring high-growth tech valuations.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-6-dow-sp-nasdaq-091620000.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The July jobs report stunned to the downside: the economy **shed 23,000 payrolls** — its first drop in months, versus about **+83,000 expected** — while the **unemployment rate ticked down to 4.1%** and wage growth slowed to **3.2%, the lowest since May 2021**.",
+          "why": "Losses were concentrated in local-government education (-50,000) and retail trade (-19,000), pointing to a genuinely cooling labor market rather than a one-off.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/07/jobs-report-july-2026.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Rate expectations flipped hard: futures that on Thursday leaned toward a **September Fed hike** swung to pricing a **hold** after the payrolls miss.",
+          "why": "The unexpected job losses undercut the case for further tightening, shifting the market's base case back to steady policy at the September 16 FOMC.",
+          "sourceName": "Quartz",
+          "sourceUrl": "https://qz.com/sp500-nasdaq-jobs-report-fed-rate-hike-080726"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Indian equities snapped their advance Friday: the **Nifty 50 fell 0.27% to 24,570.65** and the **Sensex dropped 0.58% to 78,499.17**, with private banks and financials the biggest drag.",
+          "why": "Weak global cues and the rebound in crude back toward $83 soured sentiment, while heavy selling in private-bank names outweighed the rest of the market.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-august-7-2026-sensex-falls-nifty-declines-financials-private-banks-drag"
+        },
+        {
+          "emoji": "🚗",
+          "detail": "Autos and IT cushioned the fall, with the **Nifty Auto index up 1.84%** and IT names offering support against the financials-led weakness.",
+          "why": "Rotation into autos and export-oriented IT offset the private-bank selloff, keeping the headline index losses shallow.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-august-7-2026-sensex-falls-nifty-declines-financials-private-banks-drag"
+        },
+        {
+          "emoji": "📅",
+          "detail": "Despite Friday's dip, both benchmarks ended the week **up roughly 1%**, extending their winning streak to a **second consecutive week**.",
+          "why": "Steady foreign inflows and easing inflation worries earlier in the week kept the broader uptrend intact even as Friday gave back some ground.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-august-7-2026-sensex-falls-nifty-declines-financials-private-banks-drag"
+        },
+        {
+          "emoji": "💰",
+          "detail": "Foreign buying is now the structural support: FIIs have purchased a **net $1.3 billion of Indian equities so far in August**, following **$2.1 billion in July**.",
+          "why": "Sustained overseas appetite, drawn by firmer global risk sentiment and India's improving inflation backdrop, has underwritten the recent recovery.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-august-7/article-198269/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto rallied on the US jobs data: **Bitcoin climbed to about $65,144** (from a $64,260 open) and **Ether rose to roughly $1,929** by Friday morning.",
+          "why": "The weak July payrolls report boosted expectations that the Fed holds rather than hikes, pushing money back into risk assets including crypto.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF thaw is accelerating: US spot **Bitcoin ETFs pulled in $128.69 million** and **Ether ETFs drew $92.15 million** on Aug 6, with **BTC funds taking in over $750 million this week**.",
+          "why": "A steady return of institutional demand after months of outflows is providing consistent price support beneath the recovery.",
+          "sourceName": "Crypto Briefing",
+          "sourceUrl": "https://cryptobriefing.com/crypto-etfs-btc-eth-inflows-aug-6/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The CLARITY Act is now formally sidelined: the **Senate left for its recess without a floor vote**, with the chamber in a state work period from **Aug 10 to Sept 11** and Majority Leader Thune saying the bill will be queued on return.",
+          "why": "With no vote before the break, the near-term federal crypto framework is off the table until September, though Polymarket odds of 2026 passage edged up to about 31%.",
+          "sourceName": "CoinGape",
+          "sourceUrl": "https://coingape.com/clarity-act-failure-could-spark-fresh-bitcoin-crypto-selloff-before-q4-rebound/"
+        },
+        {
+          "emoji": "🧭",
+          "detail": "With the legislative catalyst deferred, macro is firmly in the driver's seat, leaving **Fed rate expectations and incoming data** — not crypto-specific news — as the swing factor for BTC and ETH.",
+          "why": "The absence of a near-term regulatory catalyst means direction hinges on the same jobs-and-rates narrative moving equities."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The July jobs report replaced oil as the master switch: a surprise 23,000-job loss flipped Fed expectations from a September hike to a hold, lifting US stocks and crypto together on Friday — even as an oil rebound to $83 on a fresh Iran Strait of Hormuz threat had reintroduced the yield-and-inflation risk that clipped the S&P 500 and Indian financials a day earlier."
+}
