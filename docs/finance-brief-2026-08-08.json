@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T14:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📅",
+          "detail": "With US cash markets shut for the weekend after Friday's jobs-driven, record-setting week, attention pivots to the calendar: **S&P 500 futures sit near 7,775** and **July CPI on Wednesday, Aug 12** now shapes up as the pivotal test of the market's freshly revived Fed-easing bet.",
+          "sourceName": "Investing.com",
+          "sourceUrl": "https://www.investing.com/indices/us-spx-500-futures"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Economists see **July headline CPI accelerating to ~3.6% year-on-year** (from 3.2%) on a hot **+0.6% monthly** print, even as **core CPI eases to roughly 4.3%** — its lowest in about two years.",
+          "why": "A projected ~5.9% surge in energy costs, tied to oil's climb back toward the low-$80s, is expected to drive the headline pickup while shelter and core disinflation continue.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://benzinga.com/z/34370284"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Rate expectations hardened further over the weekend: **Polymarket now prices a September Fed hold at about 66%** (up from ~50% before the jobs data), while the odds of any 2026 rate hike slid to **56% from a recent 77%**.",
+          "why": "Friday's surprise 23,000-payroll drop continues to reprice the policy path toward steady-to-easier, extending the shift that lifted stocks into the weekend.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/markets/2026-08-07-bitcoin-tops-65000-after-massive-surprise-us-jobs-miss-411154"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold extended its record run, **up about 7.5% this week** — outpacing Bitcoin (+4.6%) and the S&P 500 (+2.9%) since Monday.",
+          "why": "Weaker jobs data and rising Fed rate-cut expectations, alongside a softer dollar, fueled a broad haven and liquidity bid that favored non-yielding assets, with gold the standout.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/08/07/bitcoin-gold-and-stocks-rally-as-fed-rate-cut-hopes-rise/"
+        },
+        {
+          "emoji": "📈",
+          "detail": "A light earnings week (Super Micro, Applied Materials, Tapestry, Cardinal Health) sets up around the marquee macro double-header: **July CPI on Wednesday and July retail sales on Friday, Aug 14**.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/07/stock-market-next-week-outlook-for-aug-10-14-2026-.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Indian equities enter the new week riding a **second straight weekly gain**, with the Nifty 50 holding above its **50-, 100- and 200-week EMAs** and a **weekly RSI of 52.45** signaling that bullish momentum stays intact despite ongoing consolidation.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-aug-3rd-7th-2026/"
+        },
+        {
+          "emoji": "💵",
+          "detail": "Foreign inflows remain the structural prop beneath the recovery: FII buying that has reached **~$1.3 billion in August** (after $2.1 billion in July) has been aided by crude's retreat from the $90-plus danger zone toward **$83-85**.",
+          "why": "Sustained overseas appetite plus cooler oil have kept the medium-term uptrend intact even after Friday's private-bank-led dip, an ongoing continuation of last week's support.",
+          "sourceName": "Choice India",
+          "sourceUrl": "https://choiceindia.com/blog/indian-stock-market-prediction-for-next-week"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Next week's direction hinges on global cues — chiefly **US July CPI (Aug 12)** and crude prices — after an IT-sector resurgence and firm autos cushioned the financials-led weakness that closed out the prior week.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-aug-3rd-7th-2026/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin is consolidating just below resistance into the weekend, trading around **$64,718** (a $64,124-$65,312 range) after Friday's jobs-driven pop above $65K, while **Ether holds roughly $1,900-1,930**.",
+          "why": "With US markets shut, momentum has stalled at the well-defended $65,000 zone that has repeatedly capped BTC, leaving traders cautious ahead of a data-heavy week.",
+          "sourceName": "Bybit",
+          "sourceUrl": "https://www.bybit.com/en/price/bitcoin/"
+        },
+        {
+          "emoji": "◎",
+          "detail": "**Solana outperformed, spiking as high as $83.50** and holding above $80 after recovering from lows near $60 — its strongest levels since entering July around $67.",
+          "why": "Relentless US spot Solana-ETF demand, with positive net inflows on every July trading day and over $1 billion in cumulative flows since launch, has driven the outperformance.",
+          "sourceName": "Solana Compass",
+          "sourceUrl": "https://solanacompass.com/news/us-solana-etfs-log-positive-inflows-every-july-trading-day-as-tsol-moves-to-ftse-benchmark"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Crypto's tape is now firmly macro-led: with **September Fed-hold odds jumping to ~66%**, Bitcoin is **+4.6% since Monday**, moving in lockstep with gold (+7.5%) and stocks (+2.9%).",
+          "why": "Friday's weak payrolls reset rate expectations, leaving Fed policy and Wednesday's CPI — not crypto-specific news — as the swing factor for BTC and ETH.",
+          "sourceName": "Nexo",
+          "sourceUrl": "https://nexo.com/blog/markets-today-august-7"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "On the product and policy front, **21Shares' TSOL Solana fund will switch its pricing benchmark to the FTSE Digital Assets Index effective Aug 24**, while the stalled CLARITY Act keeps a federal crypto framework off the table until the Senate returns from recess on Sept 11.",
+          "sourceName": "Solana Compass",
+          "sourceUrl": "https://solanacompass.com/news/us-solana-etfs-log-positive-inflows-every-july-trading-day-as-tsol-moves-to-ftse-benchmark"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Friday's shock jobs miss remains the master switch, and its weekend echo is a broad liquidity-driven melt-up in non-yielding and risk assets alike — gold (+7.5% on the week) leading Bitcoin (+4.6%) and the S&P 500 (+2.9%) since Monday as September Fed-hold odds jump to ~66% — with all eyes now on Wednesday's July CPI, where an energy-driven headline jump toward 3.6% could test the market's freshly minted bet on a Fed that holds rather than hikes."
+}
