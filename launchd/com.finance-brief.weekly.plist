@@ -10,15 +10,17 @@
     <string>-lc</string>
     <string>export PATH="/usr/local/bin:$PATH"; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; . "$NVM_DIR/nvm.sh"; export FINANCE_BRIEF_PUBLISH=1; cd /Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief &amp;&amp; npm run brief:weekly</string>
   </array>
-  <!-- Runs Saturday at 08:20 (Weekday: 0/7=Sun, 1=Mon … 6=Sat), 20 min after
-       the 08:00 daily so Saturday's daily (Friday's close) is in the archive
-       and included in the weekly synthesis. Synthesizes the week's daily
-       briefs into a ≤3-bullet-per-section weekly wrap. -->
+  <!-- Runs Saturday at 08:05 (Weekday: 0/7=Sun, 1=Mon … 6=Sat), ~3 min after
+       the 08:00 daily (~100s run) so Saturday's daily (Friday's close) is in
+       the archive and included in the weekly synthesis. 08:05 keeps this
+       inside the single 07:58 pmset wake window so the Mac doesn't re-sleep
+       before it fires. Synthesizes the week's daily briefs into a
+       ≤3-bullet-per-section weekly wrap. -->
   <key>StartCalendarInterval</key>
   <dict>
     <key>Weekday</key><integer>6</integer>
     <key>Hour</key><integer>8</integer>
-    <key>Minute</key><integer>20</integer>
+    <key>Minute</key><integer>5</integer>
   </dict>
   <key>StandardOutPath</key>
   <string>/Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief/logs/launchd.weekly.out.log</string>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.finance-brief.daily</string>
+  <!-- Wrapped in `caffeinate -is` so that once the ~100s run starts it holds
+       the Mac awake to completion. Without it, a scheduled pmset wake only
+       lingers ~80s and the Mac re-sleeps mid-run. Pair with a pmset wake ~30s
+       before 08:00 (`sudo pmset repeat wakeorpoweron TWRFS 07:59:30`) so the
+       Mac is awake when launchd fires. On Saturday (`date +%u` == 6) the same
+       caffeinated session runs the weekly right after the daily, so a single
+       wake covers both and the weekly always sees Saturday's daily in the
+       archive. -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/caffeinate</string>
+    <string>-is</string>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>export PATH="/usr/local/bin:$PATH"; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; . "$NVM_DIR/nvm.sh"; export FINANCE_BRIEF_PUBLISH=1; cd /Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief &amp;&amp; npm run brief; if [ "$(date +%u)" = "6" ]; then npm run brief:weekly; fi</string>
+  </array>
+  <!-- Runs Tuesday–Saturday at 08:00 (Weekday: 0/7=Sun, 1=Mon … 6=Sat).
+       Each run reports the previous day's session, so Sun/Mon are skipped
+       (they'd report Sat/Sun, when equity markets are closed). -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Weekday</key><integer>2</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>3</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>4</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>5</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Weekday</key><integer>6</integer>
+      <key>Hour</key><integer>8</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>/Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief/logs/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief/logs/launchd.err.log</string>
+</dict>
+</plist>
