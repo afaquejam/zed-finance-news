@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T09:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "US stocks powered to fresh records in a banner week, with the **S&P 500 climbing roughly 3% to about 7,746** (its first all-time highs in two months) and the **Dow closing above 54,000 for the first time ever**, ending Friday at a record 54,349.",
+          "why": "A collapse in oil on Iran de-escalation early in the week and then a shock July payrolls miss that flipped Fed expectations from a September hike to a hold combined to fuel two distinct legs of risk-on buying."
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The AI-capex trade broadened but cracked: **Palantir rocketed ~29.5%** on 93% revenue growth and a record guidance raise and **Caterpillar jumped 5.6%** to a record, yet **AMD sank nearly 9% after-hours** despite record $11.54B revenue.",
+          "why": "Blowout AI-linked guidance from Palantir and Caterpillar validated the growth story and extended it into industrials, while AMD's soft outlook exposed how much AI upside is already priced in."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "A stunning July jobs report — the economy **shed 23,000 payrolls versus about +83,000 expected**, with wage growth slowing to 3.2% — swung rate futures from pricing a September hike to a **hold** ahead of the September 16 FOMC.",
+          "why": "Losses concentrated in local-government education and retail pointed to a genuinely cooling labor market, undercutting the case for further Fed tightening and reviving the easing hopes underpinning the rally."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Indian equities notched a **second straight weekly gain of about 1%**, with the Nifty 50 touching a five-month high near **24,774 midweek** before easing to close Friday at **24,570.65**.",
+          "why": "The early-week crude slide toward and below $80 eased India's import-bill and inflation worries, sustaining risk appetite even as an oil rebound to ~$83 clipped gains late in the week."
+        },
+        {
+          "emoji": "🚗",
+          "detail": "Leadership favored rate-sensitive cyclicals and exporters: **Nifty IT surged 2.68%** to open the week and the **Nifty Auto index rose 1.84%** on Friday, cushioning a private-bank-led selloff that dragged the index lower into the weekend.",
+          "why": "Cheaper crude directly lifts fuel-heavy autos and airlines while a firmer global tech tape revived the beaten-down IT sector, offsetting heavy selling in financials."
+        },
+        {
+          "emoji": "💰",
+          "detail": "Foreign buying became the structural support, with **FIIs net buyers of about $1.3 billion of Indian equities in August so far**, following roughly **$2.1 billion in July**.",
+          "why": "Firmer global risk sentiment and India's improving inflation backdrop drew sustained overseas inflows that underwrote the recovery even as domestic funds booked profits."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto ground higher through the week, with **Bitcoin rising from about $62,643 on Monday to roughly $65,144 by Friday** (~+4%) and **Ether climbing to about $1,929**, after initially sitting out the equity rally.",
+          "why": "The weak July jobs report boosted expectations that the Fed holds rather than hikes, pushing money back into risk assets and finally pulling crypto into the risk-on move."
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF thaw accelerated: US spot **Bitcoin ETFs pulled in over $750 million this week** — a third straight week of net inflows — though 2026 flows remained net negative at about **$5.2 billion**.",
+          "why": "A steady return of institutional demand after months of record outflows provided consistent price support beneath the recovery, slowly refilling the year's outflow hole."
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The **CLARITY Act was formally sidelined** as the Senate left for recess without a floor vote, with the chamber out from August 10 to September 11 and passage odds still low near 31%.",
+          "why": "With no near-term regulatory catalyst, crypto's direction was left hostage to the same jobs-and-rates narrative driving equities rather than any crypto-specific news."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The market's master switch rotated from oil to the Fed: an early-week crude collapse on Iran de-escalation lifted equities, but a shock July jobs report that flipped rate expectations from a September hike to a hold became the dominant driver, powering record US stocks, a second weekly Nifty gain, and a crypto rally together by Friday."
+}
