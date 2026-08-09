@@ -107,5 +107,7 @@ Rules:
 - Only include a `sourceUrl` you actually have (reuse one from the daily briefs
   or a real search result) — never fabricate a link. Omit the field rather than
   guess. Same discipline for `why`.
-- `date` should be today's date (the Saturday the weekly is generated).
+- `date` should be the **Sunday that ends the week** being wrapped. (The
+  pipeline overrides this field with that Sunday regardless, since the page is
+  filed under it — but return it correctly anyway.)
 - Do not include any text outside the JSON object in your final response.

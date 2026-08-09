@@ -91,7 +91,11 @@
     color: var(--md-sys-color-on-surface);
   }
   h1 .date { color: var(--md-sys-color-primary); }
-  /* ---------- Chip navs (7-day + weekly wraps, MD3 chips) ---------- */
+  /* ---------- Day nav (the only nav: 7 rolling days, MD3 chips) ----------
+     One chip per published date. Tue–Sat are dailies; the Sunday chip is that
+     week's wrap and the Monday chip the week-ahead outlook, both flagged by a
+     third `.kind` line. `align-items: stretch` (the flex default) keeps the
+     two- and three-line chips the same height. */
   nav.chip-nav {
     display: flex;
     gap: 8px;
@@ -101,12 +105,12 @@
     scrollbar-width: none;
   }
   nav.chip-nav::-webkit-scrollbar { display: none; }
-  nav.week-nav { padding-top: 4px; margin-bottom: 12px; }
   .chip {
     flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     min-width: 64px;
     padding: 8px 14px;
     border-radius: 16px;
@@ -119,12 +123,22 @@
   .chip:hover { background: var(--md-sys-color-surface-container-high); }
   .chip .dow { font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
   .chip .dom { font-size: 0.9375rem; font-weight: 600; white-space: nowrap; }
+  .chip .kind {
+    margin-top: 2px;
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--md-sys-color-primary);
+  }
   .chip.active {
     background: var(--md-sys-color-primary-container);
     border-color: transparent;
     color: var(--md-sys-color-on-primary-container);
     pointer-events: none;
   }
+  .chip.active .kind { color: inherit; opacity: 0.75; }
 
   /* ---------- Section cards ---------- */
   section.brief-section {
@@ -248,19 +262,14 @@
   </div>
 
   <div class="wrap">
-    <nav class="chip-nav day-nav" aria-label="Last 7 days">
+    <nav class="chip-nav day-nav" aria-label="Recent briefs">
+      <a class="chip" href="finance-brief-weekly-2026-08-09.html"><span class="dow">Sun</span><span class="dom">Aug 9</span><span class="kind">Wrap</span></a>
       <a class="chip" href="finance-brief-2026-08-08.html"><span class="dow">Sat</span><span class="dom">Aug 8</span></a>
       <a class="chip" href="finance-brief-2026-08-07.html"><span class="dow">Fri</span><span class="dom">Aug 7</span></a>
       <a class="chip" href="finance-brief-2026-08-05.html"><span class="dow">Wed</span><span class="dom">Aug 5</span></a>
       <a class="chip" href="finance-brief-2026-08-04.html"><span class="dow">Tue</span><span class="dom">Aug 4</span></a>
+      <a class="chip" href="finance-brief-weekly-2026-08-02.html"><span class="dow">Sun</span><span class="dom">Aug 2</span><span class="kind">Wrap</span></a>
       <a class="chip" href="finance-brief-2026-08-01.html"><span class="dow">Sat</span><span class="dom">Aug 1</span></a>
-      <a class="chip" href="finance-brief-2026-07-30.html"><span class="dow">Thu</span><span class="dom">Jul 30</span></a>
-      <span class="chip active" aria-current="date"><span class="dow">Wed</span><span class="dom">Jul 29</span></span>
-    </nav>
-
-    <nav class="chip-nav week-nav" aria-label="Weekly wraps">
-      <a class="chip" href="finance-brief-weekly-2026-08-08.html"><span class="dow">Week</span><span class="dom">Aug 3 – Aug 8, 2026</span></a>
-      <a class="chip" href="finance-brief-weekly-2026-08-02.html"><span class="dow">Week</span><span class="dom">Jul 27 – Aug 2, 2026</span></a>
     </nav>
 
     <section class="brief-section" id="sp500">

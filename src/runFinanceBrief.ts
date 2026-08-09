@@ -1,11 +1,10 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { FinanceBrief } from "./types.js";
-import { renderFinanceBriefHtml } from "./render.js";
+import { renderSite } from "./site.js";
 import {
   OUTPUT_DIR,
-  TEMPLATE_PATH,
-  listWeeklyDates,
+  briefBaseName,
   formatBriefForPrompt,
   loadArchivedBriefs,
   parseBrief,
@@ -65,35 +64,14 @@ async function main() {
 
   // Persist today's brief as JSON so pages can be re-rendered later when the
   // template changes (the JSON is the source of truth, HTML is derived).
-  const jsonPath = path.join(OUTPUT_DIR, `finance-brief-${brief.date}.json`);
+  const jsonPath = path.join(OUTPUT_DIR, `${briefBaseName("daily", brief.date)}.json`);
   await writeFile(jsonPath, JSON.stringify(brief, null, 2), "utf-8");
   console.log(`[finance-brief] wrote ${jsonPath}`);
 
-  // Merge today's brief with the archive loaded earlier (today's copy wins on
-  // date collision — today's JSON is the only file added since that load), then
-  // re-render every page so the whole archive shares the current design and an
-  // up-to-date 7-day nav.
-  const byDate = new Map<string, FinanceBrief>();
-  for (const b of archived) byDate.set(b.date, b);
-  byDate.set(brief.date, brief);
-
-  const allBriefs = [...byDate.values()].sort((a, b) => b.date.localeCompare(a.date));
-  const availableDates = allBriefs.map((b) => b.date);
-
-  // Every daily page carries the week-nav so any weekly wrap is reachable.
-  const availableWeeks = await listWeeklyDates(OUTPUT_DIR);
-
-  for (const b of allBriefs) {
-    const html = await renderFinanceBriefHtml(b, TEMPLATE_PATH, availableDates, { availableWeeks });
-    await writeFile(path.join(OUTPUT_DIR, `finance-brief-${b.date}.html`), html, "utf-8");
-  }
-  console.log(`[finance-brief] re-rendered ${allBriefs.length} page(s)`);
-
-  // latest.html + index.html mirror the newest brief (today's).
-  const latestHtml = await renderFinanceBriefHtml(brief, TEMPLATE_PATH, availableDates, { availableWeeks });
-  await writeFile(path.join(OUTPUT_DIR, "latest.html"), latestHtml, "utf-8");
-  await writeFile(path.join(OUTPUT_DIR, "index.html"), latestHtml, "utf-8");
-  console.log(`[finance-brief] wrote latest.html + index.html`);
+  // Re-render the whole site from the persisted JSON (today's included) so the
+  // archive shares the current design and an up-to-date day-nav, and
+  // index.html points at today's brief.
+  await renderSite();
 
   publishToGit(`Finance brief ${brief.date}`);
 }
