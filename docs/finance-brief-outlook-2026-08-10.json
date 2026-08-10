@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T05:19:12Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "**Wednesday's July CPI** (8:30am ET) is the week's dominant event, with forecasts near **3.4% headline and roughly 2.5% core year-over-year** after June's 3.5% headline, and **July PPI follows Thursday**.",
+          "why": "Friday's payrolls miss flipped September pricing from a hike to a hold, so a hot CPI or PPI would put the hike case back on the table and hit the rate-sensitive megacaps that drove the index to its 7,746 record, while another cool print would validate the melt-up.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/aug-12-inflation-report-could-140522541.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Q2 earnings thin out but the AI-capex tape gets two checks: **Cisco reports Q4 FY26 after Wednesday's close** and **Applied Materials reports Thursday after the close**.",
+          "why": "AMD's nearly 9% after-hours drop on soft guidance despite record revenue showed how much AI upside is already priced in, so networking and semi-equipment order commentary is the cleanest test of whether the capex story broadens or narrows further.",
+          "sourceName": "StockTitan",
+          "sourceUrl": "https://www.stocktitan.net/news/CSCO/cisco-schedules-conference-call-for-q4-fiscal-year-2026-financial-0zudiuy5r6d8.html"
+        },
+        {
+          "emoji": "🛒",
+          "detail": "**Friday brings July retail sales**, expected up about **0.2%** in line with June, alongside the preliminary August University of Michigan sentiment reading.",
+          "why": "With payrolls now shrinking, retail sales is the market's next read on whether the consumer is cracking too — a soft print would deepen the growth scare that a Fed-hold rally cannot indefinitely paper over.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "**India's July CPI lands Wednesday**, with June's print at **4.38%** and ICRA looking for a hardening toward roughly **4.6%** as the Middle East energy shock feeds through to transport and food prices.",
+          "why": "An upside surprise would strengthen the minority case that the RBI's next move is a hike rather than a hold, pressuring the private banks that already led Friday's selloff and threatening the 24,400 support the index needs to hold.",
+          "sourceName": "Reuters via U.S. News",
+          "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-07-13/indias-retail-inflation-accelerates-to-4-38-raising-rate-hike-expectations"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "**Friday, August 14 is the SEBI deadline** for June-quarter results, with thousands of companies still to report and **Grasim Industries reporting Wednesday**; **July WPI also releases Friday** after June's 9.87%.",
+          "why": "A deadline-week flood of Q1 FY27 numbers concentrates single-stock risk into a few sessions, and with Nifty 50 earnings so far showing healthy revenue but softer profit growth, the aggregate margin picture decides whether the two-week rally has fundamental backing.",
+          "sourceName": "PIB India",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284374&reg=48&lang=1"
+        },
+        {
+          "emoji": "💵",
+          "detail": "Foreign flows go in as the structural bid, with **FIIs net buyers of about ₹2,887 crore in the cash market so far in August**, while crude's rebound to roughly $83 and US–Iran talks remain the swing factor.",
+          "why": "The FII bid is the mechanism holding the index above 24,400, and it is a derivative of global risk appetite and cheap oil — a hot US CPI or a crude spike on Hormuz headlines would reverse both at once and stall the push toward the 24,774 breakout level.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/trading/week-ahead-inflation-data-q1-earnings-us-iran-peace-talks-fi-is-activity-among-key-market-triggers-to-watch/article-198346/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "With Bitcoin entering near **$65,144** and Ether still capped below **$2,000**, **Wednesday's US CPI is the week's only first-tier catalyst** — there is no crypto-specific scheduled event to compete with it now that the Senate is in recess until September 11.",
+          "why": "Crypto only joined last week's rally once the payrolls miss shifted the Fed toward a hold, so it is trading as a pure duration asset — a hot CPI hits it harder than equities, and a cool one is the most likely route to Ether reclaiming $2,000.",
+          "sourceName": "Kraken",
+          "sourceUrl": "https://blog.kraken.com/economic-brief/august-5-2026"
+        },
+        {
+          "emoji": "🔓",
+          "detail": "**Monday delivers a cliff unlock of roughly $471.6 million in RAIN**, about **3.23% of supply** and the single largest token unlock of August, landing at the end of a concentrated three-day stretch that also included STABLE and ADI.",
+          "why": "Cliff unlocks add immediate float that has to be absorbed, so an outsized drop would signal thin altcoin bids beneath the majors, while a contained response would suggest real demand has returned rather than just ETF-driven Bitcoin buying.",
+          "sourceName": "BeInCrypto",
+          "sourceUrl": "https://beincrypto.com/august-week-1-token-unlocks/"
+        },
+        {
+          "emoji": "📈",
+          "detail": "Watch the daily spot ETF flow prints for a **fourth consecutive week of net inflows** after last week's **$750 million-plus**, against 2026 flows still net negative at about **$5.2 billion** and Ether products bleeding while Bitcoin gathers.",
+          "why": "Institutional buying, not retail, has been the marginal price support through this recovery, so a flow reversal on a hot CPI would remove the bid that has underwritten the move off the lows — and the Bitcoin-in, Ether-out split shows the rebound is far narrower than the headline number suggests.",
+          "sourceName": "EdgeX",
+          "sourceUrl": "https://pro.edgex.exchange/en-US/news/article/bitcoin-etf-inflows-august-2026"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Wednesday, August 12 is the hinge for all three markets: US July CPI at 8:30am ET will either confirm or reverse the shift from a September hike to a hold that powered last week's records, and India's own July CPI prints the same day — a hot US number simultaneously threatens the rate-sensitive megacaps at 7,746, the foreign bid holding the Nifty above 24,400, and crypto's rate-driven bounce off the lows."
+}
