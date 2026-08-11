@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T05:19:02Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🛢️",
+          "detail": "The record chase stalled on Monday: the **S&P 500 slipped 0.06% to 7,753.11**, the Nasdaq fell 0.32% to 26,605.36 and the Dow lost 61 points to 53,975.98, as **WTI crude surged about 5% to $82.13** and Brent settled near **$87.72**.",
+          "why": "Hopes for a US-Iran deal to reopen the Strait of Hormuz faded after Trump said Washington is 'only semi-negotiating' and the Revolutionary Guards refused to reopen the strait absent an end to the naval blockade, pushing oil up roughly 9% over three sessions and reviving inflation worries.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "**Intel was the session's standout laggard, sliding roughly 4-5% toward $97**, after unveiling a **$15 billion common stock offering** — its first public share sale since listing in 1971 — with a 30-day underwriter option for $2.25 billion more.",
+          "why": "Investors balked at the dilution required to fund Intel's AI-driven capital expenditure push, even as peers AMD, Nvidia and Broadcom held comparatively steady.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-10/intel-selling-15-billion-in-common-stock-to-fund-growth"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The CPI setup has softened materially from the weekend's alarm: consensus now centres on **July headline CPI of 3.4% year-on-year** (from 3.5% in June) with just a **+0.1% monthly** print, and **core CPI easing to 2.5%** — well below the ~3.6% headline figures circulating before the week began.",
+          "why": "Gasoline prices fell early in July as oil dropped on Iran de-escalation optimism and only turned higher late in the month, leaving petrol on track for a 2-3% net decline in the CPI basket despite the current crude spike.",
+          "sourceName": "Morningstar",
+          "sourceUrl": "https://www.morningstar.com/economy/july-cpi-expected-bounce-back-after-unexpected-june-inflation-decline"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Prediction markets are pricing a benign print into Wednesday: **Kalshi puts sub-55% odds on CPI above 3.3%** and only **15% on a reading above 3.4%**, while CME FedWatch still shows roughly **50-50 odds between a hike and a hold** next month.",
+          "why": "Friday's payrolls shock continues to anchor rate expectations lower, but Monday's oil spike has stopped the dovish repricing from extending further, leaving the policy path genuinely two-sided into the data.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/10/crucial-cpi-report-will-show-tame-inflation-prediction-markets-show.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "With the earnings calendar thin, the week's risk is concentrated in two prints: **July CPI on Wednesday, Aug 12** and **July retail sales on Friday, Aug 14** — now read through the lens of a crude market back near three-month highs."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "⚖️",
+          "detail": "Indian benchmarks ground out a flat Monday after a choppy session: the **Nifty 50 added 13.15 points (+0.05%) to 24,583.80** and the **Sensex rose 43.27 points (+0.06%) to 78,542.44**, with midcaps outperforming and smallcaps closing lower.",
+          "why": "Strong Q1 corporate earnings and the tailwind from soft US jobs data were offset almost exactly by elevated crude oil prices and heavy selling in public-sector banks.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-10-august-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-q1-result-share-market-today-126081000044_1.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The drag was concentrated in state lenders: the **Nifty PSU Bank index fell 1.67% to 8,639.8**, with **Bank of India -2.76%, SBI -2.39% and Canara Bank -2.24%**, while **Nifty Realty led gains at +1.35%** and Titan, Tata Consumer and Bajaj Finance topped the Nifty.",
+          "why": "Rising crude and firmer global yields squeezed rate-sensitive PSU bank valuations, while consumption and realty names drew rotation from investors positioning for domestic demand rather than global cycle exposure.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/quick-wrap-nifty-psu-bank-index-declines-1-67-126081001292_1.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The crude cushion that supported India's July-August recovery has thinned sharply — **Brent is back at roughly $87.72** after Monday's ~5% jump, versus the **$83-85** zone that had been aiding the market's medium-term uptrend.",
+          "why": "The collapse in Strait of Hormuz deal expectations directly worsens the import bill and inflation math for a country sourcing over 85% of its oil abroad, which is why energy prices, not domestic news, capped Monday's upside.",
+          "sourceName": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/economy/2026/8/10/oil-prices-climb-as-iranian-demands-cloud-outlook-for-strait-of-hormuz"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Tuesday's setup is defensive: **GIFT Nifty pointed slightly lower** into the open, with persistent **FII selling** expected to cap rallies while robust DII inflows cushion declines, ahead of India's own **July CPI print due Aug 12** — following June retail inflation of **4.38%**, the highest since December 2024.",
+          "why": "Traders are unwilling to commit ahead of the US CPI release the same day, leaving domestic flows and crude as the only near-term swing factors.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/blog/sensex-nifty-stock-market-live-updates-august-11-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin lost the $65,000 level it had defended for four straight days, **slipping to around $64,000-64,090** — a break below the range it held all weekend — while **Ether stalled at roughly $1,908-1,913**, unable to clear $1,900 decisively.",
+          "why": "Monday's oil-driven inflation scare cut short the post-payrolls risk bid, and Strategy's disclosure of a fresh bitcoin sale removed the market's most reliable structural buyer at exactly the moment momentum was fading.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "**Strategy sold 1,690 BTC between Aug 3 and Aug 9 at an average $64,262**, raising **$108.6 million** — a realized loss of about **$18.8 million** against its **$75,385 average cost basis** — and used the proceeds to buy back 1,152,020 STRC preferred shares, lifting its dollar reserve to **$4.65 billion**.",
+          "why": "With BTC trading roughly 15% below Strategy's cost basis, the company is liquidating coin to defend its STRC preferred near par rather than accumulate, marking a decisive shift from buyer to seller for the largest corporate holder.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/business/2026-08-10-michael-saylor-strategy-bitcoin-treasury-411237"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Solana has given back most of last week's breakout, **falling to roughly $76** from the **$83.50** spike it printed into the weekend, as SOL futures volume **dropped 14% to $3.66 billion**.",
+          "why": "The relentless spot-ETF bid that drove the outperformance has stalled — August flows have turned patchy, including a net outflow of about $859,450 on Aug 6 and zero net inflows on Aug 3 and Aug 5 — leaving no buyer to absorb thinning retail demand.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/price-prediction/solana-price-prediction-sol-etf-inflows-august"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "US spot bitcoin ETFs remain the tape's one unambiguous positive: **roughly $865 million of net inflows between Aug 3 and Aug 7** and **zero net-outflow days so far in August**, with BTC and ETH funds together pulling in about **$1.1 billion** in the month's first full trading week.",
+          "why": "Institutional allocators have kept buying through the chop on the view that a softening labour market caps the Fed's hiking path, decoupling fund flows from spot price action.",
+          "sourceName": "EdgeX",
+          "sourceUrl": "https://pro.edgex.exchange/en-US/news/article/bitcoin-etf-inflows-august-2026"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The CLARITY Act's failure is now quantified: the Senate **mustered only 51 of the 60 votes needed** before the August recess, pushing any federal crypto market-structure framework to **Sept 14 at the earliest**.",
+          "why": "Nine votes short is a wider gap than the market had assumed, converting what traders treated as a timing delay into a genuine question over whether the bill passes this Congress at all.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/10/live-updates-btc-above-usd65-000-even-as-the-senate-punts-the-clarity-act-to-the-fall"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil has taken over from Friday's payrolls as the master switch: WTI's ~5% jump to $82.13 on collapsing Strait of Hormuz deal hopes is an inflation shock working through all three markets at once — it stalled the S&P 500's record run and hit chips, capped the Nifty by worsening India's import-cost and rate math while PSU banks sold off, and knocked Bitcoin back below $65,000 by cutting short the post-jobs risk bid, with Wednesday's July CPI (consensus 3.4%) now the release that decides whether the energy spike is judged transitory or a reason for the Fed to stay hawkish."
+}
