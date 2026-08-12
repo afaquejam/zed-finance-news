@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "generatedAt": "2026-08-12T06:30:00Z",
+  "generatedAt": "2026-08-12T07:20:00Z",
   "sections": [
     {
       "key": "sp500",
@@ -8,38 +8,37 @@
       "items": [
         {
           "emoji": "📉",
-          "detail": "The drift lower became a second straight decline on Tuesday: the **S&P 500 fell 24.91 points (-0.3%) to 7,728.20**, the **Nasdaq dropped 159.91 points (-0.6%) to 26,445.45** and the **Dow lost 184.13 points to 53,791.85**, leaving the index two sessions removed from last week's record high.",
-          "why": "The US-Iran standoff hardened rather than eased, with Trump rebuking Tehran's demand for war reparations and saying he would wait for economic pressure to build, so traders pared risk into Wednesday's CPI rather than chase the record.",
-          "sourceName": "Washington Post / AP",
-          "sourceUrl": "https://www.washingtonpost.com/business/2026/08/11/wall-street-stocks-dow-nasdaq/cd13af98-95c1-11f1-9ef9-1be722184483_story.html"
-        },
-        {
-          "emoji": "🤖",
-          "detail": "The AI-capex funding worry rotated from Intel to Alphabet, which **sank 3.61%** to lead megacap losses after closing a **$25 billion senior notes offering** on Aug 10 and guiding 2026 capital expenditure to **$195-205 billion**, with quarterly capex doubling year-on-year to $44.9 billion.",
-          "why": "Alphabet's data-centre buildout has pushed free cash flow negative for the first time and is now being funded with debt, extending the same dilution-and-leverage anxiety that hit Intel's $15 billion share sale a day earlier across the AI complex.",
-          "sourceName": "TradingKey",
-          "sourceUrl": "https://www.tradingkey.com/news/market-movers/262096865-market-movers-googl-20260811"
-        },
-        {
-          "emoji": "🛢️",
-          "detail": "Crude extended its climb rather than mean-reverting: **Brent hovered near $89** and **WTI settled around $83**, up again from Monday's $87.72 and $82.13, taking oil to roughly a three-month high.",
-          "why": "Iran reiterated it will keep the Strait of Hormuz shut until its demands are met, removing the near-term reopening premium traders had priced and leaving the supply disruption open-ended.",
+          "detail": "Monday's stall became a genuine two-day slide: the **S&P 500 fell 0.32% to 7,728.20**, the **Nasdaq dropped 0.60% to 26,445.45** and the **Dow lost 184.13 points to 53,791.85** — back-to-back losses that leave the index roughly 30 points below its Aug 7 record.",
+          "why": "The US-Iran standoff over reopening the Strait of Hormuz intensified rather than resolved, with Trump demanding Tehran pay reparations in response to Iranian weekend demands, and traders refused to add risk into Wednesday's inflation print.",
           "sourceName": "Yahoo Finance",
           "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html"
         },
         {
+          "emoji": "🤖",
+          "detail": "The drag rotated out of chips and into megacap AI: **Alphabet slid 3.6%** — its fourth decline in five sessions — while the **Philadelphia Semiconductor Index actually bucked the tape and rose**, a clean reversal of Monday's Intel-led chip weakness.",
+          "why": "Investors are re-pricing Alphabet's AI bill after it lifted 2026 capital expenditure guidance to $195-205 billion from $180-190 billion and closed a $25 billion senior notes offering with maturities stretching to 2066 to fund data-centre buildout.",
+          "sourceName": "BigGo Finance",
+          "sourceUrl": "https://finance.biggo.com/news/f2c0045f-afdb-4ea1-86d5-cf50989de33f"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The energy squeeze has not paused — **Brent is holding above $89 a barrel** after a fifth consecutive session of gains, taking the run to roughly **12% over five days** and pushing crude decisively above Monday's $87.72 settle.",
+          "why": "Signals on a Hormuz deal are contradictory — Pakistan's defence minister says Washington and Tehran are close to an arrangement and Iran-Oman talks are advanced, but Trump's reparations demand cuts the other way, so the risk premium keeps building rather than unwinding.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/10/oil-prices-today-brent-wti-hormuz-trump-iran.html"
+        },
+        {
           "emoji": "🏦",
-          "detail": "September hike odds have swung dovish into the print: one read now puts the probability of a **September hike at 46%, down from 67% a week earlier**, while **Polymarket prices just 36%** for a 25bp move versus 63% for no change — a shift from Monday's 50-50 CME FedWatch split.",
-          "why": "Last Friday's weak payrolls continue to dominate the rate path, and traders judge that an oil-driven energy spike arriving after the July survey period will not by itself force the Fed's hand next month.",
-          "sourceName": "Bloomingbit",
-          "sourceUrl": "https://en.bloomingbit.io/feed/news/118062"
+          "detail": "Today's **8:30am ET July CPI** is now explicitly a referendum on the September FOMC: consensus is **3.4% headline year-on-year** (from 3.5%) and **core at 2.5%**, and an upside surprise would hand Fed Chair **Kevin Warsh** the case to raise rates at the **Sept 15-16** meeting.",
+          "why": "Warsh has signalled he is prepared to vote for a hike if inflation runs above expectations and Governor Lisa Cook has publicly backed the same position, so the print lands on a committee already leaning hawkish despite last Friday's weak payrolls.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/aug-12-inflation-report-could-140522541.html"
         },
         {
           "emoji": "📊",
-          "detail": "July CPI lands **Wednesday at 8:30am ET**, with consensus at **+0.1% m/m (3.4% y/y)** headline and **+0.2% m/m (2.5% y/y)** core, though Kalshi traders lean lower at **3.3%** — followed by July retail sales on Friday, Aug 14.",
-          "why": "The July data predates the current crude spike, so the print is being read less as a verdict on today's oil shock than as the last clean inflation reading before it feeds through.",
-          "sourceName": "Newsquawk",
-          "sourceUrl": "https://www.newsquawk.com/headlines/preview-us-cpi-due-wednesday-12th-august-2026-at-1330bst0830edt"
+          "detail": "Futures are pointing to a cautiously higher open ahead of the data — **S&P 500 futures +0.11%**, **Nasdaq-100 futures +0.25%** — with **Cisco, Nebius Group and Cerebras Systems** the notable earnings in an otherwise thin calendar before Friday's July retail sales.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/prediction-markets/26/08/61132537/stock-market-will-sp-500-open-up-or-down-today-14"
         }
       ]
     },
@@ -49,38 +48,38 @@
       "items": [
         {
           "emoji": "📉",
-          "detail": "Monday's flat hold gave way to an outright decline: the **Nifty 50 lost 112.10 points (-0.46%) to 24,471.70**, closing below 24,500, while the **Sensex fell 388.19 points (-0.49%) to 78,154.25** and **Bank Nifty dropped 240.70 points (-0.42%) to 57,446.25**.",
-          "why": "Crude's push toward $90 a barrel combined with renewed weakness in financials and a softer rupee, turning the previous session's crude-versus-earnings standoff decisively in favour of the energy headwind.",
-          "sourceName": "Liquide",
-          "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-falls-388-points-nifty-ends-below-24-500-pharma-leads-as-dr-reddys-eternal-rally-fmcg-realty-drag/"
+          "detail": "Monday's flat finish gave way to a decisive down day: the **Nifty 50 lost 112.10 points (-0.46%) to 24,471.70**, the **Sensex fell 388.19 points (-0.49%) to 78,154.25** and **Bank Nifty slipped 240.70 points (-0.42%) to 57,446.25**, with pharma and IT the only real outperformers against weakness in FMCG, realty and metals.",
+          "why": "A further leg higher in crude, weakness across financials and a softer rupee combined to overwhelm the earnings support that had held the index flat a day earlier.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/bse-nse-sensex-august-11-2026-close-report-sensex-nifty-decline-as-oil-financials-weigh-on-benchmarks"
         },
         {
-          "emoji": "💊",
-          "detail": "Sector leadership flipped from Monday's realty-led tape to defensives: **pharma and IT outperformed** while **FMCG, realty and metals lagged**, with **Dr Reddy's Laboratories rising 4.06% to ₹1,205.80** and Eternal adding 2.03% to ₹316.55 ahead of TCS.",
-          "why": "With crude and the currency both moving against domestic cyclicals, investors rotated into dollar-earning exporters like pharma and IT, which benefit from a weaker rupee rather than being squeezed by it.",
-          "sourceName": "Liquide",
-          "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-falls-388-points-nifty-ends-below-24-500-pharma-leads-as-dr-reddys-eternal-rally-fmcg-realty-drag/"
-        },
-        {
-          "emoji": "💱",
-          "detail": "The currency has now joined crude as a drag — the **rupee closed near ₹95.44 per dollar, down 14 paise**, as Brent pushed toward the **$90** mark from Monday's $87.72.",
-          "why": "A sustained crude bid directly widens India's import bill for a country sourcing over 85% of its oil abroad, and the rupee is absorbing that deterioration in the trade math, compounding the inflation impulse rather than cushioning it.",
-          "sourceName": "Liquide",
-          "sourceUrl": "https://blog.liquide.life/share-market-today-sensex-falls-388-points-nifty-ends-below-24-500-pharma-leads-as-dr-reddys-eternal-rally-fmcg-realty-drag/"
-        },
-        {
-          "emoji": "🏦",
-          "detail": "India's own July CPI is due **today, Aug 12**, with a Reuters poll of 40 economists at **4.50%** (up from June's 4.38%) and a Mint poll of 18 at an unchanged **4.4%** — a second straight month above the RBI's 4% target, with forecasts spanning 3.96% to 5.50%.",
-          "why": "Higher food prices account for most of the expected upward pressure, and a second consecutive overshoot of the RBI's medium-term target narrows the room for policy support just as external cost pressure builds.",
+          "emoji": "💻",
+          "detail": "Wednesday's session has broken down badly from a firm start: the Sensex opened **up 109 points at 78,263.33** but was **down 601 points (-0.77%) at 77,552.93** by noon, with the **Nifty off 191 points at 24,280.95** and **Nifty IT falling 2%** as TCS and Infosys led the decline.",
+          "why": "Crude near $90 kept pressure on the import bill while investors cut exposure to dollar-earning IT names ahead of the US CPI release later in the day, turning an opening bounce into the steepest intraday drop of the week.",
           "sourceName": "Business Standard",
-          "sourceUrl": "https://www.business-standard.com/economy/news/indian-july-consumer-inflation-likely-edged-higher-on-food-prices-poll-126080701013_1.html"
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-12-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-q1-results-today-ipo-126081200071_1.html"
         },
         {
-          "emoji": "📊",
-          "detail": "Flows turned marginally supportive but thin: **FPIs bought ₹258.55 crore** and **DIIs ₹24.77 crore** on Aug 11, and **GIFT Nifty at roughly 24,550.5** — a 10-point premium — points to a flat open, with the **78,000-77,800 Sensex zone** flagged as the level that must hold.",
-          "why": "Foreign buying returned in modest size after recent selling, but position sizes stayed small with both the Indian and US CPI prints landing on the same day.",
+          "emoji": "🚪",
+          "detail": "**Godrej Consumer Products crashed 10% to ₹916.20**, a 52-week low and its worst day since December 2024, after the abrupt resignation of MD and CEO **Sudhir Sitapati**, with global CFO **Aasif Malbari** appointed MD & CEO effective immediately.",
+          "why": "The exit was unannounced and unexplained to the market, and coming with the stock already about 30% below its ₹1,308.40 52-week high it raised immediate questions about strategy continuity rather than being read as a routine succession.",
           "sourceName": "Business Standard",
-          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/gift-august-suggests-flat-start-to-equities-on-d-street-126081200201_1.html"
+          "sourceUrl": "https://www.business-standard.com/markets/news/godrej-consumer-products-ceo-sitapati-s-exit-triggers-10-slide-in-share-price-126081200366_1.html"
+        },
+        {
+          "emoji": "💰",
+          "detail": "The FII picture is better than the tape suggests and has flipped from the selling narrative: foreign investors have **bought a net $1.5 billion of Indian equities in August so far**, following **$2.1 billion of inflows in July** — though they remain net sellers of a record **$25.7 billion in 2026**.",
+          "why": "Softening US rate expectations after the July payrolls miss have pulled foreign money back into Indian equities over the past six weeks, meaning the current weakness is being driven by crude and stock-specific shocks rather than by foreign outflows.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/bse-nse-sensex-august-11-2026-close-report-sensex-nifty-decline-as-oil-financials-weigh-on-benchmarks"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **July retail inflation lands today**, with a Reuters poll centring on **4.50%** and a Mint poll on an unchanged **4.4%** versus June's **4.38%** — either outcome would be a second straight month above the RBI's 4% medium-term target.",
+          "why": "Forecasters expect food inflation to broaden across key items while the delayed pass-through of the Middle East energy shock continues to lift transport costs, leaving the risks tilted to the upside.",
+          "sourceName": "TradingView / Mint",
+          "sourceUrl": "https://www.tradingview.com/news/moodys:f8339b24665eb:0-india-retail-inflation-likely-remained-unchanged-at-4-4-in-july-mint-poll/"
         }
       ]
     },
@@ -90,41 +89,40 @@
       "items": [
         {
           "emoji": "₿",
-          "detail": "Bitcoin's slide extended a third session, **dipping 0.7% to about $63,394** after a morning push to $64,400 failed, while **Ether fell 2.8% to roughly $1,874** — a fresh break below the $1,900 level it was defending on Monday.",
-          "why": "A failed intraday rally triggered $34.4 million in long liquidations, and Bitfinex points to 1.79 million BTC of overhead supply pinning the market in a $62,000-$65,000 band with no catalyst to break it before CPI.",
-          "sourceName": "News.Bitcoin.com",
-          "sourceUrl": "https://news.bitcoin.com/market-updates/bitcoin-stalls-at-63400-as-etfs-outpace-network-issuance/"
+          "detail": "The break below $65,000 has extended rather than stabilised: **Bitcoin fell about 1.69% to roughly $63,907** on Tuesday and has slipped further to around **$63,495** overnight, while **Ether has now lost $1,900** outright after failing to clear it for days.",
+          "why": "Traders cut risk ahead of the US CPI release, and Brent pushing above $89 on the collapse in Hormuz deal optimism revived exactly the inflation fear that has been capping crypto since the weekend.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/bitcoin-price-falls-2-as-cpi-puts-63-9k-at-risk/"
         },
         {
-          "emoji": "🔻",
-          "detail": "The ETF bid — the tape's one unambiguous positive in Monday's brief — has broken: US spot bitcoin ETFs **shed $144.67 million**, ending a five-session streak that had drawn **$853.5 million**, with **BlackRock's IBIT alone losing $53.56 million** alongside Grayscale's GBTC.",
-          "why": "The first net-outflow day of August removes the structural buyer that had been absorbing spot weakness, meaning institutional flows have stopped decoupling from price and are now confirming it.",
-          "sourceName": "News.Bitcoin.com",
-          "sourceUrl": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-shed-144-67m-as-5-day-inflow-streak-breaks/"
+          "emoji": "⚡",
+          "detail": "The move was amplified by forced selling rather than fresh distribution — roughly **$49.6 million of bitcoin liquidations**, of which more than **$47 million were long positions**, were wiped out on the rejection at $65,000.",
+          "why": "Leverage had built up on the assumption that $65,000 would hold as support after four sessions of defending it, so the break flushed crowded longs and accelerated the decline beyond what spot selling alone would have produced.",
+          "sourceName": "Sunday Guardian Live",
+          "sourceUrl": "https://sundayguardianlive.com/business/bitcoin-price-today-august-11-why-is-bitcoin-btc-down-today-65k-resistance-pre-cpi-caution-and-long-liquidations-pressure-btc-check-latest-prices-in-usd-inr-gbp-euro-jpy-258741/"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Solana's ETF drought has broken: spot SOL funds took in **$8.8 million on Aug 10**, the strongest day since **May 12**, with Bitwise's **BSOL absorbing nearly the entire $8.83 million** and lifting total SOL ETF net assets to about **$906 million** — even as **SOL slipped 1.16% to $74.88**.",
+          "why": "Institutional allocators stepped back in after July and early-August flows went dormant, reversing the outflow pattern that had left SOL with no marginal buyer, though the sums are still far too small to move spot against a risk-off tape.",
+          "sourceName": "The Coin Republic",
+          "sourceUrl": "https://www.thecoinrepublic.com/2026/08/11/solana-etfs-log-8-8m-daily-inflows-strongest-since-may/"
         },
         {
           "emoji": "🏛️",
-          "detail": "BlackRock cut IBIT's **in-kind conversion minimum from $25 million to $1 million — a 96% reduction**, and has signalled it intends to push the threshold lower still, ultimately toward any transaction size.",
-          "why": "Holders of appreciated bitcoin can now swap into IBIT shares without triggering a taxable cash sale at a threshold reachable by RIAs and family offices rather than only Wall Street desks, widening the pool of potential converters.",
-          "sourceName": "News.Bitcoin.com",
-          "sourceUrl": "https://news.bitcoin.com/crypto-news/blackrock-ibit-bitcoin-conversion-minimum-1-million/"
+          "detail": "The bitcoin ETF inflow streak is now fully tallied at **$853.5 million across Aug 3-7** — a roughly **$915 million swing** from the prior week's $61.5 million of outflows — with **BlackRock's IBIT taking $693 million, or 81% of the total**, pushing cumulative net inflows since launch to **$52.18 billion**.",
+          "why": "The concentration in a single fund shows the bid is coming from large allocators rebalancing into bitcoin on the view that a weakening labour market caps the Fed, not from broad retail participation, which is why it has not translated into spot price support.",
+          "sourceName": "Crypto Briefing",
+          "sourceUrl": "https://cryptobriefing.com/blackrock-ibit-bitcoin-etf-inflows/"
         },
         {
-          "emoji": "⚖️",
-          "detail": "The CLARITY Act's path is now concrete rather than merely delayed: Majority Leader Thune filed cloture before recess, setting a **first procedural vote for Sept 15** that still requires **60 votes**, while **Galaxy Research cut 2026 passage odds from 50% to 30%** and Polymarket prices roughly 17%.",
-          "why": "Democrats are holding out for ethics, conflict-of-interest and illicit-finance safeguards that Republicans have not conceded, so scheduling a vote has not closed the nine-vote gap that stopped the bill in August.",
-          "sourceName": "Disruption Banking",
-          "sourceUrl": "https://www.disruptionbanking.com/2026/08/10/clarity-act-news-the-crypto-bill-just-slipped-to-a-september-15-senate-showdown/"
-        },
-        {
-          "emoji": "🔀",
-          "detail": "Institutional demand is fragmenting across assets rather than moving as one bloc: on the same day bitcoin funds bled $144.67 million, **Solana products drew $8.83 million of inflows** while **ether funds lost $14.59 million**.",
-          "why": "Allocators are differentiating between crypto assets instead of treating the sector as a single risk trade, which is why SOL held up as BTC and ETH flows turned negative together.",
-          "sourceName": "News.Bitcoin.com",
-          "sourceUrl": "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-shed-144-67m-as-5-day-inflow-streak-breaks/"
+          "emoji": "⏱️",
+          "detail": "Today's **8:30am ET CPI is the binary event for the tape**: a cool print gives Bitcoin a route back toward the **$65,000** level it lost this week, while a hot one revives September hike risk with BTC already sitting on the lower edge of its descending channel near **$62,900**.",
+          "sourceName": "Sunday Guardian Live",
+          "sourceUrl": "https://sundayguardianlive.com/business/crypto-price-prediction-for-august-12-will-bitcoin-break-65k-as-ethereum-eyes-2000-and-xrp-defends-1-support-check-btc-eth-and-xrp-forecast-key-levels-and-market-catalysts-259019/"
         }
       ]
     }
   ],
-  "crossCuttingTheme": "The Hormuz closure has hardened from a negotiation to a siege — Iran reaffirming the strait stays shut and Trump opting to let economic pressure build pushed Brent to nearly $90, and that open-ended supply shock is now compounding rather than triggering: it drove the S&P 500's second straight loss while AI-capex funding fears rotated from Intel to Alphabet, knocked the Nifty below 24,500 by dragging the rupee to ₹95.44 and worsening India's import math into its own 4.4-4.5% CPI print, and coincided with the break in bitcoin's five-day ETF inflow streak that had been the only thing holding BTC above $63,400 — with Wednesday's US July CPI, which predates the spike entirely, arriving as a backward-looking reading into a forward-looking energy problem."
+  "crossCuttingTheme": "Brent's fifth straight advance to above $89 — a roughly 12% five-day run on the failure of US-Iran Hormuz talks — has now compounded into a second down session everywhere at once: it drove the S&P 500's back-to-back losses alongside Alphabet's AI-capex slide, knocked the Sensex 601 points intraday by worsening India's import-cost and inflation math days before its own CPI, and pushed Bitcoin under $64,000 as leveraged longs were liquidated, leaving today's 8:30am ET July CPI as the single release that decides whether Fed Chair Warsh gets the cover to hike in September or the energy spike is written off as transitory."
 }
