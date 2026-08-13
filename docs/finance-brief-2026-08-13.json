@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T12:20:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The two-day slide ended: the **S&P 500 rose 0.26% to 7,748.50**, the **Nasdaq Composite gained 0.54% to 26,588.49** and the **Dow eased 0.04% to 53,770.27** — the index opened in record territory, spiked as high as roughly 7,772 minutes after the data, then gave most of it back and closed just shy of its **7,757.64** record.",
+          "why": "July CPI landed exactly on consensus at 0.1% month-on-month and 3.4% year-on-year with core at 0.2% and 2.5% — the slowest core pace since early 2026 — removing the upside surprise that would have justified a September hike.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The September FOMC question has swung back toward a hold: CME FedWatch now puts the odds of a **Fed rate hike in September at 40.1%, down from 54.4% a week earlier**.",
+          "why": "An in-line inflation print stacked on top of the weak July payrolls report removed the evidence Chair Kevin Warsh would have needed to build a majority for a hike at the Sept 15-16 meeting.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/p500-nasdaq-end-higher-fresh-212026591.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The AI trade violently reversed Alphabet's capex-driven slide: **CoreWeave jumped 19%** and **Nebius surged 34%** in a post-earnings neocloud rally that dragged up Super Micro, memory and optical suppliers, with **Lumentum** revenue more than doubling to **$1.01 billion**.",
+          "why": "CoreWeave's Q2 revenue doubled to $2.58 billion, up 112% year-on-year, with an adjusted loss of $1.03 a share against the $1.20 feared and Q3 guidance of $3.4-3.6 billion, re-anchoring the view that hyperscaler AI demand is still accelerating into Nvidia's Aug 26 report.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/12/coreweave-q2-earnings-ai-demand.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**Cisco beat and raised and still sold off after hours**, posting **EPS of $1.22 against $1.13 expected** and lifting its full-year AI hyperscaler order target to **$9 billion from $5 billion**.",
+          "why": "The stock came into the print up 57% year-to-date at $120.43 and within 7.6% of its 52-week high, so a beat of that size was already in the price and options had been pricing an 8% swing.",
+          "sourceName": "TradingKey",
+          "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262098676-cisco-csco-q4-fy2026-earnings-9-billion-ai-orders-networking-124-resistance-tradingkey"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The energy squeeze has finally cracked — **Brent fell 1.19% to $87.92** on Thursday, breaking the six-session run that had carried it above $89, even as the **IEA deepened its Q3 deficit estimate to 1.8 million barrels a day**, a 1 million b/d downgrade from July and the widest quarterly shortfall since Q4 2021.",
+          "why": "Trump's claim of \"total control over the Strait of Hormuz\" plus the in-line CPI let traders take risk premium back out of crude, overriding an IEA report that cut 2026 global supply by 4.3 million b/d on the Hormuz closure, the Iranian export blockade and Bab al-Mandab attacks.",
+          "sourceName": "Reuters via Hydrocarbon Processing",
+          "sourceUrl": "https://www.hydrocarbonprocessing.com/news/2026/08/iea-global-2026-oil-supply-shortfall-to-deepen-as-hormuz-reopening-remains-elusive/"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "Futures are flat to marginally lower into a second inflation print — **Dow futures just above the flatline, S&P 500 futures slightly negative and Nasdaq-100 futures -0.1%** — with **8:30am ET July PPI** expected at **+0.2% month-on-month and 4.9% year-on-year (from 5.5%)**, jobless claims at **202,000 vs 199,000**, Deere before the open and **Applied Materials** after the close.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Wall Street's CPI relief did not travel: Indian benchmarks opened lower on Thursday and by 10:00am the **Nifty 50 was down 87.45 points (-0.36%) at 24,348.50** and the **Sensex down 181 points (-0.23%) at 77,785.48**, with **UltraTech Cement, Titan, Reliance and Infosys** the top drags and IT and realty leading the decline.",
+          "why": "India's own July inflation print came in higher rather than lower, pushing retail inflation further above the RBI's 4% target and undercutting rate-cut hopes just as IT stocks extended their multi-day slide.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-13-august-sensex-today-nifty50-gift-nifty-126081300074_1.html"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "**India's July retail inflation rose to 4.45%** from **4.38%** in June, with **food inflation up to 5.52% from 5.32%** — rural inflation at **4.84%** against urban at **3.96%** — a second consecutive month above the RBI's 4% medium-term target and roughly in line with the 4.50% Reuters poll.",
+          "why": "Food price pressure broadened even as potato prices fell 16.56% and peas, okra and tomatoes cheapened about 5%, while precious-metal costs exploded with silver jewellery up 109.84% and gold jewellery up 32.98% year-on-year.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/india-s-retail-inflation-at-4-45-in-july-2026-food-inflation-at-5-52-126081201367_1.html"
+        },
+        {
+          "emoji": "🏢",
+          "detail": "A succession shock at India's largest conglomerate hit the tape: **N Chandrasekaran will not seek reappointment as Tata Sons chairman** and will leave when his term ends in **February 2027**, triggering a selloff across Tata group stocks that weighed on the benchmarks.",
+          "why": "Trustees at Tata Trusts, which owns 66% of Tata Sons and is chaired by Noel Tata, had informally decided against renominating him as a director, and his reappointment failed to win unanimous support at the Feb 24 board meeting.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/companies/news/what-next-for-tata-sons-as-n-chandrasekaran-prepares-to-step-away-in-2027-126081201919_1.html"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Wednesday's session was far less bad than its intraday low suggested — after being down as much as 601 points at noon, the **Sensex closed off just 187.90 points (-0.24%) at 77,966.35** and the **Nifty 50 lost only 35.75 points (-0.15%) to 24,435.95**.",
+          "why": "PSU banks and metal stocks were bid through the afternoon — Hindalco, SBI and Grasim among the leaders — offsetting continued weakness in IT and FMCG and clawing back most of the morning's crude-driven drop.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-below-24-450-level-it-shares-tumble-126081201253_1.html"
+        },
+        {
+          "emoji": "💰",
+          "detail": "The flow picture flipped back against the market on Wednesday: **FPIs turned net sellers of ₹1,002.50 crore** while **domestic institutions bought a net ₹5,841.66 crore** — domestic money, not foreign money, is holding the index up.",
+          "why": "Foreign investors trimmed exposure into the twin CPI risk events on both sides of the trade, interrupting the run of net August buying that had followed July's inflows.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-13-august-sensex-today-nifty50-gift-nifty-126081300074_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The binary CPI event turned out to be a non-event: **Bitcoin sat near $64,100 into the print and barely moved**, and is trading around **$63,644, down 0.30% on the day**, still capped below the **$65,000** level it lost this week, with **Ether roughly flat near $1,915** and **SOL around $76**.",
+          "why": "The 3.4% headline and 2.5% core matched consensus exactly, so the report contained no downside inflation surprise big enough to trigger the risk-on move crypto needed after a week of defensive positioning.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/08/12/bitcoin-ether-and-xrp-prices-hold-steady-after-in-line-cpi-print/"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The flat price masked heavy two-way damage — roughly **$187 million of positions were liquidated across nearly 79,000 traders** around the release, split **$122 million of longs against $64 million of shorts**, while total open interest edged up 0.66% to **$116.23 billion**.",
+          "why": "Traders had positioned aggressively on both sides of a print framed as binary, so an in-line number wrong-footed bulls and bears simultaneously rather than clearing out one crowd the way the $65,000 break did on Tuesday.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/08/12/bitcoin-ether-and-xrp-prices-hold-steady-after-in-line-cpi-print/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The institutional bid has narrowed to almost nothing after last week's surge: spot bitcoin ETFs took in a net **$4.89 million on Aug 11** with **only BlackRock's IBIT positive at $50.19 million** against **$16.46 million of redemptions from Franklin's EZBC**, while **ether ETFs bled $1.76 million** led by Fidelity's FETH.",
+          "why": "Allocators who drove the $853.5 million Aug 3-7 inflow streak stepped aside ahead of the CPI release rather than adding, leaving a single fund as the sole source of demand.",
+          "sourceName": "FinanceFeeds",
+          "sourceUrl": "https://financefeeds.com/crypto-etf-flows-stabilize-on-august-11-as-bitcoin-returns-to-4-9-million-inflow/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "US market-structure legislation has slipped again: the **Senate pushed its CLARITY Act vote to a Sept 15 procedural showdown**, and **Polymarket odds of the bill becoming law in 2026 have collapsed to roughly 13% from 30% a week earlier**.",
+          "why": "The blocking issue is the ethics provision — Democrats want tighter restrictions on elected officials' crypto holdings, including those tied to Trump and his family's digital-asset businesses — and the Senate does not reconvene until Sept 14.",
+          "sourceName": "Disruption Banking",
+          "sourceUrl": "https://www.disruptionbanking.com/2026/08/10/clarity-act-news-the-crypto-bill-just-slipped-to-a-september-15-senate-showdown/"
+        },
+        {
+          "emoji": "🚫",
+          "detail": "Russia moved to **restrict retail crypto trading to bitcoin, ether and USDT only**, capping non-qualified investors at **300,000 roubles (about $3,600) of annual purchases per intermediary**, with no limit for qualified investors.",
+          "why": "Regulators are ring-fencing retail participation to the three most liquid assets while keeping institutional access open, a template that removes altcoin demand from one of the larger non-Western retail markets.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The in-line July CPI (3.4% headline, 2.5% core) defused the September hike scare — CME odds fell to 40.1% from 54.4% a week earlier — and simultaneously let Brent break its six-session, ~12% run with a 1.19% drop to $87.92, and that double relief is exactly what let the S&P 500 climb back toward its record on a violent AI-infrastructure rally led by CoreWeave (+19%) and Nebius (+34%); but the relief stopped at the US border, because an as-expected print gave leveraged crypto buyers no new reason to bid and left Bitcoin pinned below $65,000, while India moved the opposite way as its own July inflation rose to 4.45% — a second month above the RBI's 4% target — dragging the Nifty into a third straight decline on top of the Tata Sons succession shock."
+}
