@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T12:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏆",
+          "detail": "Thursday's near-miss became a clean break: the **S&P 500 rose 0.65% to a record 7,798.99** — its **27th record close of the year** — after touching an intraday all-time high of **7,816.70**, with the **Nasdaq Composite up 0.81% to 26,803.03** and the **Dow up 69.72 points (0.13%) to 53,839.99**.",
+          "why": "July producer prices came in flat against a forecast 0.2% rise, a second consecutive soft inflation print that removed the last near-term justification for a September rate hike.",
+          "sourceName": "Yahoo Finance / Reuters",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/p-500-hits-record-high-224859329.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "July PPI was **unchanged month-on-month** versus the +0.2% consensus and the annual rate cooled to **4.7% from 5.5%**, below the 4.9% expected — but the headline hid a **0.4% jump in core PPI** (ex food, energy and trade services), the component that feeds directly into core PCE.",
+          "why": "A 0.7% drop in final demand goods prices, driven by falling fuel costs, offset a 0.2% rise in services and a 2.2% advance in construction, flattering the headline while services-side pressure kept building.",
+          "sourceName": "U.S. Bureau of Labor Statistics",
+          "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_08132026.htm"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The September hike scare has now collapsed rather than merely faded: **CME FedWatch odds fell to roughly 32%**, down from **42% immediately after Wednesday's CPI** and **55% a week ago** — with today's **8:30am ET July retail sales (expected +0.3% month-on-month, +0.2% ex-autos)** the week's final test of the dovish repricing.",
+          "why": "Two soft inflation prints in two days stacked on top of the weak July payrolls report leave Chair Kevin Warsh without the data to build a majority for a hike, and a flat PPI reinforces the case for patience more concretely than the in-line CPI did.",
+          "sourceName": "24/7 Wall St.",
+          "sourceUrl": "https://247wallst.com/investing/2026/08/13/inflation-falls-for-2-months-straight-is-a-fed-september-rate-hike-still-on-the-table/"
+        },
+        {
+          "emoji": "🤝",
+          "detail": "The largest software buyout in history is in play: **Workday surged 18%** — its best day in a decade, with trading halted after a 25% spike — on a Reuters report that **Silver Lake is in talks to acquire the company and is prepared to pay up to $43 billion**.",
+          "why": "Reuters sourcing said the two sides have held discussions in recent months with no guarantee of a deal, but the reported price tag re-rated the entire enterprise-software complex on take-private optionality.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html"
+        },
+        {
+          "emoji": "🔧",
+          "detail": "**Applied Materials beat on earnings and still sold off**, posting **EPS of $3.50 against $3.39-3.45 expected** on revenue of **$9.115 billion** that narrowly missed the ~$9.18 billion consensus, while raising its semiconductor-systems growth forecast for the **third time this year to more than 30%** — the stock fell more than 2% in the session and another **5% after hours**.",
+          "why": "DRAM revenue including high-bandwidth-memory packaging jumped 52% year-on-year to a record, but analysts flagged slower free-cash-flow growth against a stock that had already run 108% year-to-date, so a revenue miss was enough to trigger profit-taking.",
+          "sourceName": "Stocktwits",
+          "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/amat-dram-ramp-sends-loudest-demand-signal/cZotP2DRJi4"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude's crack deepened then stalled — **Brent lost about 2% to settle at $87.07** on Thursday, but has steadied at **$87.08 (+0.1%)** on Friday with **WTI at $81.31**, both still on track for a **~4% weekly gain**, while **US Strategic Petroleum Reserve stocks have fallen below 300 million barrels, the lowest since January 1983**.",
+          "why": "Energy Secretary Chris Wright's claim that Hormuz exports are running higher than independent estimates and the IEA's demand downgrade knocked risk premium out on Thursday, but Defense Secretary Pete Hegseth's statement that the US can sustain its blockade of Iran indefinitely put a floor back under prices on Friday.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/13/oil-spill-near-oman-worries-over-supply-.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "India is again refusing to follow Wall Street's record: by mid-session Friday the **Sensex was down 279.59 points (-0.35%) at 77,800.37** and the **Nifty 50 down 65.85 points (-0.27%) at 24,330**, with **Tata Motors Passenger Vehicles, Max Healthcare and Hindalco** the biggest Nifty drags, leaving the benchmarks set for a losing week.",
+          "why": "Oil steadied rather than extended Thursday's fall after Washington threatened to keep its naval blockade of Iran in place indefinitely, reviving the crude-import-bill and rupee worry that has capped every Indian rally this month.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-14-nse-bse-sensex-today-nifty50-gift-nifty-us-iran-tension-brent-crude-q1-result-today-ipo-listing-126081400074_1.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Thursday ended in an unusual split — the **Sensex snapped its two-day losing streak with a 114-point gain to 78,080** while the **Nifty 50 slipped about 40 points to close at 24,396**, as **Tata Motors (+1.82%), Eternal (+1.76%) and Hindustan Unilever (+1.21%)** were offset by **UltraTech Cement (-1.74%), ICICI Bank (-1.48%) and Tata Steel (-1.33%)**.",
+          "why": "The rebound was narrow and heavyweight-specific — Tata group names recovered part of the Chandrasekaran succession selloff while banks and cement stayed heavy, and the Nifty's larger financials weighting meant ICICI Bank's decline outweighed what lifted the Sensex.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-13-august-sensex-today-nifty50-gift-nifty-126081300074_1.html"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Foreign selling continued but shrank sharply on Thursday: **FPIs were net sellers of ₹510.70 crore** — roughly half Wednesday's ₹1,002.50 crore — against **DII net buying of ₹4,353.10 crore**, while FIIs still carry a **net short index-futures position of 1,68,702 contracts**.",
+          "why": "Foreign investors trimmed rather than dumped after India's CPI print passed without a shock, but the large standing short in index futures shows positioning is still defensive into the Iran-driven crude risk.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/share-market-today/fii-dii-data"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The second half of India's inflation picture lands today — **July WPI is due Friday**, following June's **9.87%**, itself up from **9.68% in May** and running at more than double the retail rate.",
+          "why": "June's wholesale surge was driven by fuel, food articles, basic metals and chemicals — precisely the channels the Hormuz disruption feeds — so the July print is the cleanest read on how much of the crude shock is still working its way into producer costs.",
+          "sourceName": "Press Information Bureau",
+          "sourceUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2284374&reg=48&lang=1"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The divergence with the US is now explicitly an energy story: Indian benchmarks fell in the same session that the S&P 500 hit a record, with **Brent holding near $87** and up roughly **4% on the week** despite Thursday's 2% drop.",
+          "why": "The same disinflation the flat US PPI confirmed is arriving in India as an imported-cost problem rather than relief, because India buys the crude whose price the Hormuz blockade is holding elevated, so cheaper US goods prices do nothing for Indian input costs or the current account.",
+          "sourceName": "Reuters",
+          "sourceUrl": "https://lufkindailynews.com/news_reuters/business/oil-steadies-after-us-threatens-to-blockade-iran-indefinitely/article_cabe480b-6aa8-570f-a02b-243f9022b5ef.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto has now fully decoupled from the equity record — **Bitcoin fell 0.76% to about $63,575** on Thursday and **Ether dropped 1.33% to roughly $1,880**, with **every top-ten token except Hyperliquid (HYPE) lower** and total market cap around **$2.18 trillion**, even as the S&P 500 closed at an all-time high on the same data.",
+          "why": "A flat PPI that lowered September hike odds to about 32% was enough to lift stocks but not crypto, because after a week of defensive positioning the market has no marginal buyer left to convert a dovish macro print into a bid.",
+          "sourceName": "CoinGape",
+          "sourceUrl": "https://coingape.com/markets/crypto-market-update-august-13-bitcoin-slips-despite-lower-fed-hike-odds-but-hype-defies-bearish-sentiment/"
+        },
+        {
+          "emoji": "🏧",
+          "detail": "The last remaining institutional support has flipped negative: US spot bitcoin ETFs bled a net **$61.1 million on Aug 13**, with **BlackRock's IBIT itself turning to a $14.3 million outflow** and **Fidelity's FBTC pulling $46.8 million**, while **ether ETFs took in $7.4 million entirely via BlackRock's ETHA**.",
+          "why": "IBIT had been the sole positive fund holding the complex flat earlier in the week, so its swing to redemptions removed the one buyer that was offsetting outflows elsewhere, leaving ether ETFs as the only net destination for institutional money.",
+          "sourceName": "KuCoin",
+          "sourceUrl": "https://www.kucoin.com/news/flash/bitcoin-etf-sees-61-1m-net-outflow-ethereum-etf-gains-7-4m"
+        },
+        {
+          "emoji": "😰",
+          "detail": "Sentiment has broken down faster than price: Santiment reports a spike in social mentions pairing crypto and bitcoin with **\"dead,\" \"dying,\" \"over\" and \"finished\"** across X, Reddit and Telegram — a sign **retail patience is breaking** — while Stocktwits retail sentiment on BTC sits in the bearish zone with message volume only at normal levels.",
+          "why": "Bitcoin has spent the week failing to reclaim $65,000 despite two dovish inflation prints, and the absence of a reaction to genuinely good macro news is what convinces retail holders the asset class has stopped responding to fundamentals.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/news/26/08/61200030/bitcoin-slides-ethereum-xrp-dogecoin-gain-amid-softer-ppi-inflation-crypto-dead-chatter-shows-retail-patience-breaking-says-market-intelligence-firm"
+        },
+        {
+          "emoji": "⛓️",
+          "detail": "An Ethereum issuance overhaul threatens the ETH treasury-company trade: researchers filed **EIP-8361**, a \"tapered issuance burn\" that destroys a rising share of validator rewards as the staking ratio climbs — **burning 100% of rewards if staked supply reaches 50%** — with staking already up to about **34%** and consensus-layer yield potentially falling from **2.6% to 1.2%**.",
+          "why": "The proposal is aimed at capping ETH's security budget, but its direct casualty is the yield that listed ether-treasury vehicles use to justify holding staked ETH on balance sheet, undercutting the business model that absorbed a large share of 2026 ETH demand.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/ecosystems/2026-08-12-ethereum-staking-climbs-34-proposal-targets-validator-rewards-eth-treasury-firm-yields-411312"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "Solana came within touching distance of a network halt days before a major upgrade — a **Teraswitch routing failure on Aug 12 sent 28.83% of staked SOL delinquent for 33 minutes**, just **4.5 percentage points from the finality-halt threshold** — with **Agave v4.2 activating on mainnet Aug 17** to halve slot times to **200 milliseconds**, and MoneyGram integrating cash in/out across **170+ countries**.",
+          "why": "A single infrastructure provider's outage knocked out nearly a third of stake, exposing how concentrated Solana's validator hosting still is right as the client upgrade tightens block timing and raises the operational bar for validators.",
+          "sourceName": "Solana Compass",
+          "sourceUrl": "https://solanacompass.com/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A flat July PPI (4.7% year-on-year from 5.5%) collapsed September hike odds to roughly 32% from 55% a week ago and carried the S&P 500 to a record 7,798.99, but the relief is splitting three ways along the oil channel: crypto ignored the dovish print entirely — Bitcoin slipped to about $63,575 as even BlackRock's IBIT turned to outflows in a net $61.1 million ETF redemption day — while India fell in the same session because the Hormuz blockade that Washington now says it can sustain indefinitely is holding Brent near $87 and up ~4% on the week, meaning the identical energy story that is disinflationary for the US importer of cheaper goods is an imported cost shock for India, where June wholesale inflation was already running at 9.87% ahead of Friday's July WPI print."
+}
