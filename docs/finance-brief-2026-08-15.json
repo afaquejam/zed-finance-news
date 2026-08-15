@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The record run stopped one session short of the weekend: the **S&P 500 slipped 0.17% to 7,785.76** on Friday, with the **Nasdaq Composite down about 0.3%** and the **Dow off 0.2%** — yet the index still booked its **third straight weekly gain**, and the **Russell 2000 closed at a fresh record**.",
+          "why": "Stocks opened firm on the dovish inflation backdrop but turned in the afternoon once July retail sales and the preliminary August consumer sentiment print both landed materially below forecast, shifting the market's worry from inflation to the consumer.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-14-2026"
+        },
+        {
+          "emoji": "🛒",
+          "detail": "The week's final data test failed badly — **July retail sales fell 0.6% to $763.6 billion** against a forecast **+0.3%**, the **steepest drop since May 2025** and the **first decline in nine months**, with motor vehicles and parts **-1.8%**, electronics and appliances **-0.5%** and online sales **-2.2%**.",
+          "why": "The spending boost from unusually large tax refunds faded and Amazon's decision to pull Prime Day forward into June — matched by rival retailer promotions — stripped a full month of discount-driven volume out of the July comparison.",
+          "sourceName": "CNN Business",
+          "sourceUrl": "https://edition.cnn.com/2026/08/14/economy/us-retail-sales-july"
+        },
+        {
+          "emoji": "😟",
+          "detail": "Consumer confidence broke down alongside spending: the **University of Michigan preliminary August sentiment index fell 8% to 51**, below the 55 consensus and ending a two-month improving streak, with expected business conditions down **11% for the short run and 17% for the long term**.",
+          "why": "Households are absorbing the Iran war through the till — the conflict is pushing up fuel, energy and food prices, so the goods disinflation that cheered markets in Wednesday's CPI and Thursday's PPI is not what consumers are actually experiencing.",
+          "sourceName": "Spectrum News",
+          "sourceUrl": "https://spectrumlocalnews.com/us/snplus/business/2026/08/14/u-mich-consumer-sentiment-august-2026"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Thursday's crude selloff was fully reversed and then some — **Brent rose 1.7% to settle at $88.52** and both benchmarks finished the week **up more than 5%**, making **energy the best S&P 500 sector at roughly +7.4% on the week**.",
+          "why": "Treasury Secretary Scott Bessent said Washington would impose unprecedented economic measures while keeping its naval blockade of Iranian ports in place, and Iran and Oman failed to reach the Hormuz reopening agreement markets had been pricing as close.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/14/oil-prices-today-brent-wti-hormuz.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "Next week turns the lens straight onto the consumer the data just undercut: **July FOMC minutes land Wednesday**, followed by results from **Home Depot and Toll Brothers (Tuesday)**, **Target, Lowe's, TJX and Analog Devices (Wednesday)** and **Walmart, Alibaba and Deere (Thursday)**, with the **August 21 options expiry** two days after the minutes.",
+          "sourceName": "IG",
+          "sourceUrl": "https://www.ig.com/en-ch/news-and-trade-ideas/week-ahead--17-august-2026-260814"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Friday's session recovered most of the mid-day damage but not all of it — the **Nifty 50 closed down 29.85 points (-0.12%) at 24,366.00** and the **Sensex fell 71 points (-0.09%) to 78,009.25** after a volatile day, a far shallower loss than the -0.27% the index was carrying at midday.",
+          "why": "A late bid in consumer durables, telecom and logistics names offset the crude-sensitive damage in chemicals, oil, metals and power, trimming a geopolitics-driven decline rather than reversing it.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-14-nse-bse-sensex-today-nifty50-gift-nifty-us-iran-tension-brent-crude-q1-result-today-ipo-listing-126081400074_1.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The full week confirmed the divergence with Wall Street: the **Nifty fell 204.65 points (-0.83% week-on-week) to 24,366** and the **Sensex lost 489.92 points (-0.62%) to 78,009.25**, **snapping a two-week winning streak** in the same week the S&P 500 logged its third straight weekly gain.",
+          "why": "Hormuz tensions erased the mid-week gains entirely once Washington said its naval blockade of Iran could run indefinitely, sending Brent up more than 5% on the week and reviving the crude-import-bill and rupee arithmetic that caps every Indian rally.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-aug-17th-21st-2026/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "**July WPI cooled only marginally to 9.78% from 9.87%** — but the composition deteriorated underneath: **Primary Articles inflation jumped to 8.52% from 7.0%**, **Manufactured Products to 8.29% from 7.48%** and the **WPI Food Index to 6.65% from 6.14%**, while **Fuel and Power decelerated to 20.05% from 27.41%**.",
+          "why": "The headline fell purely because the fuel base effect faded, masking the fact that the crude shock has now passed through into food and manufactured goods — a broadening that is far stickier for the RBI than an energy spike.",
+          "sourceName": "ANI",
+          "sourceUrl": "https://aninews.in/news/business/wholesale-inflation-cools-marginally-to-978-in-july-from-987-in-june-food-prices-put-pressure20260814123237/"
+        },
+        {
+          "emoji": "🚗",
+          "detail": "The Tata Motors unwind accelerated sharply — **Tata Motors Passenger Vehicles fell 4.46% to ₹334**, the worst Nifty performer, alongside **Jio Financial, ONGC, Hindalco and SBI**, while **Apollo Hospitals led gainers with a 3.83% rise to ₹8,919** ahead of **Bharti Airtel, Adani Enterprises, Adani Ports and Wipro**.",
+          "why": "Thursday's 1.82% Tata Motors bounce proved to be a one-session dead-cat rally off the Chandrasekaran succession selloff, and the oil-linked names (ONGC) and metals (Hindalco) sold off with the crude and yield backdrop rather than on company news.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/top-gainers-and-losers-august-14-2026"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "Indian markets are shut through the weekend with **Independence Day falling on Saturday**, so the next cash session is **Monday, August 17** — which will open having to price in Friday's post-close US retail sales collapse, the consumer sentiment slump and Brent's 1.7% Friday jump to $88.52 all at once.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-aug-17th-21st-2026/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The grind lower broke a key level — **Bitcoin fell 1.7% to about $62,600**, slipping decisively **below $63,000** and extending its week-on-week decline to **nearly 4%**, with **Ether and XRP leading the losses** and **XRP dropping under $1 to about $1.06**.",
+          "why": "Rising oil and climbing Treasury yields did the damage crypto had shrugged off all week, and the failure of two soft inflation prints to generate any bid left the market with nothing to defend the level when macro turned against it.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/tech/2026/08/14/live-updates-bitcoin-slips-below-usd63-000-as-oil-yields-climb"
+        },
+        {
+          "emoji": "🏧",
+          "detail": "The ETF bleed became a pattern rather than a blip: spot bitcoin ETFs posted **back-to-back outflow days for the first time since late July**, shedding roughly **$192 million** across the pair, with **Friday's net -$56.2 million led by BlackRock's IBIT at -$55.5 million** after Thursday's **-$131.1 million** — a cumulative **$332 million out over four sessions**.",
+          "why": "IBIT has now driven the outflow two sessions running rather than merely turning negative, meaning the fund that single-handedly held the complex flat earlier in the month has become the largest source of redemptions.",
+          "sourceName": "Blockchain.News",
+          "sourceUrl": "https://blockchain.news/flashnews/bitcoin-etf-net-outflow-hits-56-2-million"
+        },
+        {
+          "emoji": "😨",
+          "detail": "Positioning has moved from cautious to outright fearful — the **Crypto Fear & Greed Index sits at 29**, squarely in fear territory, with Bitcoin now trading **below its 20-day moving average** inside a descending channel with **supports at $61,400 and $59,070** and **resistance at $64,567**.",
+          "why": "A week in which the S&P 500 hit a record on soft inflation while Bitcoin fell nearly 4% has convinced positioning that the asset class has decoupled from the macro tailwind, and the failed defence of $63,000 removed the last technical floor traders were leaning on.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/crypto/cryptocurrency/26/08/61224683/bitcoin-below-63000-xrp-under-1-as-ethereum-dogecoin-struggle-to-hold-support"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Solana's **Agave v4.2 feature gates activate on mainnet Monday, August 17** — and the payload is far wider than the slot-time change: **200ms slots (down from 400ms)**, a **90% rent reduction**, **max transaction size up 3.3x from 1,232 to 4,096 bytes**, plus the first public release of the complete **Alpenglow consensus codebase** with a **50,000 SOL bug bounty**, with **SOL near $76.70**.",
+          "why": "Anza is shipping the consensus rewrite as testable code on a community cluster rather than activating it, deferring Alpenglow to an expected v4.3 while the cheaper storage and larger transactions land immediately.",
+          "sourceName": "Solana Compass",
+          "sourceUrl": "https://solanacompass.com/news/agave-42-ships-90-rent-reduction-33x-larger-transactions-200ms-slots-and-a-50000-sol-bug-bounty"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Regulated access kept expanding against the price tape — the **Bank of Russia published a draft directive on August 11** creating its first framework for **non-qualified retail investors** to trade digital assets through licensed brokers and exchanges, while **Bank Leumi** will let customers trade **bitcoin, ether and solana** inside its investment app from **early 2027**.",
+          "why": "Both moves route retail demand through existing licensed intermediaries rather than crypto-native venues, which builds distribution on a multi-quarter timeline and does nothing for the immediate absence of a marginal buyer.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil is now the single variable splitting all three markets: Brent's 1.7% Friday jump to $88.52 and 5%+ weekly gain — driven by Bessent's unprecedented-measures threat and the collapse of the Iran-Oman Hormuz talks — made energy the best S&P 500 sector at +7.4% on the week while simultaneously crushing US consumer sentiment to 51 and helping deliver the first retail sales drop in nine months (-0.6%), capped India to a 0.83% weekly Nifty loss with July fuel WPI still running at 20.05%, and pushed Bitcoin below $63,000 as rising crude fed the yield move that finally broke crypto's $63,000 floor."
+}
