@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T09:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The index round-tripped a two-day slide into a record and back, opening the week at 7,753.11, bottoming at 7,728.20 on Tuesday, printing a record close of **7,798.99** on Thursday — its 27th of the year — and settling Friday at 7,785.76 for a **third straight weekly gain**, with the Russell 2000 also closing at a fresh record.",
+          "why": "Two soft inflation prints in two days — July CPI exactly in line at 3.4% headline and 2.5% core, then a flat July PPI with the annual rate cooling to 4.7% from 5.5% — undid the early-week oil-driven inflation scare."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The September hike scare collapsed over five sessions: CME FedWatch odds of a Fed rate hike fell to roughly **32% from 55% a week earlier**, passing through 40.1% after Wednesday's CPI, leaving Chair Kevin Warsh without a data case for the Sept 15-16 meeting.",
+          "why": "The two in-line-to-soft inflation prints stacked on top of the prior Friday's weak July payrolls report, removing the upside surprise a hawkish committee majority would have needed."
+        },
+        {
+          "emoji": "🛒",
+          "detail": "The week's worry rotated from inflation to the consumer on Friday, when **July retail sales fell 0.6% to $763.6 billion** against a forecast +0.3% — the first decline in nine months and steepest since May 2025 — and the University of Michigan preliminary August sentiment index dropped 8% to **51** versus 55 expected, turning a firm open into a 0.17% loss.",
+          "why": "Faded tax-refund spending and Amazon's pull-forward of Prime Day into June stripped a month of discount volume from the comparison, while households absorbed the Iran conflict through higher fuel, energy and food prices that the goods disinflation in CPI and PPI never reached."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "India went the other way from Wall Street all week: the **Nifty 50 fell 204.65 points (-0.83% week-on-week) to 24,366.00** and the Sensex lost 489.92 points (-0.62%) to 78,009.25, **snapping a two-week winning streak** in the same week the S&P 500 logged its third straight advance.",
+          "why": "Brent's 5%-plus weekly gain on the failure of the Iran-Oman Hormuz talks and Washington's threat to sustain its naval blockade indefinitely revived the import-bill and rupee arithmetic that capped every Indian rally this month."
+        },
+        {
+          "emoji": "🌡️",
+          "detail": "Both halves of India's inflation picture worsened underneath the headlines: **July retail inflation rose to 4.45% from 4.38%** — a second straight month above the RBI's 4% target, with food inflation up to 5.52% — while **July WPI cooled only marginally to 9.78% from 9.87%**, as Primary Articles jumped to 8.52% from 7.0% and Manufactured Products to 8.29% from 7.48%.",
+          "why": "The wholesale headline fell purely because the fuel base effect faded — Fuel and Power decelerated to 20.05% from 27.41% — masking the crude shock passing through into food and manufactured goods, a far stickier problem for the RBI than an energy spike."
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Two corporate governance shocks compounded the macro drag: **N Chandrasekaran will not seek reappointment as Tata Sons chairman** when his term ends in February 2027, triggering a Tata-group selloff that carried Tata Motors Passenger Vehicles down 4.46% to ₹334 by Friday, while **Godrej Consumer Products crashed 10% to a 52-week low of ₹916.20** on the abrupt exit of MD and CEO Sudhir Sitapati. Domestic institutions kept absorbing the selling, buying ₹5,841.66 crore on Wednesday and ₹4,353.10 crore on Thursday against modest FPI sales.",
+          "why": "Both departures were unexplained to the market, so investors priced strategy discontinuity rather than routine succession, and Thursday's 1.82% Tata Motors bounce proved a one-session dead-cat rally."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin decoupled outright from the equity record, losing the $65,000 level it had defended for four sessions and grinding to about **$62,600 for a weekly decline of nearly 4%** — its worst level of the month — with Ether down through $1,900 to roughly $1,880 and XRP breaking below $1 to about $1.06.",
+          "why": "Two dovish inflation prints that lifted stocks produced no crypto bid at all, so when rising oil and climbing Treasury yields turned macro against the tape on Friday there was no marginal buyer left to defend $63,000."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The institutional bid inverted over the week: spot bitcoin ETFs went from **$853.5 million of inflows across Aug 3-7 — 81% of it BlackRock's IBIT — to roughly $332 million of net outflows over the following four sessions**, including back-to-back redemption days of -$131.1 million and -$56.2 million in which IBIT itself was the largest seller.",
+          "why": "The single fund that had held the complex flat swung from sole source of demand to largest source of redemptions, and Strategy compounded the reversal by selling 1,690 BTC at an average $64,262 — a realized loss of about $18.8 million — to buy back STRC preferred rather than accumulate."
+        },
+        {
+          "emoji": "😨",
+          "detail": "Positioning ended the week outright fearful — the **Crypto Fear & Greed Index sits at 29**, Bitcoin is below its 20-day moving average inside a descending channel with supports at $61,400 and $59,070, and roughly $187 million was liquidated across 79,000 traders around the CPI print alone. On the policy side, **Polymarket odds of the CLARITY Act becoming law in 2026 collapsed to about 13% from 30%** after the Senate vote slipped to a Sept 15 procedural showdown.",
+          "why": "A week in which the S&P 500 hit a record on soft inflation while Bitcoin fell nearly 4% convinced traders the asset class has stopped responding to macro fundamentals, and the market-structure delay removed the one catalyst that could have offset it."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil was the single variable that split the three markets: Brent's 5%-plus weekly gain to $88.52 — driven by the collapse of the Iran-Oman Hormuz talks and Washington's vow to sustain its naval blockade indefinitely — arrived in the US as goods disinflation that carried the S&P 500 to a record 7,798.99 and cut September hike odds to 32%, yet reached households as the fuel-and-food squeeze behind a 0.6% retail sales drop and a sentiment slump to 51; the same barrel is a pure imported-cost shock for India, where retail inflation rose to 4.45% and wholesale stayed near 9.78% as the Nifty fell 0.83% on the week; and in crypto rising crude fed the yield move that finally broke Bitcoin's $63,000 floor for a near-4% weekly loss with ETFs turning to $332 million of outflows."
+}
