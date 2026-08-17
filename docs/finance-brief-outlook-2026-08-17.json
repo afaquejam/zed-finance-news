@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T05:03:04Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "**Wednesday's July FOMC minutes** are the week's dominant scheduled event: the committee held at **3.50-3.75%** on July 28-29 but drew **three dissents — Logan, Hammack and Kashkari all voted for a 25bp hike**, and the minutes are the first look at how close the rest of the committee was to joining them.",
+          "why": "With September hike odds already collapsed to roughly 32% after last week's soft CPI and PPI, minutes showing a wider hawkish bloc than the three dissents implied would force those odds back up and hit the rate-sensitive leadership that carried the index to Thursday's record 7,798.99, while a minutes tone focused on softening demand would confirm the market's dovish repricing.",
+          "sourceName": "Capital Street FX",
+          "sourceUrl": "https://www.capitalstreetfx.com/market-analysis/week-ahead-1721-august-2026-fomc-minutes/"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The big-box retail wave lands in three consecutive sessions — **Home Depot before the open Tuesday, Target Wednesday, and Walmart Thursday** — the first management commentary on the quarter that ended with July retail sales falling 0.6%.",
+          "why": "These three are the cleanest read on whether Friday's retail sales drop and the slump in Michigan sentiment to 51 were a calendar artifact of Prime Day moving to June or the start of genuine consumer retrenchment, and guidance rather than the reported quarter is what will decide it.",
+          "sourceName": "TradingKey",
+          "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262110009-weekly-preview-fed-walmart-target-home-depot-earnings-us-consumer-tradingkey"
+        },
+        {
+          "emoji": "📉",
+          "detail": "**Friday's S&P Global flash US PMIs** for August close an otherwise data-light week that also carries housing starts and building permits Tuesday, jobless claims and the Philadelphia Fed index Thursday.",
+          "why": "The flash PMIs are the first August activity reading and the only major growth datapoint before the Fed's next set-piece later this month, so a weak composite would extend the consumer scare that turned Friday's tape lower, while firm output alongside rising input prices would revive the inflation side of the argument the hawkish dissenters are making.",
+          "sourceName": "Newsquawk",
+          "sourceUrl": "https://www.newsquawk.com/daily/5718-week-in-focus-august-17-21st-2026-highlights-include-fomc-minutes-global-flash-pmis-uk-jobs-inflation-from-japan-canada-and-the-uk"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "detail": "**Friday's August flash PMIs for India** are the domestic calendar's main event in a week whose other Indian datapoint is the July unemployment rate — the first activity reading that spans the full crude spike.",
+          "why": "The RBI held at 5.25% on August 5 with a neutral stance and an FY27 inflation projection of 5%, so a PMI that softens while July CPI sits at 4.45% and WPI near 9.78% would leave the MPC facing weakening growth and imported cost pressure at once — the combination that most limits its room to ease.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/calendar?article=29366&g=top&importance=2&startdate=2026-08-14"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Brent is pressing toward **$90** into the open after last week's 5%-plus gain, and **Wednesday's FOMC minutes** are the transmission channel that matters most for India this week given the three hike dissents recorded at the July meeting.",
+          "why": "A hawkish read of the minutes lifts the dollar and Treasury yields just as the oil import bill widens, squeezing the rupee and giving FPIs — who were already adding shorts — a reason to keep selling into the domestic institutional bid that absorbed ₹5,841.66 crore and ₹4,353.10 crore of supply last week.",
+          "sourceName": "Newsquawk",
+          "sourceUrl": "https://www.newsquawk.com/daily/5718-week-in-focus-august-17-21st-2026-highlights-include-fomc-minutes-global-flash-pmis-uk-jobs-inflation-from-japan-canada-and-the-uk"
+        },
+        {
+          "emoji": "📐",
+          "detail": "The index enters at **24,366** after snapping a two-week winning streak, with the week's expected band put at **24,050-24,800**: immediate support at 24,200, critical support at 24,050-24,100, and the decisive resistance the **200-DMA near 24,779**.",
+          "why": "Most sectoral indices are already below key moving averages, so a close under 24,050 opens a retest toward 23,700-23,800, while reclaiming the 200-DMA is the only thing that would turn this month's pattern of capped rallies into a genuine trend change.",
+          "sourceName": "Liquide",
+          "sourceUrl": "https://blog.liquide.life/weekly-review-indian-stock-market-prediction-aug-17th-21st-2026/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "⚖️",
+          "detail": "**Trump personally chairs a White House meeting with crypto and prediction-market CEOs on Wednesday at 2:30pm ET**, with SEC Chair Paul Atkins confirmed and CFTC Chair Michael Selig expected, ahead of the **CFTC's inaugural Innovation Advisory Committee meeting on Thursday**; Coinbase, Ripple, a16z, Chainlink, Kalshi and Paradigm are among those attending.",
+          "why": "With the CLARITY Act pushed to a September Senate showdown and Polymarket odds of passage this year down near 13-21%, the question these two sessions answer is whether regulators will move administratively on market structure in the meantime — the one catalyst that could put a bid under a tape that ignored two dovish inflation prints.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/regulation/2026-08-15-trump-cftc-chair-selig-expected-at-wednesday-white-house-meeting-with-crypto-and-prediction-market-executives-411919"
+        },
+        {
+          "emoji": "₿",
+          "detail": "Spot bitcoin ETFs go into the week having shed roughly **$390 million across the five sessions ended August 14**, reversing $853.5 million of inflows the week before, with year-to-date flows now about **$4.5 billion negative — the first negative calendar year on record**.",
+          "why": "IBIT swung from supplying most of the complex's demand to leading its redemptions, so daily flow prints this week are the cleanest test of whether that was position-trimming into the $65,000 break or the start of sustained institutional selling with no other marginal buyer behind it.",
+          "sourceName": "CoinOtag",
+          "sourceUrl": "https://en.coinotag.com/bitcoin-etfs-post-390-million-weekly-net-outflow"
+        },
+        {
+          "emoji": "📍",
+          "detail": "Bitcoin opens near **$62,970** — flat on the day, about 3% lower over seven sessions — with traders watching a **$64,000 reclaim** as the bull trigger against supports at $61,400 and $59,070, Ether needing the $1,900-$1,922 zone and XRP defending $1, while the Fear & Greed Index sits at **29**.",
+          "why": "Wednesday's FOMC minutes are the week's macro pivot for a market that has stopped trading macro: a hawkish read that lifts yields would test the $61,400 support with positioning already fearful and leverage thin after last week's $187 million of liquidations, while a dovish read is the first chance to see whether crypto will respond to good news at all.",
+          "sourceName": "Sunday Guardian Live",
+          "sourceUrl": "https://sundayguardianlive.com/business/crypto-price-prediction-august-17-2026-bitcoin-ethereum-and-xrp-face-key-support-levels-as-traders-await-breakout-signals-262800/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Wednesday's July FOMC minutes are the single print all three markets have to clear: they will show how large the hawkish bloc behind Logan, Hammack and Kashkari's hike dissents really was, and because that lands with Brent pressing $90, a hawkish read simultaneously threatens the rate-sensitive leadership behind the S&P 500's record 7,798.99, widens India's import-bill and rupee problem just as its flash PMI tests growth on Friday, and pushes Treasury yields against a bitcoin tape already defending $61,400 with ETFs in outflow."
+}
