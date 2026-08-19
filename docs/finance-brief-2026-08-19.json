@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The pullback from Thursday's record is now a pattern, not a pause — the **S&P 500 fell 53.30 points (-0.69%) to 7,691.76** on Tuesday, a **third straight loss**, with the Nasdaq sliding alongside it as semiconductors led the decline.",
+          "why": "The bond market took over as the dominant equity driver, with a fresh 19-year high in the 30-year Treasury yield repricing long-duration growth stocks while oil kept climbing on the unresolved US-Iran standoff.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The long end broke out: the **30-year Treasury yield topped 5.33%**, its **highest level since 2007** and a 19-year high, capping a global long-bond selloff.",
+          "why": "Investors are pricing in surging government spending and a flood of long-dated supply on top of inflation that has now run above the Fed's target for five straight years, with the July federal deficit at $432.3 billion and the year-to-date shortfall near $1.8 trillion.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/18/treasury-yields-.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Chips were the epicentre of the damage — **Wolfspeed sank 7.6%** into its August 19 earnings report on persistent negative-margin concerns, while optical-components maker **Fabrinet plunged 11.3%** despite beating on fiscal Q4 results.",
+          "why": "Fabrinet's beat was overshadowed by weaker margins, negative free cash flow and a softer near-term profit outlook, and the surge in global bond yields amplified the de-rating across the whole semiconductor complex.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026"
+        },
+        {
+          "emoji": "🔨",
+          "detail": "The consumer's first real read since Friday's retail-sales collapse came in reassuring: **Home Depot's Q2 net sales rose 5.7% to $47.861 billion** versus $47.24 billion expected, **adjusted EPS was $4.92**, **same-store sales accelerated to +1.7%** from +1.0% a year ago, and full-year guidance was reaffirmed — sending the stock **up 1.01% to $341.30** against a falling tape.",
+          "why": "The beat came from ticket rather than traffic — comparable average ticket rose 2.8% to $92.50 while comparable transactions fell 1.0% — so the strength reflects pricing and big-ticket pro demand holding up, not a broad rebound in household footfall.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The calendar tightens from here: **July FOMC minutes land Wednesday** (from the 9-3 hold at 3.50-3.75%), **Target, Lowe's and TJX report Wednesday** and **Walmart Thursday**, before the **Jackson Hole symposium on August 27-29** delivers **Kevin Warsh's first keynote as Fed chair on Friday, August 28**.",
+          "sourceName": "Federal Reserve Bank of Kansas City",
+          "sourceUrl": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The post-holiday reopening has been one-way traffic — the **Nifty 50 fell 132.75 points (-0.55%) to 24,154.90** on Tuesday, its **sixth consecutive losing session**, while the **Sensex dropped 492.70 points (-0.63%) to 77,235.46** for a third straight decline.",
+          "why": "Brent pushing above $91 a barrel on renewed US-Iran tensions combined with continued FII selling, the 19-year high in US long-bond yields and a weaker rupee to hit every leg of the Indian bull case at once.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-18-august-nse-bse-sensex-today-nifty-gift-nifty-milky-mist-ipo-listing-share-market-today-126081800082_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "IT replaced energy as the source of the damage — **Nifty IT fell about 1.9%** and **Realty about 1.4%**, with **Tata Motors Passenger Vehicles (-2.24% to ₹322.80)**, **Asian Paints, Wipro, HCL Tech and Infosys all down more than 2%**; **Axis Bank led gainers at +1.28% to ₹1,243** and breadth was brutal at **11 advancers to 39 decliners**.",
+          "why": "The spike in US long yields hits Indian IT twice over — as a valuation de-rating on long-duration earnings and as a signal of weaker discretionary tech spending by their US clients — while Tata Motors extended the succession-driven unwind rather than stabilising.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/nifty-hits-six-day-losing-streak-as-crude-tops-91-it-stocks-lead-market-selloff-126081800954_1.html"
+        },
+        {
+          "emoji": "🚢",
+          "detail": "The crude squeeze has a physical cause now, not just a rhetorical one — **only five commodity vessels transited the Strait of Hormuz on Saturday and none on Sunday**, against **31 the previous weekend**, after attacks on tankers, with **Brent near $90.97**.",
+          "why": "Iranian Foreign Minister Abbas Araqchi said Tehran has not decided whether to resume talks with Washington, and renewed fighting in Lebanon plus the tanker attacks have made shipowners self-sanction the waterway regardless of whether a formal closure is ever declared.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The currency is transmitting the oil shock directly — the **rupee weakened 7 paise to 95.68 per dollar** in early Tuesday trade, from **Monday's 95.61 close**, with Brent near $91.",
+          "why": "Every dollar on crude widens India's import bill and lifts corporate demand for dollars, so the rupee is being sold as a proxy for the energy deficit rather than on any domestic data.",
+          "sourceName": "APAC News Network",
+          "sourceUrl": "https://apacnewsnetwork.com/2026/08/rupee-falls-95-68-us-dollar-crude-oil/"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Domestic money is still the only thing standing between this market and a much larger drawdown — on Monday **FIIs sold a net ₹2,535.10 crore** in the cash segment while **DIIs bought a net ₹5,101.50 crore**.",
+          "why": "Domestic institutions are absorbing roughly twice the foreign selling with steady SIP inflows, which is why a six-session losing streak has cost the Nifty only around 1% rather than producing a capitulation.",
+          "sourceName": "Craytheon",
+          "sourceUrl": "https://craytheon.com/charts/fii-dii-data/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The break below $63,000 did not hold — **Bitcoin reclaimed $64,000**, opening Tuesday at **$64,487.65**, some **2.7% above Monday's open** and roughly **2.2% higher over 24 hours**, after bottoming near **$62,700**.",
+          "why": "Spot bitcoin ETFs flipped back to daily inflows after four sessions of redemptions, restoring the marginal buyer whose absence had been the specific reason the $63,000 level failed on Friday.",
+          "sourceName": "Sunday Guardian Live",
+          "sourceUrl": "https://sundayguardianlive.com/business/bitcoin-price-today-august-18-2026-btc-rises-above-64000-as-buyers-return-after-weekly-low-check-latest-prices-in-usd-inr-gbp-euro-jpy-263659/"
+        },
+        {
+          "emoji": "💸",
+          "detail": "The four-day, $332 million ETF bleed reversed in a single session — **US spot bitcoin ETFs took in a net $297.5 million**, led by **BlackRock's IBIT at +$160.2 million**, **Fidelity's FBTC at +$111.9 million**, **ARK's ARKB at +$14.2 million** and **Morgan Stanley's MSBT at +$11.2 million**.",
+          "why": "IBIT swung from being the single largest source of redemptions two sessions running to the largest buyer, meaning the outflow was a short repricing episode rather than a structural withdrawal of institutional allocation.",
+          "sourceName": "Bloomingbit",
+          "sourceUrl": "https://en.bloomingbit.io/feed/news/118559"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Washington moved from statute to enforceable rule — the **Treasury issued a Notice of Proposed Rulemaking on August 17** implementing **Section 3 of the GENIUS Act**, published in the Federal Register Tuesday, opening a **60-day comment period closing October 19**; **stablecoin licensing becomes mandatory on January 18, 2027** and **US platforms may only offer stablecoins from licensed issuers from July 18, 2028**.",
+          "why": "This is the first time the government has defined in formal rule language what it means to issue a US payment stablecoin and which businesses fall inside the law's perimeter, converting a 2025 statute into a compliance deadline issuers must now build against.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/regulation/2026-08-17-us-treasury-seeks-public-comment-genius-act-stablecoin-rules-411987"
+        },
+        {
+          "emoji": "🐢",
+          "detail": "Solana's headline upgrade did not actually land — the **August 17 Agave 4.2 activation target passed with the mainnet feature gates unconfirmed**, with Anza's tracker listing the **350ms and 300ms slot gates as pending with no activation epoch**, and the **90% rent cut and 4,096-byte transactions also lacking confirmed starts**.",
+          "why": "Each change is gated independently and advances only on validator adoption, with the slot-time cut structured as four separate 50ms steps that each require the prior stage to run stably — so hitting the release date was never the same as shipping the features, and Alpenglow remains deferred to Agave 4.3 in October.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/agave-4-2-activation-target-unconfirmed/"
+        },
+        {
+          "emoji": "🐻",
+          "detail": "Ether joined the bounce without escaping its range — **ETH rebounded 1.89% to about $1,909** on roughly **$18.4 million of spot ETF inflows**, with **BitMine adding 9,926 ETH to bring its holdings to 5,815,164 coins (about 4.8% of supply)**, while the **Crypto Fear & Greed Index sat at 30**, still in fear.",
+          "why": "The move was driven by short covering and ETH-specific ETF and staking demand rather than any broad risk appetite, which is why sentiment readings stayed in fear territory even as prices rose.",
+          "sourceName": "CoinStats",
+          "sourceUrl": "https://coinstats.app/ai/a/latest-news-for-ethereum"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil has handed the baton to the long bond: with Brent above $91 on the Hormuz shipping freeze keeping inflation sticky and the July deficit at $432.3 billion widening the year-to-date gap to $1.8 trillion, the 30-year Treasury yield's break to a 19-year 5.33% is now the single mechanism repricing all three markets — crushing long-duration US semiconductors into a third straight S&P 500 loss, dragging Indian IT down 1.9% while the same dollar strength pushed the rupee to 95.68, and leaving crypto as the lone decoupler, where a $297.5 million ETF inflow day let Bitcoin reclaim $64,000 in defiance of the rates backdrop."
+}
