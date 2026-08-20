@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T09:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The three-day slide is over — the **S&P 500 rose 16.22 points (+0.2%) to 7,707.98** on Wednesday, with the **Dow up 119 points** and the Nasdaq also 0.2% higher, as the bond market that caused the selloff went into reverse.",
+          "why": "The Treasury Department's surprise expansion of its long-dated debt buybacks pulled the 30-year yield down 9 basis points to 5.196% from Tuesday's 19-year high, unwinding the exact duration squeeze that had crushed equities for three sessions.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-19-dow-sp-500-nasdaq-081116064.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Bessent's Treasury intervened directly in the long end, **doubling the maximum size of liquidity-support buybacks to at least $4 billion per operation** from $2 billion, covering the **10-to-20-year and 20-to-30-year sectors** from **September 9 through November 4**; the **10-year yield fell 5bps to 4.65%**.",
+          "why": "These are liquidity-support repurchases of older off-the-run paper rather than new financing, so the signal traders took was that Treasury is actively willing to lean against dislocation in the long bond, not that the fiscal supply picture had changed.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/19/treasury-announces-upscaled-buyback-operation-for-longer-term-debt-sending-yields-lower.html"
+        },
+        {
+          "emoji": "📋",
+          "detail": "The July FOMC minutes revealed the hawkish split ran far deeper than the vote implied — **Hammack, Kashkari and Logan** each dissented for a **quarter-point hike**, and participants said **\"policy tightening would likely be necessary if inflation did not decline\"**; Chair Warsh also floated cutting the FOMC to **six meetings a year from eight**.",
+          "why": "The 9-3 hold at 3.50-3.75% understated the committee's stance because the case for an immediate increase circulated well beyond the three dissenters, meaning the next policy risk is a hike rather than the cut markets had been positioned for.",
+          "sourceName": "Quartz",
+          "sourceUrl": "https://qz.com/fed-fomc-minutes-july-2026-rate-hike-dissent-081926"
+        },
+        {
+          "emoji": "🧬",
+          "detail": "The single biggest stock move of the year landed in biotech — **Moderna soared about 177%** and **Merck climbed more than 12%** after their personalised mRNA cancer vaccine **intismeran autogene** met its primary endpoints in a **Phase 3 trial of over 1,100 melanoma patients** in combination with Keytruda.",
+          "why": "It is the first time an individualised mRNA cancer therapy has succeeded at Phase 3, significantly extending recurrence-free survival versus Keytruda alone and reducing the risk of distant spread, which re-rates the entire personalised-vaccine platform rather than just one product.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/19/moderna-merck-cancer-vaccine-shows-initial-late-stage-melanoma-data.html"
+        },
+        {
+          "emoji": "🛒",
+          "detail": "The retail triple-header split three ways: **Target hit a 52-week high** on net sales **+5.3% to $26.54 billion**, **comps +3.8%** and FY EPS guidance lifted to **$9.90-$10.90** from $7.50-$8.50; **Lowe's rose 4.2%** on adjusted EPS of **$4.40** despite comps of just **+0.2%**; **TJX fell 2.8% to $146.60** even after beating with EPS of **$1.22**.",
+          "why": "The market rewarded whoever guided up rather than whoever printed the best quarter — TJX raised its full-year range to $5.31-$5.36 but its Q3 outlook of $1.30-$1.32 missed the $1.35 consensus, while Target's digital comps of +8.7% and Lowe's Pro strength convinced investors the turnaround stories are funded.",
+          "sourceName": "Quartz",
+          "sourceUrl": "https://qz.com/target-earnings-sales-beat-full-year-guidance-raised-081926"
+        },
+        {
+          "emoji": "📆",
+          "detail": "**Walmart reports fiscal Q2 before Thursday's open**, with consensus at **$186.3 billion of revenue** (+5%) and **EPS of $0.73** (+7.4%), the last major read on the US consumer before the **Jackson Hole symposium on August 27-29** and **Kevin Warsh's first keynote as Fed chair on Friday, August 28**.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-heads-q2-earnings-solid-144400435.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "India did not get the relief rally — the **Nifty 50 fell 76.60 points (-0.32%) to 24,078.30** on Wednesday for a **seventh consecutive losing session**, while the **Sensex dropped 326 points (-0.42%) to 76,910**, though the pace of decline halved from Tuesday's -0.55%.",
+          "why": "The US long-bond relief came too late in the Indian session to help, and crude kept climbing regardless, so energy and defence selling outweighed a bounce in IT.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-19-nse-bse-sensex-today-nifty-gift-nifty-behari-lal-engineering-shiprocket-ipo-listing-today-126081900099_1.html"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Yesterday's worst sector became today's best — **Nifty IT rose 0.73% to 30,433.05**, reversing Tuesday's 1.9% slide, with **Coforge, HCL Technologies and L&T Technology Services** leading and **HCL Tech, JSW Steel, Sun Pharma, Zomato and Wipro** the top Nifty gainers; the drag rotated to **Nifty Defence (-1.5%)** and **Nifty Energy (-1.2%)**, with **Coal India, Power Grid, Bajaj Finance, ITC and Jio Financial** the biggest losers.",
+          "why": "The overnight stabilisation in US Treasury yields removed the valuation pressure that had de-rated long-duration IT earnings, while energy names were sold on the view that crude above $90 squeezes refining and power margins rather than helping them.",
+          "sourceName": "Univest",
+          "sourceUrl": "https://univest.in/blogs/nifty-it-today-19-august-2026-closing-bell"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil is now the one macro driver that has not turned — **Brent climbed toward $92 a barrel** on Wednesday for a **fourth straight session of gains**, with **eight attacks on vessels transiting Hormuz** reported so far this month, including ships linked to the UAE and Saudi Arabia.",
+          "why": "President Trump said there are no ongoing negotiations with Tehran and confirmed the US naval blockade remains in effect, removing the diplomatic off-ramp traders had been pricing and leaving the Strait's supply risk fully intact.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "emoji": "💰",
+          "detail": "The flow picture quietly flipped — **FIIs turned net buyers of ₹408 crore** in the cash segment on Wednesday after Monday's ₹2,535 crore of selling, while **DIIs bought a further ₹3,973.70 crore**.",
+          "why": "Foreign selling paused as the pullback in US long-end yields narrowed the rate differential argument for exiting emerging markets, but the buying was too small to offset seven sessions of accumulated damage.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/share-market-today/fii-dii-data"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee stopped falling without recovering, holding around **95.67 per dollar**, as the **RBI announced an early closure of its concessional FX swap facility for FCNR(B) deposits on August 31**.",
+          "why": "The currency stabilised because the dollar eased alongside US yields, but the RBI's decision to wind down a facility that had been channelling foreign-currency deposit inflows removes one support at exactly the moment the oil import bill is widening.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/news/indian-rupee-holds-onto-two-week-losses-against-us-dollar-202608190531"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "🚀",
+          "detail": "The reclaim of $64,000 turned into the biggest move of the summer — **Bitcoin broke above $69,000 for the first time since June**, running roughly **9% from $64,500 to an intraday high of $69,749**.",
+          "why": "Two catalysts landed within hours of each other: the Treasury's doubling of long-bond buybacks eased the rates pressure that had capped risk assets, and the SEC's surprise crypto rulemaking gave the industry its first formal path out of enforcement-by-litigation.",
+          "sourceName": "Decrypt",
+          "sourceUrl": "https://decrypt.co/375955/bitcoin-surges-70k-billion-crypto-shorts-rekt-hour"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The move was violently mechanical — **$1.14 billion of short positions were liquidated across crypto in a single hour**, with **Bitcoin alone accounting for $677.64 million**, and total liquidations reaching roughly **$1.6 billion over 24 hours**.",
+          "why": "Traders had built heavily bearish leveraged positioning during the four-day ETF outflow stretch earlier in the week, so the Treasury headline forced those shorts to buy back into a thin book, and each forced purchase pushed the price into the next liquidation cluster.",
+          "sourceName": "Stocktwits",
+          "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/solana-ethereum-xrp-outperform-bitcoin-69k-rally-1-5b-liquidations/cZYdVZyRJlf"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Three days after the GENIUS Act stablecoin rules, the SEC proposed **\"Regulation Crypto Assets\"** — a **$5 million startup exemption over four years** with no accredited-investor requirement, plus a tiered lane allowing up to **$75 million every 12 months** (a $20 million Tier 1 and a Tier 2 requiring audited financials), and a **conditional safe harbour** letting tokens exit securities status once an issuer completes or abandons its promised managerial efforts.",
+          "why": "It is the agency's first substantive crypto rulemaking rather than an enforcement action, and the safe harbour matters most because it finally defines the conditions under which a sufficiently decentralised network stops being a security at all.",
+          "sourceName": "SEC",
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+        },
+        {
+          "emoji": "🔷",
+          "detail": "Ether finally broke the range it had been stuck in all week — **ETH added 9.7% to about $2,098**, clearing $2,000 for the first time this month, while **Solana and XRP both gained more than 6%**.",
+          "why": "Altcoins outran bitcoin because the SEC's safe-harbour proposal is worth more to smart-contract networks with live token issuance than to bitcoin, which was never seriously at risk of a securities designation.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The institutional bid was already rebuilding before the squeeze — **US spot bitcoin ETFs took in a net $189.3 million** on Tuesday, led by **BlackRock's IBIT at $143.6 million** and **Fidelity's FBTC at $23.9 million**, lifting **August net inflows to roughly $951 million**; **spot ether ETFs added $71.5 million**, for about **$345 million on the month**.",
+          "why": "A second consecutive inflow day meant the marginal buyer was back in place before Wednesday's catalysts hit, which is why the rally had no supply overhang to absorb once shorts started covering.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The 30-year Treasury yield that broke all three markets on Tuesday repaired two of them on Wednesday: Bessent's doubling of long-bond buybacks to $4 billion per operation knocked 9 basis points off the 30-year to 5.196%, which snapped the S&P 500's three-day losing streak, and — combined with the SEC's first real crypto rulemaking — triggered a $1.14 billion short squeeze that carried Bitcoin above $69,000, while India was left out because the one driver that did not reverse was oil, with Brent climbing toward $92 for a fourth straight session and dragging the Nifty to a seventh consecutive loss."
+}
