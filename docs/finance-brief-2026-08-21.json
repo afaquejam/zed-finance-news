@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T08:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Wednesday's bounce lasted exactly one session — the **S&P 500 fell 0.87% to 7,641.16** on Thursday, the **Dow shed 703.84 points (-1.32%) to 52,759.21** and the **Nasdaq dropped 1% to 26,067.17**.",
+          "why": "The Treasury buyback relief evaporated as the 30-year yield climbed straight back to 5.238% and both the 10- and 30-year rose more than four basis points, so the duration squeeze that Bessent's announcement had briefly capped reasserted itself with Walmart's selloff piling on top.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-20-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The bond market handed back the entire buyback rally in a single day — the **30-year yield round-tripped to 5.238%**, erasing the 10-plus basis points it fell on the announcement and returning to within a whisker of its 19-year high.",
+          "why": "Traders concluded that liquidity-support repurchases are at best a circuit breaker for a global bond slump rather than a fix for the supply picture, so once the initial short-covering in long duration was done there was nothing left to hold yields down.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-20/bessent-s-plan-at-best-circuit-breaker-for-global-bond-slump?srnd=homepage-americas"
+        },
+        {
+          "emoji": "🛒",
+          "detail": "Walmart beat and raised and still had its worst day in years — **shares fell about 9% to roughly $104** despite adjusted **EPS of $0.81** versus $0.74 expected on **$187.9 billion of revenue**, and a full-year constant-currency sales outlook lifted to **4-5%** from 3.5-4.5%.",
+          "why": "US comparable sales grew just 2.6%, down from 4.1% the prior quarter and well short of the roughly 3.8% consensus — the slowest in about six years — which told investors the guidance raise was being funded by tariff refunds and margin timing rather than by the American consumer still spending.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"
+        },
+        {
+          "emoji": "💊",
+          "detail": "The biggest stock move of the year unwound almost as fast as it happened — **Moderna plunged roughly 20-25%**, wiping out about **$14 billion of market value** a day after its 177% cancer-vaccine surge, with **BioNTech down 4%** and **Merck** also slipping.",
+          "why": "Holders who had watched the stock nearly triple in one session locked in profits, and analysts pushed back on a valuation that had run far ahead of any near-term commercial revenue from a therapy still years from broad approval.",
+          "sourceName": "Forbes",
+          "sourceUrl": "https://www.forbes.com/sites/tylerroush/2026/08/20/moderna-stock-plunges-25-wiping-out-18-billion-after-historic-cancer-vaccine-breakthrough/"
+        },
+        {
+          "emoji": "💼",
+          "detail": "The labour market gave the hawks more ammunition — **initial jobless claims fell 6,000 to 206,000** in the week ended August 15 against a 210,000 forecast, while **continuing claims rose 18,000 to 1,799,000**.",
+          "why": "Layoffs remain scarce enough that the July minutes' warning about needing to tighten if inflation does not decline keeps its force, removing the labour-market deterioration that would otherwise argue against the hike risk now being priced.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-20/us-weekly-jobless-claims-edged-lower-to-206-000-in-latest-week"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Nvidia reports fiscal Q2 on Wednesday, August 26**, with revenue expected between **$93 billion and $95 billion** — roughly **+67% year over year** — landing the day before the **Jackson Hole symposium (August 27-29)** and Kevin Warsh's first keynote as Fed chair on Friday, August 28.",
+          "sourceName": "TipRanks",
+          "sourceUrl": "https://www.tipranks.com/stocks/nvda/earnings"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The losing streak finally broke — the **Nifty 50 rose 153.53 points (+0.64%) to 24,231.85** on Thursday and the **Sensex jumped 628.04 points (+0.82%) to 77,537.72**, ending seven straight sessions of losses for the Nifty.",
+          "why": "India got Wednesday's US bond relief a day late: the pullback in Treasury yields that had arrived too late in Wednesday's Indian session finally showed up in Thursday's cash market, lifting the rate-sensitive parts of the index before US yields reversed again overnight.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-20-nse-bse-sensex-today-nifty50-gift-nifty-us-iran-tension-brent-crude-tempsens-instruments-ipo-126082000087_1.html"
+        },
+        {
+          "emoji": "🏗️",
+          "detail": "The rally was broad rather than a single-sector bounce — **realty, FMCG, IT and financial services** all led, with **Eternal, Shriram Finance and Kotak Mahindra Bank** (+1.82%) among the top gainers, while **Tata Consumer, Hindalco and IndiGo** lagged and **energy stayed subdued**.",
+          "why": "Falling US long-end yields relieve the domestic cost-of-capital trade first — realty and NBFCs are the most rate-geared names on the index — while energy could not join in because crude kept rising, the same split that has defined the whole week.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-august-20-2026-nifty-sensex-put-an-end-to-their-losing-streak-as-benchmarks-jump-on-gains-in-it-and-financials"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil extended the one trend that has not broken all week — **Brent rose 1.52% to $93.01 a barrel** on Thursday, a fifth consecutive session of gains, having traded as high as **$95.40** intraday.",
+          "why": "The Strait of Hormuz confrontation is unresolved — Trump said crude is still flowing and that he would be open to resuming talks with Tehran 'at some point,' but that vague opening was not enough to offset the shipping-attack risk premium traders are still paying.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Wednesday's tentative foreign buying did not stick — **FIIs went back to net selling ₹583.40 crore** in the cash segment on Thursday after buying ₹408 crore the day before, while **DIIs absorbed it again with ₹3,537.70 crore** of purchases.",
+          "why": "The one-day foreign bid depended on US long-end yields staying down, and with the 30-year already reversing during Thursday's session the rate-differential case for exiting emerging markets came straight back, leaving domestic institutions to carry the rally on their own.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/share-market-today/fii-dii-data"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee firmed marginally, with the **RBI reference rate at 95.642** on Thursday versus **95.748** on Wednesday, though spot USD/INR was quoted back near **95.76** by the close.",
+          "why": "The currency got a brief lift from the softer dollar that accompanied Wednesday's yield decline, but a $93 Brent import bill and renewed FII selling capped any real recovery, leaving it essentially pinned in the mid-95s.",
+          "sourceName": "CEIC / RBI",
+          "sourceUrl": "https://www.ceicdata.com/en/india/foreign-exchange-rate-reserve-bank-of-india/foreign-exchange-rate-rbi-reference-rate-us-dollars"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The squeeze did not stop at $69,000 — **Bitcoin ran to $71,992 on Bitstamp**, up **11.5% to $71,808** at the highs, breaking clean out of the **$62,000-$66,900 range** that had contained it since **July 8**.",
+          "why": "A second catalyst landed on top of the Treasury buyback: Trump used a White House crypto event to press the Senate to pass the Clarity Act, floated sizable US bitcoin purchases and said regulators are exploring a compliant route for Hyperliquid, giving a market already short of supply a policy reason to chase.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/20/bitcoin-breaks-out-of-six-week-range-tops-usd71-000-as-usd3-billion-in-shorts-get-wiped-out"
+        },
+        {
+          "emoji": "💥",
+          "detail": "Yesterday's $1.14 billion of short liquidations was only the opening act — **cumulative short liquidations across August 19-20 passed $3.1 billion**, making Wednesday the **largest single day of short destruction ever recorded**, with roughly **$280 billion added to total crypto market cap**.",
+          "why": "Bearish leveraged positioning built through the four-day ETF outflow stretch was so crowded that each liquidation cluster fed the next, and the break of the $66,900 range ceiling triggered the stops that had been stacked above it since early July.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/markets/crypto-short-liquidations-pass-3b-mark-as-bitcoin-price-nears-72k"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Trump convened crypto executives and their regulators at the White House — including the **SEC, CFTC, NYSE, Coinbase, Kraken and Robinhood** — to push the Senate on the **Clarity Act**, the market-structure bill that would settle whether digital assets are securities or commodities.",
+          "why": "The bill passed the House in 2025 but stalled in the Senate before the August recess over ethics-rule disputes and banking opposition, and with a procedural vote now scheduled for September 15 the presidential push is the first sign the floor calendar might actually move.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/08/19/trump-pushes-congress-to-move-on-clarity-act-during-white-house-crypto-event"
+        },
+        {
+          "emoji": "🌐",
+          "detail": "Altcoins outran bitcoin for a second day and the **altcoin market cap crossed $1 trillion** — **Ether jumped about 18% to $2,250-$2,293**, **Solana gained 10-13% to $86.83**, **XRP rose 14-15%** and **Zcash added 9% to $557**.",
+          "why": "Back-to-back regulatory catalysts — the SEC's safe-harbour proposal on Wednesday and the Clarity Act push on Thursday — both resolve securities-status risk that only ever applied to token-issuing networks, so the repricing is worth structurally more to smart-contract chains than to bitcoin.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/08/20/altcoin-market-cap-crosses-1-trillion-as-eth-sol-xrp-and-zec-rally-7-10-in-hours/"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The institutional bid went from steady to forceful — **US spot bitcoin ETFs pulled in $517.19 million on Wednesday**, the biggest daily haul since **May 4** and a third consecutive inflow day, with **BlackRock's IBIT taking $284.7 million**, **ARK 21Shares' ARKB $77.7 million** and **Fidelity's FBTC $62.4 million**.",
+          "why": "The near-tripling of daily inflows from Tuesday's $189.3 million shows allocators treating the Treasury intervention and the SEC rulemaking as a regime change rather than a trade, which is why the spot bid kept absorbing supply even after the short-covering had run its course.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/markets/2026-08-20-us-bitcoin-517-million-inflows-412291"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The 30-year Treasury yield round-tripped straight back to 5.238% on Thursday, erasing every basis point of the buyback relief and with it the equity rally — the S&P 500 fell 0.87% and the Dow lost 704 points as Walmart's 2.6% US comps compounded the damage — while India, trading a session behind, finally banked Wednesday's yield decline to snap a seven-day losing streak, and crypto ignored the reversal entirely because its driver had rotated from rates to politics, with Trump's White House push for the Clarity Act carrying Bitcoin to $71,992 and taking cumulative short liquidations past $3.1 billion."
+}
