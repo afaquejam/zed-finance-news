@@ -1,0 +1,136 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T05:32:20Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Stocks clawed back a piece of Thursday's rout on Friday — the **S&P 500 rose 0.43% to 7,674.37**, the **Dow added 517.80 points (+0.98%) to 53,277.01** and the **Nasdaq gained 0.43% to 26,180.45** — but it was not enough to save the week: the **S&P fell 1.4%** and the **Nasdaq 2%**, snapping three-week winning streaks, while the **Dow's 0.9% loss** made it back-to-back down weeks.",
+          "why": "Bessent went back on the tape to say the accelerated buyback could run well beyond the announced $4 billion per operation, which was enough to stabilise the long end for one session and let dip-buyers back in, but the week's damage from the yield surge and the opening of a US economic campaign against Iran had already been done.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Treasury is now openly negotiating with the bond market — with the **30-year yield still around 5.25%** on Friday and Wednesday's buyback relief fully erased, **Bessent pledged operations larger than the $4 billion** he had doubled them to only 48 hours earlier, targeting the 10-to-20-year and 20-to-30-year sectors between **September 9 and November 4**.",
+          "why": "Having to reassure markets less than a day after the original announcement told investors the buyer's strike in long duration since late June is deeper than a liquidity problem, so Bessent escalated the size of the intervention rather than let the round-trip in yields stand.",
+          "sourceName": "Euronews",
+          "sourceUrl": "https://www.euronews.com/business/2026/08/21/bessent-vows-bigger-buybacks-after-bond-yields-erased-the-us-treasurys-relief-rally"
+        },
+        {
+          "emoji": "⚔️",
+          "detail": "A second macro shock has been layered on top of the bond selloff — Trump has launched what he calls an **\"economic D-Day\"** against Iran, promising **\"the MOST CRUSHING ECONOMIC OPERATION EVER TAKEN AGAINST ANY COUNTRY\"** and naming oil smuggling, swap lines, cash transfers, exchange houses, ship registries and front companies as targets, with **Bessent promising the \"toughest sanctions in history\"** and full details due **Monday**.",
+          "why": "The measures are drawn wide enough to ensnare third countries that transact with Tehran — possibly including China — so equity desks are pricing not just an Iran supply shock but the risk of secondary sanctions rippling through global trade and energy flows.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/21/oil-prices-us-iran.html"
+        },
+        {
+          "emoji": "⛽",
+          "detail": "The conflict is now showing up in the US inflation data that matters most politically — **pump prices are up nearly a dollar a gallon from a year ago** as **transits through the Strait of Hormuz stayed in single digits for the entire week**.",
+          "why": "A sustained collapse in Hormuz throughput has pushed the crude risk premium straight into refined product prices, which is exactly the channel that keeps long-end yields elevated by making the July FOMC minutes' warning about tightening if inflation fails to decline look more live, not less.",
+          "sourceName": "CNN",
+          "sourceUrl": "https://www.cnn.com/2026/08/21/world/live-news/iran-war-trump"
+        },
+        {
+          "emoji": "📅",
+          "detail": "Next week stacks three market-moving events in five days: **Bessent's Iran sanctions detail on Monday**, **Nvidia's fiscal Q2 on Wednesday, August 26** with revenue expected at **$93-95 billion**, and the **Jackson Hole symposium (August 27-29)** with Kevin Warsh's first keynote as Fed chair on Friday.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/21/oil-prices-us-iran.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "😐",
+          "detail": "Thursday's rebound immediately ran out of momentum — the **Nifty 50 added just 20.15 points (+0.08%) to 24,252.00** and the **Sensex managed 3.11 points (+0.00%) to 77,540.83** in a volatile, rangebound Friday, leaving the **Nifty down 0.5% and the Sensex 0.6% on the week**.",
+          "why": "The one-day relief from falling US yields was spent by Thursday's close, and with the 30-year back at 5.25% and crude holding above $93 there was no fresh cue to extend the bounce, so the index simply chopped sideways.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-august-21-2026-sensex-nifty-flat-as-benchmarks-struggle-for-direction-after-rebound"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The flat headline hid a full sector rotation out of Thursday's winners — **metals and realty** were the strongest performers on Friday while **IT, FMCG, auto, media and pharma** all sold off, the near-exact inverse of Thursday's FMCG- and IT-led rally.",
+          "why": "With the rate-relief trade dead on arrival, buyers moved to the commodity complex that benefits from the same Iran-driven inflation impulse hurting everything else, while IT and FMCG gave back a rally that had been built purely on the one-day drop in US long-end yields.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/sectoral-snapshot-today-august-21-2026-metals-realty-gain-it-fmcg-auto-pharma-stocks-drag"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil paused but did not retreat — **Brent slipped about 0.2-0.3% to roughly $93.40-93.57 a barrel** on Friday after both benchmarks touched their **highest since July 24** the session before, with **WTI at $86.30**, locking in a **second straight weekly gain of around 6%**.",
+          "why": "Traders took profit into the weekend but would not short an import bill that Washington is about to make more expensive on purpose, since Monday's sanctions package is designed to remove Iranian barrels and the intermediaries that move them from the market entirely.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/brent-crude-oil-price-today-august-21-2026-brent-dips-to-93-40-wti-at-86-30-as-us-iran-war-keeps-supply-risks-elevated"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Foreign selling continued for a second session but both sides of the flow shrank — **FIIs sold ₹542.70 crore** of cash equities on Friday against ₹583.40 crore on Thursday, while **DII buying fell to ₹2,124.10 crore** from ₹3,537.70 crore.",
+          "why": "The domestic bid that carried Thursday's rally stepped back by roughly 40% once it became clear the US yield relief was not returning, so the smaller foreign sale met a much smaller domestic absorption — which is precisely why the index went nowhere.",
+          "sourceName": "Trendlyne",
+          "sourceUrl": "https://trendlyne.com/macro-data/fii-dii/latest/cash-pastmonth/"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee spent the entire week locked in a **30-paisa range around 95.70**, settling near **95.7050** and refusing to break either way despite the crude spike.",
+          "why": "Rising oil and steady importer hedging demand pulled the currency lower all week while daily RBI intervention and a broadly softer dollar pushed back, and the two forces cancelled out almost exactly.",
+          "sourceName": "Business Recorder",
+          "sourceUrl": "https://www.brecorder.com/news/40435911/indian-rupee-battles-oil-hedging-drag-rbi-shield-weak-dollar-cushion-fall"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The squeeze ran another $7,000 higher and then stalled at a round number — **Bitcoin reached $79,400** on Friday before failing its approach to **$80,000** and slipping back to chop around **$77,000-77,700**, leaving it up roughly **22-24% on the week** for its **best five-day run since March 2023** and its highest level since late May.",
+          "why": "The same Treasury buyback and Clarity Act catalysts kept forcing shorts to cover, but the $80,000 handle drew enough profit-taking from a market already up nearly a quarter in five sessions to stop the advance cold.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride"
+        },
+        {
+          "emoji": "💥",
+          "detail": "Another **$1 billion of short positions was liquidated** in Friday's 24-hour window, taking **cumulative bearish liquidations over the two-day surge above $4 billion**.",
+          "why": "Bears who survived Wednesday's record wipeout and re-shorted into the $71,000 breakout were stopped out again on the run to $79,400, so the same crowded positioning that fuelled the first leg financed the second.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/21/bitcoin-ether-and-solana-climb-as-another-usd1-billion-shorts-get-wiped-out"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The ETF bid accelerated for a second straight day and broadened across every listed asset — **spot bitcoin funds took $606 million on Thursday**, the most since **May 1** and a fourth consecutive inflow day, **ether funds pulled $221 million** for their largest haul since October, and **XRP ($13 million)** and **Solana ($15 million)** products also drew money, for a combined **$827 million** in a single session. **BlackRock's IBIT alone took $502.99 million**, about **82%** of the bitcoin total.",
+          "why": "Allocators reading the Treasury intervention and the Clarity Act push as a regime shift rather than a trade are now buying the whole asset class instead of just bitcoin, which is why inflows rose from $517 million the prior day even as prices ran away from them.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/markets/bitcoin-etfs-ether-etfs-largest-inflow-october"
+        },
+        {
+          "emoji": "🌊",
+          "detail": "Altcoins kept pace and the **total crypto market cap rose 6.8% to $2.6 trillion** — **XRP surged 19.6% to $1.42**, **Ether added 5.1% to $2,402.78** for a roughly **25% weekly gain**, and **Solana rose 5% to $91.64**.",
+          "why": "XRP led because the Clarity Act's September 15 Senate procedural vote directly settles the securities-versus-commodity question that has capped its institutional adoption, so the tokens with the most unresolved regulatory status are repricing hardest.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The rally flipped the sector's most-watched balance sheet back into the black — **Strategy's bitcoin holdings swung to a roughly $1.4 billion unrealized gain**, having been underwater before this week's move.",
+          "why": "Its average purchase price sat inside the $62,000-$66,900 range that contained bitcoin from July 8, so breaking above $77,000 converted a paper loss into profit in the space of three sessions.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/21/strategy-sits-on-usd1-4-billion-profit-on-bitcoin-holdings-as-price-surges"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "Analysts are openly split on whether this is a new bull run or the end of a short squeeze, with **$80,000 the level to watch** into a weekend of thinner liquidity.",
+          "why": "The advance has been driven mechanically by more than $4 billion of forced short covering rather than organic spot demand, so the bear case is simply that the fuel runs out once the last leveraged shorts are gone.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Trump's \"economic D-Day\" against Iran has become the week's second macro shock stacked on the bond selloff: Hormuz transits stuck in single digits pushed Brent to a second 6% weekly gain and US pump prices up nearly a dollar year over year, that inflation impulse kept the 30-year yield pinned at 5.25% and cost the S&P 500 1.4% on the week despite Friday's 0.43% bounce, it froze the Nifty at 24,252 by rotating money out of IT and FMCG and into metals while the rupee sat trapped near 95.70 on the import bill — and crypto stayed immune only because its drivers are the Treasury's own buyback escalation and the Clarity Act, carrying Bitcoin to $79,400 and past $4 billion of short liquidations."
+}
