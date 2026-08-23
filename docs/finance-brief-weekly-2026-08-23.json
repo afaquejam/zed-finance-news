@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T08:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "US equities broke three straight weeks of gains: the **S&P 500 fell 1.4% on the week to 7,674.37**, the Nasdaq lost 2% to 26,180.45 and the Dow slipped 0.9% to 53,277.01 for a second consecutive down week, despite Friday's 0.43% bounce.",
+          "why": "The long end of the Treasury market replaced earnings as the dominant equity driver, with the 30-year yield hitting a 19-year high of 5.33% on Tuesday and finishing the week still around 5.25%, repricing long-duration growth stocks — semiconductors first — for five sessions straight."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The week's defining event was a failed rescue of the long bond: Treasury doubled its liquidity-support buybacks to **at least $4 billion per operation** on Wednesday, knocking 9bps off the 30-year to 5.196%, only for the yield to round-trip to 5.238% within a day and force Bessent back on the tape Friday pledging operations larger still.",
+          "why": "Traders read liquidity repurchases of off-the-run paper as a circuit breaker rather than a fix for the supply picture, and Bessent having to escalate within 48 hours confirmed the buyers' strike in long duration is structural — reinforced by July FOMC minutes showing Hammack, Kashkari and Logan all dissented for a hike."
+        },
+        {
+          "emoji": "🛒",
+          "detail": "The consumer read deteriorated as the week progressed — **Home Depot** beat with sales +5.7% to $47.861bn and **Target** hit a 52-week high on comps of +3.8% and a guidance raise to $9.90-$10.90, but **Walmart fell about 9%** to roughly $104 on Thursday even after beating on EPS of $0.81 and raising full-year sales guidance.",
+          "why": "Walmart's US comparable sales grew just 2.6% versus roughly 3.8% expected and 4.1% the prior quarter — the slowest in about six years — telling investors the guidance raise was funded by tariff refunds and margin timing rather than by household spending."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "India spent the week grinding lower and then going nowhere — the **Nifty 50 ended down 0.5% at 24,252.00** and the Sensex 0.6% lower at 77,540.83, with a seven-session losing streak finally snapped on Thursday (+0.64%) before Friday's flat 0.08% close.",
+          "why": "The Indian market traded a session behind Wall Street all week, banking Wednesday's US yield relief only on Thursday, by which time the 30-year had already reversed — so the single relief rally had no follow-through."
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude was the one driver that never turned: **Brent locked in a second straight weekly gain of around 6% to roughly $93.50**, having traded as high as $95.40, as transits through the Strait of Hormuz stayed in single digits for the entire week after eight vessel attacks this month.",
+          "why": "Trump confirmed the naval blockade remains in effect with no live negotiations, then escalated to an 'economic D-Day' sanctions campaign against Tehran due Monday, so the shipping risk premium never got a diplomatic off-ramp to price out."
+        },
+        {
+          "emoji": "💱",
+          "detail": "Domestic money again did all the work while the currency stood still — **DIIs bought ₹5,101.50cr, ₹3,973.70cr, ₹3,537.70cr and ₹2,124.10cr** across the week against net FII selling every session bar Wednesday's ₹408cr, and the **rupee held a 30-paisa range around 95.70**, settling near 95.7050.",
+          "why": "Steady SIP-funded domestic buying absorbed foreign outflows driven by the US rate differential, capping the drawdown at 0.5%, while rising oil and importer hedging pulled the rupee down exactly as much as RBI intervention and a softer dollar pushed it up."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto decoupled violently from the rates backdrop — **Bitcoin rose roughly 22-24% on the week**, running from about $62,700 on Monday to a high of **$79,400** on Friday before stalling below $80,000 and settling near $77,000-77,700, its best five-day run since March 2023 and a clean break of the $62,000-$66,900 range that had held since July 8.",
+          "why": "The Treasury's buyback announcement removed the rates pressure capping risk assets at exactly the moment Washington delivered back-to-back crypto policy wins, turning a market positioned bearishly for four days of ETF outflows into a chase."
+        },
+        {
+          "emoji": "💥",
+          "detail": "The move was mechanically driven rather than organic — **cumulative short liquidations passed $4 billion** over the surge, including $1.14bn in a single hour on Wednesday (the largest day of short destruction ever recorded) and another $1bn on Friday, adding roughly $280bn to total crypto market cap, which closed the week 6.8% higher at **$2.6 trillion**.",
+          "why": "Bearish leverage built during the earlier four-day, $332 million ETF outflow stretch was crowded enough that each liquidation cluster triggered the next, and bears who re-shorted the $71,000 breakout were stopped out again on the run to $79,400."
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Three regulatory catalysts landed in five days — Treasury's **GENIUS Act stablecoin rulemaking** (comment period to October 19), the SEC's first substantive crypto rulemaking in **'Regulation Crypto Assets'** with its conditional securities safe harbour, and Trump's White House push for the **Clarity Act** ahead of a September 15 Senate procedural vote — and the ETF bid followed, with spot bitcoin funds taking **$606 million on Thursday** and $827 million flowing across all listed crypto products in one session.",
+          "why": "Allocators read the combination as a regime shift rather than a trade and began buying the whole asset class, which is why token-issuing networks with unresolved securities status repriced hardest — XRP +19.6% to $1.42, Ether up about 25% on the week to $2,402.78 and Solana to $91.64."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A single inflation-and-supply shock ran through every market this week: Hormuz transits stuck in single digits drove Brent to a second 6% weekly gain and US pump prices up nearly a dollar year over year, keeping the 30-year Treasury yield pinned near its 19-year high at 5.25% despite two Treasury buyback escalations — that yield cost the S&P 500 1.4%, rotated Indian money out of IT and FMCG into metals to leave the Nifty down 0.5% with the rupee frozen at 95.70, while crypto was the lone beneficiary, because the same Treasury intervention plus the SEC and Clarity Act catalysts forced over $4 billion of short covering and carried Bitcoin 22% higher to $79,400."
+}
