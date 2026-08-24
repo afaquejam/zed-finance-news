@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T09:15:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "Fed Chair **Kevin Warsh delivers his first Jackson Hole keynote on Friday at 10:00 ET**, closing a symposium that runs August 27-29 under the theme 'Financial Innovation: Implications for Payments and Policy' — his last set-piece before the September 16 FOMC.",
+          "why": "The July minutes showed Hammack, Kashkari and Logan dissenting for a hike, so any hint Warsh shares that bias would push the 30-year back toward last week's 5.33% high and extend the duration repricing that cost the index 1.4%, while a patient, data-dependent tone would relieve exactly the pressure that has been the dominant equity driver.",
+          "sourceName": "Newsquawk",
+          "sourceUrl": "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---24th-28th-august-2026"
+        },
+        {
+          "emoji": "📉",
+          "detail": "**Wednesday is the data day**: July core PCE is expected at **+0.2% m/m, leaving the annual rate at 3.3%**, alongside the second estimate of Q2 GDP (consensus **1.5%**, down from 2.1%) and July durable goods — with a 5-year note auction the same afternoon and 2-year and 7-year sales bracketing it on Tuesday and Thursday.",
+          "why": "A hot core PCE lands directly on a long end already refusing to absorb supply after two failed Treasury buyback escalations, so the auction tails would do the damage rather than the print itself; a soft number plus a soft GDP revision is the one combination that lets equities rally on growth weakness.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**Nvidia reports Q2 FY2027 after the close on Wednesday**, with consensus near **$91.9bn in revenue and about $2.08 EPS** against company guidance of $91bn plus or minus 2%.",
+          "why": "Semiconductors were the first casualty of last week's yield move and the Nasdaq's 2% loss, so a beat-and-raise is the clearest available offset to the rates story — but landing hours after core PCE means a hot inflation print could bury a good number, and an in-line guide would leave the index with nothing to lean on into Friday.",
+          "sourceName": "Investing.com",
+          "sourceUrl": "https://www.investing.com/news/stock-market-news/nvidia-fiscal-q2-2027-earnings-outlook-what-to-watch-on-august-26-93CH-4872130"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🛢️",
+          "detail": "Treasury Secretary Bessent is set to unveil the **Iran sanctions package on Monday** — the 'economic D-Day' escalation — with Brent starting the week near **$93** after a second straight 6% weekly gain and Iran's security council threatening Hormuz ship seizures in response.",
+          "why": "India imports roughly 85% of its crude, so this is the single input that sets the import bill, the inflation path and the rupee's floor at 95.70 all at once; secondary sanctions on buyers would also close off the Iranian barrels Indian state refiners had been weighing, while any sign of a negotiated off-ramp is the fastest way to unwind the risk premium.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/24/us-iran-war-trump-hormuz-bessent-economic-sanctions-.html"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "**Tuesday is the August monthly F&O expiry** for Nifty and the index-derivative complex, with the index carrying in at **24,252** — below the 24,450-24,750 band where the 200-day, 50-week and 100-week moving averages converge, and above support at 24,000-23,800.",
+          "why": "Two consecutive down weeks and a seven-session losing streak have left positioning short into a settlement, so expiry-week unwinding can force a squeeze toward 24,400 that has nothing to do with fundamentals — but the moving-average cluster overhead means only a close above 24,750 changes the range, and a break of 24,000 hands the tape back to the sellers.",
+          "sourceName": "StockCharts",
+          "sourceUrl": "https://articles.stockcharts.com/article/week-ahead-nifty-awaits-a-trigger-as-key-support-and-resistance-zones-hold-watch-these-levels/"
+        },
+        {
+          "emoji": "💹",
+          "detail": "With the domestic earnings calendar largely emptied, **FII flows and the rupee are the week's swing factors**, and both key off Wednesday's US data and Friday's Warsh keynote — DIIs absorbed roughly ₹14,700 crore of buying last week against near-continuous FII selling, holding the drawdown to 0.5% and the rupee in a 30-paisa range near 95.7050.",
+          "why": "Indian markets trade a session behind Wall Street, so a hawkish Warsh on Friday would hit Indian screens only on Monday while widening the rate differential that has been driving foreign outflows all month; the risk is that oil-driven importer hedging and FII selling arrive together, which is the one combination SIP-funded domestic buying has not had to absorb yet.",
+          "sourceName": "Goodreturns",
+          "sourceUrl": "https://www.goodreturns.in/news/stock-market-outlook-today-august-24-sensex-nifty-eye-recovery-after-2-week-fall-crude-fii-flows-foc-1530213.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "⚖️",
+          "detail": "**Warsh's Friday Jackson Hole debut** is the week's dominant catalyst for crypto too, because the symposium's stated theme is **'Financial Innovation: Implications for Payments and Policy'** — putting stablecoins and payment rails on the agenda of a Fed Chair speaking days after Treasury's GENIUS Act rulemaking opened.",
+          "why": "Bitcoin's 22% week was built on Treasury buybacks removing the rates cap on risk assets, so a speech that keeps further tightening at arm's length preserves the weaker-dollar, lower-yield backdrop the rally needs, while a hawkish surprise takes away the whole mechanism at once — and any direct remarks on stablecoin regulation would hit the payment tokens independently of the macro read.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus"
+        },
+        {
+          "emoji": "₿",
+          "detail": "**Wednesday's core PCE** is the macro print that matters most, with bitcoin stalling near **$77,000** below the $79,400 high after spot ETFs took **$1.918bn across five sessions** last week — the strongest inflow stretch of the month heading into a month-end options settlement.",
+          "why": "The rally was mechanically driven by more than $4bn of short liquidations rather than organic demand, which cuts both ways: a soft PCE that reinforces the easing path could pull the ETF bid through $80,000, but with the shorts already flushed there is no fuel left for a squeeze, so a hot print meets a market that is now long and has to sell rather than cover.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/24/jackson-hole-symposium-u-s-pce-prices-iren-earnings-crypto-week-ahead"
+        },
+        {
+          "emoji": "🔓",
+          "detail": "Two supply events land early — **TON unlocks 1.33% of circulating supply (about $54.12m) on Monday** and Humanity's H token unlocks 7.92% (about $20m) on Tuesday — while miner-turned-AI-host **IREN reports FY2026 results after Thursday's close**.",
+          "why": "Unlocks of this size only bite when the bid is thin, so they are a useful tell on whether last week's inflows were real allocation or squeeze-driven; IREN matters more as a read-through, since its split between bitcoin mining economics at $77,000 and an AI cloud business targeting over $4bn in revenue is the clearest public test of whether the equity market still values miners on hashprice or on datacentre capacity.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/24/jackson-hole-symposium-u-s-pce-prices-iren-earnings-crypto-week-ahead"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Every market is trading the same long-end-of-the-curve question this week, asked twice: Wednesday's core PCE and Q2 GDP revision arrive alongside 2-, 5- and 7-year auctions into a Treasury market that just rejected two buyback escalations, and Friday Warsh answers it in his Jackson Hole debut — with Bessent's Monday Iran sanctions keeping Brent near $93 as the inflation input that makes a dovish answer harder, which is the exact channel that repriced US megacaps, froze the rupee at 95.70 and handed crypto its $4bn short squeeze last week."
+}
