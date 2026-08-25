@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T05:05:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "💾",
+          "detail": "The bond market finally gave stocks relief and equities sold off anyway — the **S&P 500 fell 21.51 points (-0.3%) to 7,652.86** and the **Nasdaq dropped 200.26 points (-0.8%) to 25,980.19** on Monday, while the **Dow rose 140.15 points (+0.3%) to 53,417.16** on the rotation out of tech.",
+          "why": "Bloomberg reported over the weekend that Nvidia has notified customers of price increases above 15% on AI servers because of soaring memory costs, which hit the entire semiconductor complex and pulled the tech-heavy indexes down even as Treasury yields fell.",
+          "sourceName": "Associated Press / Washington Post",
+          "sourceUrl": "https://www.washingtonpost.com/business/2026/08/24/wall-street-stocks-dow-nasdaq/27d744ee-9ff9-11f1-8606-1d40ad00172e_story.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "A new inflation channel opened inside the AI trade itself — Nvidia told customers that servers built on **Vera Rubin and Grace Blackwell** platforms shipping in **early 2027 will cost more than 15% extra**, sending the **Philadelphia Semiconductor Index down 2.4%** and the **SPDR S&P Semiconductor ETF down 3.1%**, with **Nvidia itself off more than 2% for a seventh straight decline — its worst streak since September 2022** — days before it reports.",
+          "why": "High-bandwidth memory and server DRAM prices are climbing at record rates as Samsung, SK Hynix and Micron divert capacity to high-margin AI parts, so the cost is being passed straight through to buyers and investors are marking down the margin assumptions embedded across the AI supply chain.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15"
+        },
+        {
+          "emoji": "⚔️",
+          "detail": "The Iran campaign trailed since Thursday finally landed with a name — Bessent launched **\"Operation Economic Outcast\"** on Monday, calling it **\"the single greatest financial offensive ever marshaled against an adversary,\"** expanding secondary-sanctions categories across **digital assets, gold, aviation, technology and shipping**, giving foreign governments an unspecified deadline to shut down Iran-related activity and warning that **at least one major financial institution could be designated this week**.",
+          "why": "Bessent said explicitly that no one would be exempt including China, but Treasury stopped short of sanctioning the large Chinese banks that finance the more than 80% of Iran's seaborne crude Beijing buys, so the package read as narrower in practice than the rhetoric that preceded it.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The long end caught a bid for the first time since the buyback round-trip — the **30-year yield fell more than 2 basis points to 5.2497%** on Monday after CNBC reported the Treasury may tap the **General Account** to fund its expanded buyback operations.",
+          "why": "Funding the buybacks out of the cash balance rather than incremental issuance would mean the Treasury is retiring duration without adding new supply, which is the first version of the intervention that addresses the actual buyer's strike instead of just adding liquidity.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/23/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Two binary events now sit inside 72 hours — **Nvidia reports fiscal Q2 on Wednesday, August 26** with Visible Alpha consensus at **$92.2 billion** in revenue (street range **$93-95 billion**, roughly **96% year-over-year growth**) and **adjusted EPS of $2.09 versus $1.05** a year ago, followed by **Kevin Warsh's first Jackson Hole keynote as Fed chair on Friday, August 28**, with futures pricing roughly a **one-in-three chance of a September rate hike** rather than a cut.",
+          "sourceName": "Seeking Alpha",
+          "sourceUrl": "https://seekingalpha.com/article/4939733-nvidia-earnings-preview-q2-2027"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🚢",
+          "detail": "The two-session bounce ended on Monday — the **Nifty 50 lost 32.95 points (-0.14%) to 24,219.05** and the **Sensex shed 171.72 points (-0.22%) to 77,369.11**, with the Nifty briefly breaking below **24,200** intraday before reclaiming it.",
+          "why": "Iran escalated ahead of the US announcement by threatening to seize vessels and unilaterally change transit rules for the Strait of Hormuz, which sent traders to cut positions rather than hold risk into an unquantified shipping threat on India's main crude route.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sensex-settles-172-pts-lower-nifty-ends-below-24-250-126082400749_1.html"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The damage was concentrated in financials rather than broad — **PSU banks, media and private banks** dragged, with the **Nifty PSU Bank index down 0.93% to 8,539.75**, while **metals, realty and IT** all advanced and the broader market split with **Midcap 100 up 0.13%** against **Smallcap 100 down 0.26%**.",
+          "why": "Metals extended Friday's leadership on the same commodity-inflation impulse while IT joined them on the drop in US long-end yields, leaving banks to absorb the geopolitical risk premium as the sector most exposed to a domestic rate path that an oil shock would push higher.",
+          "sourceName": "The Indian Awaaz",
+          "sourceUrl": "https://theindianawaaz.com/aug-24-sensex-slips-172-pts-nifty-ends-below-24250-as-banks-drag-metals-rally/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The sanctions arrived and crude fell hard — **Brent dropped 2.5% to $92.06 a barrel** and **WTI fell about 2.5% to $84.89**, reversing a chunk of the two-week, 12% run-up on the very day the toughest-ever Iran package was unveiled.",
+          "why": "Traders had positioned for measures that would physically remove Iranian barrels, but Washington's decision to spare the major Chinese banks that clear Beijing's purchases signalled the flows will largely continue, so the risk premium built up over the prior fortnight was unwound.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "Foreign money quietly flipped sides in the cash market — **FIIs bought ₹1,182 crore** of equities on Monday after two straight sessions of selling, but simultaneously carried a **net short index-futures position of 2,19,383 contracts**.",
+          "why": "The combination is a hedged re-entry rather than a conviction bid: foreign desks are buying cash at levels they consider cheap while paying for downside cover through futures, because Monday's sanctions detail and Warsh's Jackson Hole debut both land before they can reassess.",
+          "sourceName": "Craytheon",
+          "sourceUrl": "https://craytheon.com/charts/fii-dii-data/"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The rupee broke slightly out of its week-long cage but only just — it settled **3 paise weaker at 95.74**, having opened at **95.65** and traded a **95.64-95.75** band, its weakest close of the recent range.",
+          "why": "A firmer dollar and persistent importer hedging demand ahead of the sanctions announcement outweighed the intraday drop in crude, which came too late in the Indian session to help the currency.",
+          "sourceName": "Daily Excelsior",
+          "sourceUrl": "https://www.dailyexcelsior.com/rupee-falls-3-paise-to-close-at-95-74-against-us-dollar/"
+        },
+        {
+          "emoji": "⏳",
+          "detail": "Tuesday sets up flat to soft — **GIFT Nifty was down about 0.13%** ahead of the open, pointing to another rangebound session with no domestic trigger before Nvidia's results and Jackson Hole.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/blog/sensex-nifty-stock-market-live-updates-august-25-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The level that stopped the rally on Friday gave way — **Bitcoin cleared $80,000 for the first time since May 15**, rising as much as **2.9% to $81,257** in Tuesday's Asian session after breaking through late Monday, a three-month high.",
+          "why": "The Treasury's signal that it may fund buybacks from the General Account pushed the 30-year yield below 5.25% and weakened the dollar, giving the squeeze the fresh macro catalyst it needed to break a round number that had drawn heavy profit-taking three sessions earlier.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-25/bitcoin-reaches-three-month-high-of-80-000-as-momentum-returns"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The forced-covering engine is running out of fuel — the break above $80,000 triggered just **$220 million of crypto short liquidations** in 24 hours, a fraction of the **$1 billion a day** that powered Wednesday and Thursday's legs.",
+          "why": "More than $4 billion of bearish positions were already stopped out earlier in the rally, so there is far less crowded short interest left to squeeze — meaning this leg is being carried much more by spot and ETF demand than the last one.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://www.tradingview.com/news/cointelegraph:c16c477a1094b:0-bitcoin-price-hits-80k-as-24-hour-crypto-short-liquidations-pass-220m/"
+        },
+        {
+          "emoji": "📈",
+          "detail": "The full week's ETF tally landed and it was the biggest in ten months — US spot bitcoin funds pulled **$1.918 billion** between August 17 and 21, ether funds **$697 million**, **XRP $39.78 million** and **Solana $28.34 million**, with the combined bitcoin-plus-ether **$2.6 billion** the strongest week since **October 2025** and the largest of 2026 for both. Friday alone added **$307.45 million** for a fifth straight inflow day, **IBIT taking $239.3 million** of it.",
+          "why": "The daily pace decelerated from Thursday's $606 million into Friday's $307 million even as prices kept rising, which tells you allocators were still adding but no longer chasing — a healthier flow profile than the panic-buying at the top of the move.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/markets/2026-08-22-bitcoin-and-ether-etfs-draw-2-6-billion-in-strongest-inflow-week-since-october-tripling-volume-412531"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "Last week's leader is now the laggard — **XRP has fallen back to about $1.48, down 2.2%** in 24 hours after spiking to roughly **$1.69-1.70** during the rally, even as **Solana held $96.55 (+0.8%)** and **Ether traded near $2,470**.",
+          "why": "XRP ran roughly 50% in a week on the Clarity Act's September 15 Senate procedural vote, and with no further regulatory headline since, holders are booking a move that outran every other major token.",
+          "sourceName": "Sunday Guardian",
+          "sourceUrl": "https://sundayguardianlive.com/business/xrp-price-today-25-august-why-is-xrp-down-today-xrp-holds-near-148-after-50-weekly-rally-check-latest-prices-in-usd-inr-gbp-euro-jpy-269256/"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The scale of the run is now historic on two measures — Bitcoin gained **23% in the seven days through Sunday**, its biggest weekly jump in about three years, and is **up 25% month-to-date for its best August since 2017**, breaking a month that is historically the asset's weakest.",
+          "why": "The Treasury buyback intervention, a softer dollar, the Clarity Act push and more than $4 billion of short liquidations arrived within the same fortnight, compressing what would normally be months of catalysts into a single seasonal dead zone.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Monday inverted last week's entire macro setup: the Iran sanctions everyone feared arrived as \"Operation Economic Outcast\" but spared the major Chinese banks that clear Beijing's purchases of 80% of Iran's seaborne crude, so Brent fell 2.5% to $92.06 instead of spiking, that de-escalation plus a report the Treasury may fund buybacks from the General Account pulled the 30-year to 5.2497%, and the yield relief carried Bitcoin through $80,000 for the first time since May — yet US equities still fell, because the new drag is not geopolitics at all but AI-flation, with Nvidia's above-15% AI-server price hike knocking 2.4% off the semiconductor index and 0.8% off the Nasdaq, while India, closest to the shipping risk, slipped to 24,219 on Iran's threat to seize vessels in Hormuz before the oil selloff could help it."
+}
