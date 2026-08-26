@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The AI-flation selloff lasted exactly one session — the **S&P 500 rose 24.42 points (+0.3%) to 7,677.28**, the **Nasdaq rebounded 171.11 points (+0.7%) to 26,151.30** and the **Dow added 160.24 points (+0.3%) to 53,577.40** for a fourth straight advance, with **Nvidia up about 2%** ending its seven-session losing streak.",
+          "why": "A second consecutive slide in crude and a further drop in Treasury yields let buyers step back into the semiconductor complex that Monday's Nvidia server price-hike headline had knocked down, and investors positioned ahead of Nvidia's results rather than selling into them.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026"
+        },
+        {
+          "emoji": "🇨🇦",
+          "detail": "A second front opened in the trade war and equities ignored it — Canada retaliated with tariffs on **C$27.6 billion ($19.94 billion)** of US goods effective **September 8**, levying **50% on steel, aluminium, furniture and clothing**, **25% on cheese, appliances and seafood** and **15% on electronics and tools** across **700 products**, plus a **C$7.5 billion** business and worker support package.",
+          "why": "Ottawa deliberately matched Washington's new 50% duties dollar-for-dollar after suspending talks on Friday over what it called unreasonable last-minute US demands, but the measures are pre-announced, delayed to September and narrow enough that traders treated them as a negotiating position rather than a growth shock.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/25/canada-trump-tariffs-trade-carney-leblanc.html"
+        },
+        {
+          "emoji": "🛒",
+          "detail": "The consumer cracked in the forward-looking half of the survey — Conference Board confidence slipped **0.8 points to 89.4** in August (consensus **90.2**), a seven-month low, as the **Expectations Index fell 5.8 points to 68.2** even while the **Present Situation Index jumped 6.8 points to 121.2**, and year-ahead inflation expectations rose to **5.8% from 5.6%**.",
+          "why": "Gasoline stuck above $4 a gallon from the Iran-driven crude spike is feeding straight into household inflation expectations and pessimism about business conditions and jobs six months out, even as consumers still rate current conditions as improved.",
+          "sourceName": "The Conference Board / US News",
+          "sourceUrl": "https://www.usnews.com/news/business/articles/2026-08-25/us-consumer-confidence-falls-to-lowest-level-in-7-months-as-gas-prices-remain-elevated"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The long end extended Monday's relief rally for a second session — the **30-year yield fell more than 4 basis points to 5.234%** and the **10-year dropped over 3 basis points to 4.704%**, taking the 30-year further below the 5.25% line it had defended all week.",
+          "why": "A sub-consensus confidence print with an Expectations Index deep in recession territory pulled duration bids in on growth grounds, compounding the Treasury's signal that it may fund its expanded buybacks from the General Account rather than new issuance.",
+          "sourceName": "Associated Press",
+          "sourceUrl": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-tuesday-8252026/616-35cac524-69ae-4a72-ad81-a53028e6cca3"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The bar for tonight is now explicitly above guidance — **Nvidia reports fiscal Q2 after the close today** against its own guidance of **$91.0 billion ±2%**, street estimates of **$93-95 billion** and **adjusted EPS of $2.09**, with analyst price targets clustered at **$275-325**; the call, not the print, carries the Blackwell ramp and second-half outlook, two days before **Warsh's Jackson Hole keynote on Friday**.",
+          "why": "Monday's disclosure of above-15% AI-server price increases from soaring memory costs means the market will read gross-margin guidance as the real number, since it determines whether the AI supply chain can pass through DRAM inflation or has to absorb it.",
+          "sourceName": "Intellectia",
+          "sourceUrl": "https://intellectia.ai/blog/nvidia-earnings-august-26-2026-preview"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "💊",
+          "detail": "The expiry session reversed early losses into a solid gain — the **Nifty 50 climbed 115.50 points (+0.48%) to 24,334.55** and the **Sensex rose 286.98 points (+0.37%) to 77,656.09**, clearing **24,300** after opening under pressure.",
+          "why": "Brent's second straight slide and a firmer rupee removed the imported-inflation overhang that had capped the index, and monthly-expiry short covering amplified the move once the Nifty reclaimed 24,200.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-25-nse-bse-sensex-today-nifty50-gift-nifty-tempsens-instruments-ipo-allotment-today-126082500083_1.html"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Monday's sector map flipped almost exactly — **healthcare (+0.72%), pharma (+0.85% to 26,564), consumer durables (+0.76%) and PSU banks (+0.55%)** led, with **Adani Enterprises, Max Healthcare and Apollo Hospitals** among the top Nifty gainers, while **private banks and metals** lagged and the **Midcap index rose 0.54%** against **Smallcap down 0.1%**.",
+          "why": "PSU banks rebounded from Monday's 0.93% drop as the crude selloff eased the domestic rate-path risk that had hit them, while metals gave back their commodity-inflation leadership on the same falling-oil impulse that lifted defensives.",
+          "sourceName": "IANS",
+          "sourceUrl": "https://ianslive.in/sensex-nifty-end-higher-as-healthcare-pharma-and-psu-bank-stocks-lead-gains--20260825160127"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude's unwind accelerated into a rout — **Brent fell about 3% to end near $87.12** and **WTI to $82.36**, a second straight decline that leaves the benchmark **down more than 7% since Friday** and has now erased most of the two-week, 12% war premium.",
+          "why": "Pakistan's army chief Field Marshal Asim Munir wrapped a one-day Tehran visit reportedly carrying a US-Iran sanctions-relief proposal, and with Monday's package having set no deadline and spared the banks that clear Iran's oil payments, traders concluded the barrels are not coming off the market.",
+          "sourceName": "Eastern Herald",
+          "sourceUrl": "https://easternherald.com/2026/08/25/crude-oil-price-today-august-25-2026/"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee opened at its weakest of the range and finished stronger — it slipped **4 paise to 95.74** in early trade before recovering to lead Asian currency gains on the day, holding the **95.50-96.00** band it has traded all week.",
+          "why": "RBI intervention through state-run banks capped the early downside and the intraday collapse in Brent then did the rest, finally arriving early enough in the Indian session to help the currency rather than after the close as it did on Monday.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/finance/news/rupee-falls-4-paise-to-95-74-against-us-dollar-during-early-trade-126082500206_1.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "Wednesday's session is the first of the new series with a genuine external trigger sitting inside it — **Nvidia's results land after the US close tonight**, meaning Indian IT and the broader index trade the read-through only on **Thursday**, leaving today's session hostage to crude's follow-through and the Hormuz diplomacy headlines.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-august-26/article-199238/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "🧱",
+          "detail": "The rally hit a wall with a specific address — **Bitcoin touched $81,265** intraday Tuesday and was rejected almost exactly at its **50-week moving average of roughly $81,085**, sliding back below $80,000 to trade near **$79,250**, less than 1% higher on the day.",
+          "why": "The 50-week average is the level that has historically marked the end of past bear markets, so it drew concentrated profit-taking and short re-entry, and the failure to close above it means the breakout is still unconfirmed despite the 25% seven-day advance.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The squeeze mechanics are now measurable and they are unusually clean — **futures open interest collapsed to a five-month low of 587,600 BTC**, **$570.08 million** of positions were liquidated in 24 hours with shorts hit harder than longs, and **perpetual funding rates stayed below 10%** while crypto-margined positions sit at just **12%** of open interest.",
+          "why": "Falling open interest alongside a rising price means the move was short covering rather than fresh leveraged longs piling in, which is why the rally has not produced the cascading long liquidations that ended previous run-ups.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/25/a-bitcoin-short-squeeze-for-the-ages-as-futures-open-interest-collapses"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Spot demand is still there after the squeeze fuel ran out — US spot bitcoin ETFs logged a **sixth straight inflow day at $337.56 million**, taking the streak to **$2.26 billion** and assets to **$98.56 billion**, with **IBIT taking $208.9 million** (about **62%** of the day) and ether funds adding **$115.57 million**, Solana funds **$33.49 million**.",
+          "why": "Six consecutive days of institutional buying while short interest was being exhausted is the evidence that allocators, not just covering bears, are carrying this leg — though the pace has decelerated from the $606 million single-day peak, consistent with adding rather than chasing.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/bitcoin-etfs-inflow-streak-reaches-2-2-billion-in-6-days-as-assets-near-100-billion/"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "A 3% move blew up **$36.4 million** of leveraged DeFi positions on **Morpho** — one wallet's large **YT-reUSD** purchase pushed the paired **PT-reUSD** principal token down just enough to liquidate borrowers who had looped it as collateral to borrow USDC and buy more of it, leaving under **3%** of buffer.",
+          "why": "The looping trade had compressed liquidation margins to almost nothing, so a routine price feed update on a yield-bearing token was enough to trigger a cascade — though Pendle said the oracle worked as designed and Steakhouse Financial reported no lender losses and no bad debt.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/tech/2026/08/25/a-3-token-move-just-triggered-usd36-million-in-ethereum-defi-liquidations"
+        },
+        {
+          "emoji": "🪙",
+          "detail": "The altcoin tape split three ways — **XRP fell to about $1.44, down 3.2%** in 24 hours with a **$1.42-1.55** range but is still **up roughly 45% on the week**, while **Ether traded flat near $2,403 (+28% over seven days)** and **Solana held about $92.43, up roughly 23% weekly**.",
+          "why": "XRP is giving back the most because it ran the hardest on the Clarity Act's September 15 Senate vote and has had no follow-up regulatory headline, so holders are booking the outperformance while ETH and SOL, whose gains came from ETF flows, are holding theirs.",
+          "sourceName": "CoinGecko",
+          "sourceUrl": "https://www.coingecko.com/en/coins/xrp"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "One thread ran through every market on Tuesday and it was oil going the other way: Pakistan's army chief left Tehran carrying a reported sanctions-relief proposal, and with Monday's package already shown to have no deadline and to spare the banks clearing Iran's oil money, Brent fell another 3% to $87.12 and is now down over 7% since Friday — that unwind lifted the Nifty 0.48% to 24,334.55 on healthcare and PSU banks, pushed the US 30-year down to 5.234% and let the S&P 500 and a 2% bounce in Nvidia reverse Monday's AI-flation selloff, while the same yield relief carried Bitcoin to $81,265 before its 50-week moving average rejected it; the catch is that falling crude has not yet reached the consumer, whose Expectations Index dropped to 68.2 with gas still above $4 and year-ahead inflation seen at 5.8%."
+}
