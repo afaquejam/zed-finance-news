@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T12:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "The four-day advance ended in a stall rather than a selloff — the **S&P 500 closed essentially flat at 7,675.70**, the **Nasdaq slipped 0.08% to 26,130.20** and the **Dow fell 0.21% to 53,463.88**, with the index pinned inside a narrow band all session.",
+          "why": "A hotter-than-expected headline PCE print took the rate-cut trade off the table just as investors refused to add risk into Nvidia's after-the-bell report, leaving no side willing to move the index in either direction.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/25/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Fed's preferred gauge refused to move — **headline PCE held at 3.7%** year-on-year in July against a **3.6% consensus**, with the **monthly print at 0.2% versus 0.1% expected**, while **core PCE stayed at 3.3%** as forecast; September hike odds eased to **38%** but year-end odds held at **73%**.",
+          "why": "Core PCE has now been stuck at 3.3% since the Iran conflict began, so the market read the upside headline miss as evidence that the crude-driven price impulse is still working through the data rather than fading, keeping a hike rather than a cut as the live risk.",
+          "sourceName": "American Banker",
+          "sourceUrl": "https://www.americanbanker.com/news/pce-inflation-remains-sticky-as-fed-weighs-next-move"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Nvidia cleared the bar and then raised it — **revenue of $96.22 billion**, up **106%** year-on-year and **18%** sequentially against roughly **$92.2 billion** expected, **EPS of $2.22**, **data centre revenue of $89 billion** versus **$86.33 billion** estimated, and third-quarter guidance of **$108 billion ±2%** against a **$104.2 billion** street number; the stock jumped **4.71%** after hours.",
+          "why": "CFO Colette Kress went beyond the quarter and guided to roughly 70% revenue growth in fiscal 2028 — supply-constrained, not demand-constrained — and disclosed that AWS will deploy an additional 2 million Nvidia GPUs from this quarter through fiscal Q2 2029, which answered the durability question the market had been discounting.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/26/nvidia-nvda-earnings-report-q2-2027-live-updates.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The AI-flation thesis was confirmed by Nvidia itself, in the margin line — after printing **75.0% gross margin** in the quarter, the company guided **down to 74%** for Q3 and said margins will bottom at **71-72% in fiscal Q4 2027**, with management stating memory costs have risen beyond prior expectations and are headed higher still into next year.",
+          "why": "This is the direct sequel to Monday's above-15% AI-server price-hike headline: Nvidia is absorbing roughly three to four points of DRAM inflation rather than passing all of it through, which converts the AI trade from a pure demand story into a cost-pass-through story for the whole supply chain.",
+          "sourceName": "BigGo Finance",
+          "sourceUrl": "https://finance.biggo.com/news/US_NVDA_2026-08-26"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Meta settled the social-media addiction trial brought by **29 states** for roughly **$16.7 billion**, and the stock rose on the news.",
+          "why": "The suit alleged Meta engineered products to hook young users, misled consumers on safety and improperly collected personal data — so removing an open-ended trial risk for a single quantified charge was read as a cap on liability rather than a cost.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-26-dow-sp-500-nasdaq-081834782.html"
+        },
+        {
+          "emoji": "🎙️",
+          "detail": "Futures are carrying the Nvidia relief into Thursday — **S&P 500 futures rose about 1%** overnight, quoted near **7,721.25**, and **Nasdaq 100 futures added 0.68% to 29,489.75**, setting up **Warsh's first Jackson Hole keynote as Fed Chair on Friday** at a symposium running **August 27-29** under the theme *Financial Innovation: Implications for Payments and Policy*.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Tuesday's expiry gain was given straight back — the **Nifty 50 fell 126.80 points (-0.52%) to 24,207.75** and the **Sensex lost 183.15 points (-0.24%) to 77,472.94**, with **Nifty IT down over 1%** and FMCG and auto also weighing.",
+          "why": "The index de-risked ahead of two overnight US events it could not price — Nvidia's results and the July PCE print — and IT led the retreat because it carries the most direct read-through to a disappointing AI-capex signal.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-august-26-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-crude-annu-projects-ipo-126082600098_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "Thursday's session got the Nvidia answer and could not hold the gains — the **Nifty50 was down 19.30 points (-0.08%) at 24,188.45** and the **Sensex off 92.77 points (-0.12%) at 77,380.17** by mid-morning after fading an opening pop, with **IT and pharma the top gainers** and the **Nifty MidCap up 0.36%** and **SmallCap up 0.31%** outperforming the benchmarks.",
+          "why": "Nvidia's bullish fiscal-2028 guide lifted Indian IT at the open, but the same release flagged gross margins bottoming at 71-72% on memory costs, and that cost signal plus the above-consensus US PCE print pulled the broader index back below 24,200 within the first hour.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-27-nse-bse-sensex-today-nifty50-gift-nifty-share-market-today-126082700092_1.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude's unwind ran to a third straight session — **Brent fell 2.5% to $86.38 a barrel** and **US crude hovered around $80**, extending a slide that has now taken the benchmark well below the pre-escalation range.",
+          "why": "Reports that Iran and Oman discussed setting up a temporary joint maritime corridor in the Strait of Hormuz landed on top of a US sanctions package that has visibly spared Iran's trading partners, so the market is now pricing an administered waterway rather than a blocked one.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/26/oil-falls-as-the-us-pivots-to-economic-pressure-on-iran-.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee is quietly on its best run of the crisis — it **gained 12 paise to 95.31** against the dollar for a **sixth consecutive session of appreciation**, having closed at **95.44** the day before after opening the week as weak as 95.74.",
+          "why": "Three straight days of falling Brent cut India's single largest import bill at source, and with the RBI now smoothing volatility through state-run banks rather than defending a level, the currency has been allowed to follow crude higher instead of grinding sideways.",
+          "sourceName": "Outlook Business",
+          "sourceUrl": "https://www.outlookbusiness.com/markets/rupee-rises-for-6th-day-gains-12-paise-to-9531-against-us-dollar"
+        },
+        {
+          "emoji": "📈",
+          "detail": "The domestic catalyst arrives Monday — **Q1 FY27 GDP is released August 31**, with a Reuters poll of **58 economists** centred near **7.1%**, **Bank of Baroda at 7-7.2%** and **SBI Research at 8%**, against **6.8%** in the year-ago quarter.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/economy/news/india-s-q1-fy27-gdp-growth-projected-at-8-says-sbi-research-report-126081101611_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The 50-week moving average rejection turned into a real pullback — **Bitcoin fell about 2% to roughly $78,880**, breaking back under **$79,000** and briefly under **$78,000**, after a **23% seven-day** advance that peaked at Tuesday's $81,265 high.",
+          "why": "The above-consensus headline PCE print revived the September hike bid and pushed the 10-year back toward 4.65%, hitting a market whose RSI was already flashing overbought after the short squeeze, so profit-taking arrived with no bid left from covering shorts.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/26/bitcoin-takes-a-breather-after-adding-23-in-7-days-as-etf-demand-holds-steady"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The allocator bid did not flinch on the down day — US spot bitcoin ETFs logged a **seventh straight inflow day at $314.37 million**, pushing **August to $3.03 billion**, now within **$390 million** of October 2025's record with four sessions left, while **ether ETFs also ran a seventh day at $179.8 million** for about **$1 billion** across the streak.",
+          "why": "Inflows persisting through a 2% price decline is the cleanest evidence yet that the buying is scheduled allocation rather than momentum chasing, which is what separates this leg from the leveraged run-ups that ended in liquidation cascades.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/news/bitcoin-etf-august-inflows-surge-past-3-billion"
+        },
+        {
+          "emoji": "🚀",
+          "detail": "Solana is now the outperformer, not the tag-along — **SOL traded near $98-101, up about 27% on the week** against Bitcoin's 23%, and gained **1.5%** on a day BTC lost ground, while **US spot SOL ETFs hit a record $1.22 billion in cumulative inflows** after a **$33.5 million** single day, the largest of 2026, with **Bitwise's BSOL at $948.2 million — roughly 80%** of all capital in the category.",
+          "why": "Flows are following two network-level catalysts rather than price — governance proposals that would increase SOL burns and the move to double block speed — which gives SOL a fundamental story the other majors' ETF-driven gains lack.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/25/solana-etfs-extend-growth-streak-to-5-days-after-year-s-biggest-inflows"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The legislative catalyst the XRP rally was built on has effectively died — **Polymarket odds on the Clarity Act passing in 2026 have collapsed from 82% in February to 16%**, with **Galaxy Digital cutting its estimate to 10%** on the Senate calendar, leaving stablecoin yield rules, DeFi protocol classification and presidential crypto-income ethics provisions unresolved.",
+          "why": "With Congress stalled, the agencies moved to fill the gap by rulemaking instead — the SEC proposed Regulation Crypto Assets, FASB proposed treating qualifying stablecoins as cash equivalents, and the OCC plans to finalise GENIUS Act stablecoin rules by November — which delivers a framework without the statutory certainty the market had been pricing.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/clarity-act-lost-window-regulation-by-rulemaking/"
+        },
+        {
+          "emoji": "🎯",
+          "detail": "Friday is unusually direct for crypto — **Warsh's Jackson Hole keynote** comes at a symposium themed *Financial Innovation: Implications for Payments and Policy*, putting the payments-and-stablecoin question in front of the Fed Chair in the same week the OCC's GENIUS Act rulemaking timeline firmed up, with **Ether near $2,489** and **XRP around $1.40** heading into it.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Two opposing forces split Wednesday cleanly: sticky inflation won the day and falling oil won the week. Headline PCE holding at 3.7% against a 3.6% consensus, with the monthly print double the expected 0.2%, kept year-end hike odds at 73% and pushed the 10-year back to 4.65% — that pinned the S&P 500 flat at 7,675.70 and knocked Bitcoin from its $81,265 high back under $79,000 — while Brent's third straight drop, to $86.38 on Iran-Oman Hormuz corridor talks, carried the rupee to a sixth consecutive gain at 95.31 but could not stop the Nifty falling 0.52% to 24,207.75 as it de-risked into the US overnight. Nvidia then resolved the AI question in both directions at once: a $108 billion guide and a 70% fiscal-2028 growth signal sent the stock up 4.71% after hours, but gross margins guided down to 74% and bottoming at 71-72% on memory costs mean the same DRAM inflation showing up in PCE is now visible inside the AI supply chain's own P&L."
+}
