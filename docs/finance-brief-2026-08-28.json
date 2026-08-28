@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Wednesday's stall became a broad-based breakout — the **S&P 500 rose 0.72% to 7,731** and the **Nasdaq Composite jumped 1.57% to 26,541**, with **Nvidia closing up 9.1%** after first dropping about 4% in the immediate post-earnings reaction and then opening roughly 6% higher.",
+          "why": "The overnight fade in Nvidia reversed once traders worked through the fiscal-2028 guide of roughly 70% revenue growth and judged the supply-constrained framing more important than the guided-down gross margin, turning Wednesday's hesitation into a chase.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-tech-strength-powers-nasdaq-higher-as-nvidia-leads-rally/"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The bigger surprise was software, not silicon — **Salesforce surged 22.6%** on adjusted EPS of **$5.90** and revenue of **$11.35 billion**, while **CrowdStrike rose 20.5%** on its best day ever after EPS of **$0.31** against $0.29 expected and revenue of **$1.47 billion** versus $1.44 billion.",
+          "why": "Salesforce disclosed Agentforce annual recurring revenue of $1.5 billion, up 240% year-on-year, which directly refuted the thesis that AI would cannibalise seat-based enterprise software, and CrowdStrike lifted fiscal-2027 revenue guidance to $5.99-6.01 billion against a $5.93 billion consensus on demand for securing AI workloads.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-shares-surge-q2-beat-101555351.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The rally was narrower than the headline number — **the tech complex lifted the S&P 500 even as a majority of its constituents fell**, leaving the index gain concentrated in the three AI-adjacent reporters and their read-throughs.",
+          "why": "Money rotated into the names that had just delivered proof of AI monetisation rather than being added to the market as a whole, so the advance was a reallocation within the index rather than a broad risk-on bid.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-27/us-stock-futures-climb-as-nvidia-s-outlook-lifts-tech-sector"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The bond market refused to join the equity celebration — the **30-year Treasury yield edged up to 5.19%**, holding near a 19-year high, with markets pricing roughly a **one-in-three chance of a September hike** even as long-end rates stay elevated.",
+          "why": "Near-term hike odds have drifted lower while the long end has not followed, which analysts read as the bond market pricing persistent inflation and term premium rather than a policy path — a warning that sits directly against Thursday's equity move.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/article/the-bond-market-is-daring-the-fed-to-hike-chart-of-the-day-100000601.html"
+        },
+        {
+          "emoji": "🎤",
+          "detail": "Everything now hinges on one speech — **Warsh delivers his first Jackson Hole keynote as Fed Chair at 10:00 a.m. ET Friday**, with a Bank of America fund-manager survey showing **69% expect a neutral tone** that is already priced in.",
+          "why": "With neutral the consensus, the asymmetry sits entirely in a surprise — Goldman Sachs has flagged that Jackson Hole keynotes historically amplify FX volatility, making this the single tiebreaker for the September decision.",
+          "sourceName": "XTB",
+          "sourceUrl": "https://www.xtb.com/en/education/jackson-hole-2026-warsh-fed-speech"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Thursday's fade did not stop at mid-morning — the **Sensex closed down 0.70% at 76,934**, a fall of roughly **539 points**, with the **Nifty 50 ending near 24,091** and giving up the entire opening Nvidia pop.",
+          "why": "Selling pressure persisted through the afternoon despite easing oil and firm global tech, as domestic institutions kept trimming into strength rather than adding ahead of an unpriceable Warsh keynote and Monday's GDP print.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/india/stock-market"
+        },
+        {
+          "emoji": "💻",
+          "detail": "Friday finally converted the US tech lead into a domestic bid — the **Sensex rose 193.02 points (0.25%) to 77,126.61** and the **Nifty50 added 33.80 points (0.14%) to 24,124.65** in early trade, with **Nifty IT up over 1%** and **Tech Mahindra, TCS and Infosys the top Nifty gainers**, while Nifty Private Bank and Financial Services lagged.",
+          "why": "Salesforce's 22.6% jump on Agentforce ARR growth of 240% and CrowdStrike's record results were read as evidence that enterprise software budgets are expanding rather than being eaten by AI, which is the single most direct positive read-through available to Indian IT services.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-28-nse-bse-sensex-today-nifty50-gift-nifty-tempsens-instruments-share-price-126082800087_1.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee's best run of the crisis ended — after six straight sessions of appreciation it **weakened to close at 95.55** on Thursday from 95.31, before opening Friday just **2 paise firmer at 95.53**.",
+          "why": "The streak broke even as crude kept falling, because the 30-year US yield holding at 5.19% into Warsh's keynote pulled the dollar higher across Asia, overwhelming the import-bill relief that had been driving the rupee for a week.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-28-nse-bse-sensex-today-nifty50-gift-nifty-tempsens-instruments-share-price-126082800087_1.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude's unwind extended to a fourth straight session — **Brent fell about 0.6% to $87.30 and then below $87 a barrel**, continuing the slide that has taken the benchmark down from $92.06 on August 24.",
+          "why": "Iran's military said it had reached a revenue-sharing agreement with Oman over the Strait of Hormuz — an upgrade from Wednesday's reported talks to an actual arrangement — though Tehran stressed it does not guarantee immediate reopening, which is why the fall was a fraction of the prior sessions' drops.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        },
+        {
+          "emoji": "🚢",
+          "detail": "The physical evidence is now running ahead of the diplomacy — **Trump said 10 million barrels of oil passed through Hormuz on Tuesday**, reiterating that mines in the waterway have been cleared.",
+          "why": "A verified throughput number matters more to the risk premium than a negotiating headline, because it shows the corridor already functioning at meaningful volume regardless of whether a formal reopening is announced.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Wednesday's break below $79,000 was fully reversed — **Bitcoin reclaimed $80,000**, rising about 1.5% to roughly **$79,439** during the session before pushing back through the round number as US software stocks led the equity rally.",
+          "why": "The correlation ran straight from the AI earnings trifecta into crypto: with Nvidia, Salesforce and CrowdStrike all clearing the bar, risk appetite returned to the same accounts that had taken profits on the PCE print a day earlier.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/business/2026/08/27/live-updates-bitcoin-etf-inflows-hit-eight-straight-days-as-august-tops-usd3-billion"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The allocator streak reached a round number — **US spot bitcoin ETFs logged an eighth consecutive inflow day for $2.8 billion across the run**, the longest streak since April, pushing **August above $3 billion** and making it the strongest month of 2026; **ether ETFs added $192 million** on their own seventh straight day.",
+          "why": "The composition of the streak matters more than the total — inflows peaked at $606.3 million on August 20 and have not exceeded $340 million since, with Wednesday's $232.2 million the smallest, so the bid is decaying in size even as it persists in frequency.",
+          "sourceName": "Decrypt",
+          "sourceUrl": "https://decrypt.co/376683/bitcoin-etfs-draw-2-8b-in-eight-day-streak-as-btc-tests-80k"
+        },
+        {
+          "emoji": "🚀",
+          "detail": "Solana widened its lead over the majors — **SOL jumped 8% to $103.86**, clearing $100 for the first time in this leg after trading at $98-101 a day earlier, while **Ether rose 1.6% to $2,501.60**.",
+          "why": "SOL is compounding a network-level story the other majors lack — proposed governance changes that would increase burns plus the move to double block speed — so a general risk-on day produced roughly five times Bitcoin's percentage gain rather than a matching one.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/what-happened-in-crypto-market-today-latest-news-august-27"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The reversal was violent in both directions — **99,560 traders were liquidated for $421.02 million** in 24 hours, on total crypto trading volume of **$88.5 billion**, with Bitcoin dominance at **57.5%**.",
+          "why": "Positioning had flipped short into Wednesday's pullback after the overbought RSI reading, so the move back through $80,000 forced a second round of covering on top of the roughly $6.4 billion of short liquidations already run since last Wednesday.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/what-happened-in-crypto-market-today-latest-news-august-27"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "With the Clarity Act effectively dead, the agency route is now the only live one — the **SEC's Regulation Crypto Assets proposal (file S7-2026-27)** is formally out for comment, and **seven spot XRP ETFs are trading with about $1 billion in assets** against **$1.51 billion in cumulative net inflows** since launch.",
+          "why": "The gap between $1.51 billion of inflows and $1 billion of assets is the clearest measure of how much the XRP complex has lost to price since the legislative catalyst collapsed, even as the product set kept taking in money.",
+          "sourceName": "SEC",
+          "sourceUrl": "https://www.sec.gov/rules-regulations/2026/08/s7-2026-27"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Thursday's AI earnings trifecta — Nvidia up 9.1%, Salesforce up 22.6% on 240% Agentforce ARR growth, CrowdStrike up 20.5% on a record quarter — proved AI is now generating revenue rather than just consuming capex, and that single signal propagated everywhere: it lifted the S&P 500 0.72% to 7,731 on narrow breadth, carried Bitcoin back above $80,000 for an eighth straight ETF inflow day, and gave Indian IT its Friday bid with Nifty IT up over 1% and TCS, Infosys and Tech Mahindra leading. The dissent is in fixed income and FX — the 30-year Treasury yield sits at 5.19% near a 19-year high with roughly one-in-three September hike odds, and that dollar strength ended the rupee's six-session winning run at 95.55 despite Brent falling a fourth straight session below $87 on Iran's revenue-sharing agreement with Oman over Hormuz — leaving Warsh's 10:00 a.m. ET keynote as the one event that can reconcile an equity market pricing an AI earnings cycle against a bond market pricing sticky inflation."
+}
