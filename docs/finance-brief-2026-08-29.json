@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T09:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "Thursday's AI-led breakout was capped rather than extended — the **S&P 500 slipped 0.25% to 7,711.76**, the **Nasdaq fell 0.52% to 26,402.42** and the **Dow was flat at 53,559.99**, though the index still finished **up 0.5% on the week** with the Nasdaq up 0.9%.",
+          "why": "Fed Chair Kevin Warsh used his Jackson Hole keynote to warn that inflation is not yet under control, saying the better-than-expected summer PCE and CPI readings \"do not tell me that underlying trends have meaningfully improved,\" which flipped the week's macro backdrop from benign to restrictive in the space of a 30-minute speech.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/stocks-post-winning-week-as-inflation-becomes-top-of-mind-for-traders.html"
+        },
+        {
+          "emoji": "📈",
+          "detail": "The consensus that 69% had priced as neutral was wrong — **September rate-hike odds spiked to 59% from 35% on Thursday**, the **2-year Treasury yield jumped 9.5 basis points to 4.325%**, a one-month high, and the **dollar gained 0.4%**.",
+          "why": "Warsh explicitly framed current policy as insufficiently restrictive and put price stability ahead of the labour market, so the front end repriced toward an actual hike to 3.75-4% rather than the extended pause traders had assumed going into the speech.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The semiconductor half of the AI trade gave back most of its earnings pop — **Nvidia fell 4.45%** after Thursday's 9.1% surge, with **3M down 2.56%** and **Honeywell down 2.19%**, while **Amazon rose 4.02%, Salesforce added 3.06% and Nike gained 3.02%**.",
+          "why": "Higher discount rates hit the longest-duration, most richly valued part of the market first, so the capex-heavy chip names bore the repricing while the software winners that had just shown cash generation on Thursday kept their bid.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold gave the cleanest read on the speech — bullion traded near **$4,600 an ounce** into the keynote and then sold off to an **intraday low around $4,531**, with December futures having opened at **$4,656**.",
+          "why": "A credible commitment to fight inflation with rate increases raises the real yield on cash and removes the debasement premium that had driven gold more than 25% higher since early 2025, making it the most rate-sensitive asset in the complex.",
+          "sourceName": "Brisk Markets",
+          "sourceUrl": "https://www.briskmarkets.com/blog/gold-update-bullion-slides-after-warshs-hawkish-fed-message/"
+        },
+        {
+          "emoji": "📅",
+          "detail": "The September decision now turns on labour data rather than rhetoric — **ISM Manufacturing and JOLTS land Tuesday September 1**, ADP Wednesday, **ISM Services Thursday**, and the **August employment report Friday September 4**.",
+          "sourceName": "Schaeffer's Investment Research",
+          "sourceUrl": "https://www.schaeffersresearch.com/content/news/2026/08/27/the-week-ahead-august-jobs-report-takes-center-stage"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "💻",
+          "detail": "Friday's early bid held all session and then some — the **Sensex closed up 330.92 points (0.43%) at 77,264.51** and the **Nifty50 rose 84.80 points (0.35%) to 24,175.65**, snapping a two-day losing streak, with the **Nifty IT index surging 3.51% to 31,281.70** for its strongest day in nearly two months.",
+          "why": "Nvidia's results and the US enterprise-software beats were read as evidence that global technology budgets are expanding rather than contracting, and Indian IT services is the most direct domestic proxy for that spending, so TCS, Tech Mahindra and Infosys led the index.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-28-nse-bse-sensex-today-nifty50-gift-nifty-tempsens-instruments-share-price-126082800087_1.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Unlike Wall Street's narrow advance, the Indian move had participation behind it — **roughly 2,300 shares advanced against 1,840 decliners** on the BSE, though the broader indices barely moved with the **Nifty Midcap up 0.05%** and the **Nifty Smallcap up 0.20%**.",
+          "why": "The gain was overwhelmingly a single-sector event driven by the IT read-through, so breadth stayed positive on sentiment while the money itself concentrated in large-cap technology rather than rotating down the market-cap curve.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-snap-two-day-losing-streak-it-stocks-surge-breadth-positive-126082800928_1.html"
+        },
+        {
+          "emoji": "💵",
+          "detail": "The rupee immediately resumed the run that Thursday had interrupted — it **gained 6 paise to settle at 95.39** provisionally, opening at 95.54 and trading a **95.31-95.57 range** through the session.",
+          "why": "Falling crude cut the projected import bill and the Reserve Bank of India was seen intervening to steady the currency, together outweighing a marginally firmer dollar and continued foreign institutional selling in the cash market.",
+          "sourceName": "Daily Excelsior",
+          "sourceUrl": "https://www.dailyexcelsior.com/rupee-rises-6-paise-to-settle-at-95-39-against-us-dollar/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude's unwind became the defining move of the week — **Brent settled at $89.31 a barrel, down 39 cents or 0.43%**, capping a decline of **more than 5% across the week**.",
+          "why": "Traders have re-classified the Iran situation as an economic and sanctions confrontation rather than an imminent threat to physical supply, and with Hormuz throughput improving and the proposed Iran-Oman corridor advancing, the war-risk premium is being drained out of the barrel.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/28/oil-on-track-for-weekly-loss-even-as-iran-tensions-simmer.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Monday carries a double load — Indian markets closed hours before Warsh spoke and so have yet to price the hawkish shift, and **Q1 FY27 GDP lands on August 31** with consensus near **7.2%** against 7.8% in Q4 FY26, though **SBI Research is at 8%**.",
+          "why": "A delayed monsoon onset and softer services growth are expected to have pushed growth to a four-quarter low, with the June rainfall deficit of nearly 40% only narrowing to about 12% by August.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/economy/news/weak-rains-services-likely-eased-q1-fy27-growth-to-4-quarter-low-126082401125_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The reclaim of $80,000 lasted less than a day — **Bitcoin touched $81,455 overnight**, its highest since May 15, then collapsed to roughly **$76,909** after Warsh spoke and is trading near **$77,701 (-2.83%)** into the weekend, with **Ether at $2,438.97 (-2.19%)** and **Solana at $104.00 (-2.73%)**.",
+          "why": "Crypto is currently the highest-beta expression of the liquidity trade, so the jump in September hike odds from 35% to 59% hit it harder and faster than equities, erasing the entire AI-earnings risk-on bid from the prior session.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-28/bitcoin-slips-below-80-000-after-kevin-warsh-inflation-vow"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The unwind was a long squeeze, the mirror image of the short squeezes that built the August rally — **roughly $488 million in liquidations** hit the market, with **leveraged longs absorbing the bulk of the damage**.",
+          "why": "Nine straight days of ETF inflows and a Greed sentiment reading had left positioning crowded on the long side going into an event traders had assumed was neutral, so the hawkish surprise found no offsetting short base to cushion it.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/fed-chair-kevin-warsh-triggers-a-488-million-crypto-liquidation-cascade-as-rate-hike-expectations-rise/"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Allocators bought the top with almost perfect mistiming — **crypto ETFs took in nearly $580 million on August 27**, split between **$242.3 million into spot bitcoin funds** and about **$235 million into ether funds** on a **ninth consecutive inflow day** each, lifting August above **$3 billion** and halving year-to-date net outflows to **$2.26 billion**.",
+          "why": "The streak was built on the assumption of a neutral Jackson Hole, so the largest single-day institutional commitment of the run landed in the final session before the speech that reversed the thesis.",
+          "sourceName": "Crypto Briefing",
+          "sourceUrl": "https://cryptobriefing.com/institutions-580m-crypto-etfs-warsh-speech/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Solana's outperformance now has a distribution catalyst behind it — **Charles Schwab will add SOL, AVAX and LINK** to Schwab Crypto in the coming months across **39.9 million brokerage accounts and more than $12 trillion in client assets**, at a **75 basis point** trading fee; SOL jumped **6.89% to $109.21** on the news before the Warsh selloff.",
+          "why": "Schwab is adding the assets in response to client demand and this is the first time the three have been available to a mainstream US retail brokerage base alongside BTC and ETH, which changes the addressable buyer set rather than just the sentiment.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/business/2026-08-27-charles-schwab-add-solana-avalanche-chainlink-to-crypto-trading-platform-412923"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The agency route kept producing while prices fell — **Evernorth cleared an SEC hurdle on August 28** for a Ripple-linked XRP treasury vehicle moving toward a Nasdaq listing, on the same day the **XRP Ledger passed 5 billion cumulative transactions**.",
+          "why": "With the Clarity Act dead, product approvals under the SEC's proposed Regulation Crypto Assets framework are now the only channel through which new institutional access is being created, and that channel is advancing independently of the macro repricing.",
+          "sourceName": "CoinMarketCap",
+          "sourceUrl": "https://coinmarketcap.com/cmc-ai/xrp/latest-updates/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "One 30-minute speech reset every market at once: Warsh's warning that better summer PCE and CPI prints \"do not tell me that underlying trends have meaningfully improved\" drove September hike odds from 35% to 59% and the 2-year yield up 9.5bp to 4.325%, which pulled the S&P 500 down 0.25% to 7,711.76 with Nvidia giving back 4.45% of its 9.1% earnings pop, knocked gold from $4,600 to $4,531, and hit the highest-beta asset hardest as Bitcoin fell from $81,455 to about $77,701 on $488 million of long liquidations — the exception is India, which closed up 0.43% on the Nifty IT complex's 3.51% surge hours before the speech and therefore still has to price the shift on Monday, on the same day its Q1 FY27 GDP print lands."
+}
