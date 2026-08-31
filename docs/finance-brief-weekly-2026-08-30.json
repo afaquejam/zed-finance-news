@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-31T09:51:18Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The index took a three-stage round trip and still finished green — from Monday's AI-flation drop to 7,652.86, through Thursday's earnings breakout to 7,731, to a Friday close of **7,711.76 for a weekly gain of 0.5%** (Nasdaq +0.9% to 26,402.42).",
+          "why": "Nvidia's $96.22 billion quarter and $108 billion guide plus 20%-plus surges in Salesforce and CrowdStrike carried the week's gains, before Warsh's hawkish Jackson Hole keynote capped the advance on Friday."
+        },
+        {
+          "emoji": "🤖",
+          "detail": "AI-flation went from a rumour to a disclosed number in four sessions — Monday's report of **above-15% Nvidia AI-server price increases** knocked 2.4% off the Philadelphia Semiconductor Index, and by Wednesday Nvidia itself guided gross margin down to **74% in Q3, bottoming at 71-72%** on memory costs; the stock's week ran -2% (a seventh straight loss), then +9.1%, then -4.45%.",
+          "why": "Record high-bandwidth memory and server DRAM prices are now visible inside the AI supply chain's own P&L, converting the trade from a pure demand story into a cost-pass-through story that the market has to re-underwrite."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "One 30-minute speech reset the rate path — Warsh said better summer PCE and CPI prints \"do not tell me that underlying trends have meaningfully improved,\" sending **September hike odds from 35% to 59%**, the 2-year yield up 9.5bp to 4.325%, the dollar up 0.4% and gold from $4,600 to an intraday $4,531.",
+          "why": "The Fed chair framed current policy as insufficiently restrictive and put price stability ahead of the labour market, against a Bank of America survey showing 69% of managers had positioned for a neutral tone."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "India spent the week trapped in a 24,091-24,335 band and ended slightly lower — the **Nifty 50 closed at 24,175.65** and the Sensex at 77,264.51 after a Friday rally of 0.35% and 0.43% respectively, with the **Nifty IT index surging 3.51% to 31,281.70** for its best day in nearly two months.",
+          "why": "Every attempt to rally on falling crude was sold as domestic institutions de-risked into two events India could not price — Nvidia's results and Warsh's keynote — until Friday, when the US enterprise-software beats gave IT services the clearest read-through of the week."
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The oil unwind was the week's defining Indian variable — **Brent fell more than 5% across the week**, from $92.06 on Monday to a $89.31 Friday settlement via an $86.38 midweek low, and the rupee ran six consecutive sessions of appreciation to close at **95.39 from 95.74**.",
+          "why": "Washington's \"Operation Economic Outcast\" sanctions spared the Chinese banks clearing 80% of Iran's seaborne crude and set no deadline, and with 10 million barrels transiting Hormuz on Tuesday and an Iran-Oman revenue-sharing corridor advancing, traders reclassified Iran as a sanctions confrontation rather than a supply threat."
+        },
+        {
+          "emoji": "⏳",
+          "detail": "India carries the week's unfinished business into Monday — domestic markets closed hours before Warsh spoke, so the jump to 59% September hike odds is still unpriced, and **Q1 FY27 GDP lands August 31** with consensus near 7.2% against 7.8% in Q4 FY26 (SBI Research at 8%).",
+          "why": "A delayed monsoon — a June rainfall deficit of nearly 40% narrowing to about 12% by August — and softer services growth are expected to have pushed growth to a four-quarter low on the same session the hawkish repricing arrives."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin cleared $80,000 for the first time since May 15, peaked at **$81,455** — and was rejected almost exactly at its 50-week moving average near $81,085 — then collapsed to close the week near **$77,701**, with Ether at $2,438.97 and Solana at $104.00.",
+          "why": "Early-week yield relief from the Treasury's buyback signal carried the break higher, but crypto is the highest-beta expression of the liquidity trade and the Warsh repricing hit it hardest, triggering roughly $488 million of mostly long liquidations — the mirror image of the short squeezes that built the August rally."
+        },
+        {
+          "emoji": "💸",
+          "detail": "The allocator bid ran the entire week without a break — US spot bitcoin ETFs logged a **ninth consecutive inflow day**, over $2.8 billion across the streak, taking **August above $3 billion** for the strongest month of 2026 and halving year-to-date net outflows to $2.26 billion, with ether funds on their own nine-day run.",
+          "why": "The buying persisted through Wednesday's 2% decline, marking it as scheduled allocation rather than momentum chasing — but daily size decayed from the $606.3 million August 20 peak to sub-$340 million prints, and the largest single-day commitment of $580 million landed on August 27, the session before the speech that broke the thesis."
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Solana was the week's outperformer at **roughly +27%**, clearing $100 and touching $109.21 on news Charles Schwab will add SOL, AVAX and LINK across 39.9 million accounts, while the legislative catalyst behind XRP's prior run died — **Polymarket odds on the Clarity Act passing in 2026 fell to 16% from 82% in February**.",
+          "why": "With Congress stalled, access is now being created only through agency rulemaking and product approvals — the SEC's Regulation Crypto Assets proposal, record $1.22 billion of cumulative SOL ETF inflows and Evernorth's XRP treasury clearance — which advanced independently of the macro repricing."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Inflation drove every market this week but changed address three times: it drained out of crude as Brent fell more than 5% once the Iran sanctions visibly spared Tehran's buyers, reappeared inside the AI trade as Nvidia guided gross margins down to 71-72% on memory costs, and finally arrived as policy when Warsh's Jackson Hole warning pushed September hike odds from 35% to 59% — leaving the S&P 500 up just 0.5% at 7,711.76, Bitcoin down from $81,455 to $77,701 on $488 million of long liquidations, and India, which closed before the speech at 24,175.65, still owing the market that repricing on Monday."
+}
