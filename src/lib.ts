@@ -172,11 +172,42 @@ export function formatBriefForPrompt(brief: FinanceBrief): string {
   return lines.join("\n");
 }
 
+/** Total CLI invocations per run, i.e. one retry after the first failure. */
+const CLAUDE_MAX_ATTEMPTS = 2;
+/** Pause before retrying — long enough for a transient 529/429 spike to clear. */
+const CLAUDE_RETRY_DELAY_MS = 60_000;
+
+/** Block the (synchronous) pipeline without spawning a `sleep` subprocess. */
+function sleepSync(ms: number): void {
+  Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+}
+
 /**
  * Invoke the Claude Code CLI with a prompt and return the parsed JSON envelope.
  * Both pipelines allow only WebSearch and expect a single strict-JSON result.
+ *
+ * A failed run is retried once. Transient API errors (529 Overloaded, 429) are
+ * the dominant failure mode and nothing else revisits the gap: the next day's
+ * run targets the next date and the skip-if-exists rule never comes back, so a
+ * single blip used to mean a permanently missing page.
  */
 export function runClaudeCode(prompt: string): ClaudeCliJsonEnvelope {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return runClaudeCodeOnce(prompt);
+    } catch (err) {
+      if (attempt >= CLAUDE_MAX_ATTEMPTS) throw err;
+      console.warn(
+        `[finance-brief] claude attempt ${attempt}/${CLAUDE_MAX_ATTEMPTS} failed ` +
+          `(${err instanceof Error ? err.message : err}); retrying in ` +
+          `${CLAUDE_RETRY_DELAY_MS / 1000}s...`,
+      );
+      sleepSync(CLAUDE_RETRY_DELAY_MS);
+    }
+  }
+}
+
+function runClaudeCodeOnce(prompt: string): ClaudeCliJsonEnvelope {
   // NOTE: CLI flags occasionally change between Claude Code releases — run
   // `claude -p --help` to confirm these are current before relying on them
   // in production.

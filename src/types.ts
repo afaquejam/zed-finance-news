@@ -38,9 +38,22 @@ export const FinanceBriefItemSchema = z.object({
 });
 export type FinanceBriefItem = z.infer<typeof FinanceBriefItemSchema>;
 
+/**
+ * The section key, tolerating the model's casing/spacing slips. The skill asks
+ * for the lowercase enum but sometimes echoes the label instead ("Crypto",
+ * "NIFTY 50"), which fails validation *after* a full research run and loses the
+ * page — see the 2026-08-31 outlook. Lowercasing and dropping non-alphanumerics
+ * folds every observed variant onto the canonical key.
+ */
+const sectionKey = () =>
+  z.preprocess(
+    (v) => (typeof v === "string" ? v.toLowerCase().replace(/[^a-z0-9]/g, "") : v),
+    z.enum(["sp500", "nifty50", "crypto"]),
+  );
+
 /** One of the three sections: S&P 500, NIFTY 50, Crypto. */
 export const FinanceBriefSectionSchema = z.object({
-  key: z.enum(["sp500", "nifty50", "crypto"]),
+  key: sectionKey(),
   label: z.string().min(1),
   items: z.array(FinanceBriefItemSchema).min(1),
 });
