@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The month ended on a risk-off note — the **S&P 500 slipped 0.33% to 7,686.14**, the **Nasdaq shed 0.12% to 26,370.89** and the **Dow fell 374.09 points (0.7%) to 53,185.90** — yet August still closed green, with the S&P up **more than 2.5%** on the month and the Dow up roughly **1%**.",
+          "why": "The US and Iran exchanged fire for the first time in a month over the weekend, sending oil sharply higher and pulling risk appetite down on the final session of August even though the month's earlier AI-led gains were left largely intact.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "⚔️",
+          "detail": "Friday's thesis that the war premium was draining out of crude was wrong within 72 hours — **Brent jumped 3.2% to $90.91 a barrel**, touching an intraday high **above $91**, while **WTI gained roughly 4% to trade above $86**, unwinding much of last week's 5%-plus slide.",
+          "why": "US Central Command struck two Iranian rocket launchers on Larak Island inside the Strait of Hormuz, alleging Iran was readying rockets carrying sea mines for the waterway, and Iran retaliated against US bases in Jordan and targets in the UAE, putting physical supply through Hormuz back in play.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/article/oil-prices-surge-higher-as-us-and-iran-exchange-fire-for-first-time-in-a-month-123432131.html"
+        },
+        {
+          "emoji": "⛽",
+          "detail": "Leadership rotated hard out of duration and into the barrel — the **energy sector rose about 2%** on Monday to finish August **up more than 6%**, led by Chevron and Exxon, while utilities lagged.",
+          "why": "Rising crude flows straight through to energy earnings estimates, so the sector is the one part of the index that benefits from the same shock that raises the discount rate on everything else.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/article/energy-stocks-lead-in-subdued-final-trading-day-of-august-utilities-under-pressure-alphacheck-142014111.html"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold did the opposite of what a Middle East escalation normally produces — **December futures opened at $4,483.20, down 1.0%**, with bullion trading near **$4,445** after falling **more than 3.5% across two sessions** from Friday's $4,600 area.",
+          "why": "The strikes raised oil and therefore inflation expectations, which raised the odds of a Fed hike rather than a cut, and higher expected real rates outweighed the safe-haven bid for a non-yielding asset.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-august-31-2026-gold-sinks-following-us-strikes-on-iran-123744944.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "A **25bp hike at the September 15-16 FOMC is now the market's base case at better than 50%**, hardening from Friday's Warsh-driven repricing, and the case gets tested immediately: **ISM Manufacturing and JOLTS land today**, ADP Wednesday, ISM Services Thursday and the **August payrolls report Friday September 4**.",
+          "why": "Headline PCE near 4% and core above 3%, three dissents for immediate tightening at the July meeting and now an energy supply shock have removed the disinflation argument for standing pat, leaving labour data as the only remaining brake.",
+          "sourceName": "Chase",
+          "sourceUrl": "https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🛢️",
+          "detail": "Monday erased Friday's rally and then some — the **Sensex fell 307.24 points (0.40%) to 76,957.27** and the **Nifty50 lost 95.25 points (0.39%) to 24,080.40**, giving back the IT-led bounce in a single session.",
+          "why": "Brent back above $90 directly raises the import bill for a net oil importer, and that combined with weak global cues and profit-taking in the technology complex that had surged 3.51% on Friday outweighed a strong domestic growth print.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-august-31-nse-bse-sensex-today-nifty-gift-nifty-augmont-enterprises-ipo-listing-126083100066_1.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The GDP print was not the four-quarter low everyone had penciled in — **Q1 FY27 real GDP grew 7.8%**, against a Reuters poll of **7.1%** and the **RBI's own 7%** estimate, up from 6.9% a year earlier, with **manufacturing up 9.2%**, **nominal GDP up 10.3%** and **real GVA up 8.2%**.",
+          "why": "Manufacturing and domestic demand held up far better than the delayed-monsoon drag implied, so the feared slowdown from 7.8% in Q4 FY26 simply did not materialise.",
+          "sourceName": "Oneindia",
+          "sourceUrl": "https://www.oneindia.com/business/india-s-gdp-grows-7-8-in-q1-fy27-surpasses-forecasts-8191841.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee kept climbing even as oil turned against it — it **closed at 95.1625, its strongest level since August 5**, from 95.3775 on Friday, a near four-week high that locked in a **monthly gain**.",
+          "why": "Inflows tied to a stock index rejig plus continued Reserve Bank of India intervention supplied enough dollars to absorb both the firmer dollar index from Warsh's speech and the higher crude bill.",
+          "sourceName": "Business Recorder",
+          "sourceUrl": "https://www.brecorder.com/news/40437229/india-rupee-hits-near-four-week-high-on-equity-related-flows-rbi-support-logs-monthly-rise"
+        },
+        {
+          "emoji": "🏭",
+          "detail": "The damage was concentrated rather than broad — **metals fell about 2.45%** as the weakest major sector, **realty dropped 0.52%** and IT gave back ground, while **pharma rose 0.72%**; **ITC, Bharti Airtel and Eternal** were the biggest Nifty drags, with DIIs buying against continued FII selling.",
+          "why": "Metals carry the most direct exposure to a global growth scare and a stronger dollar, and domestic institutions again absorbed foreign outflows, which is why the index fell less than the leadership sectors did.",
+          "sourceName": "Free Press Journal",
+          "sourceUrl": "https://www.freepressjournal.in/business/sensex-nifty-close-lower-as-weakness-in-it-metal-and-realty-stocks-drags-markets"
+        },
+        {
+          "emoji": "🔮",
+          "detail": "September opens defensively — **GIFT Nifty was trading near 24,181, down about 45 points (0.19%)**, with **Japan's Nikkei off roughly 1%** on chip weakness and **24,000 the level in focus** on the Nifty.",
+          "why": "Asian markets are pricing the combination of renewed US-Iran hostilities and a firmer Fed hike path, and chip names are leading the decline because they are the longest-duration part of the regional index.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/nifty-seen-flat-as-oil-tops-90-investors-track-global-risks-126090100127_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Crypto stabilised rather than extended Friday's slide — **Bitcoin opened Monday at $77,695.48 (-0.7%)**, printed an intraday low near **$77,000** and recovered to about **$78,700**, lifting market cap to **$1.57 trillion**, with **Ether opening at $2,417.98 (-1.6%)** before rebounding to **$2,453.78** and **Solana at $103.07 (-1.5%)**.",
+          "why": "The weekend US strikes on Iran layered an energy-inflation shock on top of Warsh's hawkish Jackson Hole message, pushing September hike odds to roughly 58% and capping any rebound in the highest-beta liquidity asset.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html"
+        },
+        {
+          "emoji": "📈",
+          "detail": "Despite the ugly finish, **August was Bitcoin's best month since 2017**, closing with a gain of **roughly 24-25%** — its largest single-month advance since November 2024 — cutting the 2026 drawdown from **nearly 30% at end-July to just over 10%**.",
+          "why": "The bulk of the move was built earlier in the month on the US Treasury's surprise expansion of long-bond buybacks, which pulled yields down and revived risk appetite before the Fed and Iran narratives turned in the final two sessions.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-above-78-5k-as-august-gains-near-25/"
+        },
+        {
+          "emoji": "🔀",
+          "detail": "The ETF bid split in two for the first time in the streak — **spot Bitcoin funds posted $201.9 million of net outflows on August 28, ending a nine-day inflow run**, while **spot Ether funds took in $102.1 million for a tenth consecutive inflow day**, against roughly **$1.9 billion of inflows across the week**.",
+          "why": "The single-day Bitcoin reversal reads as a mechanical unwind after an unusually long stretch of creations rather than a coordinated institutional exit, and Ether allocators did not follow, leaving the two products diverging for the first time in two weeks.",
+          "sourceName": "Crypto Daily",
+          "sourceUrl": "https://cryptodaily.co.uk/2026/08/ethereum-etf-inflows-10-days-bitcoin-etf-outflows"
+        },
+        {
+          "emoji": "🔁",
+          "detail": "Monday's bounce was the exact mirror of Friday's flush — **shorts made up about 80.6% of recent futures liquidations**, reversing the long squeeze that produced roughly $488 million of forced selling after the Warsh speech.",
+          "why": "Traders who pressed shorts into the hawkish repricing got squeezed once prices held the $77,000 area, so the recovery was driven by position covering rather than fresh spot demand.",
+          "sourceName": "CoinReporter",
+          "sourceUrl": "https://www.coinreporter.io/2026/08/bitcoin-etf-inflow-streak-ends-amid-hawkish-fed-commentary/"
+        },
+        {
+          "emoji": "🟣",
+          "detail": "Solana's institutional channel is now producing measurable flow rather than just headlines — **spot SOL ETFs have crossed $1.1 billion in cumulative inflows**, including a **$33.49 million session, the largest daily figure since mid-December 2025**, while the seven regulated **spot XRP ETFs have drawn about $1.4 billion**.",
+          "why": "Product-level access built through the SEC approval route keeps compounding independently of price, and last week's Schwab listing decision widened the retail distribution base behind those same assets.",
+          "sourceName": "CoinStats",
+          "sourceUrl": "https://coinstats.app/ai/a/crypto-news-update-31-August-2026"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Two regulatory threads moved at once — the **SEC submitted a custody rule revision permitting multi-signature and MPC storage for registered investment advisers**, and a **Senate procedural vote on whether to open debate on the Clarity Act is reported for September 15**, the day before the FOMC decision.",
+          "why": "Loosening the custody rule removes a concrete operational barrier that has kept RIAs from holding crypto directly, and a revived legislative vote would reopen a channel that markets had written off entirely.",
+          "sourceName": "DailyCoin",
+          "sourceUrl": "https://dailycoin.com/september-not-october-may-test-cryptos-big-2026-rally"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The US strike on Larak Island inside the Strait of Hormuz and Iran's retaliation against bases in Jordan and the UAE turned a supply shock into a monetary one: Brent's 3.2% jump to $90.91 raised inflation expectations rather than growth fears, which pushed a September Fed hike above 50% and inverted the usual playbook — gold fell to about $4,445 instead of rallying on war, the S&P 500 slipped 0.33% to 7,686.14 with energy up 2% as the only winner, Bitcoin could only claw back to $78,700 on short covering, and India, the most oil-sensitive of the three, fell 0.39% to 24,080.40 on the same day it reported 7.8% GDP growth against a 7.1% consensus."
+}
