@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T13:40:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The three-day slide ended on Wednesday — the **S&P 500 rose 0.46% to 7,666.60**, the **Nasdaq gained 0.45% to 26,217.83** and the **Dow added 295.07 points (0.56%) to 53,061.95**, recovering more than the whole of Tuesday's decline.",
+          "why": "New York Fed President John Williams told CNBC there were no clear signs right now that a September rate hike would be needed, which broke the hawkish repricing that had driven the previous three sessions.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/01/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Williams directly contradicted the market's reading of the bond selloff, arguing the rise in long yields reflects **a strong economy and heavy AI and technology investment rather than inflation expectations** — and the curve stalled, with the **10-year holding at 4.79%** and the **30-year at 5.27%** instead of extending higher.",
+          "why": "Warsh's Jackson Hole hawkishness had been the only Fed voice in the market for a week, so the first senior official to push back was enough to stop yields from making a new high and to give equities room to rebound.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-2-dow-sp-500-nasdaq-082624175.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude gave back an intraday spike that had taken **Brent to $97.04, its highest since July 24**, before easing to just above $95 — the reversal came after Trump said fresh strikes on Iran would not last long, telling reporters **\"I don't think too long\"** and asserting US control of the Strait of Hormuz.",
+          "why": "The tanker-strike premium was priced on the assumption of an open-ended campaign, so a presidential signal that the escalation is time-limited took the tail risk of a sustained Hormuz closure back out of the price.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-02/trump-says-iran-strikes-to-be-short-asserts-hormuz-control"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The labour data kept getting softer without triggering a growth scare — **ADP showed private payrolls up just 38,000 in August**, below both the 47,000 consensus and July's 46,000.",
+          "why": "A weakening hiring pulse gives the Fed a reason to wait rather than pre-emptively hike into an oil shock, so the miss reinforced Williams' message instead of reading as bad news for equities.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-2-dow-sp-500-nasdaq-082624175.html"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold snapped its three-session slide, **rising 1.1% to $4,373.87** after touching its lowest level since August 7 intraday, with **silver up 1.6% to $65.29**.",
+          "why": "The dollar and Treasury yields pulled back from their highs after Williams' comments, and the drop in real yields let bargain buyers step into a metal that had just been repriced for a Fed tightening.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/02/gold-hits-over-3-week-low-as-mideast-tensions-fan-rate-hike-fears.html"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The week's decisive print lands Friday — **August non-farm payrolls at 8:30am ET**, with consensus around **58,000 jobs** and the **unemployment rate held at 4.1%**, following July's outright loss of 23,000; Thursday brings ISM Services (expected 54.5 vs 54.1 prior) and jobless claims (205,000 expected).",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/economy/jobs-report-august-2026-what-to-expect"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🔄",
+          "detail": "Thursday reversed three sessions of losses — **GIFT Nifty opened 146.5 points higher at 24,111.50**, the Sensex opened up 154.6 points and by mid-morning had added **309.77 points (0.4%) to 76,880.12**, with the **Nifty50 back through 24,000 at 24,000.90**.",
+          "why": "Trump playing down the prospect of a prolonged conflict with Iran steadied crude after three days of rising prices, removing the single input that had been hitting India's import bill, inflation path and currency at once.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-3-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-lumino-industries-share-market-126090300081_1.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Wednesday closed well off its lows but still made it three down days — the **Sensex fell 373.93 points (0.49%) to 76,570.35** and the **Nifty50 lost 141.35 points (0.59%) to 23,914.45**, better than the 472-point gap-down at the open but the third straight decline.",
+          "why": "The oil spike and the global bond-yield surge continued to squeeze the inflation outlook and investors' risk appetite, though the intraday recovery showed the selling was becoming exhausted at those levels.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-sept-2-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-annu-projects-listing-today-gland-pharma-share-price-coal-india-stock-price-share-market-today-126090200091_1.html"
+        },
+        {
+          "emoji": "🚗",
+          "detail": "Autos took over from realty as the epicentre on Wednesday — **Nifty Auto fell 2%** as the worst sectoral performer with **Eicher Motors, Wipro and Bajaj Auto** the biggest Nifty50 losers, while **Nifty Oil & Gas, PSU Bank and Realty outperformed** and the MidCap and SmallCap indices fell 0.53% and 0.37%.",
+          "why": "A third day of rising crude compounds the input-cost and demand hit to two-wheeler and commercial vehicle makers, while oil and gas names capture the same price move on the revenue side.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-sept-2-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-annu-projects-listing-today-gland-pharma-share-price-coal-india-stock-price-share-market-today-126090200091_1.html"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Breadth flipped violently with the tape — after Wednesday's 2,180 decliners, Thursday's early trade showed **1,913 advancers against just 425 decliners** on the NSE, with **ICICI Bank, Adani Ports and Axis Bank** leading and **Nifty Private Bank, Bank and Metal** outperforming.",
+          "why": "Financials and metals are the highest-beta domestic plays on a lower oil price and a calmer rate outlook, so they absorb the bulk of the money coming back in when the external shock recedes.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-3-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-lumino-industries-share-market-126090300081_1.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "IT was the one sector that did not join the rebound — **Nifty IT fell about 1% with Infosys and TCS the main drags** even as the benchmark rallied, extending a sector decline of roughly **29% across 2026**.",
+          "why": "The de-escalation trade rotates money into domestic cyclicals rather than exporters, and IT is still carrying a separate structural overhang from concerns that AI reshapes traditional outsourcing demand.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-3-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-lumino-industries-share-market-126090300081_1.html"
+        },
+        {
+          "emoji": "💰",
+          "detail": "Institutional money stayed on the bid through the selloff — **FIIs bought ₹1,143.38 crore** of equities on September 1 and **DIIs added ₹1,846.94 crore**, with both cohorts net buyers into a falling market.",
+          "why": "The 7.8% GDP print and index-rebalancing flows gave allocators a domestic reason to keep buying, so the three-day decline was driven by sentiment and sector rotation rather than by institutions withdrawing capital.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-sept-2-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-brent-crude-annu-projects-listing-today-gland-pharma-share-price-coal-india-stock-price-share-market-today-126090200091_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Wednesday was a round trip rather than another leg down — crypto opened under heavy pressure with **$369.67 million of derivatives liquidations**, dragging **Bitcoin to about $77,200**, **Ether to $2,410-2,430** and **Solana below $100 to $98.47**, before Bitcoin recovered **back above $77,000** into the close.",
+          "why": "Williams' comment that he sees no clear evidence current policy is insufficient to return inflation to 2% reversed the rate-hike premium that had been the entire driver of the selloff, and the highest-beta assets reacted first.",
+          "sourceName": "CoinGape",
+          "sourceUrl": "https://coingape.com/bitcoin-rises-as-feds-williams-eases-rate-hike-and-inflation-concerns/"
+        },
+        {
+          "emoji": "🔀",
+          "detail": "The liquidation flow flipped side completely — the last 24 hours produced roughly **$82 million in perpetual futures liquidations** but this time overwhelmingly against bears, with **Bitcoin at $43.94 million (74.33% shorts)**, **Ether at $31.64 million (82.39% shorts)** and **Solana at $6.83 million (58.1% shorts)**.",
+          "why": "Traders had built short positions into what looked like a certain September hike, so the dovish Williams headline forced those positions to cover and turned a modest bounce into a squeeze.",
+          "sourceName": "CryptoRank",
+          "sourceUrl": "https://cryptorank.io/news/feed/c2646-crypto-futures-liquidations-82m-bitcoin-ethereum-shorts"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF picture is uglier than the strong August suggested — spot Bitcoin funds pulled in a **2026-high $3.52 billion in August** as BTC gained 25%, but **2026 outflows now top $7 billion**, and the complex has given back **5.5% of its cumulative inflows** even while still holding roughly **$52 billion** net.",
+          "why": "August's inflow surge was a rebound within a year of persistent redemptions rather than a change in trend, so the allocator base is still net-shrinking once the single strong month is stripped out.",
+          "sourceName": "Coinpaper",
+          "sourceUrl": "https://coinpaper.com/35157/bitcoin-etfs-just-had-their-best-month-of-2026-but-september-starts-with-a-warning"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Solana's institutional channel recovered immediately from its near-zero session — spot SOL ETFs took in **$10.19 million**, with **Bitwise's BSOL leading at $6.17 million**, more than ten times the $925,000 that came in as September opened.",
+          "why": "The daily figure is dominated by a handful of allocators, so the collapse to under $1 million was a scheduling artefact rather than a demand signal, and normal buying resumed within a session.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-etf-bitcoin-outflows-eth-xrp-sol-inflows-today"
+        },
+        {
+          "emoji": "🌊",
+          "detail": "The Ether inflow streak is intact but the daily size has collapsed — Ethereum funds took in about **$11 million**, against the roughly **$145 million a day average** that built the $1.6 billion eleven-day run, while capital keeps rotating out of Bitcoin products and into **ETH, SOL, XRP and Hyperliquid** vehicles.",
+          "why": "The structural allocator bid for Ether has not reversed, but the marginal buyer is slowing as spot prices sit near year-to-date lows, so the streak is now being sustained by a much thinner flow.",
+          "sourceName": "CoinGabbar",
+          "sourceUrl": "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-etf-bitcoin-outflows-eth-xrp-sol-inflows-today"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The next repricing event is fixed — the **FOMC decides on September 15-16**, with markets still assigning roughly a **66% probability to a 25 basis point hike**, and Friday's payrolls report is the last major labour input before the pre-meeting blackout.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/08/31/september-fed-rate-hike-fears-appear-overblown-as-the-probability-is-just-58-not-90"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Two de-escalations landed within hours of each other and unwound Tuesday's shock across every market at once: Williams told CNBC there was no clear case for a September hike and blamed rising long yields on a strong economy rather than inflation, capping the 10-year at 4.79%, while Trump said the Iran strikes would not last long and pulled Brent back from $97.04 — enough to lift the S&P 500 0.46% to 7,666.60 out of a three-day slide, turn gold back up 1.1%, squeeze $82 million of crypto shorts as Bitcoin reclaimed $77,000, and gap the Nifty back above 24,000 on 1,913 advancers to 425 decliners, leaving Friday's payrolls print as the single event that can re-establish either narrative."
+}
