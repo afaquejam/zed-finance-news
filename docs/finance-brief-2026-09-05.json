@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T09:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Friday reversed Thursday's best-session-in-a-month outright — the **S&P 500 slid 0.38% to 7,718.60**, the **Dow fell 271.86 points (0.51%) to 53,414.25** and the **Nasdaq lost 0.29% to 26,506.99**, leaving the index up just **0.1% on the week** with the Dow down 0.3%.",
+          "why": "August payrolls came in roughly three times consensus, reviving the September hike bet that Waller's dovish comments had collapsed a day earlier and reversing most of the rate-relief rally in a single session.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "💼",
+          "detail": "The August jobs report blew out every forecast — **nonfarm payrolls rose 162,000** against a **53,000-56,000 consensus**, July was revised up to a 21,000 gain from a previously reported 23,000 drop, and the **unemployment rate held at 4.1%**, with hiring concentrated in food service, drinking establishments and local government education.",
+          "why": "A labour market re-accelerating from a near-stall in July removes the soft-data cover the Fed's doves had been leaning on, and makes the case that the economy can absorb another 25 basis points.",
+          "sourceName": "Reuters",
+          "sourceUrl": "https://finance.yahoo.com/news/us-nonfarm-payrolls-surge-august-124328262.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The September repricing went straight back the other way — **CME FedWatch hike odds jumped to about 58% from 49.4%** the day before, the **2-year yield rose to 4.37%**, its highest since January 2025, and the **10-year climbed roughly three basis points to 4.79%** after peaking at 4.812%.",
+          "why": "Waller had made his vote explicitly conditional on incoming data, so a payrolls print three times consensus was read as direct evidence against the hold he said he was inclined to support at the September 15-16 meeting.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/03/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "👟",
+          "detail": "Lululemon was the session's disaster — shares **plunged about 18%** after the retailer missed third-quarter revenue forecasts, reported deteriorating comparable sales and **cut its full-year outlook**, the single worst megacap-adjacent move of the day.",
+          "why": "A guidance cut alongside negative comps signals the weakness is demand-side rather than one-off, which is precisely the read-through discretionary investors punish hardest with the consumer already absorbing record fuel prices.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-midday-sept-4-stocks-edge-lower-on-strong-jobs-report-as-lululemon-plummets/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude posted its biggest weekly advance since July — **Brent gained roughly 6-7% on the week** to around **$95.90**, **WTI rose close to 10%**, and **US diesel prices hit a record high**, with only four commodity vessels transiting Hormuz on Thursday against a ten-day average of about 15.",
+          "why": "US-Iran military exchanges resumed rather than de-escalating, and while Washington says regional flows are near normal, tanker trackers show transit volumes still running roughly a quarter of the recent average.",
+          "sourceName": "Reuters/CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/04/oil-set-for-steepest-weekly-gain-over-renewed-us-iran-tensions.html"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold gave back two days of gains in one, **falling about 2% to $4,383** after trading as high as $4,487.60 earlier in the session, ending the rally that had run alongside the dovish repricing.",
+          "why": "The payrolls beat pushed Treasury yields and the dollar higher simultaneously, raising the opportunity cost of holding a non-yielding asset that had been bid purely on the expectation of a Fed hold.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-04/bitcoin-drops-below-80-000-as-hot-jobs-data-spurs-fed-hike-bets"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "Friday's gap held into the close and broke the losing run — the **Sensex rose 362.57 points (0.48%) to 76,515.43** and the **Nifty 50 added 24.25 points (0.10%) to 23,897.70**, snapping a four-session losing streak, though the index gave up most of its opening 504-point advance.",
+          "why": "Positive global cues and firmer emerging-market currencies carried the open after Wall Street's Thursday rally, but profit-taking at higher levels capped the move well before the US payrolls print landed after Indian hours.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-sept-4-nse-bse-sensex-today-nifty-gift-us-iran-tension-tata-chemicals-bank-psu-it-index-126090400079_1.html"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The rebound was not enough to rescue the week — the **Nifty still fell about 0.61% (147 points)** and the **Sensex 0.47%** over the five sessions, its second consecutive weekly decline.",
+          "why": "Four straight sessions of selling on elevated crude and the US rate scare left a hole too deep for a single 0.1% session to fill, so the oil-driven drawdown remains the week's dominant story.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-snap-4-day-losses-metal-shares-shine-126090400870_1.html"
+        },
+        {
+          "emoji": "🏭",
+          "detail": "Leadership rotated hard into cyclicals — **Nifty Metal outperformed at +1.07%** with **Tata Steel up 2.91%** alongside Reliance, Bajaj Finance, Trent and Adani Ports, while **Nifty Realty (-0.90%) and Nifty Pharma (-0.68%)** fell and Bharti Airtel, HCL Tech, Asian Paints and TCS lagged.",
+          "why": "A weaker dollar and firmer global commodity prices lift metal producers directly, while the same overnight move that helped materials removed the defensive bid that had supported pharma and IT through the four-day decline.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/sensex-snaps-4-day-losing-streak-ends-362-57-points-higher-nifty-at-23-897-70-2026-09-04-1053310"
+        },
+        {
+          "emoji": "💰",
+          "detail": "The institutional divergence widened dramatically — **FIIs sold a net ₹3,111.94 crore** (₹16,969.52 crore of sales against ₹13,857.58 crore of purchases) while **DIIs bought a net ₹8,930 crore**, nearly double their prior-session buying and almost three times the foreign selling.",
+          "why": "Foreign allocators kept cutting Indian exposure as the oil import bill compounds, but domestic institutions absorbed the entire supply and more, which is why heavy FII selling produced only a flat index rather than another decline.",
+          "sourceName": "Jewellery Designs Hub",
+          "sourceUrl": "http://www.jewellerydesignshub.com/2026/09/fiis-sell-3112-crore-in-indian-equities.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee strengthened sharply against the run of the week, **trading up 0.09% at ₹94.48** to the dollar — a meaningful recovery from the ₹94.94 level it had been defending — helped by **fresh FCNR deposit inflows** improving dollar liquidity.",
+          "why": "FCNR(B) inflows are a direct, non-market source of dollars for the banking system, which eases the funding pressure the oil import bill has been creating and gave the currency room to appreciate even with Brent still in the mid-$90s.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-sept-4-nse-bse-sensex-today-nifty-gift-us-iran-tension-tata-chemicals-bank-psu-it-index-126090400079_1.html"
+        },
+        {
+          "emoji": "🔭",
+          "detail": "Monday opens with an unhelped setup: the Nifty closed Friday before the US payrolls shock, so the hot print and the jump in US hike odds are still to be absorbed. Traders flag **23,800 as first support** with **23,700 and 23,500 below**, and **24,000 as the level that must be reclaimed** before 24,100-24,200 come into view; **Bank Nifty closed at 57,369.65 (-0.02%)** with support at 57,000.",
+          "sourceName": "Replete Equities",
+          "sourceUrl": "https://www.repleteequities.com/blog/tomorrow-market-prediction-nifty-banknifty"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin's four-month high lasted hours — BTC hit **$82,240 intraday**, then **fell about 2.7% to below $79,300** after the payrolls print, and has spent the weekend consolidating **near $79,100-$79,600**, unable to reclaim the $80,000 pivot it broke above on Thursday.",
+          "why": "The entire move above $80,000 was built on Waller's signal that he could support a hold, so a payrolls number three times consensus removed the single premise the rally rested on and sent the highest-beta rate asset back through the level first.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/bitcoin-falls-below-80000-as-hot-us-payrolls-revive-fed-hike-risk/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Institutional demand hit its high-water mark of the year one day before the reversal — **US spot Bitcoin ETFs took in $730.8 million on September 3**, the largest single day since January 14, with **BlackRock's IBIT capturing $454 million** (over 60% of the total), **ARKB $138 million** and **FBTC about $74 million**, while **Ether ETFs added $141.4 million** for a combined near-$900 million haul.",
+          "why": "Allocators moved decisively on Waller's dovish comments, which means the biggest institutional buying day since January was executed into a rate view that Friday's payrolls report then invalidated.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/markets/2026-09-04-us-bitcoin-etfs-largest-inflow-day-since-january-413515"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The squeeze completed and then unwound — **$468.59 million of liquidations in the 24 hours to 03:52 UTC Friday** ran **87.09% on the short side** against just $60.49 million of longs, before the payrolls print flipped the pain in the other direction; a subsequent 24-hour window showed **$101.45 million of Bitcoin futures liquidated, 91.5% of it shorts**.",
+          "why": "Positioning was violently reset twice inside 48 hours as traders who had shorted into the hike bet were forced out on Thursday, then late longs who chased above $80,000 were caught by Friday's data reversal.",
+          "sourceName": "CryptoRank",
+          "sourceUrl": "https://cryptorank.io/news/feed/120eb-crypto-futures-liquidations-245m"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The regulatory calendar just collided with the Fed's — **SEC Chair Paul Atkins said he expects the Senate to vote on the Clarity Act on September 15**, the same day the FOMC convenes, and called for the bill to reach the President by month-end; separately the SEC's **first transfer-agent rule overhaul since the late 1970s** would let public blockchains serve as a company's master securityholder file, now in a 60-day comment period.",
+          "why": "The transfer-agent proposal is the structural piece tokenized securities have lacked, because it addresses who legally holds the ownership record rather than just how assets trade.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/the-sec-is-rewriting-50-year-old-wall-street-rules-to-let-public-blockchains-decide-who-legally-owns-a-stock/"
+        },
+        {
+          "emoji": "😐",
+          "detail": "Sentiment is holding up better than price — the **Crypto Fear & Greed Index read 64 ('Greed')** on September 3 with the broader range at 63-78, and total crypto market capitalisation had **risen more than 3.7% to $2.814 trillion** before Friday's giveback, with **Zcash the standout at +15%**.",
+          "why": "The complex is still net higher than it was mid-week despite Friday's reversal, so positioning surveys reflect the week's overall recovery from the sub-$78,000 lows rather than the last session's decline.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/markets/2026/09/04/bitcoin-back-above-usd81-000-as-hike-odds-fade-zcash-leads-with-15-jump"
+        },
+        {
+          "emoji": "🔭",
+          "detail": "The week ahead is now a single binary: **August CPI lands September 11**, the print Waller named as his decision input, followed by the **FOMC on September 15-16** with the target range at **3.5%-3.75%** and hike odds back near **58%**. Polymarket traders put roughly **81% odds on Bitcoin sitting in the $78,000-$80,000 band** today, with $80,000 now the resistance it was support two days ago.",
+          "sourceName": "Polymarket",
+          "sourceUrl": "https://polymarket.com/event/bitcoin-price-on-september-5-2026"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "One labour-market print undid two days of dovish repricing across every asset at once: 162,000 August payrolls against a ~55,000 consensus pushed September hike odds back to about 58% from 49.4% and the 2-year yield to a January-2025 high of 4.37%, which knocked the S&P 500 down 0.38% to 7,718.60, cut gold roughly 2% to $4,383, sent Bitcoin from a four-month high of $82,240 back below $79,300 within hours of the biggest ETF inflow day since January, and left India's Friday rebound to 23,897.70 exposed because it closed before the data — with Brent's 6-7% weekly surge on renewed US-Iran fighting and record diesel prices now feeding directly into the August CPI report on September 11 that decides the September 15-16 FOMC."
+}
