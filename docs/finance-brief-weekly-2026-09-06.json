@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T08:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🎢",
+          "detail": "A violent round trip ended almost exactly where it started — the S&P 500 ran 7,686.14 → 7,631.47 → 7,666.60 → 7,747.71 → 7,718.60 across the five sessions to finish **up just 0.1% on the week**, with the Dow down 0.3% and the Nasdaq closing at 26,506.99. Every session was driven by the same single variable: CME September hike odds, which travelled 58% → 66.4% → 50.4% → 58% in four days.",
+          "why": "Two Hormuz escalations pushed the market to price a September hike as the base case, then Williams and Waller talked it back down to a coin flip, before a 162,000 August payrolls print against a ~55,000 consensus reinstated it in the final session."
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil was the week's real story — **Brent gained roughly 6-7% to about $95.90**, its biggest weekly advance since July, with WTI up close to 10%, an intraday spike to $99.38 on Thursday, US diesel prices at a record high and only four commodity vessels transiting Hormuz on Thursday against a ten-day average of about 15. Energy was the only durable refuge: the sector rose in the down sessions and the XLE ETF hit an all-time high, now up roughly 45% year to date.",
+          "why": "US strikes on Larak Island and rocket hits on two loaded Saudi supertankers off Khasab converted the Hormuz war premium from a threat into an actual disruption, and every dollar of that premium flows straight into energy earnings estimates while raising the discount rate on everything else."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The bond market did the whipsawing the equity tape only reflected — the 10-year hit 4.81% (highest since January 2025) on the tanker strikes, stalled at 4.78-4.79% through the dovish stretch, and the **2-year finished the week at 4.37%, its own January-2025 high**, while gold ended near $4,383 after starting the week around $4,445 and touching $4,487.60 intraday on Friday.",
+          "why": "Waller made his September vote explicitly conditional on the August CPI report due September 11, so the entire week's repricing now hangs on one inflation print that Brent's 6-7% surge and record diesel prices feed directly into."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Four straight losing sessions and a token Friday bounce left the **Nifty 50 down about 0.61% (147 points) at 23,897.70** and the Sensex off 0.47% at 76,515.43 — a second consecutive weekly decline, with the index breaking below 23,900 midweek and failing to reclaim 24,000 at any close.",
+          "why": "India imports roughly 85% of its crude, so Brent's move from $90 to the mid-$90s hit the import bill, the inflation path and the currency simultaneously, overwhelming a Q1 FY27 GDP print of 7.8% that beat both the 7.1% consensus and the RBI's own 7% estimate."
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Domestic money absorbed the entire foreign exit — **DIIs bought a net ₹8,930 crore on Friday alone**, nearly double the prior session's ₹4,977.46 crore, against FII net sales of ₹3,111.94 crore, after both cohorts had been buyers into the early-week decline.",
+          "why": "Foreign allocators cut exposure as the oil import bill compounded, while steady domestic SIP flows soaked up the supply, which is why heavy FII selling produced a flat index rather than a fifth down session."
+        },
+        {
+          "emoji": "💵",
+          "detail": "The rupee went the other way to everything else, **strengthening from 95.1625 on Monday to ₹94.48 by Friday** — roughly 0.7% on the week and its firmest level in months — despite Brent in the mid-$90s and a US 2-year yield at a January-2025 high.",
+          "why": "Index-rejig inflows, continued RBI intervention and then fresh FCNR(B) deposit inflows supplied dollars to the banking system directly, easing the funding pressure the crude bill was creating."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin traced the Fed's own round trip and finished modestly higher — from a Monday open of $77,695 and a midweek low of $76,988 to a four-month high of **$82,240 on Thursday, before falling 2.7% to consolidate near $79,100-$79,600** into the weekend, with total crypto market cap peaking above $2.81 trillion.",
+          "why": "The break above $80,000 rested entirely on Waller's signal that he could support a hold, so the 162,000 payrolls print removed the rally's single premise within hours and sent the highest-beta rate asset back through the level first."
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Positioning was violently reset three times in five days — **$468.59 million of liquidations ran 87.09% on the short side** in the 24 hours to Friday morning, following a Thursday cascade of over $500 million with $415 million against shorts, itself an escalation from Wednesday's $82 million squeeze, before Friday's data flipped the pain onto late longs.",
+          "why": "Traders repeatedly rebuilt shorts into what looked like a certain September hike, so each dovish Fed headline forced mechanical buy-backs that accelerated the rally, and the payrolls reversal then caught everyone who chased above $80,000."
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF rotation of August reversed outright — **US spot Bitcoin funds took in $730.8 million on September 3, the largest single day since January 14**, with BlackRock's IBIT capturing $454 million, while spot Ether funds' eleven-day, $1.6 billion inflow streak ended in a $48.2 million outflow and XRP and Solana vehicles turned negative alongside it.",
+          "why": "Allocators moved back up the quality curve into the largest, most liquid vehicle on Waller's dovish comments ahead of a binary FOMC — executing the year's biggest institutional buying day into a rate view that Friday's payrolls report then invalidated."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A Hormuz supply shock transmitted itself as a monetary one all week: Brent's 6-7% surge to ~$95.90 raised inflation expectations rather than growth fears, driving September hike odds from 58% to 66.4% and back to 50.4% on Williams' and Waller's pushback before 162,000 August payrolls restored them to 58% — a single rates axis that left the S&P 500 up just 0.1% at 7,718.60, gold lower at $4,383 instead of rallying on war, Bitcoin's four-month high at $82,240 unwound to $79,300 one day after the biggest ETF inflow since January, and India, the most oil-exposed of the three, down 0.61% to 23,897.70 in the same week it reported 7.8% GDP growth — with the August CPI print on September 11 now the sole input to the September 15-16 FOMC."
+}
