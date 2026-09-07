@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T09:15:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "detail": "**Friday's August CPI** (8:30am ET, September 11) is the only print that matters this week — July ran **3.4% headline and 2.5% core**, and the Cleveland Fed's nowcast points to a pickup to roughly **0.30% m/m headline and 0.25% core**, which would be the hottest headline monthly reading of the year. The Fed is in blackout from September 5 through the September 15-16 FOMC, so no official can walk the number back.",
+          "why": "Waller made his September vote explicitly conditional on this report and hike odds sit near 58%, so an in-line-or-softer core would revive the hold trade and the rate-sensitive megacaps, while a hot print with Brent's 6-7% surge feeding through would lock in a hike and push the 10-year above last week's 4.81% high.",
+          "sourceName": "MNI Markets",
+          "sourceUrl": "https://www.mnimarkets.com/articles/cleveland-fed-nowcast-cpi-tracker-points-to-august-pickup-1757446089054"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**Oracle reports fiscal Q1 2027 after Thursday's close (September 10)**, with consensus near **$19.1 billion in revenue and $1.30 EPS** — the first major AI-infrastructure read since the index stalled at 7,718.60.",
+          "why": "Oracle's cloud backlog is the cleanest proxy for whether AI capex commitments still justify megacap multiples at a 4.8% 10-year, so a bookings miss would hit the whole AI complex a day before CPI, while a strong guide gives the tape something to lean on that is not the Fed.",
+          "sourceName": "Oracle Investor Relations",
+          "sourceUrl": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-First-Quarter-Fiscal-Year-2027-Earnings-Announcement/default.aspx"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "It is a four-day week — US stock and bond markets are **closed Monday for Labor Day** — and Treasury sells **3-year notes Tuesday, 10-year notes Wednesday and 30-year bonds Thursday**, all pricing before CPI lands.",
+          "why": "The auctions force real money to take duration into an inflation print nobody can hedge around, so weak bidding at the 10-year and 30-year would push yields toward last week's highs and tighten financial conditions on equities independently of what Friday's data shows.",
+          "sourceName": "US Department of the Treasury",
+          "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🛢️",
+          "detail": "The **EIA's Short-Term Energy Outlook lands Wednesday (September 9)** — its first full supply-and-demand revision since the Larak Island strikes and the Khasab tanker hits — with Brent opening the week near **$97** after last week's move to about $95.90.",
+          "why": "India imports roughly 85% of its crude, so an EIA forecast that embeds a durable Hormuz disruption premium raises the import bill, the inflation path and the fiscal maths at once, while any signal that demand destruction caps prices would remove the single largest weight on the index.",
+          "sourceName": "US Energy Information Administration",
+          "sourceUrl": "https://www.eia.gov/outlooks/steo/release_schedule.php"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The Nifty enters at **23,897.70** having failed to close above 24,000 all last week, with analysts framing a **23,600-24,300 range**, immediate support at 23,800-23,700 and 24,200 as the level a reversal must clear — into **Tuesday's weekly options expiry**.",
+          "why": "A sustained break under 23,800 opens 23,500-23,600 and would confirm the sell-on-rise pattern that has held for two weeks, so the level, not any domestic data print, is what dealers will defend or abandon through Tuesday's expiry.",
+          "sourceName": "Goodreturns",
+          "sourceUrl": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-7-11-sept-2026-sensex-nifty-may-trade-volatile-amid-global-cue-1532917.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee starts near **₹94.40-94.48**, its firmest in months, after the RBI's special FCNR(B) swap window closed on August 31 having pulled in **more than $52 billion** of NRI inflows — against FII net selling of about **₹5,612 crore** last week that DII buying of ₹8,930 crore on Friday alone absorbed.",
+          "why": "The FCNR(B) dollars are a one-off cushion rather than a flow, so if Friday's US CPI comes in hot and drives US yields higher, the FII exit and the crude bill would hit a currency no longer being topped up — and the DII bid is the only thing that has kept the index from a fifth straight down session.",
+          "sourceName": "Investing.com India",
+          "sourceUrl": "https://in.investing.com/news/stock-market-news/india-stocks-open-lower-as-oil-prices-rise-and-rupee-holds-firm-5583449"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin carries **$79,100-$79,600** into a week whose single scheduled catalyst is **Friday's US CPI**, five days before the September 15-16 FOMC — the same print that ended last week's run to a four-month high of $82,240.",
+          "why": "Bitcoin is the highest-beta expression of the rate view and the $80,000 level has traded as a straight function of hold-versus-hike odds, so a soft core print is the only realistic route back above it this week, while a hot one puts last week's $76,988 low back in play.",
+          "sourceName": "Crypto University",
+          "sourceUrl": "https://cryptouniversity.network/news/september-2026-is-unusually-dense"
+        },
+        {
+          "emoji": "📈",
+          "detail": "US spot Bitcoin ETFs go in on a run — roughly **$987 million of net inflows last week**, including **$730.8 million on September 3** (the largest single day since January 14) and a third consecutive positive session on September 4 — while spot Ether funds broke an eleven-day, $1.6 billion inflow streak with a $48.2 million outflow.",
+          "why": "Those inflows were bought on a dovish read that Friday's payrolls invalidated, so daily flow data through the week is the cleanest test of whether allocators hold the position into CPI or reverse it, and continued BTC-over-ETH rotation would signal defensive positioning rather than conviction.",
+          "sourceName": "Bitcoin Foundation",
+          "sourceUrl": "https://bitcoinfoundation.org/news/bitcoin/crypto-etfs-enter-a-new-phase-in-september-heres-what-investors-should-watch/"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Leverage has been reset three times in five sessions — **$468.59 million liquidated in the 24 hours to Friday, 87.09% of it on shorts**, after a Thursday cascade above $500 million — and crypto trades through **Monday's US Labor Day closure** with equity and Treasury markets shut.",
+          "why": "Repeated forced buy-backs mean positioning is crowded and thin in both directions, and a holiday session with no US cash market to hedge against is where a single Hormuz or Fed headline produces an outsized move before the week's real data arrives.",
+          "sourceName": "eOption",
+          "sourceUrl": "https://www.eoption.com/weekly-event-calendar-09-07-2026-09-11-2026/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Friday's August CPI is the week's single axis for all three markets: with the Fed in blackout until the September 15-16 FOMC and Brent's Hormuz premium feeding straight into the energy component, a hot core print would lock in the hike now priced near 58%, lifting yields from an already January-2025-high 4.81% into three Treasury auctions, pressuring the Nifty through the FII exit and the import bill, and taking Bitcoin further below $80,000 — while a soft one reopens the hold trade that drove last week's ETF inflows and the four-month high."
+}
