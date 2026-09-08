@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T04:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Wall Street sat out Monday for Labor Day, so the S&P 500 is still parked at Friday's **7,718.60** — but the reopening is set to be ugly: **Dow futures fell 308 points (0.6%)** overnight and S&P 500 futures slipped to around **7,717** to start the holiday-shortened week.",
+          "why": "Crude jumped to six-week highs after the US and Iran traded strikes on tankers over the weekend, and a fresh energy-cost shock lands directly on the inflation data that decides next week's Fed meeting.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The oil rally extended rather than faded — **WTI rose 1.3% to $92.66** and **Brent 1.1% to $97.31**, both six-week highs, while Strait of Hormuz transits fell to about **10 ships a day**, the lowest since May, per Kpler data cited by Reuters.",
+          "why": "US forces destroyed one Iranian tanker and permanently disabled two more on Saturday in retaliation for IRGC ballistic missiles fired toward a US aircraft carrier and destroyer, and Tehran responded by striking US-linked vessels and threatening a new restricted zone beyond the strait.",
+          "sourceName": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The post-payrolls repricing has stalled rather than extended — CME FedWatch showed roughly a **58.7% probability of a 25bp September hike** as of Monday, essentially unchanged from Friday's ~58% despite the weekend oil escalation.",
+          "why": "Futures traders have already priced the labour-market surprise and are now waiting on Friday's CPI before pushing the odds further, since the oil move is too recent to show up in the August data the Fed will actually see.",
+          "sourceName": "CME FedWatch"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The week's binary is now Friday: **August CPI lands September 11 at 8:30 ET**, with headline expected to hold at **3.4% year-on-year** but monthly inflation forecast to accelerate to **0.4% from 0.1%**, and core at **2.4% y/y / 0.2% m/m**; PPI and jobless claims come Thursday, with no major releases Tuesday or Wednesday.",
+          "why": "A four-fold jump in the monthly rate would be the strongest confirmation yet of Chair Warsh's stated inflation concern, arriving four days before the September 15-16 FOMC.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/articles/five-market-events-watch-week-103854007.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Oracle and Adobe both report Thursday**, the last significant tech earnings of the season, with Oracle's data-centre build-out and the debt it has issued to fund it the specific focus after the stock's recent decline.",
+          "why": "Oracle is the cleanest read on whether AI capex is still being financed on acceptable terms, and a rate backdrop that has 2-year yields at a January-2025 high makes leveraged build-outs harder to defend.",
+          "sourceName": "Seeking Alpha",
+          "sourceUrl": "https://seekingalpha.com/article/4943211-oracle-adobe-results-in-focus-as-earnings-season-winds-down"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold reversed Friday's slide during the holiday session, with **December futures up 1.06% to $4,476.60** from Friday's $4,429.80 close, recovering most of the ground lost to the payrolls print.",
+          "why": "The weekend tanker strikes restored a geopolitical safe-haven bid that outweighed the higher-yield drag that had knocked the metal down roughly 2% on Friday.",
+          "sourceName": "Trading Strategy Guides",
+          "sourceUrl": "https://tradingstrategyguides.com/monday-futures-preview-september-7-2026-metals-rally-signals-underlying-strength/"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Friday's one-day rebound was erased immediately — the **Sensex fell 382.62 points (0.5%) to 76,132.81** and the **Nifty 50 dropped 118.55 points (0.5%) to 23,779.15** on Monday, closing below 23,800 at a **six-week low**.",
+          "why": "Brent pushing toward $97 on the weekend US-Iran tanker strikes hit India's import bill directly, and the market had to absorb Friday's US payrolls shock that landed after Indian hours.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-7-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-purple-style-ipo-listing-today-126090700072_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "IT was the epicentre rather than a bystander — **Nifty IT tumbled 2.3%**, the worst sector of the session, with **Infosys down 3.7%** leading the losses and media shares the next worst hit.",
+          "why": "Stronger-than-expected US employment data lifted the odds of a September Fed hike, and higher US rates compress the client IT budgets that Indian services exporters draw the bulk of their revenue from.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/nifty-it-tumbles-3-as-fed-rate-hike-bets-rise-infosys-leads-losses-126090700615_1.html"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Tuesday opened lower again — GIFT Nifty pointed to a weak start at **23,787 (-81 points)** and by 9:19am the **Sensex was down 327.39 points (0.43%) at 75,805.42** with the **Nifty at 23,692.35 (-0.36%)**, breaking below 23,700; Shriram Finance, HCL Technologies and Tech Mahindra led losers as Realty, IT and Financial Services lagged and Metal and Chemicals outperformed.",
+          "why": "Bank and financial shares took over as the drag on the second day, as investors priced the risk that sustained $97 crude forces the RBI to stay tighter for longer even as the Fed leans toward hiking.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-8-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-price-deepa-jewllers-ipo-listing-today-126090800082_1.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The scale of the currency defence became clear — the **RBI is estimated to have sold at least $8 billion** in the FX market last week, with bankers putting total intervention at **$8-15 billion**, holding the rupee near **₹94.42** after Friday's ₹94.485 close.",
+          "why": "Last week's rupee stability was bought rather than earned, because a Brent price in the mid-to-high $90s widens the oil import bill faster than the FCNR deposit inflows can offset it.",
+          "sourceName": "Investing.com",
+          "sourceUrl": "https://in.investing.com/news/stock-market-news/india-stocks-open-lower-as-oil-prices-rise-and-rupee-holds-firm-5583449"
+        },
+        {
+          "emoji": "🔀",
+          "detail": "The domestic-versus-foreign split has become the market's defining feature — **FIIs have sold ₹5,610 crore across three sessions** while **DIIs poured in ₹23,160 crore**, more than four times the foreign outflow.",
+          "why": "Foreign allocators keep cutting exposure to an oil-importing economy facing a hawkish Fed, but domestic institutional money is absorbing every share of it, which is why the index is grinding down half a percent a day rather than gapping lower.",
+          "sourceName": "Free Press Journal",
+          "sourceUrl": "https://www.freepressjournal.in/business/fiis-sell-5610-crore-in-3-sessions-diis-pour-23160-crore-into-indian-stocks-despite-market-fall"
+        },
+        {
+          "emoji": "🧭",
+          "detail": "Friday's flagged **23,800 first support has already broken**, putting **23,700 and 23,500** in play, with the index now needing to reclaim 23,800 before 24,000 is even a conversation — and with US CPI due Friday, the next two sessions have no domestic catalyst to work with.",
+          "sourceName": "Business Recorder",
+          "sourceUrl": "https://www.brecorder.com/news/40438314/indian-stocks-slip-to-six-week-low-as-it-slides-oil-worries-mount"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin clawed back above $80,000 over the weekend, trading as high as **$80,343 (+0.65%)** with resistance capping it at $80,500, before slipping **1.1% since midnight UTC** on Monday and settling back to hold **$79,000** on Tuesday; **ETH sits at $2,492** and **SOL at $103.83**.",
+          "why": "Thin holiday liquidity with US and Canadian markets shut let the weekend bid push BTC through $80,000, but the level failed again once the resistance band at $81,000-$82,000 came into view and the stronger labour data reasserted itself.",
+          "sourceName": "KuCoin",
+          "sourceUrl": "https://www.kucoin.com/news/articles/crypto-daily-market-report-september-7-2026"
+        },
+        {
+          "emoji": "🚨",
+          "detail": "The weekend's dominant story was an exploit, not a price — **roughly 4,000 BTC worth about $320 million** was withdrawn from the Liquid Network's federation wallet on Sunday, forcing Blockstream to **pause the entire Bitcoin sidechain** and exchanges to suspend L-BTC deposits and withdrawals; the attacker has since **returned 3,400 BTC while retaining 598.5 BTC (~$47 million)**.",
+          "why": "A vulnerability in Elements, the open-source software underpinning Liquid, let L-BTC that should never have existed pass the redemption checks, so the federation paid out real bitcoin against phantom tokens.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/defi/2026-09-06-liquid-network-pauses-after-purported-white-hat-hackers-withdraw-320-million-in-bitcoin-413626"
+        },
+        {
+          "emoji": "🔐",
+          "detail": "Privacy coins are the market's new leadership — **ZEC traded near $1,192, up about 11%** on Monday to a record, dragging HYPE to an all-time high alongside it, with the privacy sector now **up 213% since Bitcoin's October 2025 peak** and Zcash climbing to **No. 7 by market cap** on a 2,496% gain.",
+          "why": "Grayscale's August conversion of its Zcash Trust into the ZCSH spot ETF on NYSE Arca made ZEC the first privacy coin with a US spot vehicle, opening allocator access to a sector that previously had none.",
+          "sourceName": "The Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/09/07/zec-leads-privacy-coin-rally-as-sector-surges-213/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Leverage has quietly rotated out of Bitcoin — **altcoin perpetual open interest overtook Bitcoin's on September 6 for the first time in 21 months**, the first such flip since December 2024, with BTC open interest at **$25 billion** against **$2.3-2.4 billion** in Zcash futures alone.",
+          "why": "The Zcash, XRP and Solana rallies pulled speculative positioning away from Bitcoin, though part of the shift is price-driven revaluation of existing positions rather than genuinely new money.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/altcoin-open-interest-overtakes-bitcoin-after-21-months/"
+        },
+        {
+          "emoji": "💥",
+          "detail": "Positioning was punished in both directions inside 48 hours — the weekend altcoin surge triggered **$231 million of liquidations with nearly $150 million on the short side** (ZEC alone accounting for ~$50 million), before Monday's fade produced **about $278 million liquidated in a four-hour window, roughly 86% of it longs**.",
+          "why": "Traders who shorted into the weekend rally were squeezed out first, then the same leverage flipped against late longs once Bitcoin failed at $80,500 and the stronger labour data reasserted itself into the holiday lull.",
+          "sourceName": "KuCoin",
+          "sourceUrl": "https://www.kucoin.com/news/articles/crypto-daily-market-report-september-7-2026"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF picture is narrowing to Bitcoin alone — spot BTC funds took in **$986.85 million in the week to September 4**, a third straight weekly inflow taking the three-week total to **$3.82 billion**, but Friday's tally slowed to **$174.60 million** and inflows into Ether, Solana, XRP and Hyperliquid products **fell between 73% and 96%** week-on-week.",
+          "why": "Thursday's $730.8 million single-day surge on Waller's dovish comments accounted for most of the week's total, so once the payrolls print invalidated that rate view the buying dried up almost immediately, and altcoin products lost sponsorship first.",
+          "sourceName": "Bitget News",
+          "sourceUrl": "https://www.bitget.com/amp/news/detail/12560605798262"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A weekend tanker war became the single driver across every market: US strikes that destroyed or disabled three Iranian vessels after IRGC missiles were fired at a US carrier pushed Brent to $97.31 and WTI to $92.66 with Hormuz transits at 10 ships a day, which sent Dow futures down 308 points into a holiday-shortened reopening, drove India's Nifty to a six-week low of 23,779.15 with IT down 2.3% and the RBI selling an estimated $8 billion-plus to defend the rupee, lifted gold futures 1.06% on safe-haven demand, and left Bitcoin unable to hold $80,000 — with all of it now funnelling into Friday's August CPI, where monthly inflation is forecast to quadruple to 0.4%, four days before an FOMC priced at 58.7% odds of a hike."
+}
