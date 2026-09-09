@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T04:20:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The holiday-delayed reopening was as ugly as futures signalled — the **S&P 500 fell 0.58% to 7,673.52**, the **Dow tumbled 628.18 points (1.18%) to 52,786.07** and the Nasdaq slipped 0.32% to 26,421.41, a second straight loss for each index.",
+          "why": "Two shocks landed at once: crude pushed toward $100 after Houthi strikes halted Saudi energy operations, and Canada's retaliatory tariffs on more than 700 US goods took effect the same morning, both feeding the inflation print due Friday.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-8-dow-sp-500-nasdaq-080440338.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The oil driver rotated from Iranian tankers to Saudi infrastructure — **Brent settled up about 1% near $98** after touching close to **$100** intraday, and **WTI closed near $93**, a sixth consecutive advance and its longest run since March.",
+          "why": "Iran-aligned Houthi forces launched ballistic missiles and drones at Aramco sites in Jizan, Abha and Najran, wounding 73 people and forcing Riyadh to suspend operations at several facilities including the 400,000 barrel-a-day Jazan refinery, while Tehran said an agreement with Oman to manage Hormuz shipping was nearing completion.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/08/oil-prices-today-brent-wti-hormuz-iran-war.html"
+        },
+        {
+          "emoji": "🇨🇦",
+          "detail": "A second front opened that had nothing to do with the Gulf — **Canada's countertariffs of 15% to 50% on over 700 American products took effect September 8**, covering roughly **$20 billion** of annual US exports and doubling duties on US steel and aluminium to **50%**.",
+          "why": "Ottawa moved to match US tariffs dollar for dollar after trade talks collapsed in August, targeting steel, dairy, appliances, agricultural equipment, pulp and paper and electronics.",
+          "sourceName": "Al Jazeera",
+          "sourceUrl": "https://www.aljazeera.com/news/2026/8/23/canada-to-hit-us-with-retaliatory-tariffs-as-trade-war-escalates"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Megacap tech carried the index lower rather than cushioning it — **Apple fell 2.55%, Alphabet 2.10% and Microsoft 2.05%**, while the day's gainers were industrials and staples: Caterpillar +1.65%, Honeywell +0.95%, Home Depot +0.88%.",
+          "why": "Long-duration growth names take the largest hit when an energy-driven inflation scare pushes rate-hike odds up, whereas industrials benefit from the tariff and defence-spending backdrop.",
+          "sourceName": "Investrade",
+          "sourceUrl": "https://investrade.com/market-review-september-08-2026/"
+        },
+        {
+          "emoji": "🥇",
+          "detail": "Gold gave back Monday's safe-haven bounce entirely — **December futures opened at $4,451.60, down 0.6%**, and slid to **near $4,350** during the session despite crude approaching $100.",
+          "why": "The oil spike is now read as an inflation shock that raises the odds of a Fed hike rather than as a pure geopolitical risk event, so higher expected real rates outweighed the haven bid.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/news/gold-slumps-to-near-4-350-amid-oil-driven-inflation-fears-us-inflation-data-in-focus-202609082332"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The bond market has now fully joined the repricing — the **10-year Treasury yield briefly ticked back above 4.8%** before easing to around **4.77%**, with **August PPI due Thursday forecast at +0.4% month-on-month** ahead of Friday's CPI.",
+          "why": "Traders are marking up inflation expectations directly off the energy move, and a hot PPI on Thursday would pre-confirm the CPI acceleration four days before the September 15-16 FOMC.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/08/us-treasury-yields-bonds.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "Tuesday's weak open turned into a full second-day decline — the **Sensex closed down 555.23 points (0.73%) at 75,577.58** and the **Nifty 50 fell 144.05 points (0.61%) to 23,635.10**, the lowest close since mid-June.",
+          "why": "Advancing crude, a softening rupee and thin foreign inflows combined, with investors unwilling to add risk ahead of US inflation data and next week's Fed decision.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-8-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-price-deepa-jewllers-ipo-listing-today-126090800082_1.html"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "Wednesday made it three straight — **GIFT Nifty pointed 89.10 points (0.38%) lower at 23,660.50**, and by 9:18am the **Sensex had dropped 580.84 points (0.77%) to 74,996.74**, breaking below 75,000, with the **Nifty at 23,503.75 (-0.56%)** testing the 23,500 support flagged two sessions ago.",
+          "why": "Brent rose another 1.3% to hover near $99, and an oil-importing market with a widening current-account problem has no defence against a third consecutive day of energy gains.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-9-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-prices-126090900115_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "IT is no longer just the worst sector, it is accelerating — after Monday's 2.3% drop, **Nifty IT fell over 3%** on Wednesday morning to again be the single worst index, while Nifty Healthcare outperformed.",
+          "why": "Every incremental rise in US rate-hike odds compresses the client technology budgets Indian services exporters depend on, and the oil-driven inflation scare has pushed those odds higher for a third session running.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-9-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-prices-126090900115_1.html"
+        },
+        {
+          "emoji": "🛡️",
+          "detail": "One pocket ran hard against the tape — defence stocks jumped up to **13%** on Tuesday, with **MIDHANI up 12.93% to ₹474.90**, Data Patterns +6.19%, HAL +4%, Apollo Micro +3.89% and Paras Defence +3.38%.",
+          "why": "The Defence Acquisition Council cleared roughly ₹1.1 lakh crore (about $11 billion) of procurement and Jefferies initiated coverage on several names the same day, giving the sector a domestic order-book catalyst independent of the oil story.",
+          "sourceName": "Business Today",
+          "sourceUrl": "https://www.businesstoday.in/markets/stocks/story/midhani-data-patterns-paras-apollo-micro-hal-why-defence-stocks-are-rising-today-553873-2026-09-08"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee slipped back to around **₹94.61 per dollar**, retreating from the two-month highs the RBI's estimated $8 billion-plus of intervention had bought last week.",
+          "why": "Oil importers ramped up dollar hedging as Brent approached $100, and that demand is now arriving faster than the central bank's selling can absorb it.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/india/currency"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The sector split has inverted from Monday — on Tuesday **Media, Pharma and Healthcare led** while **Financial Services, private banks and Oil & Gas were the biggest drags**, a rotation into domestic defensives and out of anything rate- or crude-sensitive.",
+          "why": "Investors are positioning for sustained high crude to squeeze refiner margins and keep the RBI from easing, which hits banks and oil marketers first while pharma benefits from the weaker rupee on export realisations.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-8-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-price-deepa-jewllers-ipo-listing-today-126090800082_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The $79,000 floor mentioned yesterday did not hold — **Bitcoin dipped below $78,000 to a low of $77,603** on Tuesday before a relief rally back toward **$78,600**, ending the US session near **$78,741**; **ETH slipped to $2,473.66** from a $2,489.84 open.",
+          "why": "Crude approaching $100 after the Houthi strikes on Saudi energy facilities revived inflation fears one week before the Fed meets, and crypto traded as a pure rates-sensitive risk asset rather than a hedge.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-september-8-2026-crypto-prices-sliding-as-us-iran-fighting-continues-113441984.html"
+        },
+        {
+          "emoji": "💥",
+          "detail": "Leverage was flushed one-directionally this time — **$264 million of total crypto liquidations**, including **$79 million in Bitcoin positions**, with **roughly 90% on the long side**, a cleaner wipeout than Monday's two-way squeeze.",
+          "why": "Thin post-Labor Day liquidity meant relatively small spot selling cascaded through long liquidation clusters, pushing spot to a floor near $78,180 with no shorts left to squeeze in the other direction.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/market-updates/crypto-liquidations-hit-264m-as-bitcoin-price-slides-ahead-of-cpi-data/"
+        },
+        {
+          "emoji": "🕵️",
+          "detail": "The privacy-coin leadership trade has stalled — **ZEC has pulled back to roughly $1,120-$1,155, down about 8-10%** from this week's **$1,249** spike, after first clearing $1,000 on September 4 in a 20% jump that cost short sellers **$34 million**.",
+          "why": "The Grayscale spot-ETF catalyst that drove the run is now fully in the price, so the sector is giving back gains alongside the broader risk-off move rather than continuing to decouple.",
+          "sourceName": "Disruption Banking",
+          "sourceUrl": "https://www.disruptionbanking.com/2026/09/08/zcash-cracks-1000-with-its-first-spot-etf-and-small-privacy-coins-are-chasing-the-move/"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The ETF story looks weaker on a full-year view than the weekly inflow headlines suggest — despite **$3.52 billion in August** and **$770.15 million so far in September**, US spot Bitcoin ETFs remain **about $1 billion short of breaking even for 2026**.",
+          "why": "Heavy first-half redemptions have not yet been recovered, so the recent three-week inflow streak is repairing earlier damage rather than representing genuinely new marginal demand.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026"
+        },
+        {
+          "emoji": "🎯",
+          "detail": "Traders now treat **$78,000-$78,500 as the primary support band**, with a break opening a path toward **$76,000**; the wider consolidation range is $77,500-$82,200 with overhead resistance at $80,600-$83,200.",
+          "why": "Liquidation clusters sit immediately below the $78,000 shelf, so a decisive break would mechanically accelerate rather than find buyers, and Thursday's PPI and Friday's CPI are the events most likely to trigger it.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/bitcoin-price-risks-76k-drop-as-78k-support-weakens/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The energy shock changed source but not direction: Houthi missile and drone strikes that halted operations at Saudi Aramco's Jizan, Abha and Najran facilities pushed Brent to settle near $98 after touching $100 and WTI to a sixth straight gain near $93, and because that now reads as an inflation impulse rather than a geopolitical risk event, it drove yields above 4.8%, knocked the S&P 500 to 7,673.52 with megacaps leading losses, sent gold down to near $4,350 instead of up, pushed the Nifty through 23,500 with IT off more than 3% and the rupee back to ₹94.61, and broke Bitcoin below $78,000 — with Thursday's PPI and Friday's CPI now the only things standing between this and a Fed hike on September 16."
+}
