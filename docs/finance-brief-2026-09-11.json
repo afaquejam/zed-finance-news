@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "A fourth straight decline, and the first one driven by an actual data print rather than a fear — the **S&P 500 fell 0.58% to 7,591.70**, the Dow lost 316.56 points (0.6%) to **52,064.10**, the Nasdaq dropped 0.65% to 26,081.72 and the Russell 2000 slipped 1.0% to **2,890.95**.",
+          "why": "August producer prices came in hotter than forecast at the same moment US crude broke $100 a barrel, so traders repriced next week's Fed meeting from a coin flip to a near-certainty and marked equities down against a higher discount rate.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/09/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🔥",
+          "detail": "The PPI overshoot was small at the headline but ugly underneath — final demand rose **0.4% month-on-month and 5.4% year-on-year** against a 5.3% consensus, with **energy up 4.2%** accounting for over three-quarters of the increase and **diesel prices jumping 24.1%**; core PPI was the one soft spot at **+0.2% versus +0.3% expected**.",
+          "why": "The Gulf conflict is now passing through to the wholesale price level in a single month rather than gradually, so the Fed can no longer treat the oil shock as a relative-price move it can look through.",
+          "sourceName": "U.S. Bureau of Labor Statistics",
+          "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_09102026.htm"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude did not just hold $100, it gapped through it — **Brent settled up $6.42, or 6.34%, at $107.63** and **WTI rose 6.69% to $102.48**, its first close above $100 since May and the largest one-day jump of the entire conflict.",
+          "why": "This week brought the biggest spike in attacks on shipping since the war began, with Houthi strikes on Saudi energy facilities compounding the Hormuz and Red Sea disruption and Saudi August output already down roughly 1.9 million barrels a day.",
+          "sourceName": "Business Recorder",
+          "sourceUrl": "https://www.brecorder.com/news/40438978/oil-jumps-6pc-to-usd107-on-supply-concerns"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The long end broke to a new cycle extreme — the **10-year yield topped 4.9%** after the PPI print and the **30-year reached 5.35%, the highest since June 2007**, while CME FedWatch odds of a September 16 hike jumped to roughly **72%–76%** from about 56% a day earlier.",
+          "why": "The hot PPI landed alongside a hawkish ECB, which hiked 25bp to a 2.50% deposit rate and called further tightening a unanimous 'no-brainer' while saying inflation will stay well above target for an extended period — synchronising the global bond selloff rather than leaving it a US story.",
+          "sourceName": "Fortune",
+          "sourceUrl": "https://fortune.com/2026/09/10/10-year-treasury-yield-inflation-fed/"
+        },
+        {
+          "emoji": "☁️",
+          "detail": "Oracle salvaged the tape after hours — the stock **fell 5.38% to $152.94** in the session then jumped about **7% to roughly $159.58** post-close on Q1 FY2027 revenue of **$19.3 billion (+30%)**, cloud infrastructure up **121% to $7.4 billion**, EPS of **$1.92 versus $1.74 expected**, and remaining performance obligations of **$664 billion** against a $630.6 billion consensus.",
+          "why": "More than $30 billion of new AI cloud contracts were booked in the quarter and management raised full-year guidance to at least $90 billion in revenue, which told the market the AI capex cycle is still converting into signed backlog even as the rates backdrop deteriorates.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/oracle-orcl-q1-earnings-report-2027.html"
+        },
+        {
+          "emoji": "📅",
+          "detail": "The decisive print lands this morning — **August CPI is released at 8:30am ET Friday**, the last inflation reading before the September 16 FOMC, with the Dow Jones consensus at **+0.4% month-on-month and 3.4% year-on-year** headline and core at **+0.2% m/m, 2.4% y/y**.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🔔",
+          "detail": "Thursday's session was rescued in the last few minutes — the **Nifty 50 closed up 46.30 points (0.20%) at 23,477.80** and the **Sensex gained 138.36 points (0.19%) to 74,902.59**, snapping a three-session losing streak after buying in the closing auction erased losses carried through regular trade.",
+          "why": "Banking and financial stocks led by HDFC Bank and Axis Bank were bid on strong domestic institutional flows and improving August equity fund data, which was just enough to offset $100 crude, a weaker rupee and firming bond yields.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-stage-late-recovery-to-end-higher-after-three-day-slide-126091000996_1.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "That recovery lasted exactly one session — Friday opened with the **Sensex down 593.43 points (0.79%) at 74,309.16** and the **Nifty down 207.50 points at 23,270.30**, sliding to about **23,242.55** in early trade with **15 of 16 sectoral indices lower** and midcap and smallcap indices each off around **1.1%**.",
+          "why": "The overnight combination of Brent settling at $107.63 and a fourth straight Wall Street decline on the hot US PPI hit an oil-importing market at the open, leaving no room for the technical bounce that a hammer candle on Thursday's chart had set up.",
+          "sourceName": "India TV News",
+          "sourceUrl": "https://www.indiatvnews.com/business/markets/11-september-2026-stock-market-updates-sensex-slumps-593-points-nifty-below-23-300-amid-weak-global-cues-2026-09-11-1053924"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The sector leadership inverted completely — **Nifty Metal fell more than 3%** as the day's worst performer with **Realty down over 2%**, while **Nifty IT was the only green sectoral index, up 0.10%**, after three straight sessions as the index's biggest drag.",
+          "why": "Metals are unwinding the commodity-rally premium now that a global rate-hike cycle threatens demand, while IT is catching a bid purely from the rupee heading toward 96, which mechanically lifts the rupee value of dollar export revenues.",
+          "sourceName": "International News and Views",
+          "sourceUrl": "https://www.internationalnewsandviews.com/stock-market-today-sensex-nifty-brent-crude-rupee-september-11-2026-408374-2/"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The currency remains the transmission channel — the rupee **weakened 0.3% to close at 95.44 per dollar** on Thursday, its **steepest single-day fall since mid-July**, and moved closer to **96** on Friday as crude extended higher.",
+          "why": "India imports close to 90% of its crude in dollars, so Brent at $107.63 directly inflates the import bill and dollar demand, and the RBI's near-daily spot and forward intervention is being described by traders as measured volatility management rather than a defence of any particular level.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/sensex-nifty-stage-late-recovery-to-end-higher-after-three-day-slide-126091000996_1.html"
+        },
+        {
+          "emoji": "⚠️",
+          "detail": "The macro arithmetic is worsening faster than the index move suggests — a **$7 jump in Brent in a single session** lands on an economy already running a widening current account deficit, and the same energy pass-through that produced **4.2% US final-demand energy inflation** will show up in India's imported cost base with a lag.",
+          "why": "Foreign outflows, a record-territory rupee and a rising oil bill reinforce one another, so each leg higher in crude raises the dollar demand that pushes the currency lower, which in turn accelerates the foreign selling.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/rupee-outlook-usd-inr-levels-96-97-brent-oil-prices-rise-fii-outflows-2026-126043000501_1.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The $78,000 shelf gave way — **Bitcoin fell 3.4% through $77,000** to an intraday low of **$76,676.07**, now testing a **$76,000 support cluster**, with total crypto market capitalisation slipping to about **$2.65 trillion**.",
+          "why": "The August PPI overshoot at 5.4% plus WTI's first close above $100 since May pushed the 30-year Treasury yield to a 19-year high and Fed hike odds to around 76%, and Bitcoin is trading purely as a long-duration risk asset into Friday's CPI.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/markets/bitcoin-falls-on-us-ppi-overshoot-as-30-year-bond-yield-hits-new-19-year-high"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The deleveraging that was decelerating just re-accelerated violently — **more than $568 million of positions were liquidated across roughly 161,900 traders** in 24 hours, with **Bitcoin longs alone accounting for about $138 million**, more than double Wednesday's $238.6 million total.",
+          "why": "Yesterday's reasoning that the densest leverage clusters above $78,000 had already been cleared was tested and failed: the PPI print broke the level outright rather than grinding through it, so the positions that survived two days of flushes were taken out in one move.",
+          "sourceName": "CryptoSlate",
+          "sourceUrl": "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/"
+        },
+        {
+          "emoji": "🏧",
+          "detail": "The institutional bid has turned — US spot Bitcoin ETFs shed about **$120 million on Wednesday** after **$46.65 million** on Tuesday for **$166.89 million of two-day outflows**, and total ETF assets fell to **$99.33 billion from $103.34 billion on September 3**.",
+          "why": "This directly reverses the roughly $3.8 billion that flowed in over the previous three weeks including the $987 million week ending September 5, meaning the allocators who were treating Bitcoin as the macro-hedge sleeve are now cutting it alongside everything else as a September hike becomes the base case.",
+          "sourceName": "Cointelegraph",
+          "sourceUrl": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026"
+        },
+        {
+          "emoji": "🪙",
+          "detail": "Altcoins took the harder hit and gave up round numbers — **Solana dropped 3.46% to $99.54**, back below $100, **XRP slid 4.44% to $1.35** and **Ethereum slipped 2.10% to $2,439**, extending 2026 drawdowns of **37% for ETH, 40% for SOL and 47% for XRP**.",
+          "why": "Traders are de-risking the discretionary end of the book first ahead of the CPI print and the September 16 Fed decision, so the assets furthest out the risk curve are absorbing a disproportionate share of the selling rather than falling in line with Bitcoin.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-xrp-bitcoin-altcoins-american-wrap-10-september-202609101444"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Next week is now stacked back-to-back — the **CLARITY Act cloture vote is set for 2:15pm ET on September 15**, needing **60 votes** and therefore at least seven Democrats alongside the 53-seat Republican conference, one day before the FOMC decision; this morning's **CPI will test Bitcoin's $76,000–$82,000 range** first.",
+          "why": "With the macro bid gone and ETF flows negative, the two scheduled events rather than any crypto-native catalyst now determine whether the $76,000 cluster holds or opens the path toward $70,000.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The Gulf oil shock stopped being a risk premium and became a data point: August PPI printed 5.4% year-on-year with energy up 4.2% and diesel up 24.1% on the same day Brent settled 6.34% higher at $107.63 and WTI closed above $100 for the first time since May, driving the 30-year Treasury yield to a 19-year high of 5.35% and September Fed hike odds from 56% to roughly 76% — a global rate impulse amplified by the ECB's hawkish 25bp hike that took the S&P 500 to a fourth straight loss at 7,591.70, sent the Nifty gapping down to 23,242.55 with the rupee heading for 96, and broke Bitcoin through $77,000 to a $76,676 low, with this morning's August CPI the last input before the September 16 decision."
+}
