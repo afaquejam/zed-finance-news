@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T09:20:26Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The four-day slide ended — the **S&P 500 rose 0.86% to 7,656.98**, the Dow added **509.19 points (0.98%) to 52,573.29** and the Nasdaq gained 0.96% to **26,333.04**, the best session of the week after four straight declines.",
+          "why": "Oil reversed hard after Iranian state media said Tehran will meet Gulf states in Oman to discuss the Strait of Hormuz, and the headline CPI landed in line rather than hot, so equities rallied on the geopolitical reprieve even as rate-hike odds climbed.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/10/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "August CPI matched at the headline and missed underneath — consumer prices rose **0.4% month-on-month with the annual rate holding at 3.4%**, exactly as forecast, but **core CPI rose 0.3% against 0.2% expected**, even as core year-on-year eased to **2.4% from 2.5%**; **gasoline jumped 3.9%**, accounting for over a third of the monthly increase.",
+          "why": "The Gulf energy shock showed up exactly where it was expected, but the 0.1-point core overshoot said the pass-through is now leaking beyond fuel into the underlying basket, which is the part the Fed cannot look through.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "A September hike is now all but priced — CME FedWatch odds jumped to roughly **88%–90% from about 71% on Thursday**, and the front end led the selloff with the **2-year yield up 7.8bp to 4.628%**, its highest since July 2024, while the 10-year rose 2.9bp to **4.97%** after touching **4.992%, the highest since October 2023**.",
+          "why": "The core overshoot was the specific line that repriced next Wednesday's meeting, so the move concentrated in policy-sensitive short maturities rather than extending the long-end term-premium selloff that dominated Thursday.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude gave back part of Thursday's gap — **Brent settled down 2.8% at $104.61** and **WTI fell 2.4% to $100.05**, barely holding the triple-digit handle, though both still posted huge weeks with **Brent up 8.7%** and **WTI up 9.4%**.",
+          "why": "Iran signalling talks with Gulf states in Oman over the Strait of Hormuz was the first de-escalation headline of the conflict, enough to take some war premium out of the price without changing the physical supply picture.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
+        },
+        {
+          "emoji": "☁️",
+          "detail": "Friday's bounce did not rescue the week or Oracle — the **S&P 500 still fell 0.8%**, the **Dow lost 1.6%** in its longest losing streak since late April and the Nasdaq shed 0.7%, while **Oracle surrendered an intraday gain of as much as 10.3%** to finish just below flat despite cloud infrastructure revenue up 121% to $7.4 billion.",
+          "why": "The after-hours enthusiasm for Oracle's AI backlog faded once cash markets opened and traders weighed the capital intensity behind that backlog against a bond market pricing a near-certain hike.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-11-dow-sp-500-nasdaq-cpi-inflation-082201751.html"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "Everything now funnels into Wednesday — the **FOMC decision lands at 2:00pm ET on September 16 with updated economic projections**, and **August retail sales print at 8:30am ET the same morning**, giving the market a consumer read hours before the dot plot.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/stock-market-next-week-outlook-for-sept-14-18-2026.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The gap-down was largely repaired but not erased — the **Nifty 50 closed down 79.70 points (0.34%) at 23,398.10** and the **Sensex fell 120.84 points to 74,781.76** after recovering roughly **622 points from the day's low**, with **Bank Nifty finishing up 0.24%** against the frontline indices.",
+          "why": "Banks absorbed domestic institutional buying through the afternoon while crude eased off Thursday's spike, which pulled the index back from an open that had priced Brent above $107 and a fourth straight Wall Street decline.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-11-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-126091100093_1.html"
+        },
+        {
+          "emoji": "🩸",
+          "detail": "This is now a streak measured in weeks, not sessions — the **Sensex fell 2.27% over the week to 74,782** and the **Nifty lost 2.1% to 23,398**, a **fifth consecutive weekly decline** that has taken almost **5% off both benchmarks**.",
+          "why": "Crude holding above $100 all week on continued West Asia hostilities kept an energy-led inflation narrative in control of sentiment, and renewed foreign selling gave the market no domestic offset large enough to break the pattern.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/equities-extend-losing-streak-to-five-weeks-as-crude-oil-fii-selling-weigh-126091101243_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "The weekly scoreboard inverts Friday's sector story — **Nifty IT was the worst major sector, down 5.8%** over the week and **Realty shed 6.5%**, while **Metal fell about 2%**, **Oil & Gas 2.2%**, and PSU Bank, Media and FMCG each dropped close to 2%.",
+          "why": "IT's single green session on rupee weakness was noise against a week in which a US rate-hike repricing hit the sector's demand outlook and valuation multiple simultaneously, while realty carried the full weight of higher domestic bond yields.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/equities-extend-losing-streak-to-five-weeks-as-crude-oil-fii-selling-weigh-126091101243_1.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee slid for a fourth straight session, **down 0.1% to 95.55 per dollar** and heading for a **weekly fall of more than 1%**, a far smaller daily move than Thursday's but with no recovery in it.",
+          "why": "Crude above $100 keeps inflating the import bill and dollar demand, and the softer daily move reflects the oil pullback plus continued RBI smoothing rather than any change in the underlying flow.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/blog/post-market-update-us-futures-gain-nifty-sensex-lower-bank-nifty-gains-september-11-2026"
+        },
+        {
+          "emoji": "🏃",
+          "detail": "Foreign money kept leaving while domestic money kept absorbing — **FIIs sold a net ₹438 crore** on Friday against **DII buying of ₹1,026 crore**, taking September FII selling to **₹12,912 crore** and the 2026 total to **₹2,37,353 crore**, with **India VIX up 4.66% to 12.42**.",
+          "why": "A rising US policy rate and a depreciating rupee together cut the dollar return on Indian equities, so foreign allocators keep trimming while domestic SIP-driven flows provide the only structural bid.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/india-vix-rises-4-66percent-to-12-42-as-oil-rupee-and-global-yields-pressure-indian-markets-september-11-2026"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "India gets its own inflation test before the Fed does — **August CPI and WPI are both released on Monday, September 14**, with July CPI having already climbed to **4.45%, the highest since December 2024**, and still inside the RBI's 2-6% band.",
+          "sourceName": "India Macro Indicators",
+          "sourceUrl": "https://indiamacroindicators.co.in/india-economic-calendar"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "The CPI print produced a violent round trip — Bitcoin **flash-crashed to $76,040** on the release, then surged through $78,000 and **past $79,800 by midmorning**, but the move was rejected and BTC **enters the weekend near $77,200** after failing at roughly $79,500.",
+          "why": "A headline CPI exactly in line removed the tail risk of an upside inflation surprise and triggered a squeeze, but the 0.3% core overshoot that pushed hike odds toward 90% capped the rally well before $80,000.",
+          "sourceName": "Bitcoin.com News",
+          "sourceUrl": "https://news.bitcoin.com/market-updates/bitcoin-price-spikes-near-80k-as-cpi-matches-forecasts/"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The liquidation engine flipped sides after three days of long flushes — **more than $255 million of Ether shorts and $172 million of Bitcoin shorts** were closed in 24 hours, with total market liquidations topping **$732 million and wiped-out short bets reaching $424 million**.",
+          "why": "Traders who pressed shorts through the PPI break of $77,000 were positioned for a hot CPI that never arrived, so the in-line print forced a covering cascade rather than another long liquidation.",
+          "sourceName": "Quartz",
+          "sourceUrl": "https://qz.com/bitcoin-ether-rebound-short-liquidations-091126"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Ether led the rebound by a wide margin, **climbing as much as 8.3% intraday** — its largest such move in three weeks — against a Bitcoin advance of under 4%, closing around **$2,469 (+2.3%)**, while **Solana held $99.39 (+0.9%)** and **XRP lagged at $1.34, still down 0.9%**.",
+          "why": "Short positioning was densest in Ether, so the squeeze mechanically delivered the biggest move there rather than reflecting any change in relative fundamentals.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        },
+        {
+          "emoji": "🏧",
+          "detail": "The institutional bid never came back during the bounce — US spot Bitcoin ETFs recorded **$462.6 million of net outflows from September 8 to 11** with **zero inflow days all week**, including **$282.6 million on September 10** and a fourth straight negative day of **$13.29 million on Friday**.",
+          "why": "Allocators are not treating an in-line CPI as an all-clear with the FOMC three days away, so the price rebound was entirely leveraged-trader driven rather than flow driven.",
+          "sourceName": "Coinpedia",
+          "sourceUrl": "https://coinpedia.org/news/bitcoin-etfs-see-461m-outflows-this-week-with-zero-inflows/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Monday's **2:15pm ET cloture vote** on the CLARITY Act is now the nearer catalyst, and the market has effectively written it off — **Polymarket odds of the bill becoming law in 2026 have collapsed to about 16% from 82% in February**, with Galaxy Research at **10%**, as three disputes stay unresolved: ethics rules covering the president's crypto income, DeFi developer liability under Section 604, and a stablecoin yield provision affecting roughly **$1.35 billion** of annual Coinbase USDC rewards revenue.",
+          "why": "Republicans hold 53 seats and need at least seven Democrats for the 60-vote threshold, and if cloture fails the legislative calendar after September leaves no realistic path before 2027, making this a binary event rather than a procedural step.",
+          "sourceName": "DeFi Rate",
+          "sourceUrl": "https://defirate.com/clarity-act-fact-sheet/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The first de-escalation headline of the Gulf conflict — Iran agreeing to meet Gulf states in Oman over the Strait of Hormuz — knocked Brent down 2.8% to $104.61 and let risk assets squeeze higher, lifting the S&P 500 0.86% to 7,656.98 out of a four-day slide, pulling the Nifty back 622 points off its low to 23,398.10 and forcing $424 million of crypto short covering that spiked Bitcoin from $76,040 to nearly $80,000; but the inflation damage was already in the data, with gasoline up 3.9% driving CPI to +0.4% month-on-month and core overshooting at +0.3%, pushing Fed hike odds to roughly 90% and the 2-year yield to 4.628% — so a one-day geopolitical reprieve sat on top of a rate impulse that still leaves India in a fifth straight weekly loss, Bitcoin ETFs in a fourth straight day of outflows, and Wednesday's FOMC unchanged as the real decision point."
+}
