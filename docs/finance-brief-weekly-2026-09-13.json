@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T09:00:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The index went from 7,718.60 to **7,656.98, a 0.8% weekly loss**, after four consecutive declines took it as low as 7,591.70 before Friday's 0.86% bounce; the Dow fell **1.6%** in its longest losing streak since late April and the Nasdaq shed 0.7%.",
+          "why": "A Gulf shipping war that escalated from tanker strikes to a direct US-Iran naval exchange drove crude through $100 and converted an energy spike into an inflation problem the Fed could no longer look through."
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil was the week's engine and rates were its transmission — **Brent rose 8.7% to $104.61** and WTI 9.4% to $100.05 after peaking at $107.63 on Thursday's 6.34% gap, pushing the 30-year yield to **5.35%, a 19-year high**, the 10-year to 4.992% and September hike odds from **58.7% on Monday to roughly 90% by Friday**.",
+          "why": "August PPI at 5.4% year-on-year with energy up 4.2% and CPI's 0.3% core overshoot proved the energy shock was already leaking into the underlying price basket, and a hawkish ECB 25bp hike synchronised the selloff globally."
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The AI capex trade failed its stress test — **Oracle reported cloud infrastructure revenue up 121% to $7.4 billion** and remaining performance obligations of **$664 billion** against a $630.6 billion consensus, jumped 7% after hours, then surrendered an intraday gain of as much as **10.3%** to finish just below flat.",
+          "why": "Traders weighed the capital intensity and debt behind that backlog against a bond market pricing a near-certain hike, so a genuinely strong print could not survive contact with a 4.99% ten-year."
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🔻",
+          "detail": "The **Nifty 50 lost 2.1% to 23,398.10** and the **Sensex 2.27% to 74,781.76**, a fifth consecutive weekly decline that has now taken almost **5%** off both benchmarks, with Wednesday's 203.60-point drop to 23,431.50 the sharpest session in over two months and the lowest close since June 11.",
+          "why": "Crude holding above $100 all week hit an oil-importing economy with no domestic catalyst to offset it, and every support flagged at the start of the week — 23,800, 23,700, 23,500 — broke in sequence."
+        },
+        {
+          "emoji": "💱",
+          "detail": "The currency was the real transmission channel — the rupee fell from **₹94.42 on Monday to 95.55 by Friday**, a weekly drop of more than 1% that included a **record low of ₹95.2250** on Wednesday, despite RBI intervention estimated at $8 billion or more in the prior week plus near-daily spot and forward smoothing.",
+          "why": "India imports close to 90% of its crude in dollars, so each leg higher in Brent raised the dollar demand that pushed the rupee lower, which in turn accelerated the foreign selling that pushed it lower again."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "**Nifty IT was the week's worst major sector at -5.8%** with Realty down 6.5%, while foreign investors kept selling — September FII outflows reached **₹12,912 crore** against a 2026 total of ₹2,37,353 crore — and domestic institutions absorbed nearly all of it, buying ₹23,160 crore in the first three sessions alone.",
+          "why": "A US rate-hike repricing hit IT's client-budget outlook and valuation multiple simultaneously, while the rupee-driven cut to dollar returns pushed foreign allocators out and left SIP-driven domestic flows as the only structural bid, which is why the fall was orderly rather than a rout."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin lost roughly **4% on the week**, sliding from a weekend high of $80,343 to close near **$77,200** after a CPI-day round trip that flash-crashed to **$76,040** and spiked back through $79,800 before rejection; Ether ended near $2,469 and Solana clung to $99.39.",
+          "why": "With Fed hike odds climbing from 58.7% to about 90%, crypto traded as a pure long-duration risk asset rather than a geopolitical hedge, breaking the $79,000, $78,000 and $77,000 shelves in sequence as yields rose."
+        },
+        {
+          "emoji": "⚡",
+          "detail": "Leverage was destroyed in both directions — roughly **$2.1 billion of positions were liquidated across the week**, escalating from $264 million on Tuesday to $568 million on Thursday's PPI break (about 90% longs), then reversing entirely on Friday with **$732 million total and $424 million of it shorts**, including $255 million in Ether alone.",
+          "why": "Traders who pressed shorts through the PPI break of $77,000 were positioned for a hot CPI that never arrived, so the in-line headline forced a covering cascade that mechanically hit hardest where short positioning was densest."
+        },
+        {
+          "emoji": "📤",
+          "detail": "The institutional bid disappeared — US spot Bitcoin ETFs posted **$462.6 million of net outflows from September 8 to 11 with zero inflow days**, including $282.6 million on September 10, dropping total ETF assets to **$99.33 billion from $103.34 billion on September 3** and reversing the roughly $3.82 billion that had flowed in over the previous three weeks.",
+          "why": "Allocators who had been treating Bitcoin as their macro-hedge sleeve cut it alongside everything else once a September hike became the base case, and an in-line CPI was not enough of an all-clear to bring them back with the FOMC three days away."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A Gulf shipping war that escalated from tanker strikes to a direct US-Iran naval exchange drove Brent up 8.7% to $104.61 and WTI above $100, and once that energy shock showed up in the actual data — PPI at 5.4% year-on-year with energy up 4.2%, and CPI's core overshooting at 0.3% with gasoline up 3.9% — it stopped being a risk premium and became a rate impulse, lifting September Fed hike odds from 58.7% to roughly 90% and the 30-year yield to a 19-year 5.35%, which cost the S&P 500 0.8% on the week, drove the Nifty to a fifth straight weekly loss at 23,398.10 with the rupee at a record-territory 95.55, and pushed Bitcoin from $80,343 to $77,200 with $462.6 million of ETF outflows — leaving Friday's Hormuz de-escalation headline as a one-day reprieve on top of damage already locked into the data ahead of Wednesday's FOMC."
+}
