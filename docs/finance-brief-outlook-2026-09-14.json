@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "The **FOMC meets Tuesday–Wednesday and announces at 2pm ET on Wednesday, September 16**, with a 25bp hike from the current 3.50–3.75% target range now roughly **85–90% priced**; because this is a Summary of Economic Projections meeting, the updated **dot plot** lands alongside the decision.",
+          "why": "With the hike itself close to fully discounted after last week's PPI and CPI, the live variable is how many further increases the dots signal through year-end — a median showing more than one additional move would extend the rise in the 30-year that already hit a 19-year 5.35%, while a hike framed as a one-off insurance move against the oil shock would let the index rebuild from Friday's bounce.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/stock-market-next-week-outlook-for-sept-14-18-2026.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "**August retail sales arrive Wednesday at 8:30am ET**, about five and a half hours before the Fed decision, alongside import/export prices, business inventories and the NAHB housing index.",
+          "why": "It is the week's only clean read on whether the consumer is absorbing $100 crude or buckling under it, and the sequencing matters because a weak print hours before a near-certain hike would force the market to price a stagflationary policy error rather than a straightforward inflation response.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+        },
+        {
+          "emoji": "🌀",
+          "detail": "**Friday, September 18 is quarterly triple witching** — stock options, index options and index futures all expire together, with index rebalancing effective at the same close, two sessions after the Fed.",
+          "why": "Expiry mechanically concentrates hedging and rebalancing flow into a single session, so whichever direction the post-FOMC move takes tends to be amplified rather than faded — relevant with the index at 7,656.98 and last week's 7,591.70 low still the nearest reference point below.",
+          "sourceName": "Nasdaq",
+          "sourceUrl": "https://www.nasdaq.com/trading-calendar"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🎏",
+          "detail": "**NSE and BSE are closed Monday, September 14 for Ganesh Chaturthi**, leaving a four-session week that reopens Tuesday and takes the **Wednesday-night FOMC decision at Thursday's open**.",
+          "why": "A truncated week concentrates the reaction into fewer sessions, and with the Nifty entering at 23,398.10 after five straight weekly losses, a hawkish dot plot that lifts US yields further would arrive with no domestic cushion and the 23,300 and 23,000 levels as the next references below.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/ganesh-chaturthi-stock-market-holiday-bse-and-nse-closed-on-sept-14-126091400057_1.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "**August WPI is scheduled for Monday, September 14** — with equity markets shut, it will only be priced when trading resumes Tuesday; UBI Research estimates it eases to **9.34% from 9.78% in July** on softer fuel inflation, with food accelerating to roughly 8.14%. August trade data follows later in the week.",
+          "why": "WPI is the cleanest domestic read on how far $100 crude has already passed into producer costs, and an upside surprise would compound the margin squeeze the market is already pricing while a wider trade deficit would add directly to the dollar demand pushing the rupee lower.",
+          "sourceName": "The Tribune",
+          "sourceUrl": "https://www.tribuneindia.com/news/august-2026/indias-august-wpi-inflation-likely-to-ease-to-9-34-food-global-crude-risks-cloud-outlook-ubi-research"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee enters at **95.55** after a record low of ₹95.2250 last week, with September FII outflows at **₹12,912 crore** and domestic institutions absorbing nearly all of it — RBI intervention and every leg in Brent are the two things to watch each session.",
+          "why": "The currency is the transmission channel rather than a side effect, because each move higher in crude raises dollar demand from an economy importing close to 90% of its oil, which cuts dollar returns for foreign allocators and drives the selling that pushes the rupee lower again — so a post-FOMC dollar rally would test whether SIP-driven domestic flows can keep absorbing it.",
+          "sourceName": "Goodreturns",
+          "sourceUrl": "https://www.goodreturns.in/news/indian-stock-market-outlook-september-14-18-will-sensex-nifty-extend-5-week-losing-streak-check-k-1534441.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Wednesday's FOMC decision and dot plot** is the dominant catalyst, with Bitcoin entering near **$77,000** — roughly 6% below this month's high above $82,000 — and the $75,000–$82,000 range intact.",
+          "why": "Crypto has been trading as a pure long-duration risk asset rather than a geopolitical hedge, so a hike paired with hawkish dots would tighten financial conditions and pressure the $77,000 and $75,000 shelves in sequence, while a hike framed as the last one would remove the rate overhang that has capped every rally since August.",
+          "sourceName": "Proactive Investors",
+          "sourceUrl": "https://www.proactiveinvestors.com/companies/news/1098469/on-the-chain-bitcoin-holds-near-us-77-000-as-crypto-braces-for-fed-rate-hike-1098469.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "The Senate holds a **cloture vote on the motion to proceed on the CLARITY Act on Tuesday, September 15**, requiring **60 votes** to open formal debate on a comprehensive crypto market-structure framework.",
+          "why": "This is a procedural gate rather than passage, but failing to clear 60 would effectively end the bill's 2026 prospects and remove the regulatory-clarity premium that has underpinned institutional allocation all year — and it lands the day before the Fed, so a negative outcome would hit a market already positioned defensively.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "US spot Bitcoin ETF flows are the tell to watch daily after **$462.6 million of net outflows from September 8 to 11 with zero inflow days**, which cut total ETF assets to roughly $99.33 billion from $103.34 billion on September 3.",
+          "why": "The allocator bid disappearing was what turned last week's rate repricing into a price break, so the first day of net inflows after Wednesday would signal institutions treating the hike as priced-in and cleared, while continued outflows through the decision would leave spot with only leveraged flow to absorb supply.",
+          "sourceName": "Coinpedia",
+          "sourceUrl": "https://coinpedia.org/news/bitcoin-etfs-see-461m-outflows-this-week-with-zero-inflows/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Wednesday's FOMC decision and dot plot is the single event all three markets are waiting on — a 25bp hike from 3.50–3.75% is roughly 85–90% priced, so the variable is whether the projections frame the oil-driven inflation impulse as a one-off requiring one move or the start of a series, and that answer sets the Treasury yield path that in turn determines whether the S&P 500 can hold 7,656.98 into Friday's triple witching, whether foreign selling and the 95.55 rupee keep pressuring a Nifty already down five straight weeks, and whether Bitcoin defends $77,000 or loses it toward the bottom of its $75,000–$82,000 range."
+}
