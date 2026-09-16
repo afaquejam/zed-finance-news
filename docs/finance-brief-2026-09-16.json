@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T02:45:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "A second straight losing session, and a broader one — the **S&P 500 fell 0.45% to 7,585.73**, the **Dow dropped 328.09 points (0.63%) to 52,093.11** and the **Nasdaq lost 0.78% to 25,981.57**, with **nearly 350 of the 500 index members lower**.",
+          "why": "Unlike Monday's narrow AI-led drop, Tuesday was a blanket de-risking into the Fed decision as Brent settled near $109 and Treasury yields pushed to multi-decade highs, leaving almost nothing in the index bid.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/14/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🧨",
+          "detail": "The 5% handle is no longer the story — the 10-year yield rose as far as **5.04%, its highest level since 2007**, roughly two decades rather than the three-year high it printed on Monday.",
+          "why": "Oil holding firmly above $100 with no timeline for reopening the Strait of Hormuz is forcing a structurally higher inflation path into the term premium, so the move has broken out of the post-2023 range entirely.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The long-end selloff had a specific trigger: a **near-failed 20-year Treasury auction** that priced at a **5.420% high yield — the highest since the tenor was reintroduced in 2020** — with a **2.0bp tail**, the biggest since 2024, a **2.57 bid-to-cover** and **indirect bidders at just 52.5%, a record low** against a 68% average.",
+          "why": "Foreign and indirect demand collapsing to record lows at a record yield says buyers will not absorb duration at any price ahead of a hike, which is what dragged the whole curve's long end down rather than just repricing the Fed path.",
+          "sourceName": "Wolf Street",
+          "sourceUrl": "https://wolfstreet.com/2026/09/15/some-thoughts-on-the-5-42-yield-at-the-20-year-treasury-auction-bond-market-bloodbath-continues/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude extended Monday's spike rather than fading it — **Brent settled around $109**, adding to a four-month high, as **Houthi militants renewed strikes on Saudi Arabia** and **at least two tankers were attacked since Saturday** with the East–West pipeline still shut.",
+          "why": "The pipeline outage removed the workaround to the Hormuz blockade, and fresh attacks on Saudi territory and on shipping mean the market is now pricing the risk that the remaining export routes get hit too, not just that the existing ones stay closed.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Fed decides today at **2:00pm ET** with a **25bp hike to 3.75%–4.00% priced at roughly 87–92%** — the first increase since July 2023 — but the live question is the **dot plot**, which as of June showed only **3.8% by end-2026**, implying this hike is the last one; **Chair Kevin Warsh has declined to submit a dot of his own** since taking office.",
+          "why": "When the decision itself is this heavily priced it rarely moves markets, so the reaction hinges on the vote count, how many more hikes the new dots signal, and whether Warsh validates a bond market that has already sold to a 2007 high.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/fed/fed-rate-hike-warsh-dot-plot-inflation"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "🔻",
+          "detail": "Yesterday's gap-up did not survive the session — after opening up 0.79%, the **Sensex closed 777.94 points (1.04%) lower at 74,003.82** and the **Nifty 50 fell 279.50 points (1.19%) to 23,118.60, its weakest close in five months**, a round-trip of more than 450 Nifty points from the open.",
+          "why": "The holiday-delayed buying evaporated once Brent pushed toward $109 and the US 10-year hit a 2007 high, with traders unwilling to hold length into a Fed decision that would widen the India–US rate gap further.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-15-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-pranav-construction-ipo-listing-126091500075_1.html"
+        },
+        {
+          "emoji": "💻",
+          "detail": "One sector went the other way hard — the **Nifty IT index surged 5.17%**, with **HCL Tech up roughly 4%**, **Infosys 3.6%**, **Tech Mahindra 2.3%** and **TCS 2.2%**, even as the broad index posted its worst close since April.",
+          "why": "The rupee sliding to around ₹95.6 per dollar directly inflates the rupee value of IT services firms' dollar revenue, making the sector the one natural hedge against the same currency weakness that is hurting everything else.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-september-15-2026-sensex-nifty-crash-as-oil-and-yields-drag-stocks-overpowering-gains-in-it"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "August trade data landed better than the oil shock implied — the **goods trade deficit narrowed to $26.86 billion** as **exports jumped 26.12% to $43.81 billion** against imports of **$70.76 billion (up 14.1%)**, helped by **gold imports collapsing 57.7% to $2.3 billion**; but **April–August crude oil imports have already risen to $95.57 billion from $78.07 billion** a year earlier.",
+          "why": "The headline deficit was flattered by a one-off collapse in gold buying rather than any improvement in the energy bill, so with Brent now near $109 the crude line keeps widening while the gold offset cannot repeat.",
+          "sourceName": "ETV Bharat",
+          "sourceUrl": "https://www.etvbharat.com/en/business/india-exports-increases-in-august-trade-according-to-government-data-enn26091503493"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Foreign selling tripled on the reopening session — **FIIs net sold ₹2,977.90 crore** in the cash segment against **DII buying of ₹2,686 crore**, versus Friday's ₹930.90 crore of FII sales.",
+          "why": "With the rupee near ₹95.6 and a US hike hours away, foreign allocators used the gap-up open as exit liquidity, and for the first time in several sessions domestic institutions did not fully absorb the supply.",
+          "sourceName": "Craytheon",
+          "sourceUrl": "https://craytheon.com/charts/fii-dii-data/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "A rare stock-specific bright spot — **HDFC Bank rose 1.2%** after the lender formally **submitted two candidates to the RBI for the chief executive role**, the first concrete step in succession planning for CEO Sashidhar Jagdishan.",
+          "why": "Naming names converts an open-ended governance overhang on the index's largest private lender into a defined regulatory timeline, which is why the stock held green on a day the Sensex lost 778 points.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-september-15-2026-sensex-nifty-crash-as-oil-and-yields-drag-stocks-overpowering-gains-in-it"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "⚖️",
+          "detail": "The CLARITY Act is dead for this Congress — the Senate cloture vote failed **49–50**, nowhere near the 60 needed, with **all Democrats plus four Republicans** voting no: **Susan Collins, Josh Hawley, Jerry Moran and Thom Tillis**. Tillis filed a **motion to reconsider**, leaving a procedural door open.",
+          "why": "Democrats refused to move a market-structure bill while ethics questions over the President's own crypto holdings stayed unresolved, and the four Republican defections meant the counterproposal sent Monday night was never going to close a gap that large.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Bitcoin round-tripped the entire rally and then some — after an overnight peak of **$79,530**, it **broke below $75,000 and traded near $75,850, down about 4.2%**, wiping out **$771 million of leveraged positions**.",
+          "why": "The market had a non-trivial passage probability still priced in despite Polymarket's 18% odds, so the 49–50 failure forced an immediate repricing and the cascade through $75,000 triggered the forced selling that made the drop larger than the headline warranted.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/article/bitcoin-tumbles-4-to-75000-as-hopes-of-clarity-act-passage-this-year-fade"
+        },
+        {
+          "emoji": "🌐",
+          "detail": "Majors fell together rather than rotating — **Ether dropped 3.9% to $2,407** and **Solana fell 3% to $98.50**, losing the $100 level, while **XRP gave up an intraday gain that had taken it above $1.41**.",
+          "why": "A regulatory outcome hits every token's legal status at once, so the Ether-over-Bitcoin rotation that defined the prior week broke down and correlations snapped back to one.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The industry response was notably measured — executives argued the vote **does not unwind regulatory progress already underway at the SEC and CFTC**, and with no statute coming, attention shifts entirely to the agencies' own crypto rulemaking, which **Chair Paul Atkins said Monday would proceed regardless**.",
+          "why": "Rulemaking can deliver much of what CLARITY would have codified without needing 60 votes, so the practical loss is durability — an agency rule can be reversed by the next administration in a way a law cannot.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/policy/2026/09/15/clarity-act-fails-in-senate-here-is-how-the-crypto-industry-is-reacting"
+        },
+        {
+          "emoji": "📊",
+          "detail": "ETF flows had actually turned before the vote — US spot Bitcoin funds took in **$160.04 million on September 14**, with **BlackRock's IBIT alone contributing $134.35 million**, reversing the prior week's **$462.7 million** bleed and lifting total net assets to about **$100.09 billion**.",
+          "why": "Allocators were adding into the legislative catalyst rather than hedging against it, which means the positioning going into the failed vote was longer than the previous week's outflow data suggested and helps explain the size of the liquidation cascade.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/data/etfs/bitcoin-etf/spot-bitcoin-etf-flows"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil above $100 has stopped being a rates story and become a funding story — a near-failed 20-year Treasury auction at a record 5.420% with record-low indirect demand drove the 10-year to 5.04%, its highest since 2007, which dragged the S&P 500 down 0.45% with nearly 350 members lower, collapsed the Nifty's 0.79% gap-up into a five-month-low close at 23,118.60 as the rupee slid to ₹95.6, and left crypto with no macro cushion when the CLARITY Act died 49–50 and Bitcoin broke $75,000; the Fed now delivers its first hike since 2023 into a bond market that has already stopped waiting for permission."
+}
