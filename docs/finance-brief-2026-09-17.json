@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:30:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "A third straight loss, and the seventh in eight sessions — the **Dow fell 631.21 points (1.21%) to 51,461.90**, the **S&P 500 slipped 33.92 points (0.45%) to 7,551.81** and the **Nasdaq was essentially flat, down 3.15 points to 25,978.42**. All three indices were **higher on the day** before the 2:00pm ET decision.",
+          "why": "The hike itself was fully priced and stocks initially held their gains, but the selloff began once the dot plot landed and accelerated as Chair Warsh finished his press conference, so the damage was done entirely in the final two hours.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/stocks/dow-falls-631-points-after-fed-hikes-rates-stock-market-today"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The Fed delivered its first hike since July 2023 — a **unanimous 12–0 vote** lifting the funds rate 25bp to **3.75%–4.00%** — but the dot plot did the real work: **16 of 18 participants** penciled in another increase, **four of them two more**, taking the median to **4.1% for both end-2026 and end-2027** against June's 3.8%.",
+          "why": "June's dots implied this hike would be the last and that cuts resumed in 2027; the new grid adds a hike and erases every 2027 cut, repricing the entire terminal-rate path rather than just confirming a move markets already knew was coming.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+        },
+        {
+          "emoji": "🎙️",
+          "detail": "Warsh's first hike came with blunt language — **\"the plain fact is that inflation is too high and has been for too long\"** and **\"this summer's inflation readings do not tell me that underlying trends have meaningfully improved\"** — with the action framed as supporting a **\"timelier return\"** to 2%; the SEP now carries **core PCE at 3.4% for 2026**, not reaching 2.0% until 2029.",
+          "why": "Investors had hoped a hawkish move would be paired with dovish guidance, and instead the Chair explicitly refused to credit the recent inflation data, which converted a priced-in decision into a hawkish surprise.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The bond move reversed direction at the long end — the **2-year yield jumped more than 7bp to 4.738%, its highest since 2024** and over 10bp above its pre-meeting level, while the **10-year fell back to about 4.97%** from Tuesday's 5.04% peak.",
+          "why": "A credible, unanimous hike with more signaled is exactly what the long end wanted to see, so traders bought duration on the view that the Fed will tamp down inflation, flattening the curve instead of extending the term-premium selloff that drove Tuesday's 2007-high yield.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/16/treasury-yield-bond-market-fed-decision.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude finally broke its run — **Brent fell 2.7% to settle at $105.83** and **WTI dropped 3.2% to $102.43**, though both remain **up more than 16% this month**.",
+          "why": "The US said the damaged Saudi East–West pipeline will restart within days and the US military has carved out a protected route along Oman's coast letting Gulf states raise Hormuz exports, removing the specific supply chokepoint that drove the four-month high.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/16/oil-prices-today-brent-wti-hormuz-iran-war.html"
+        },
+        {
+          "emoji": "🚚",
+          "detail": "The damage was concentrated in rate- and cost-sensitive names rather than megacap tech — **J.B. Hunt sank 13.3% to $236.73**, the S&P 500's worst performer, after CFO Brad Delco told the Morgan Stanley Laguna conference that Q3 profit will run **5%–10% below expectations** on **$25 million of added driver expense and $10 million-plus of fuel costs**; banks followed, with **Huntington Bancshares down 5.6%** and **Citizens Financial off 4.8%**.",
+          "why": "J.B. Hunt put a specific dollar figure on what $100 oil does to operating margins, and the bank selloff — the SPDR S&P Bank ETF's worst day since February — reflected a curve that flattened rather than steepened, squeezing net interest margins just as the Fed signaled rates stay high through 2027.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/16/jb-hunt-stock-jbht-earnings.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The five-month low held — snapping a two-session slide, the **Sensex rose 332.63 points (0.45%) to 74,336.45** and the **Nifty 50 added 99 points (0.43%) to close at 23,217.60**, though breadth stayed weak with the **Nifty MidCap down 0.01%** and **SmallCap off 0.18%**.",
+          "why": "Oil easing back toward $108 ahead of the US settlement gave importers relief, and domestic defensives were bid as traders squared up rather than sat short into a Fed decision that was 92% priced.",
+          "sourceName": "Business Today",
+          "sourceUrl": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-snap-two-session-fall-us-fed-outcome-in-focus-for-market-cues-555921-2026-09-16"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "Tuesday's sector trade unwound completely — **Nifty IT was the worst performer** with **TCS down 2.76%**, **Wipro 1.83%**, **Infosys 1.58%** and **Tech Mahindra 1.14%**, one session after the index surged 5.17%; **Nifty FMCG rose nearly 2%** with **HDFC Life, ITC and SBI Life** leading the Nifty 50, alongside PSU Bank and Realty.",
+          "why": "The IT rally was a one-day currency hedge rather than a view on demand, so once traders had positioned for the rupee they took profits and rotated into domestic-revenue defensives that do not carry US rate or discretionary-spend exposure.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-september-16-nse-bse-sensex-today-nifty-gift-nifty-crude-oil-price-today-kanohar-electricals-ipo-listing-126091600091_1.html"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee has now crossed 96 — after a **seventh consecutive weak session** on Wednesday, slipping 7 paise to **95.95**, it **opened 4 paise weaker at 96.00** on Thursday, with Reuters reporting the **RBI likely intervened** as the **dollar index pushed above 100**, its highest in more than a month.",
+          "why": "The Fed's hike plus a dot plot signaling one more this year and no cuts through 2027 widens the India–US rate differential just as the oil import bill stays elevated, leaving the RBI defending a level rather than a trend.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/rupee-crosses-96-mark-vs-us-dollar-after-fed-s-first-rate-hike-since-2023-126091700151_1.html"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Domestic institutions reasserted control of the tape — **FIIs net sold ₹2,032.60 crore** in the cash segment while **DIIs bought ₹3,908.20 crore**, a net absorption of roughly ₹1,876 crore, versus Tuesday when ₹2,686 crore of DII buying failed to cover ₹2,977.90 crore of FII sales.",
+          "why": "FII selling actually shrank by about a third from Tuesday while DII buying rose nearly 50%, so the rebound came from domestic flows outpacing foreign exits rather than from foreign selling stopping.",
+          "sourceName": "Craytheon",
+          "sourceUrl": "https://craytheon.com/charts/fii-dii-data/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Thursday's reaction to the hike has been muted — the **Sensex opened at 74,182.62** and recovered to around **74,416.72, up 80.27 points (0.11%)**, with the **Nifty near 23,250.85, up 33.25 points (0.14%)**.",
+          "why": "The long end of the US curve rallied rather than sold off after the decision, so the yield-differential shock Indian traders had braced for did not arrive, leaving the rupee rather than equities to absorb the hike.",
+          "sourceName": "The Tribune",
+          "sourceUrl": "https://www.tribuneindia.com/news/business/indian-equity-market-opens-flat-after-fed-rate-hike-sensex-up-80-points-nifty-above-23200"
+        },
+        {
+          "emoji": "🗾",
+          "detail": "The next Asia catalyst lands tomorrow — the **Bank of Japan concludes its September 17–18 meeting**, with traders pricing a near-certain **25bp hike to 1.25%** and **89% of surveyed economists** expecting the move, which would take Japanese rates to their highest since 1995.",
+          "sourceName": "Nippon.com",
+          "sourceUrl": "https://www.nippon.com/en/news/yjj2026090400739/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin absorbed the hike without breaking — it traded roughly **$75,000 to $76,500** after the 2:00pm announcement before recovering toward **$76,000**, holding the level it lost on Tuesday's CLARITY Act collapse.",
+          "why": "With a 25bp move about 92% priced and the legislative repricing already completed a day earlier, the decision itself carried no new information for crypto, so the hawkish dot plot hit equities and the front end of the curve far harder than it hit spot BTC.",
+          "sourceName": "UseTheBitcoin",
+          "sourceUrl": "https://usethebitcoin.com/bitcoin/bitcoin-price-september-17-2026/"
+        },
+        {
+          "emoji": "🏧",
+          "detail": "The ETF bid flipped violently — US spot Bitcoin funds posted **$450.4 million of net outflows on September 15**, the largest single day since June 24's $469 million, with **Fidelity's FBTC losing $214.8 million** and **BlackRock's IBIT $161.7 million**; including Ethereum products, combined outflows reached about **$592 million**.",
+          "why": "This is a full reversal of the $159.9 million that flowed in on September 14, meaning the allocators who were adding into the CLARITY vote exited within a single session of it failing, and the selling came hardest from the two largest issuers.",
+          "sourceName": "CryptoDaily",
+          "sourceUrl": "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-450m-outflows-september-15-2026"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The deleveraging kept running well past the vote — leveraged liquidations across the market **topped $600 million** in the 24 hours into September 16, on top of Tuesday's $771 million, with **Ether near $2,404 (down about 3.2%)** and majors pinned at their post-CLARITY lows rather than bouncing.",
+          "why": "Two consecutive days of forced selling means the positioning overhang was not cleared by the first cascade, so the market went into the Fed decision still unwinding rather than freshly positioned.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "With the statute dead, the SEC's own **Regulation Crypto Assets** proposal is now the entire regulatory path — it would create a **\"startup exemption\" for offerings up to $5 million over four years**, a **\"fundraising exemption\" up to $75 million a year**, and would stop treating a token as a security **once its developers are no longer the driving force** behind the project. **Comments close October 20, 2026.**",
+          "why": "Chair Paul Atkins has committed to pushing the rulemaking regardless of the Senate outcome, and this proposal already contains much of what CLARITY would have codified, so the October comment deadline is now the live date for the industry rather than any congressional calendar.",
+          "sourceName": "SEC",
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+        },
+        {
+          "emoji": "🧭",
+          "detail": "The macro backdrop got structurally worse even as price held — the new dot plot puts the **median funds rate at 4.1% through end-2027 with no cuts**, and markets have moved from pricing two hikes to **at least three by June 2027**.",
+          "why": "Crypto's 2027 recovery case rested on a falling policy rate restoring liquidity, and a projection that removes every 2027 cut takes that assumption off the table without any single headline to trade against.",
+          "sourceName": "Bondsavvy",
+          "sourceUrl": "https://www.bondsavvy.com/fixed-income-investments-blog/fed-dot-plot"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The hike was never the event — the dot plot was: lifting the median to 4.1% through both 2026 and 2027 while erasing every 2027 cut split the curve in two, sending the 2-year to a 2024 high of 4.738% while the 10-year fell back to 4.97%, and that flattening is what crushed banks and transports into a 631-point Dow loss while sparing megacap tech, pushed the dollar index above 100 and the rupee past 96 as Indian equities shrugged, and left crypto's 2027 liquidity thesis without a foundation even as Bitcoin held $75,000; the one genuine offset is oil, with Brent down 2.7% to $105.83 on the Saudi pipeline restart, easing the inflation impulse that forced the Fed's hand in the first place."
+}
