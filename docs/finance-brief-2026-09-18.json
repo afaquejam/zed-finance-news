@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T14:05:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The post-Fed selloff reversed in a single session — the **S&P 500 jumped 85.90 points (1.14%) to 7,637.71**, the **Nasdaq surged 439.87 points (1.69%) to 26,418.30** and the **Dow added 317.95 points (0.62%) to 51,779.85**, snapping a three-session losing streak and erasing Wednesday's 631-point Dow loss.",
+          "why": "Dip-buyers stepped in once bonds rallied and crude fell for a second day, which flipped the read on Wednesday's hike from a hawkish shock into evidence the Fed can actually cap inflation.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-17-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The long end broke its streak — after closing above **5% for the first time since 2007**, the 10-year yield slipped more than 6bp to **4.93%**, ending an eight-day rise, while the 2-year touched **4.744%, its highest since July 2024**.",
+          "why": "A unanimous hike plus a second straight drop in crude convinced traders the inflation path is being capped, so they bought duration while the front end stayed anchored to the dot plot's higher-for-longer path — extending the curve flattening rather than reversing it.",
+          "sourceName": "Investrade",
+          "sourceUrl": "https://investrade.com/market-review-september-17-2026/"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Chips did the heavy lifting rather than the broad tape — a closely watched **semiconductor gauge climbed 3%**, with **Intel, Micron, AMD, Arm, Marvell and Corning** leading the advance on heavy call activity in Intel.",
+          "why": "Falling long yields lift the valuation of long-duration growth names first, and the bid came specifically from AI-capex worries receding after a week in which rate fears, not demand fears, had driven the selling.",
+          "sourceName": "Trading Strategy Guides",
+          "sourceUrl": "https://tradingstrategyguides.com/chip-stocks-rally-stock-market-recap-september-17-2026/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude extended its retreat for a second session — **Brent lost $1.01 to settle at $104.82** and **WTI shed 52 cents to $101.91**, now roughly $6 below this week's four-month high.",
+          "why": "Saudi Arabia is rerouting barrels around the damaged East–West pipeline and expects to recover about half its capacity within days and full operations within six weeks, steadily removing the supply premium rather than in one headline jump.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/17/oil-prices-today-wti-brent-hormuz-iran-war.html"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "Crypto-linked equities were among the day's cleanest winners on an SEC order — **Coinbase rose 3.74% to $170.40**, **Circle gained 4.2% to $83.81** and **Robinhood climbed 3.25% to $107.12**, with Bullish and Securitize also higher.",
+          "why": "The SEC's new five-year 'innovation exemption' lets tokenized-stock venues operate without registering as exchanges, handing these platforms a US market they had been forced to run offshore and recovering ground lost when the CLARITY Act died in the Senate.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/coinbase-circle-recover-sec-opens-175155962.html"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Thursday's session closed split but with far better internals than the headline — the **Sensex slipped 21.86 points (0.03%) to 74,314.59** while the **Nifty added 53 points (0.23%) to 23,270.60**, and breadth turned decisively positive with **2,480 advances against 1,487 declines**, the **Midcap 100 up 0.9%** and **Smallcap 100 up 0.8%**.",
+          "why": "Realty and pharma both gained more than 1.5% and offset weakness in banks, as money rotated into domestic-facing sectors once it became clear the Fed's hike had pulled US long yields down rather than up.",
+          "sourceName": "HDFC Sky",
+          "sourceUrl": "https://hdfcsky.com/news/market-close-report-today-september-17-2026-nifty-sensex-end-mixed-amid-fed-hike-nse-ipo"
+        },
+        {
+          "emoji": "💱",
+          "detail": "The rupee's eight-session slide finally broke — it **rebounded 16 paise to 95.73** in early Friday trade after a two-month low, with the **Sensex up 122.18 points to 74,436.77** and the **Nifty at 23,294.15**; GIFT Nifty had pointed higher at 23,343.",
+          "why": "Brent retreating below $104 directly shrinks India's import bill, and with US bond yields falling back from their 2007 highs the rate-differential pressure that forced suspected RBI intervention on Thursday eased for the first time in over a week.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/finance/news/rupee-rises-16-paise-to-95-73-against-us-dollar-during-early-trade-126091800198_1.html"
+        },
+        {
+          "emoji": "💸",
+          "detail": "Foreign selling re-accelerated even as the index held — **FIIs net sold ₹3,208.76 crore** on Thursday against **DII buying of ₹3,617.75 crore**, taking FIIs to roughly **₹17,810 crore of net sales in September** so far.",
+          "why": "FII outflows jumped by more than half from Wednesday's ₹2,032.60 crore as the higher US terminal rate was digested, and domestic institutions only just covered them — a much thinner cushion than Wednesday's roughly ₹1,876 crore of net absorption.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-september-18/article-200467/"
+        },
+        {
+          "emoji": "🇯🇵",
+          "detail": "The Bank of Japan delivered the hike Asia was braced for — a **25bp move to 1.25%, the highest since 1995**, but on a **split 7–2 vote** with board members Toichiro Asada and Ayano Sato dissenting, and it came just **three months after the last increase** versus six months previously.",
+          "why": "The BOJ cited the risk that inflation deviates upward beyond its 2% target, and the compressed gap between hikes signals a quickening normalisation cycle rather than the gradual path markets had assumed.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Tokyo went into the decision on the front foot — the **Nikkei 225 closed up 213.25 points at 64,136** on Thursday on buying in tech, pharma, insurance and consumer names, with the **10-year JGB yield near 2.93%**, its highest since 1996.",
+          "why": "Japanese equities took the same cue as Wall Street from the Fed, though gains were capped by renewed yen weakness and caution ahead of Governor Ueda's press conference, where guidance on the December and 2027 path matters more than the hike itself.",
+          "sourceName": "News On Japan",
+          "sourceUrl": "https://newsonjapan.com/article/150790.php"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "⚖️",
+          "detail": "The SEC replaced the dead CLARITY Act with its own order — a first-of-its-kind **\"Innovation Exemption\"** granting Tokenized Securities Venues **five years** of conditional relief from the Exchange Act's definition of an exchange, letting them trade **tokenized NMS stock** through permissioned automated market makers and liquidity pools, effective immediately, with tokenized shares required to carry the same **dividend and voting rights** as the underlying.",
+          "why": "Chair Paul Atkins moved administratively within 48 hours of the Senate bill stalling, framing the order as a bridge toward durable rulemaking, which turns a legislative dead end into a live US market for platforms that until now could only offer tokenized equities offshore.",
+          "sourceName": "SEC",
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+        },
+        {
+          "emoji": "🚀",
+          "detail": "Majors reclaimed their post-CLARITY losses — **Bitcoin rose 1.37% to about $77,400**, back above the $75,000–$76,500 band it defended through the Fed decision, with **Ether up 1.68% to $2,475.80** and **Solana the standout, up 6.05% to $105.37**.",
+          "why": "Falling US long yields removed the macro headwind on the same day the SEC order landed, and SOL led because the network already carries billions in weekly tokenized-equity volume, making it the most direct beneficiary of a US tokenized-stock regime.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/09/18/solana-rises-above-100-as-traders-watch-105-breakout-level/"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The ETF bleed all but stopped — US spot Bitcoin funds posted a net outflow of just **$51.28 million on September 17**, against **$746.3 million over the prior two sessions combined**, and the split flipped: **BlackRock's IBIT took in $150 million**, its largest single-day inflow of the stretch, while **Fidelity's FBTC lost $116 million**.",
+          "why": "IBIT's allocators returned as soon as BTC held $75,000 through the Fed decision, while Fidelity's kept redeeming — so the aggregate number understates a genuine reversal at the largest issuer rather than a market-wide pause.",
+          "sourceName": "Forbes",
+          "sourceUrl": "https://www.forbes.com/sites/boazsobrado/2026/09/17/fed-hike-shock-blackrock-leads-746-million-bitcoin-etf-exodus/"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "Wednesday's outflow was the bridge between the two extremes — spot Bitcoin ETFs shed **$295.98 million on September 16**, with **IBIT down $144.11 million**, **ARKB $84.4 million** and **FBTC $52.72 million**, leaving Morgan Stanley's MSBT the only fund with an inflow at $3.47 million.",
+          "why": "That was a third consecutive redemption day but roughly a third smaller than September 15's $450.4 million, meaning the selling was decaying into the Fed decision rather than intensifying on it.",
+          "sourceName": "KuCoin",
+          "sourceUrl": "https://www.kucoin.com/news/flash/us-bitcoin-spot-etfs-see-296m-net-outflow-on-sept-16"
+        },
+        {
+          "emoji": "🪙",
+          "detail": "Solana's institutional rails kept building through the drawdown — its **US spot ETFs took in $836,930 on September 16**, and the SEC formally named **SOL a core ETF asset alongside BTC and ETH on September 5**, clearing it for commodity-based trusts.",
+          "why": "That designation plus this week's tokenization order gives SOL a regulatory path that does not depend on Congress, which is why it outperformed the majors by roughly 4 percentage points on a day when the whole complex rallied.",
+          "sourceName": "Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/09/18/solana-rises-above-100-as-traders-watch-105-breakout-level/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Cheaper crude is now unwinding the exact trade the Fed's dot plot set off: Brent's second straight drop to $104.82 on the Saudi pipeline restart pulled the 10-year back from its 5% 2007 high to 4.93%, and that single move let chips drive a 1.69% Nasdaq rebound, let the rupee snap an eight-session slide to 95.73 as India's import bill eased, and let Bitcoin reclaim $77,000 — but the 2-year at 4.744% and the BOJ's split hike to 1.25% show global policy still tightening into an inflation impulse that is already receding."
+}
