@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T09:15:00Z",
+  "sections": [
+    {
+      "key": "sp500",
+      "label": "S&P 500",
+      "items": [
+        {
+          "emoji": "↔️",
+          "detail": "Friday's tape split by duration rather than direction — the **S&P 500 added just 12.74 points (0.17%) to 7,650.50** and the **Nasdaq rose 104.25 points (0.39%) to 26,522.55**, while the **Dow fell 95.40 points (0.18%) to 51,682.64** and most NYSE listings declined despite the index gains.",
+          "why": "The 10-year yield reversed Thursday's decline and pushed back above 5%, which hit the Dow's rate-sensitive industrial and consumer names hardest while megacap tech held its bid, so the advance-decline line was negative even as two of the three indexes closed green.",
+          "sourceName": "Associated Press / WTOP",
+          "sourceUrl": "https://wtop.com/national/2026/09/how-major-us-stock-indexes-fared-friday-9-18-2026"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The weekly scoreboard undid Thursday's rebound — the **Dow slid 1.7% for its third straight losing week and its worst since March**, the **S&P 500 finished down about 0.1%**, and the **Nasdaq was the only major average to gain, up 0.7%**.",
+          "why": "A full week of the 10-year yield sitting at or above 5% and Brent above $100 outweighed Thursday's one-session bounce, and the damage concentrated in the Dow because its cyclical and dividend-paying constituents are the most directly repriced by a 5% risk-free rate.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Thursday's duration rally lasted exactly one session — the **10-year Treasury yield rose almost 6 basis points to 5.006%**, climbing back above the 5% line it had slipped under, after touching its highest level since July 2007 earlier in the week.",
+          "why": "Traders faded the bond bounce once it was clear crude was still above $100 despite three down sessions, leaving the Fed's higher-for-longer dot plot — not the fading oil premium — as the dominant input for the long end.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/17/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Crude fell for a **third consecutive session** to finish the week roughly flat — **WTI dropped 1.6% to $100.30** and **Brent settled 0.9% lower at $103.87**, now about $7 below Tuesday's four-month high.",
+          "why": "The market has marked down the East–West pipeline outage as a smaller supply event than first feared, with Saudi Arabia rerouting barrels through the Strait of Hormuz, targeting about half of pipeline capacity back within days and full operations within six weeks.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/18/oil-prices-today-brent-wti-saudi-arabia-houthi.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "The internals confirmed the rates story — Dow losses were led by **IBM (-3.19%), Walt Disney (-2.68%) and Nike (-2.26%)**, while **Nvidia (+1.33%), Amgen (+1.54%) and Caterpillar (+1.20%)** were the biggest gainers and retail and real estate broke higher.",
+          "why": "Money stayed with AI-linked and defensive names while consumer-discretionary and legacy-tech names took the hit, extending the pattern of a market that keeps paying up for the AI capex trade and selling everything whose cash flows are further out or more consumer-dependent.",
+          "sourceName": "Vittarthi Markets",
+          "sourceUrl": "https://vittarthi.com/markets/us"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "Next week hands the bond market the data it has been trading blind on — **flash S&P Global manufacturing and services PMIs on Wednesday Sept 23**, then **durable goods orders, final Q2 GDP and jobless claims on Friday Sept 25**, with the **August PCE deflator landing Sept 26**.",
+          "sourceName": "Investrade",
+          "sourceUrl": "https://investrade.com/weekly-event-calendar-09-21-2026-09-25-2026/"
+        }
+      ]
+    },
+    {
+      "key": "nifty50",
+      "label": "NIFTY 50",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "Friday closed with the same split headline but much stronger guts — the **Sensex slipped 19.63 points (0.03%) to 74,294.96** while the **Nifty rose 75.80 points (0.33%) to 23,346.40**, and the broader market ran far ahead with the **Midcap 100 up 1.24%** and the **Smallcap 100 up 1.74%**.",
+          "why": "Metal, realty, energy and financial services all advanced on the third straight drop in crude, while IT, consumer durables and FMCG dragged — the same domestic-versus-exporter rotation as Thursday, only wider.",
+          "sourceName": "Kotak Neo",
+          "sourceUrl": "https://www.kotakneo.com/news/market-news/closing-bell-18-september-2026/"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The most important change of the week came in the flows — **FIIs turned net buyers of ₹599.50 crore** on Friday, reversing Thursday's ₹3,208.76 crore of net sales, with **DIIs buying ₹1,019.70 crore** alongside them.",
+          "why": "It is the first foreign buy day after a sustained selling stretch that had run to roughly ₹17,810 crore in September, and it came as crude fell a third session and the Fed's hike was fully digested, meaning domestic institutions no longer had to absorb the whole float on their own.",
+          "sourceName": "5paisa",
+          "sourceUrl": "https://www.5paisa.com/share-market-today/fii-dii-data"
+        },
+        {
+          "emoji": "💱",
+          "detail": "Thursday's rupee rebound did not stick — the currency **opened at 95.75, hit an intraday high of 95.71 and gave it all back to close unchanged at 95.89** (provisional) against the dollar.",
+          "why": "Cheaper crude below $104 and firm domestic equities supported the rupee intraday, but a broadly stronger dollar capped it, so the relief that the 16-paise bounce implied turned out to be a one-session pause in the slide rather than a reversal.",
+          "sourceName": "Deccan Herald",
+          "sourceUrl": "https://www.deccanherald.com/business/rupee-closes-unchanged-at-9589-against-us-dollar-4150798"
+        },
+        {
+          "emoji": "🗓️",
+          "detail": "The weekly picture is worse than any single session suggests — the **Sensex fell 0.65% and the Nifty 0.22% over the week**, extending the losing streak to a **sixth consecutive week**, with TCS and Titan among the top laggards, slipping up to 4%.",
+          "why": "Brent holding above $100 and unresolved West Asia geopolitics have kept a persistent import-cost and risk-premium bid against Indian equities, so even weeks with positive breadth keep closing red at the index level.",
+          "sourceName": "Business Today",
+          "sourceUrl": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-post-sixth-weekly-loss-tcs-titan-among-top-laggards-slip-up-to-4-556484-2026-09-18"
+        },
+        {
+          "emoji": "✈️",
+          "detail": "Fuel-cost sensitivity drove the day's best sector — **aviation surged more than 4%**, jewellery and diversified names followed, **Adani Ports led the Nifty with a 4.93% gain to ₹1,824**, while **TCS fell more than 3%** and the **Nifty IT index lost 1.03%**.",
+          "why": "Three straight sessions of falling crude feed straight into airline cost lines, while IT stayed under pressure as US long yields pushed back above 5% and revived questions about client discretionary tech spending.",
+          "sourceName": "Angel One",
+          "sourceUrl": "https://www.angelone.in/news/market-updates/top-gainers-and-losers-on-september-18-2026-adani-ports-and-adani-enterprises-rise-while-tcs-drops-over-3"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "Bitcoin broke decisively out of the range it had defended all week — it **punched through $80,000 to an intraday high of $81,034** and was trading around **$80,861** in the afternoon, a third straight day of gains and a roughly $5,000 advance from Thursday's $77,400.",
+          "why": "Risk appetite returned once the Fed's quarter-point hike landed without the damage traditional markets had braced for, and the move was amplified mechanically by a short squeeze rather than by fresh spot demand alone.",
+          "sourceName": "Fortune",
+          "sourceUrl": "https://fortune.com/article/price-of-bitcoin-09-18-2026/"
+        },
+        {
+          "emoji": "💥",
+          "detail": "The rally ran on forced covering — roughly **$250 million of short positions were liquidated in a four-hour window** and about **$415 million over 24 hours**, including some **$85 million of bearish bets wiped out as Ether rebounded to nearly $2,600**.",
+          "why": "Traders had built a heavy short base through the CLARITY Act failure and the Fed hike, so the first sustained push above $80,000 triggered cascading stop-outs that carried price further than the underlying bid justified.",
+          "sourceName": "Decrypt",
+          "sourceUrl": "https://decrypt.co/378630/bitcoin-blasts-short-squeeze-crypto-liquidations"
+        },
+        {
+          "emoji": "🚀",
+          "detail": "Breadth was near-total and rotated down the risk curve — **none of the 40 most liquid coins fell**, with **NEAR up 30%, UNI up 26% and APT up 18%**, while **Ether reached about $2,603** and **Solana traded near $106.19, up 7.8%**, lifting total crypto market value about 2% to roughly **$2.66 trillion**.",
+          "why": "With bitcoin pinned against the top of its range near $82,000, traders shifted capital into smaller, higher-beta names — the classic late-stage pattern where a squeeze in the majors spills into altcoins rather than extending the leader.",
+          "sourceName": "CoinDesk",
+          "sourceUrl": "https://www.coindesk.com/tech/2026/09/18/live-updates-hype-leads-altcoin-rally-as-bitcoin-recovers-toward-usd78-000"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "A second agency moved to fill the vacuum left by the dead CLARITY Act — the **CFTC filed 'Regulation of Crypto Asset Transactions and Crypto Asset Markets' (RIN 3038-AF80)** with the White House's OIRA on Thursday; contents stay confidential during review, and if that wraps within 60 days publication could come in **November or December**, with a binding final rule possibly not effective until **late 2027**.",
+          "why": "The CFTC would have been crypto's primary regulator under the bill that died in a Senate procedural vote on Tuesday, so it is pursuing the same authority through rulemaking — which follows the SEC's tokenization order and confirms the agencies, not Congress, now set the US timeline.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/regulation/2026-09-18-cftc-files-crypto-asset-rulemaking-with-white-house-pressing-ahead-without-congress-415510"
+        },
+        {
+          "emoji": "💰",
+          "detail": "The ETF picture flipped clean positive in the latest reported session — US spot Bitcoin funds took in a net **$159.45 million**, with **BlackRock's IBIT absorbing $183.66 million** against outflows of **$16.64 million at Fidelity's FBTC** and **$7.57 million at VanEck's HODL**, while **Ether funds shed money for a third straight session** even as ETH rallied.",
+          "why": "Allocators returned to the largest bitcoin vehicle once BTC held above $75,000 through the Fed decision, but the divergence shows the bid is bitcoin-specific — Ether's price gain was driven by short covering rather than by the institutional flows that are still leaving its funds.",
+          "sourceName": "TechFlow",
+          "sourceUrl": "https://www.techflowpost.com/en-US/newsletter/136770"
+        },
+        {
+          "emoji": "📈",
+          "detail": "The move leaves bitcoin **down just 1.5% in September**, historically its weakest month, and on track for its **first quarterly gain in a year** — achieved against rising rates, crude above $100 and a stronger dollar.",
+          "why": "Every one of those three macro variables normally drains liquidity from the asset, so holding flat through them points to demand from the regulatory re-rating — the SEC's tokenization exemption and now the CFTC filing — rather than from easier financial conditions.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The 10-year yield's snap back above 5% to 5.006% — reversing Thursday's rally even as crude fell a third straight session to $103.87 — was the single lever across all three markets, and it sorted them by duration and leverage rather than geography: it dragged the Dow to a 1.7% weekly loss and its worst week since March while sparing the Nasdaq, it kept the rupee pinned at 95.89 and the Nifty in a sixth straight losing week despite FIIs finally buying ₹599.50 crore, and it was simply overwhelmed in crypto, where $415 million of short liquidations carried bitcoin to $81,034 on regulatory news that has nothing to do with rates."
+}
