@@ -103,11 +103,17 @@ function renderDayNav(currentDate: string, entries: ArchiveEntry[]): string {
   return chips.join("\n      ");
 }
 
-/** Default emoji per section, used when nothing more specific matches. */
+/**
+ * Default emoji per section, used when nothing more specific matches. Keyed by
+ * the canonical section key, so archived briefs written under the old `sp500` /
+ * `nifty50` keys land here too (the schema folds them onto `usa` /
+ * `emsmallcaps` on parse).
+ */
 const SECTION_EMOJI: Record<string, string> = {
-  sp500: "🇺🇸",
-  nifty50: "🇮🇳",
+  usa: "🇺🇸",
+  emsmallcaps: "🌏",
   crypto: "🪙",
+  commodities: "🥇",
 };
 
 /** Keyword → emoji fallbacks for briefs that predate the model-supplied emoji. */
@@ -115,6 +121,7 @@ const KEYWORD_EMOJI: Array<[RegExp, string]> = [
   [/\b(bitcoin|btc)\b/i, "₿"],
   [/\b(ether|ethereum|eth)\b/i, "Ξ"],
   [/\b(solana|sol)\b/i, "◎"],
+  [/\b(gold|bullion|xau)\b/i, "🥇"],
   [/\b(oil|crude|brent|wti)\b/i, "🛢️"],
   [/\b(fed|fomc|rate cut|rate hike|central bank|rbi)\b/i, "🏦"],
   [/\b(ai|capex|chip|semiconductor)\b/i, "🤖"],

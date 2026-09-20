@@ -1,6 +1,6 @@
 ---
 name: finance-brief
-description: Research the last 24 hours of news affecting the S&P 500, NIFTY 50, and crypto (BTC/ETH/SOL) and return it as a single strict JSON object. Use when running the daily automated finance brief pipeline.
+description: Research the last 24 hours of news affecting US equities (S&P 500/Nasdaq), emerging markets and small caps, crypto (BTC/ETH/SOL), and gold, and return it as a single strict JSON object. Use when running the daily automated finance brief pipeline.
 ---
 
 # Daily Finance Brief
@@ -13,16 +13,39 @@ is parsed programmatically, so any extra text will break the pipeline.
 ## What to research
 
 Use the web search tool to find important news, events, and info published
-in roughly the last 24 hours that materially affects:
+in roughly the last 24 hours that materially affects the brief's four
+sections. Each section has a **fixed shape** — the number of items and what
+each item is about are part of the contract, not your choice:
 
-1. **S&P 500** — US equities, Fed/macro data, major earnings, index moves
-2. **NIFTY 50** — Indian equities, RBI/macro data, FII/DII flows, index moves
-3. **Crypto** — BTC, ETH, SOL price action, ETF flows, regulation, major
-   protocol/exchange news
+1. **USA** (`usa`) — **at most 3 items** covering the S&P 500 *and* the
+   Nasdaq: index moves, Fed/macro data, major earnings, the megacap/AI complex.
+   Both indices belong in this one section; when they diverge (e.g. a tech-led
+   Nasdaq drop against a flat S&P), that divergence is itself a strong item.
+2. **Emerging Markets and Small Caps** (`emsmallcaps`) — **exactly 3 items, one
+   each, in this order**:
+   - **Emerging Markets** — the broad EM complex (MSCI EM, China/Taiwan/Korea/
+     Brazil, EM flows, the dollar's effect on EM assets).
+   - **India** — NIFTY 50/Sensex moves, RBI/macro data, FII/DII flows.
+   - **Small Caps** — small caps **globally**, not just the US. The universe is
+     the Russell 2000, European (STOXX Europe Small 200), Japanese (TOPIX
+     Small), EM small caps, India's small/midcap indices, and the global
+     gauges (MSCI World / ACWI Small Cap). Lead with whichever market's small
+     caps actually moved or matter most today, and **always name the index and
+     the market** so the reader knows which one it is; reach for a global gauge
+     or a cross-market comparison when the move is broad rather than local.
+3. **Crypto** (`crypto`) — **exactly 3 items, one each, in this order**:
+   **BTC**, then **ETH**, then **Solana**. Put the coin's own price action
+   first in the item, then fold in what drove it (ETF flows, regulation,
+   protocol/exchange news) via the `why`.
+4. **Commodities** (`commodities`) — **exactly 1 item, about gold**: the spot
+   price, the day's move, and what drove it (real yields, the dollar, central
+   bank buying, safe-haven flows). No other commodity gets an item here; oil or
+   copper belong in another section's `why` if they are driving equities.
 
-Run separate, specific searches for each of the three areas — do not rely on
-a single combined query. Prioritize the most recent, highest-quality sources
-(Reuters, Bloomberg, CNBC, official exchange/regulator releases) over
+Run separate, specific searches for each area — do not rely on a single
+combined query, and search EM, India and small caps separately rather than
+treating them as one story. Prioritize the most recent, highest-quality
+sources (Reuters, Bloomberg, CNBC, official exchange/regulator releases) over
 aggregators or forums.
 
 For every market move, do a second search to find **why** it happened. A
@@ -46,13 +69,15 @@ the reader what is *new or different* since then, not to re-run the same story.
   "extending Thursday's selloff…") rather than presenting it as fresh news, and
   add what has changed about it (magnitude, follow-through, new catalyst).
 - **Weekends and holidays:** if no new equity session has closed since the last
-  brief (e.g. a Saturday/Sunday run for the S&P 500 or NIFTY), do not pad the
-  section with the same stale close. Instead pivot to genuinely new material:
-  weekend crypto action (BTC/ETH/SOL trade 24/7), futures/pre-market moves, and
-  **forward-looking** items — the upcoming week's earnings, data releases, and
-  events that matter for the next session.
+  brief (e.g. a Saturday/Sunday run for US, EM or Indian equities), do not pad
+  the section with the same stale close. Instead keep the item's slot but fill
+  it with genuinely new material: weekend crypto action (BTC/ETH/SOL and gold
+  trade around the clock), futures/pre-market moves, and **forward-looking**
+  notes — the upcoming week's earnings, data releases, and events that matter
+  for the next session.
 - If a section genuinely has little new to say, it is better to have fewer,
-  truly-new items than to refill it with yesterday's numbers.
+  truly-new items than to refill it with yesterday's numbers — dropping the
+  weakest item is always allowed, adding a fourth one is not.
 
 ## Quality bar — explain, don't just report
 
@@ -70,13 +95,18 @@ Guidance:
 
 - Each item is a single primary statement (`detail`) plus its `why` — there is
   no separate headline/title, so make `detail` rich and self-contained.
-- Lead each section with a **snapshot item**: the index's move, direction,
-  exact level, and its single most important driver.
-- Prefer connecting drivers **across** markets — if oil or the dollar or a
-  Fed signal is moving all three, say so in each section and again in
+- With only a handful of slots per section, **every item must be a snapshot
+  plus its driver**: the move, direction, exact level, and the one thing that
+  caused it. There is no room for an item that is only context.
+- The USA section leads with the index snapshot (S&P 500 and Nasdaq levels and
+  moves) before anything else.
+- Prefer connecting drivers **across** markets — if oil, the dollar, gold or a
+  Fed signal is moving several sections, say so in each and again in
   `crossCuttingTheme`.
-- Where useful, add a brief **forward-looking** note (upcoming earnings,
-  data, events that matter for the next session) as its own item.
+- Fold any **forward-looking** note (upcoming earnings, data, events that
+  matter for the next session) into an existing item rather than spending a
+  slot on it — except on a weekend/holiday run, where it is the right way to
+  fill a section that has no new session to report.
 
 ## Output format
 
@@ -88,11 +118,11 @@ Return exactly one JSON object matching this shape:
   "generatedAt": "ISO-8601 timestamp",
   "sections": [
     {
-      "key": "sp500",
-      "label": "S&P 500",
+      "key": "usa",
+      "label": "USA",
       "items": [
         {
-          "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🛢️ oil, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
+          "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🥇 gold, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
           "detail": "1-2 precise, self-contained sentences with the key fact(s) and exact numbers. This is the single primary statement of the item — do NOT also write a separate headline that repeats it. Use markdown **bold** to highlight the most important words/figures; you decide what matters most.",
           "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Plain text only — do NOT use bold or any markdown here.",
           "sourceName": "Publication name",
@@ -100,8 +130,9 @@ Return exactly one JSON object matching this shape:
         }
       ]
     },
-    { "key": "nifty50", "label": "NIFTY 50", "items": [ ... ] },
-    { "key": "crypto", "label": "Crypto", "items": [ ... ] }
+    { "key": "emsmallcaps", "label": "Emerging Markets and Small Caps", "items": [ ... ] },
+    { "key": "crypto", "label": "Crypto", "items": [ ... ] },
+    { "key": "commodities", "label": "Commodities", "items": [ ... ] }
   ],
   "crossCuttingTheme": "One sentence on any theme connecting multiple sections, or omit/empty if none"
 }
@@ -109,7 +140,16 @@ Return exactly one JSON object matching this shape:
 
 Rules:
 
-- 3-6 items per section, each independently useful — no filler.
+- **Exactly these four sections, with these keys and labels, in this order:**
+  `usa` / "USA", `emsmallcaps` / "Emerging Markets and Small Caps", `crypto` /
+  "Crypto", `commodities` / "Commodities". Use the lowercase key verbatim — do
+  not put the label in the `key` field.
+- **Item budget, never exceeded:** `usa` at most 3; `emsmallcaps` 3 (Emerging
+  Markets, India, Small Caps — in that order); `crypto` 3 (BTC, ETH, Solana —
+  in that order); `commodities` 1 (gold). The page is meant to be digestible in
+  a minute, so a fourth item in any section is a failure, not a bonus. Fewer is
+  acceptable when there is genuinely nothing new; more is not.
+- Each item must be independently useful — no filler.
 - `detail` must be precise and concise (this feeds a bullet-point brief).
 - `why` is required for every item describing a market move — it must name
   the actual cause, not restate the move. Omit it only for pure-context or

@@ -1,6 +1,6 @@
 ---
 name: finance-brief-outlook
-description: Research the catalysts scheduled for the coming Mon–Fri week (S&P 500, NIFTY 50, crypto) and return a forward-looking week-ahead outlook as a single strict JSON object. Use when running the automated Monday week-ahead pipeline.
+description: Research the catalysts scheduled for the coming Mon–Fri week (USA, emerging markets and small caps, crypto, gold) and return a forward-looking week-ahead outlook as a single strict JSON object. Use when running the automated Monday week-ahead pipeline.
 ---
 
 # Week-Ahead Finance Outlook
@@ -35,17 +35,33 @@ A confidently-stated event on the wrong day is worse than an omission.
 
 ## What to research
 
-Run separate, specific searches for each of the three areas:
+Run separate, specific searches for each area. Each section has a **fixed
+shape** — the number of items and what each covers is part of the contract:
 
-1. **S&P 500** — the week's US macro calendar (CPI/PCE/jobs/FOMC and Fed
-   speakers), the notable earnings reporting this week, Treasury auctions or
-   fiscal events.
-2. **NIFTY 50** — India's macro calendar (CPI/WPI/IIP, RBI MPC), the notable
-   Indian earnings this week, expected FII/DII flow drivers, and any US events
-   that transmit to Indian markets.
-3. **Crypto** — scheduled protocol events (upgrades, unlocks, halvings), ETF
-   flow trends going in, regulatory or court dates, and the macro prints that
-   have been moving crypto lately.
+1. **USA** (`usa`) — **at most 3 items** for the S&P 500 *and* the Nasdaq: the
+   week's US macro calendar (CPI/PCE/jobs/FOMC and Fed speakers), the notable
+   earnings reporting this week (flag the megacap/AI names that drive the
+   Nasdaq specifically), Treasury auctions or fiscal events.
+2. **Emerging Markets and Small Caps** (`emsmallcaps`) — **exactly 3 items, one
+   each, in this order**:
+   - **Emerging Markets** — the EM calendar (China/Taiwan/Korea/Brazil data,
+     central bank decisions), EM flow drivers, and the dollar/rates path that
+     sets the EM tone.
+   - **India** — India's macro calendar (CPI/WPI/IIP, RBI MPC), the notable
+     Indian earnings this week, expected FII/DII flow drivers.
+   - **Small Caps** — what is scheduled that matters for small caps
+     **globally**, not just the US: the Russell 2000, European/Japanese small
+     caps, EM small caps, Indian small/midcaps, or a global gauge (MSCI World /
+     ACWI Small Cap). Rate expectations, small-cap earnings and flows are the
+     usual drivers; always name the index and the market the item is about.
+3. **Crypto** (`crypto`) — **exactly 3 items, one each, in this order**: **BTC**,
+   **ETH**, **Solana**. Per coin: scheduled protocol events (upgrades, unlocks),
+   ETF flow trends going in, regulatory or court dates, and the macro prints
+   that have been moving it.
+4. **Commodities** (`commodities`) — **exactly 1 item, about gold**: the level
+   it enters the week at and the single scheduled catalyst most likely to move
+   it (a CPI/PCE print, an FOMC decision, a dollar/real-yield path, a central
+   bank buying update). No other commodity gets an item.
 
 Prioritize Reuters, Bloomberg, CNBC, exchange/regulator calendars, and
 official IR pages over aggregators. Also search for existing week-ahead
@@ -82,7 +98,7 @@ Guidance:
   prediction of outcomes. Never state a future move as if it has happened, and
   do not invent a price target.
 - Connect drivers across markets — one Fed print, oil move, or dollar trend
-  usually sets the tone for all three. Echo that in `crossCuttingTheme`.
+  usually sets the tone for all four sections. Echo that in `crossCuttingTheme`.
 
 ## Output format
 
@@ -94,11 +110,11 @@ Return exactly one JSON object matching this shape:
   "generatedAt": "ISO-8601 timestamp",
   "sections": [
     {
-      "key": "sp500",
-      "label": "S&P 500",
+      "key": "usa",
+      "label": "USA",
       "items": [
         {
-          "emoji": "A single emoji that fits this item (e.g. 🗓️ scheduled event, 🏦 Fed/RBI, 📊 earnings, 📉 data print, 🛢️ oil, 🤖 AI, ₿ bitcoin, ⚖️ regulation).",
+          "emoji": "A single emoji that fits this item (e.g. 🗓️ scheduled event, 🏦 Fed/RBI, 📊 earnings, 📉 data print, 🥇 gold, 🤖 AI, ₿ bitcoin, ⚖️ regulation).",
           "detail": "1-2 precise, self-contained sentences naming the event, the DAY it falls on, and the consensus/expected figure where one exists. Use markdown **bold** to highlight the event or the key number.",
           "why": "What is at stake — the mechanism by which this moves the market, and what a surprise in either direction would mean. Plain text, 1 sentence, no markdown.",
           "sourceName": "Publication name",
@@ -106,19 +122,25 @@ Return exactly one JSON object matching this shape:
         }
       ]
     },
-    { "key": "nifty50", "label": "NIFTY 50", "items": [ ... ] },
-    { "key": "crypto", "label": "Crypto", "items": [ ... ] }
+    { "key": "emsmallcaps", "label": "Emerging Markets and Small Caps", "items": [ ... ] },
+    { "key": "crypto", "label": "Crypto", "items": [ ... ] },
+    { "key": "commodities", "label": "Commodities", "items": [ ... ] }
   ],
-  "crossCuttingTheme": "One sentence on the macro event or thread that will most likely set the tone across all three markets this week"
+  "crossCuttingTheme": "One sentence on the macro event or thread that will most likely set the tone across all four sections this week"
 }
 ```
 
 Rules:
 
-- **Maximum 3 items per section.** Fewer is fine; never more. Bullet 1 = the
-  week's dominant scheduled catalyst, bullets 2–3 = the other things worth
-  watching (earnings, flows, the level/setup going in).
-- Keep all three sections (`sp500`, `nifty50`, `crypto`), in that order.
+- **Exactly these four sections, with these keys and labels, in this order:**
+  `usa` / "USA", `emsmallcaps` / "Emerging Markets and Small Caps", `crypto` /
+  "Crypto", `commodities` / "Commodities". Use the lowercase key verbatim — do
+  not put the label in the `key` field.
+- **Item budget, never exceeded:** `usa` at most 3, `emsmallcaps` 3 (Emerging
+  Markets, India, Small Caps), `crypto` 3 (BTC, ETH, Solana), `commodities` 1
+  (gold). Fewer is fine; a fourth item in any section is a failure. In the USA
+  section, bullet 1 = the week's dominant scheduled catalyst, bullets 2–3 = the
+  other things worth watching (earnings, flows, the level/setup going in).
 - Every dated event must be verified to fall in this week's Mon–Fri window.
 - `why` is required on every item — it is the whole point of the outlook.
 - `emoji` should be exactly one relevant emoji; avoid repeating the same one

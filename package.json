@@ -1,7 +1,7 @@
 {
   "name": "finance-brief",
   "version": "1.0.0",
-  "description": "Daily S&P 500 / NIFTY 50 / crypto brief, generated via a Claude Code skill and rendered to HTML.",
+  "description": "Daily USA / emerging markets & small caps / crypto / gold brief, generated via a Claude Code skill and rendered to HTML.",
   "type": "module",
   "private": true,
   "scripts": {

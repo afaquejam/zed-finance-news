@@ -38,20 +38,64 @@ export const FinanceBriefItemSchema = z.object({
 });
 export type FinanceBriefItem = z.infer<typeof FinanceBriefItemSchema>;
 
-/**
- * The section key, tolerating the model's casing/spacing slips. The skill asks
- * for the lowercase enum but sometimes echoes the label instead ("Crypto",
- * "NIFTY 50"), which fails validation *after* a full research run and loses the
- * page — see the 2026-08-31 outlook. Lowercasing and dropping non-alphanumerics
- * folds every observed variant onto the canonical key.
- */
-const sectionKey = () =>
-  z.preprocess(
-    (v) => (typeof v === "string" ? v.toLowerCase().replace(/[^a-z0-9]/g, "") : v),
-    z.enum(["sp500", "nifty50", "crypto"]),
-  );
+/** The four sections of the brief, in the order they appear on the page. */
+export const SECTION_KEYS = ["usa", "emsmallcaps", "crypto", "commodities"] as const;
+export type SectionKey = (typeof SECTION_KEYS)[number];
 
-/** One of the three sections: S&P 500, NIFTY 50, Crypto. */
+/**
+ * Every spelling we accept for a section, folded onto its canonical key. Two
+ * things need absorbing here:
+ *
+ * 1. **Legacy keys.** The US section was `sp500` and the India section
+ *    `nifty50` before they were widened to USA (S&P 500 + Nasdaq) and Emerging
+ *    Markets and Small Caps. Every archived brief in `docs/` still carries the
+ *    old keys and is re-parsed on every render, so they must keep validating.
+ *    Their stored `label` is untouched, so historical pages still read
+ *    "S&P 500" / "NIFTY 50" — only the new briefs get the new headings.
+ * 2. **Label echoes.** The skill asks for the lowercase key but the model
+ *    sometimes returns the label instead ("Crypto", "NIFTY 50"), which failed
+ *    validation *after* a full research run and lost the page — see the
+ *    2026-08-31 outlook.
+ *
+ * Lookup happens on the lowercased, non-alphanumeric-stripped form, so
+ * "S&P 500", "S & P 500" and "sp500" all arrive here as `sp500`.
+ */
+const SECTION_ALIASES: Record<string, SectionKey> = {
+  // USA (was S&P 500)
+  usa: "usa",
+  us: "usa",
+  unitedstates: "usa",
+  sp500: "usa",
+  sandp500: "usa",
+  nasdaq: "usa",
+  usequities: "usa",
+  // Emerging Markets and Small Caps (was NIFTY 50)
+  emsmallcaps: "emsmallcaps",
+  em: "emsmallcaps",
+  emergingmarkets: "emsmallcaps",
+  emergingmarketsandsmallcaps: "emsmallcaps",
+  emergingmarketssmallcaps: "emsmallcaps",
+  smallcaps: "emsmallcaps",
+  nifty50: "emsmallcaps",
+  nifty: "emsmallcaps",
+  india: "emsmallcaps",
+  // Crypto
+  crypto: "crypto",
+  cryptocurrency: "crypto",
+  // Commodities
+  commodities: "commodities",
+  commodity: "commodities",
+  gold: "commodities",
+};
+
+const sectionKey = () =>
+  z.preprocess((v) => {
+    if (typeof v !== "string") return v;
+    const normalized = v.toLowerCase().replace(/[^a-z0-9]/g, "");
+    return SECTION_ALIASES[normalized] ?? normalized;
+  }, z.enum(SECTION_KEYS));
+
+/** One section: USA, Emerging Markets and Small Caps, Crypto, or Commodities. */
 export const FinanceBriefSectionSchema = z.object({
   key: sectionKey(),
   label: z.string().min(1),

@@ -1,8 +1,29 @@
 # finance-brief
 
-S&P 500 / NIFTY 50 / crypto brief. A Claude Code **skill** does the research
-(web search), a small TypeScript orchestrator runs it headlessly, validates the
-JSON it returns, and renders it into a static HTML page.
+USA / emerging markets & small caps / crypto / gold brief. A Claude Code
+**skill** does the research (web search), a small TypeScript orchestrator runs
+it headlessly, validates the JSON it returns, and renders it into a static HTML
+page.
+
+## The four sections
+
+Every page — daily, weekly, outlook — carries the same four sections in the
+same order, with a fixed item budget that keeps a page readable in a minute:
+
+| Section | Key | Items |
+| ------- | --- | ----- |
+| USA | `usa` | ≤ 3 — S&P 500 *and* Nasdaq |
+| Emerging Markets and Small Caps | `emsmallcaps` | 3 — Emerging Markets, India, Small Caps (global, not just US) |
+| Crypto | `crypto` | 3 — BTC, ETH, Solana |
+| Commodities | `commodities` | 1 — gold |
+
+The budget is enforced in the skill prompts, not in the schema: a run that
+overshoots by one item should still publish rather than throw away a full
+research run, and archived briefs (which predate the budget) must keep
+rendering. `src/types.ts` folds the **legacy** section keys `sp500` and
+`nifty50` onto `usa` and `emsmallcaps` so every page in `docs/` still parses;
+those pages keep their original "S&P 500" / "NIFTY 50" headings, since the
+heading text comes from each brief's stored `label`.
 
 ## The weekly rhythm
 
