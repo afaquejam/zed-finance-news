@@ -152,6 +152,14 @@ to `logs/launchd.{out,err}.log`.
   match the schema (missing fields, bad URL, wrong section keys), the run
   fails instead of silently publishing malformed content. Check
   `logs/finance-brief.log` on failure.
+- **Narrow JSON repair before validation.** `parseBrief` retries once on a
+  parse failure after fixing a stray trailing `;` or `,` — the model
+  occasionally drifts from JSON toward JavaScript, and a one-character slip
+  used to discard a ~$1.50 research run (the 2026-09-20 weekly). Repairs only
+  run on text that already failed to parse and are anchored to the end of the
+  document, so valid output is never rewritten. A repair that starts firing
+  regularly is logged with `recovered malformed JSON` — tighten the skill
+  prompt rather than adding more repairs.
 - This is deliberately just the finance section. The tech/AI/cloud email
   digest is a separate pipeline stage that will write its own JSON and get
   rendered into the same page — not part of this component.

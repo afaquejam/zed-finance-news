@@ -71,7 +71,49 @@ Four sections, in this order, each with a fixed shape:
 Fewer items than the budget is acceptable when a week genuinely had nothing to
 say; more is never acceptable. `crossCuttingTheme` = the dominant macro thread
 that tied the week together across markets (name the shared driver and
-mechanism), not a mood summary.
+mechanism), not a mood summary — one sentence, 40 words maximum.
+
+## Length and plain language
+
+This brief is read in a minute over coffee. A bullet that runs four lines does
+not get read, however good the research behind it is. Brevity is a hard
+requirement, not a style preference.
+
+- **`detail`: one sentence, 30 words maximum.** A second short sentence only if
+  it is genuinely a separate fact. If it will not fit in 30 words, you have not
+  yet decided what the item is about.
+- **`why`: one sentence, 20 words maximum.** The cause, stated plainly.
+- **`crossCuttingTheme`: one sentence, 40 words maximum.** It is a banner above
+  the sections, not a summary of them — name the one shared driver and how it
+  transmits, then stop. Do not recap what each section already said.
+- **Two numbers per item, at most.** Keep the ones that anchor the claim (the
+  level, the move) and cut the rest. The third number is usually the one that
+  makes a bullet unreadable.
+- **No roll-calls.** "ten Fed speakers, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday…" is a list, not an insight. Say
+  "ten Fed speakers this week" and move on. Same for earnings tickers and data
+  releases: name the one that matters, not the whole calendar.
+- **Write like a person, not a terminal.** Everyday words beat desk jargon:
+  "the Fed looks set to hold rates high for longer" beats "settling into a
+  higher-for-longer regime". At most one dash-clause per sentence; no nested
+  parentheticals.
+- **Simple is not vague.** Keep the fundamentals — the real level, the real
+  move, the real cause. Simplify the language, never the substance. If losing
+  a word would cost the number that grounds the claim, cut a different word.
+
+Worked example, from a real bullet that was too long:
+
+- ✗ **71 words:** "With no new session since Friday's close (**S&P 500
+  7,650.50**, **Nasdaq 26,522.55**), the week ahead is about the rate path
+  rather than data — the calendar is light on reports but carries **no fewer
+  than 10 Fed speaker appearances**, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday and Hammack and Paulson Thursday.
+  Fed funds futures are pricing roughly **42% odds of two more hikes** against
+  the dot plot's one."
+- ✓ **25 words:** `detail` — "The **S&P 500** closed Friday at **7,650.50**,
+  and next week's direction rests on ten Fed speakers rather than any data."
+  `why` — "With no major print until Wednesday's PMIs, the speakers are the
+  only live clue on whether more hikes are coming."
 
 ## Quality bar — explain, don't just report
 
@@ -80,7 +122,7 @@ describing a move must answer "why did this happen this week?"
 
 - Each item is a single self-contained `detail` (the move, direction, and exact
   weekly level/change) plus a one-sentence plain-text `why` (the driver). There
-  is no separate headline — make `detail` rich and self-contained.
+  is no separate headline — make `detail` self-contained but short.
 - Use markdown `**bold**` sparingly to highlight the key weekly number.
 - Connect drivers across markets where one force (oil, the dollar, gold, a Fed
   signal) moved several sections, and echo it in `crossCuttingTheme`.
@@ -100,8 +142,8 @@ Return exactly one JSON object matching this shape:
       "items": [
         {
           "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🛢️ oil, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
-          "detail": "1-2 precise, self-contained sentences summarizing the WEEK's move with exact numbers. Use markdown **bold** to highlight the key weekly figure.",
-          "why": "The driver/catalyst behind the week's move — plain text, 1 sentence, no markdown. Omit only for pure-context items.",
+          "detail": "ONE plain-English sentence, 30 words maximum, summarizing the WEEK's move with at most two numbers. Use markdown **bold** on the key weekly figure.",
+          "why": "The driver behind the week's move, in ONE plain sentence of 20 words maximum. Plain text, no markdown. Omit only for pure-context items.",
           "sourceName": "Publication name",
           "sourceUrl": "https://..."
         }
@@ -125,8 +167,9 @@ Rules:
   `commodities` 1 — see Hard constraints for what each bullet covers. This is
   the defining constraint of the weekly brief. Each item independently useful,
   no filler.
-- `detail` must be precise and concise (this feeds a bullet-point brief) and
-  frame the WEEK, not a single day.
+- `detail` is one sentence of at most 30 words and `why` one of at most 20 (see
+  **Length and plain language**), and `detail` must frame the WEEK, not a single
+  day.
 - `why` is required for every item describing a move — name the actual cause,
   don't restate the move. Omit only for pure-context items.
 - `emoji` should be exactly one relevant emoji; avoid repeating the same one

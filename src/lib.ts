@@ -262,20 +262,90 @@ function runClaudeCodeOnce(prompt: string): ClaudeCliJsonEnvelope {
 }
 
 /**
+ * Repairs for syntax slips the model makes when it drifts from JSON toward
+ * JavaScript. Each is tried only on text that has ALREADY failed `JSON.parse`,
+ * so a valid document is never rewritten, and each is anchored tightly enough
+ * that it cannot touch content inside a string value.
+ *
+ * Kept deliberately narrow: the point is to rescue a ~$1.50 research run from a
+ * one-character typo, not to become a lenient JSON dialect. A malformed payload
+ * that none of these fixes still throws with the raw text attached.
+ */
+const JSON_REPAIRS: Array<{ name: string; apply: (text: string) => string }> = [
+  {
+    // A statement-terminating semicolon after the final closing brace's value:
+    // `"crossCuttingTheme": "…";\n}`. Cost a full weekly run on 2026-09-20.
+    name: "trailing semicolon before the closing brace",
+    apply: (text) => text.replace(/;(\s*})\s*$/, "$1"),
+  },
+  {
+    // The same slip one character later: `…}\n;`, a statement terminator after
+    // the whole object. Anchored to the very end of the document, so it cannot
+    // reach a semicolon inside a string value.
+    name: "trailing semicolon after the closing brace",
+    apply: (text) => text.replace(/;\s*$/, ""),
+  },
+  {
+    // A trailing comma after the last element of an object or array — the most
+    // common hand-written-JSON mistake, and legal in JS.
+    name: "trailing comma before a closing brace/bracket",
+    apply: (text) => text.replace(/,(\s*[}\]])/g, "$1"),
+  },
+];
+
+/**
  * Parse + validate a Claude CLI result string into a FinanceBrief, tolerating
- * an accidental ```json fence around the object.
+ * an accidental ```json fence around the object and the narrow set of JS-isms
+ * in JSON_REPAIRS.
  */
 export function parseBrief(rawResult: string): FinanceBrief {
   const jsonText = stripCodeFence(rawResult);
+
   let parsed: unknown;
   try {
     parsed = JSON.parse(jsonText);
-  } catch (err) {
-    throw new Error(
-      `Skill output was not valid JSON after fence-stripping. Raw result:\n${jsonText}`,
-    );
+  } catch {
+    const repaired = tryRepairJson(jsonText);
+    if (repaired === undefined) {
+      throw new Error(
+        `Skill output was not valid JSON after fence-stripping. Raw result:\n${jsonText}`,
+      );
+    }
+    parsed = repaired;
   }
+
   return FinanceBriefSchema.parse(parsed);
+}
+
+/**
+ * Apply each repair in turn to text that failed to parse, returning the first
+ * result that parses (or `undefined` if none does). Repairs accumulate, so a
+ * payload with two different slips is still recovered. The repair that worked
+ * is logged, since a repair firing regularly is a signal to fix the skill
+ * prompt rather than to keep patching the output.
+ */
+function tryRepairJson(jsonText: string): unknown | undefined {
+  let candidate = jsonText;
+  const applied: string[] = [];
+
+  for (const repair of JSON_REPAIRS) {
+    const next = repair.apply(candidate);
+    if (next === candidate) continue;
+
+    candidate = next;
+    applied.push(repair.name);
+    try {
+      const parsed: unknown = JSON.parse(candidate);
+      console.warn(
+        `[finance-brief] recovered malformed JSON from the skill by fixing: ${applied.join(", ")}`,
+      );
+      return parsed;
+    } catch {
+      // Keep going — a later repair may fix what remains.
+    }
+  }
+
+  return undefined;
 }
 
 /**

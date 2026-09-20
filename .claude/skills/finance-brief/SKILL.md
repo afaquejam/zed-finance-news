@@ -79,22 +79,67 @@ the reader what is *new or different* since then, not to re-run the same story.
   truly-new items than to refill it with yesterday's numbers — dropping the
   weakest item is always allowed, adding a fourth one is not.
 
+## Length and plain language
+
+This brief is read in a minute over coffee. A bullet that runs four lines does
+not get read, however good the research behind it is. Brevity is a hard
+requirement, not a style preference.
+
+- **`detail`: one sentence, 30 words maximum.** A second short sentence only if
+  it is genuinely a separate fact. If it will not fit in 30 words, you have not
+  yet decided what the item is about.
+- **`why`: one sentence, 20 words maximum.** The cause, stated plainly.
+- **`crossCuttingTheme`: one sentence, 40 words maximum.** It is a banner above
+  the sections, not a summary of them — name the one shared driver and how it
+  transmits, then stop. Do not recap what each section already said.
+- **Two numbers per item, at most.** Keep the ones that anchor the claim (the
+  level, the move) and cut the rest. The third number is usually the one that
+  makes a bullet unreadable.
+- **No roll-calls.** "ten Fed speakers, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday…" is a list, not an insight. Say
+  "ten Fed speakers this week" and move on. Same for earnings tickers and data
+  releases: name the one that matters, not the whole calendar.
+- **Write like a person, not a terminal.** Everyday words beat desk jargon:
+  "the Fed looks set to hold rates high for longer" beats "settling into a
+  higher-for-longer regime". At most one dash-clause per sentence; no nested
+  parentheticals.
+- **Simple is not vague.** Keep the fundamentals — the real level, the real
+  move, the real cause. Simplify the language, never the substance. If losing
+  a word would cost the number that grounds the claim, cut a different word.
+
+Worked example, from a real bullet that was too long:
+
+- ✗ **71 words:** "With no new session since Friday's close (**S&P 500
+  7,650.50**, **Nasdaq 26,522.55**), the week ahead is about the rate path
+  rather than data — the calendar is light on reports but carries **no fewer
+  than 10 Fed speaker appearances**, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday and Hammack and Paulson Thursday.
+  Fed funds futures are pricing roughly **42% odds of two more hikes** against
+  the dot plot's one."
+- ✓ **25 words:** `detail` — "The **S&P 500** closed Friday at **7,650.50**,
+  and next week's direction rests on ten Fed speakers rather than any data."
+  `why` — "With no major print until Wednesday's PMIs, the speakers are the
+  only live clue on whether more hikes are coming."
+
 ## Quality bar — explain, don't just report
 
 The single most important quality of this brief is **causation**. Every item
 that describes a market move must answer "why did this happen?" Compare:
 
 - ✗ Weak (bare fact): "The S&P 500 lost 1.21% to close at 7,408.30."
-- ✓ Strong (fact + driver): `detail` is one self-contained statement with the
-  move, direction and exact level; `why` explains it — "Oil spiked above
-  $100/bbl on escalating Middle East conflict while Alphabet (-7%) and Tesla
-  (-14%) earnings reignited AI-spending fears, triggering the worst megacap
-  selloff since April 2025."
+- ✓ Strong (fact + driver): `detail` — "The **S&P 500** fell **1.21%** to
+  7,408.30, its worst day since April." `why` — "Oil jumping above $100 on
+  Middle East fighting revived inflation fears and hit the big tech names
+  hardest."
+
+Note what the strong version does *not* do: it gives one move and one cause,
+not a tour of every stock that fell. Causation and brevity pull in the same
+direction — a clear driver is short.
 
 Guidance:
 
 - Each item is a single primary statement (`detail`) plus its `why` — there is
-  no separate headline/title, so make `detail` rich and self-contained.
+  no separate headline/title, so make `detail` self-contained but short.
 - With only a handful of slots per section, **every item must be a snapshot
   plus its driver**: the move, direction, exact level, and the one thing that
   caused it. There is no room for an item that is only context.
@@ -123,8 +168,8 @@ Return exactly one JSON object matching this shape:
       "items": [
         {
           "emoji": "A single emoji that fits this item (e.g. 📉 selloff, 📈 rally, 🥇 gold, 🏦 Fed/RBI, 🤖 AI, 📊 earnings, ₿ bitcoin, ⚖️ regulation).",
-          "detail": "1-2 precise, self-contained sentences with the key fact(s) and exact numbers. This is the single primary statement of the item — do NOT also write a separate headline that repeats it. Use markdown **bold** to highlight the most important words/figures; you decide what matters most.",
-          "why": "The driver/catalyst that caused this — the causal 'why', 1 sentence. Include for every market move; omit only for pure context items. Plain text only — do NOT use bold or any markdown here.",
+          "detail": "ONE plain-English sentence, 30 words maximum, carrying the key fact and at most two numbers. This is the item's single primary statement — do NOT also write a separate headline that repeats it. Use markdown **bold** on the one figure that matters most.",
+          "why": "The cause, in ONE plain sentence of 20 words maximum. Include for every market move; omit only for pure context items. Plain text only — do NOT use bold or any markdown here.",
           "sourceName": "Publication name",
           "sourceUrl": "https://..."
         }
@@ -150,7 +195,9 @@ Rules:
   a minute, so a fourth item in any section is a failure, not a bonus. Fewer is
   acceptable when there is genuinely nothing new; more is not.
 - Each item must be independently useful — no filler.
-- `detail` must be precise and concise (this feeds a bullet-point brief).
+- `detail` is one sentence of at most 30 words and `why` one of at most 20 —
+  see **Length and plain language**. This is checked; long bullets are the
+  single most common way this brief gets worse.
 - `why` is required for every item describing a market move — it must name
   the actual cause, not restate the move. Omit it only for pure-context or
   forward-looking items where there is no move to explain.
@@ -171,5 +218,6 @@ Rules:
 - `crossCuttingTheme` must be a genuine causal thread — name the shared
   macro driver moving multiple markets and the mechanism (e.g. "oil above
   $100 on Middle East conflict is feeding an inflation-driven risk-off move
-  across equities and crypto simultaneously"), not a vague mood summary.
+  across equities and crypto simultaneously"), not a vague mood summary. One
+  sentence, 40 words maximum.
 - Do not include any text outside the JSON object in your final response.

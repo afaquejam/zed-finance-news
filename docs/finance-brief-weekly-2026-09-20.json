@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T09:00:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "The **S&P 500 finished the week down about 0.1%** at 7,650.50 while the **Nasdaq gained 0.7%**, as the Fed delivered its first hike since 2023.",
+          "why": "A unanimous 25bp hike to 3.75%-4.00% came with dot-plot projections signalling more increases and no cuts through 2027.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-18-2026"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The **Dow slid 1.7%**, a third straight losing week and its worst since March, with the damage in industrials, banks and consumer names.",
+          "why": "A 5% risk-free rate reprices cyclicals and dividend payers hardest, while money stayed with AI-linked megacaps.",
+          "sourceName": "Trading Strategy Guides",
+          "sourceUrl": "https://tradingstrategyguides.com/weekly-market-recap-september-14-september-18-2026-tech-leads-as-broader-market-stumbles-and-dollar-firms/"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "The **10-year Treasury yield touched 5.04%, its highest since 2007**, and closed the week back above 5% despite three straight days of falling crude.",
+          "why": "A near-failed 20-year auction and the Fed's higher-for-longer message outweighed Brent's retreat from $109 to $103.87.",
+          "sourceName": "Vistap Global",
+          "sourceUrl": "https://vistapglobal.com/weekly-market-summary-friday-september-18-2026-stocks-end-mixed-as-the-fed-hikes-treasury-yields-near-5-and-oil-holds-above-95-amat-amwl-eprx-modd-nvda-onon-ser-soc-spcx/"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Emerging market shares and currencies spent the week on the back foot as the **dollar index pushed above 100**, its highest in about six weeks.",
+          "why": "The Fed's hike and a dot plot with no 2027 cuts widened the rate gap against emerging markets.",
+          "sourceName": "Gokhshtein",
+          "sourceUrl": "https://gokhshtein.com/news/2026-09-18-dollar-index-hits-15-month-high-as-fed-shows-more-hikes"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty fell 0.22% to 23,346**, a sixth straight losing week, though foreign investors finally turned buyers on Friday after **₹17,810 crore** of September selling.",
+          "why": "Brent above $100 and a rupee stuck near 95.89 kept India's import bill and foreign outflows elevated all week.",
+          "sourceName": "Trading Strategy Guides",
+          "sourceUrl": "https://tradingstrategyguides.com/weekly-market-recap-september-14-september-18-2026-tech-leads-as-broader-market-stumbles-and-dollar-firms/"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "The **Russell 2000 lost roughly 1.25%** on the week, lagging large caps badly, while India's Smallcap 100 jumped **1.74%** on Friday alone.",
+          "why": "Higher-for-longer US rates hurt debt-reliant small companies, while cheaper crude lifted domestic-facing Indian smaller stocks.",
+          "sourceName": "Trading Strategy Guides",
+          "sourceUrl": "https://tradingstrategyguides.com/weekly-market-recap-september-14-september-18-2026-tech-leads-as-broader-market-stumbles-and-dollar-firms/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** fell below **$75,000** when the CLARITY Act died in the Senate, then rallied three days to an intraday high of **$81,034** on Friday.",
+          "why": "Traders who shorted into the failed vote and the Fed hike were squeezed out by roughly $415 million of liquidations."
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "**Ether ended the week near $2,603**, back from a post-CLARITY low around $2,404, even as its US ETFs lost money for three straight sessions.",
+          "why": "Short covering rather than fund inflows drove the rebound, since allocators kept trimming Ether exposure."
+        },
+        {
+          "emoji": "🚀",
+          "detail": "**Solana finished near $106**, the best of the majors, after dipping below $100 midweek alongside the rest of the market.",
+          "why": "The SEC's five-year tokenised-stock exemption favours Solana most, since it already handles billions in weekly tokenised-equity volume."
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold posted its first weekly gain in four**, recovering from a midweek low near **$4,262** to finish around $4,380.",
+          "why": "Falling crude and a post-Fed drop in Treasury yields eased the inflation scare that had pressured bullion early in the week.",
+          "sourceName": "USAGOLD",
+          "sourceUrl": "https://www.usagold.com/daily-precious-metals-market-report-september-18-2026/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil set the week's direction and then handed it to the Fed: Brent's spike to $109 on the Saudi pipeline outage drove the 10-year to a 2007 high of 5.04% and forced a hawkish first hike, and even after crude fell back to $103.87 the dot plot's higher-for-longer path kept yields above 5% — punishing the Dow, small caps, the rupee and emerging markets, while gold and crypto rallied on the fading inflation scare."
+}

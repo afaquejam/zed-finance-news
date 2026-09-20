@@ -75,6 +75,48 @@ daily) under a `LAST WEEK'S CLOSING PICTURE` heading. Use it to state **where
 each market stands going in** — the closing level, the trend it is carrying,
 the level that matters. Do not re-report it as news; it is the starting line.
 
+## Length and plain language
+
+This brief is read in a minute over coffee. A bullet that runs four lines does
+not get read, however good the research behind it is. Brevity is a hard
+requirement, not a style preference.
+
+- **`detail`: one sentence, 30 words maximum.** A second short sentence only if
+  it is genuinely a separate fact. If it will not fit in 30 words, you have not
+  yet decided what the item is about.
+- **`why`: one sentence, 20 words maximum.** The cause, stated plainly.
+- **`crossCuttingTheme`: one sentence, 40 words maximum.** It is a banner above
+  the sections, not a summary of them — name the one shared driver and how it
+  transmits, then stop. Do not recap what each section already said.
+- **Two numbers per item, at most.** Keep the ones that anchor the claim (the
+  level, the move) and cut the rest. The third number is usually the one that
+  makes a bullet unreadable.
+- **No roll-calls.** "ten Fed speakers, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday…" is a list, not an insight. Say
+  "ten Fed speakers this week" and move on. Same for earnings tickers and data
+  releases: name the one that matters, not the whole calendar.
+- **Write like a person, not a terminal.** Everyday words beat desk jargon:
+  "the Fed looks set to hold rates high for longer" beats "settling into a
+  higher-for-longer regime". At most one dash-clause per sentence; no nested
+  parentheticals.
+- **Simple is not vague.** Keep the fundamentals — the real level, the real
+  move, the real cause. Simplify the language, never the substance. If losing
+  a word would cost the number that grounds the claim, cut a different word.
+
+Worked example, from a real bullet that was too long:
+
+- ✗ **71 words:** "With no new session since Friday's close (**S&P 500
+  7,650.50**, **Nasdaq 26,522.55**), the week ahead is about the rate path
+  rather than data — the calendar is light on reports but carries **no fewer
+  than 10 Fed speaker appearances**, starting with Goolsbee Monday, Williams
+  and Jefferson Tuesday, Barkin Wednesday and Hammack and Paulson Thursday.
+  Fed funds futures are pricing roughly **42% odds of two more hikes** against
+  the dot plot's one."
+- ✓ **25 words:** `detail` — "The **S&P 500** closed Friday at **7,650.50**,
+  and next week's direction rests on ten Fed speakers rather than any data."
+  `why` — "With no major print until Wednesday's PMIs, the speakers are the
+  only live clue on whether more hikes are coming."
+
 ## Quality bar — say why it matters, not just what's scheduled
 
 A calendar is not an outlook. Every item must connect a scheduled event to a
@@ -92,8 +134,8 @@ Guidance:
 
 - Lead each section with **the single biggest scheduled catalyst** of the week
   for that market, naming the day.
-- Include consensus/expected figures where a forecast exists, and say what the
-  reaction function is — which direction of surprise moves things which way.
+- Include the consensus figure where a forecast exists, and say which direction
+  of surprise moves things which way — in plain words, not desk shorthand.
 - Be explicit about uncertainty. This is a forecast of *what to watch*, not a
   prediction of outcomes. Never state a future move as if it has happened, and
   do not invent a price target.
@@ -115,8 +157,8 @@ Return exactly one JSON object matching this shape:
       "items": [
         {
           "emoji": "A single emoji that fits this item (e.g. 🗓️ scheduled event, 🏦 Fed/RBI, 📊 earnings, 📉 data print, 🥇 gold, 🤖 AI, ₿ bitcoin, ⚖️ regulation).",
-          "detail": "1-2 precise, self-contained sentences naming the event, the DAY it falls on, and the consensus/expected figure where one exists. Use markdown **bold** to highlight the event or the key number.",
-          "why": "What is at stake — the mechanism by which this moves the market, and what a surprise in either direction would mean. Plain text, 1 sentence, no markdown.",
+          "detail": "ONE plain-English sentence, 30 words maximum, naming the event, the DAY it falls on, and the consensus figure where one exists. Use markdown **bold** on the event or the key number.",
+          "why": "What is at stake: how this moves the market and what a surprise would mean. ONE plain sentence, 20 words maximum, no markdown.",
           "sourceName": "Publication name",
           "sourceUrl": "https://..."
         }
@@ -142,7 +184,9 @@ Rules:
   section, bullet 1 = the week's dominant scheduled catalyst, bullets 2–3 = the
   other things worth watching (earnings, flows, the level/setup going in).
 - Every dated event must be verified to fall in this week's Mon–Fri window.
-- `why` is required on every item — it is the whole point of the outlook.
+- `why` is required on every item — it is the whole point of the outlook — and
+  is capped at 20 words, like `detail` at 30 (see **Length and plain
+  language**).
 - `emoji` should be exactly one relevant emoji; avoid repeating the same one
   within a section.
 - Use `**bold**` sparingly for the event name or key figure. Only `**bold**`
@@ -151,6 +195,6 @@ Rules:
   fabricate a link. Omit the field rather than guess. Same discipline for any
   consensus figure: if you can't source it, describe the event without it.
 - `crossCuttingTheme` must name a concrete shared driver and its mechanism,
-  not a vague mood statement.
+  not a vague mood statement. One sentence, 40 words maximum.
 - `date` should be the Monday of the week being previewed.
 - Do not include any text outside the JSON object in your final response.
