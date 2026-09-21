@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T08:00:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "**Wednesday's flash PMIs** are the week's main US data point, the first read on activity since the Fed's hike, with no CPI or jobs report due.",
+          "why": "Strong readings would back the dot plot's case for more hikes and keep yields above 5%.",
+          "sourceName": "MTS Insights",
+          "sourceUrl": "https://www.mtsinsights.com/events/4745/"
+        },
+        {
+          "emoji": "🤝",
+          "detail": "**Trump hosts Xi at the White House Thursday**, with the tariff truce, rare earths and AI export access all on the table.",
+          "why": "A truce extension would relieve chipmakers and the AI names carrying the Nasdaq; a breakdown hits them hardest.",
+          "sourceName": "Newsquawk",
+          "sourceUrl": "https://www.newsquawk.com/headlines/week-in-focus--21-25th-september-2026-highlights-include-xis-visit-to-the-us-global-flash-pmis-aussie-jobs-and-the-snb-rate-decision"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "**Treasury sells 2-, 5- and 7-year notes Tuesday through Thursday**, with the 10-year yield entering the week just above **5%**.",
+          "why": "After last week's near-failed 20-year sale, weak demand would push yields higher and pressure the Dow again.",
+          "sourceName": "US Treasury",
+          "sourceUrl": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "💵",
+          "detail": "**Banxico decides Thursday** and Brazil's mid-month inflation lands Friday at a consensus **4.5%**, with the dollar index entering above 100.",
+          "why": "A dollar above 100 keeps emerging market currencies and foreign inflows under pressure whatever local central banks do.",
+          "sourceName": "Rio Times",
+          "sourceUrl": "https://www.riotimesonline.com/key-market-events-for-the-week-of-september-21-25-2026/"
+        },
+        {
+          "emoji": "🔔",
+          "detail": "**The NSE lists on the BSE Thursday** after its ₹22,562 crore share sale, with the Nifty entering at **23,346** and support at 23,000.",
+          "why": "A strong debut would lift sentiment after six losing weeks; a weak one tests the 23,000 floor.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/trading/week-ahead-us-bond-yield-nse-listing-oil-prices-new-us-sanctions-bill-among-key-market-triggers-to-watch/article-200539/"
+        },
+        {
+          "emoji": "🐜",
+          "detail": "The **Russell 2000** enters the week the weakest major US index, and **Wednesday's PMIs** decide whether rate-sensitive small caps keep lagging.",
+          "why": "Bank of America reckons each 25bp hike cuts about 2% from Russell 2000 earnings.",
+          "sourceName": "Opening Bell Daily",
+          "sourceUrl": "https://www.openingbelldailynews.com/p/small-cap-stock-market-outlook-investing-outlook-economy-rates"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** enters near **$81,000** after ETFs took in $433 million on Friday, facing resistance it has failed at twice this month.",
+          "why": "Clearing $83,000 needs the inflows to continue; Wednesday's PMIs are the main thing that could stop them.",
+          "sourceName": "UseTheBitcoin",
+          "sourceUrl": "https://usethebitcoin.com/bitcoin/bitcoin-price-september-20-2026/"
+        },
+        {
+          "emoji": "⛓️",
+          "detail": "**Ether** starts near **$2,603** with its US ETFs still losing money, leaving it reliant on Wednesday's PMIs rather than fund demand.",
+          "why": "Last week's bounce came from short covering, so softer data is now the only obvious buyer.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-ethereum-solana-drop-214547270.html"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "**Monday is the deadline for Solana stakers to move off validators that have not upgraded**, ahead of the Alpenglow activation on September 28.",
+          "why": "SOL enters near $106, and a messy validator migration would undercut the speed story driving it.",
+          "sourceName": "CryptoTicker",
+          "sourceUrl": "https://cryptoticker.io/en/solana-alpenglow-activation-date-validator-check/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** enters near **$4,380** after snapping a three-week losing run, with **Wednesday's flash PMIs** the only scheduled test of the inflation story.",
+          "why": "No inflation print is due, so strong PMIs would lift real yields and the dollar against gold.",
+          "sourceName": "FXEmpire",
+          "sourceUrl": "https://www.fxempire.com/forecasts/gold"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Thursday's Trump-Xi summit and Wednesday's flash PMIs bracket the week: the summit decides whether the tariff truce holds, while the PMIs tell markets whether 5% yields and a dollar above 100 have further to run."
+}
