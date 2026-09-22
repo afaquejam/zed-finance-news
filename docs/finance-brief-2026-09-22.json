@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T02:35:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **Nasdaq jumped 2.26% to a record 27,122** and the S&P 500 added 1.49% to 7,765, its best day since early August.",
+          "why": "The 10-year yield fell back below 5% and oil slid again, reviving the AI trade.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "Chips did the heavy lifting — **AMD rose about 10%** to top **$1 trillion in market value** for the first time, with Intel up 12%.",
+          "why": "Fresh signs that AI spending is still expanding undid last week's selloff over AI safety warnings.",
+          "sourceName": "Honolulu Star-Advertiser (Reuters)",
+          "sourceUrl": "https://www.staradvertiser.com/2026/09/21/breaking-news/nasdaq-hits-record-high-as-ai-chip-rally-lifts-tech-stocks/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield slipped to 4.951%**, back under 5%, leaving Wednesday's flash PMIs as the week's first real test of the rate path.",
+          "why": "Global borrowing costs eased and crude fell a fourth straight day, taking pressure off the long end.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/21/treasury-yields-government-bonds.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "**MSCI's emerging-market stock index rose 1.1%** to its highest in over a week, led by Samsung, TSMC and MediaTek.",
+          "why": "Officials called US-China talks very successful ahead of this week's presidential summit, and oil fell a fourth day.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-21/emerging-market-stocks-currencies-gain-after-us-china-talks"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Sensex jumped 564 points to 74,858.99** and the Nifty closed at 23,414, but **FIIs sold ₹576 crore** after Friday's brief buying.",
+          "why": "Cheaper crude and bargain buying in heavyweights lifted the index, while domestic funds absorbed the renewed foreign selling.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/amp/markets/news/stock-market-live-september-21-bse-sensex-today-nifty-gift-nifty-nse-ipo-manika-plastech-listing-126092100059_1.html"
+        },
+        {
+          "emoji": "🔎",
+          "detail": "**The Russell 2000 rose only 0.52% to 2,875**, far behind the Nasdaq, while India's **Nifty Smallcap 100 slipped 0.07%** despite the Sensex rally.",
+          "why": "The day's buying went to AI megacaps, and still-high financing costs keep small caps hostage to the rate outlook.",
+          "sourceName": "Investrade",
+          "sourceUrl": "https://investrade.com/market-review-september-21-2026/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin reclaimed $85,000 for the first time in eight months**, trading near **$86,300** after a roughly 7% jump on Monday.",
+          "why": "Falling oil and yields revived risk appetite, and another wave of short liquidations amplified the move.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-21-2026-crypto-prices-hit-highest-levels-in-8-months-143444230.html"
+        },
+        {
+          "emoji": "💎",
+          "detail": "**Ether rose about 5.9% to roughly $2,715**, joining the rally but again trailing bitcoin's gain.",
+          "why": "Ether funds shed $141 million last week, so the move came from short covering rather than fresh institutional money.",
+          "sourceName": "Bytes Europe",
+          "sourceUrl": "https://www.byteseu.com/2379484/"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "**Solana jumped 8.3% to about $115.90**, outpacing both bitcoin and ether on the day.",
+          "why": "Solana ETFs pulled in $61 million last week, led by Bitwise's BSOL, and a short squeeze did the rest.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold slipped about 0.5% to roughly $4,353 an ounce**, giving back Friday's one-week high.",
+          "why": "Traders focused on the rate outlook over fresh US-Iran threats, and falling oil cut inflation-hedging demand.",
+          "sourceName": "The Star (Reuters)",
+          "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/09/21/gold-slips-as-investors-focus-on-middle-east-rate-outlook"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The 10-year yield's drop back below 5%, helped by a fourth straight fall in oil, was the day's single lever: it powered record highs in AI chips, lifted EM stocks and crypto, and took the shine off gold."
+}
