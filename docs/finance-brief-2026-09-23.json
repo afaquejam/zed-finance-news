@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T08:05:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **Nasdaq closed at a record 27,244**, up 0.5%, while the S&P 500 finished flat at 7,761.",
+          "why": "A renewed chip rally and strong demand for Meta's new AI chatbot revived the AI trade.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/stocks/nasdaq-notches-another-new-high-stock-market-today"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **Dow fell 263 points**, or 0.51%, to 51,786, as financial stocks slid nearly 2% against the tech rally.",
+          "why": "Banks sold off while money crowded into AI names, splitting the market between old economy and tech.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/equities/26/09/61930818/nasdaq-record-banks-fall-oil-fifth-decline-whats-moving-markets-tuesday"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The **10-year Treasury yield edged back up to about 4.97%** after two Fed officials struck a hawkish tone, with flash PMIs due Wednesday.",
+          "why": "St. Louis Fed's Musalem said more rate increases may be needed to bring inflation back to target.",
+          "sourceName": "USAGOLD",
+          "sourceUrl": "https://www.usagold.com/daily-precious-metals-market-report-september-22-2026/"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Asian markets stalled after Monday's rally, with **Hong Kong's Hang Seng up just 0.1%** to 26,451 and Shanghai's index up 0.2%.",
+          "why": "Investors are holding fire until Xi's Washington visit and Thursday's summit with Trump.",
+          "sourceName": "Reuters via Investing.com",
+          "sourceUrl": "https://www.investing.com/news/economy-news/chinas-xi-to-visit-the-us-from-september-2325-4908374"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty snapped a four-day winning streak**, falling 0.36% to 23,329, while **FIIs sold ₹3,810 crore** of shares.",
+          "why": "Foreign selling ran seven times Monday's pace, and domestic funds' ₹4,120 crore of buying only partly cushioned it.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/amp/markets/news/stock-market-live-september-22-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-oil-price-ipo-today-126092200090_1.html"
+        },
+        {
+          "emoji": "📊",
+          "detail": "The **Russell 2000 rose 0.51% to 2,889**, the best of the US majors, reversing Monday when it badly lagged the Nasdaq.",
+          "why": "A fifth straight drop in oil helped domestic small caps, which carry heavier fuel and debt costs.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-22-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin pushed to about $86,600**, its highest since January, lifting the total crypto market back above **$3 trillion**.",
+          "why": "Another $648 million of short positions were liquidated, and the fear and greed gauge jumped to 78.",
+          "sourceName": "KuCoin",
+          "sourceUrl": "https://www.kucoin.com/news/articles/crypto-daily-market-report-september-22-2026"
+        },
+        {
+          "emoji": "⛓️",
+          "detail": "**Ether rose about 5% to roughly $2,776**, and US spot ether ETFs pulled in **$270 million** on the day.",
+          "why": "BlackRock-led institutional buying returned after last week's outflows, the best day for ether funds in six weeks.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/news/ethereum-etfs-hit-six-week-135007523.html"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana climbed toward $120**, its highest since January, after $26 million of ETF inflows extended a 12-week buying run.",
+          "why": "More than $21 million of short positions were wiped out as the token cleared recent resistance.",
+          "sourceName": "Invezz",
+          "sourceUrl": "https://invezz.com/news/2026/09/22/solana-nears-120-but-12-weeks-of-etf-inflows-may-not-be-the-real-catalyst/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold fell about 0.8% to roughly $4,308 an ounce**, a second straight day of losses.",
+          "why": "Hawkish Fed remarks pushed the dollar near a late-July high, denting demand for the non-yielding metal.",
+          "sourceName": "USAGOLD",
+          "sourceUrl": "https://www.usagold.com/daily-precious-metals-market-report-september-22-2026/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Hawkish Fed talk was the day's lever: it lifted the dollar, hit gold and bank shares and capped the S&P, while a fifth straight fall in oil kept chips and small caps bid."
+}
