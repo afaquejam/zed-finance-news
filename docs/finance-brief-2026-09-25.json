@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T08:05:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📊",
+          "detail": "The **S&P 500** ended Thursday all but flat at **7,704**, and the Nasdaq Composite also closed little changed after trading sharply lower midday.",
+          "why": "A report of talks to reopen the Strait of Hormuz offset the day's fresh jump in bond yields.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield** climbed another nine basis points to **5.20%**, a fresh 19-year high and a fourth straight day of selling.",
+          "why": "Traders now put roughly 75% odds on an October Fed hike after this week's hot activity data.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-24-2026"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "**Brent crude spiked about 5% to $108** on Thursday before surrendering most of that gain by the close.",
+          "why": "Houthi missiles hit Saudi Arabia, then Reuters reported Iran may reopen Hormuz if Washington lifts its blockade.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🤝",
+          "detail": "**Hong Kong's Hang Seng opened 1% lower** on Friday near **24,523**, extending Thursday's slide to a third session.",
+          "why": "The Trump-Xi summit ended without the expected tariff cuts or AI channel, so traders saw no progress.",
+          "sourceName": "RTHK",
+          "sourceUrl": "https://news.rthk.hk/rthk/en/component/k2/1871504-20260925.htm"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty steadied near 23,100** on Friday after Thursday's 1.64% slide, with IT the heaviest drag at 1.4% lower.",
+          "why": "Foreign investors sold ₹5,027 crore of Indian shares on Thursday as the US 10-year yield hit 5.20%.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/nifty-50-sensex-today-wall-street-cues-fii-activity-key-things-to-know-before-markets-open-on-september-25/article-200851/"
+        },
+        {
+          "emoji": "📉",
+          "detail": "Investors pulled **$3.3 billion** from the iShares **Russell 2000** ETF last week, its second-largest weekly outflow of 2026.",
+          "why": "US small caps carry more floating-rate debt, so a 5.20% 10-year yield raises their borrowing costs most.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/etfs/sector-etfs/26/09/61982431/small-caps-crushed-iwm-sees-3-3b-outflow-treasury-yields-surge"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin held around $84,300** on Friday as US spot bitcoin funds turned net-positive for 2026, up **$4.6 billion** since August.",
+          "why": "Returning fund demand steadied the price, but 75% odds of an October Fed hike cap any rebound.",
+          "sourceName": "CryptoDaily",
+          "sourceUrl": "https://cryptodaily.co.uk/2026/09/us-spot-bitcoin-etfs-positive-2026-flows"
+        },
+        {
+          "emoji": "⛓️",
+          "detail": "**Ether slipped to about $2,647** on Thursday, a further 2.5% lower and now a third straight daily loss.",
+          "why": "Bets on a second Fed rate hike by December pulled money out of the riskiest assets first.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-september-24-2026-crypto-prices-lose-ground-as-rate-hike-expectations-grow-114459916.html"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana held near $115**, roughly flat on the day, as its US ETFs logged a **12th straight week** of inflows.",
+          "why": "Corporate treasuries keep buying SOL, steadying the price even after ETF inflows fell 96% in a week.",
+          "sourceName": "OpenPR",
+          "sourceUrl": "https://www.openpr.com/news/4641824/solana-sol-price-prediction-september-2026-etf-streak-hits-12"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold slipped to about $4,268 an ounce** on Friday, a fourth straight loss, while silver fell below $64.",
+          "why": "A dollar at a near two-month high and firming Fed hike bets keep bullion on the back foot.",
+          "sourceName": "Trading Economics",
+          "sourceUrl": "https://tradingeconomics.com/commodity/gold"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Rising yields remain the only lever that matters: a fourth day of Treasury selling took the 10-year to 5.20%, draining cash from small caps, Asian and Indian equities and gold while capping bitcoin's rebound."
+}
