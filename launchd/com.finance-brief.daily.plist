@@ -23,7 +23,7 @@
     <string>-is</string>
     <string>/bin/zsh</string>
     <string>-lc</string>
-    <string>export PATH="/usr/local/bin:$PATH"; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; . "$NVM_DIR/nvm.sh"; export FINANCE_BRIEF_PUBLISH=1; cd /Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief || exit 1; case "$(date +%u)" in 7) npm run brief:weekly ;; 1) npm run brief:outlook ;; *) npm run brief ;; esac</string>
+    <string>export PATH="$HOME/.local/bin:/usr/local/bin:$PATH"; export NVM_DIR="$HOME/.nvm"; [ -s "$NVM_DIR/nvm.sh" ] &amp;&amp; . "$NVM_DIR/nvm.sh"; export FINANCE_BRIEF_PUBLISH=1; cd /Users/afaqueh/development/new-projects/automated-content-generation/daily-finance-brief || exit 1; case "$(date +%u)" in 7) npm run brief:weekly ;; 1) npm run brief:outlook ;; *) npm run brief ;; esac</string>
   </array>
   <!-- Runs every day at 08:00 (Weekday: 0/7=Sun, 1=Mon … 6=Sat). The command
        above picks which pipeline runs for the day. -->
