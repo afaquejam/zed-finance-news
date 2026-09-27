@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T08:00:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **S&P 500** gained **1.2%** on the week and the Nasdaq 2.1%, both ending higher even after losing Tuesday's Nasdaq record in a midweek slide.",
+          "why": "Oil kept falling and the AI chip trade came back, which outweighed a bond selloff that knocked tech lower for a day.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/24/stock-market-today-live-updates.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield** climbed from below 5% on Monday to **5.20%** on Thursday, its highest since 2007, before holding steady on Friday.",
+          "why": "Flash PMIs showed the fastest US private-sector growth in five years, pushing October Fed hike odds to about 75%.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "AI megacaps led the week: **AMD topped $1 trillion** in market value on Monday, and Microsoft and Meta powered Friday's gains.",
+          "why": "New AI products from Microsoft and Meta, plus signs that AI spending is still growing, drew buyers back.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-25-2026"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "MSCI's emerging-market index jumped **1.1%** on Monday on hopes for US-China talks, but the gains faded as **Hong Kong's Hang Seng** fell three straight sessions.",
+          "why": "The Trump-Xi summit brought no tariff cuts, and record-high US yields drained appetite for risk."
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty 50** fell **0.9%** to 23,140, its seventh straight weekly loss and the longest losing run since May 2020.",
+          "why": "Foreign investors sold ₹11,490 crore over the week as US yields rose and Brent crude stayed above $100.",
+          "sourceName": "Upstox",
+          "sourceUrl": "https://upstox.com/news/market-news/stocks/weekly-market-wrap-nifty-50-sensex-falls-for-7th-consecutive-week-infosys-bharti-airtel-others-drag-losses/article-200915/"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The US **Russell 2000** ended the week lower at **2,844**, the only major US index to fall while the Nasdaq gained 2.1%.",
+          "why": "Small caps carry more floating-rate debt, so the jump in yields raised their borrowing costs the most."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** hit an eight-month high near **$86,600** on Tuesday, then slipped back below $84,000 by Saturday.",
+          "why": "Short liquidations drove the early surge, then record-high yields pulled money out of assets that pay no yield."
+        },
+        {
+          "emoji": "💎",
+          "detail": "**Ether** peaked near **$2,776** on Tuesday, fell for three days, and steadied around $2,691 by the weekend.",
+          "why": "Rising bets on a Fed hike hit risky coins, even as ETF buying returned with $270 million on Tuesday."
+        },
+        {
+          "emoji": "🚀",
+          "detail": "**Solana** was the strongest of the three, ending near **$119**, back at the top of its month-long range.",
+          "why": "Spot Solana ETFs extended a 12-week inflow streak, now over $1.16 billion in total, led by Bitwise's BSOL."
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🪙",
+          "detail": "**Spot gold** fell about **2%** on the week to around $4,293, losing four straight sessions before a small bounce on Friday.",
+          "why": "A dollar near a two-month high and the highest Treasury yields since 2007 made holding bullion more costly.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/25/gold-heads-for-weekly-loss-as-stronger-dollar-fed-rate-outlook-weighs.html"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Hot US data pushed the 10-year Treasury yield to 5.20%, its highest since 2007, which strengthened the dollar and hurt gold, small caps, Indian stocks and crypto, while cheaper oil kept AI megacaps rising."
+}
