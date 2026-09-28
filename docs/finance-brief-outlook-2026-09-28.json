@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T08:15:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "detail": "**Wednesday's August PCE**, forecast up **0.4%** on the month, and **Friday's September jobs report**, with about **100,000** jobs expected, are the week's main tests for the Fed.",
+          "why": "Hot numbers would firm up October rate-hike bets. Soft ones would ease the pressure on yields and stock valuations.",
+          "sourceName": "FX Leaders",
+          "sourceUrl": "https://www.fxleaders.com/news/2026/09/27/gold-price-forecast-xau-usd-stabilizes-near-4300-as-pce-inflation-and-jobs-data-loom/"
+        },
+        {
+          "emoji": "🤖",
+          "detail": "**Micron** reports after the close **Wednesday**, with analysts expecting revenue near **$50.8 billion**, up from $11.3 billion a year ago.",
+          "why": "Micron is the week's AI spending test. A miss could stall the chip rally that lifted the Nasdaq last week.",
+          "sourceName": "CMC Markets",
+          "sourceUrl": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-us-pce-jobs-report-micron-earnings"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The **10-year Treasury yield** starts the week at **5.20%**, its highest since 2007, after the S&P 500 managed a 1.2% weekly gain despite it.",
+          "why": "If yields keep rising, the tech selloff that hit midweek last week could return. A drop below 5% would help.",
+          "sourceName": "Tekedia",
+          "sourceUrl": "https://www.tekedia.com/small-caps-lose-ground-as-rising-bond-yields-undermine-russell-2000-rally/"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "**China's September PMIs** come out **Wednesday**, the last data before **Golden Week** shuts mainland markets from Thursday until October 7.",
+          "why": "A factory rebound could revive EM demand after the tariff-free summit. A weak reading leaves Hong Kong exposed during the holiday.",
+          "sourceName": "Lundgreen's Investor Insights",
+          "sourceUrl": "https://www.lundgreensinvestorinsights.com/next-week-in-china-28-september-2-october-2026/"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty 50** starts a four-session week at **23,140**, with Tuesday's monthly F&O expiry and markets closed Friday for Gandhi Jayanti.",
+          "why": "With Brent above $100 and US yields over 5%, foreign selling could push the Nifty below 23,000.",
+          "sourceName": "Goodreturns",
+          "sourceUrl": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-sept-28-oct-1-sensex-nifty-may-remain-volatile-amid-fii-s-1537581.html"
+        },
+        {
+          "emoji": "🏢",
+          "detail": "The US **Russell 2000** starts the week at **2,844**. **Friday's payrolls** decide whether yields keep squeezing small caps, which carry more floating-rate debt.",
+          "why": "A weak jobs number could pull yields down and help small caps. A strong one extends last week's underperformance.",
+          "sourceName": "Kiplinger",
+          "sourceUrl": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** starts the week below **$84,000** after spot ETFs took in **$2.4 billion**, their biggest week since October 2025.",
+          "why": "The ETF buying supports prices, but hot PCE or jobs data would lift yields and weigh on bitcoin, which pays no yield.",
+          "sourceName": "The Block",
+          "sourceUrl": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
+        },
+        {
+          "emoji": "⛓️",
+          "detail": "**Ether**, near **$2,691**, faces **Tuesday's** client software deadline for the **Glamsterdam** upgrade, which is due to reach the Sepolia testnet on October 6.",
+          "why": "If the deadline passes smoothly, the upgrade stays on schedule and could add to last week's $690 million of ETF inflows.",
+          "sourceName": "The Cryptonomist",
+          "sourceUrl": "https://en.cryptonomist.ch/2026/09/18/ethereum-glamsterdam-upgrade-test/"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "**Solana's Alpenglow** upgrade can start switching on **Monday** once validators holding 95% of staked SOL have updated. It aims to cut finality to about 150 milliseconds.",
+          "why": "A smooth rollout could push SOL above its $120 range top. A delay could cool the record ETF buying.",
+          "sourceName": "CryptoTicker",
+          "sourceUrl": "https://cryptoticker.io/en/solana-alpenglow-activation-date-validator-check/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** starts the week near **$4,293** after four losing sessions, and **Wednesday's PCE** is its biggest test.",
+          "why": "Hot inflation data could push gold toward $4,245. Softer numbers could send it back toward $4,400.",
+          "sourceName": "FX Leaders",
+          "sourceUrl": "https://www.fxleaders.com/news/2026/09/27/gold-price-forecast-xau-usd-stabilizes-near-4300-as-pce-inflation-and-jobs-data-loom/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Wednesday's PCE and Friday's payrolls decide whether the 10-year yield holds near 5.20% and October hike bets stand. Hot data would lift the dollar and hurt gold, small caps, Indian stocks and crypto."
+}
