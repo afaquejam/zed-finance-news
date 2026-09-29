@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T08:30:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **S&P 500** fell 0.77% to 7,683.69 on Monday, and the Nasdaq dropped 0.92% to 26,820.38. That wiped out Friday's gains.",
+          "why": "Trump rejected Iran's seven-day ceasefire plan, which pushed oil back up and revived inflation fears.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-28-134128737.html"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield** hit **5.27%** on Monday, a new 19-year high, after Friday's pause. This week's PCE and jobs reports are next.",
+          "why": "Higher oil raised the odds of an October Fed hike to 68%, up from 64% on Friday.",
+          "sourceName": "TipRanks",
+          "sourceUrl": "https://www.tipranks.com/news/10-year-treasury-yield-rises-to-19-year-high-as-rate-hike-odds-grow"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "The **MSCI Emerging Markets** gauge fell as much as 0.8% on Monday to a one-week low. Korea's Kospi dropped **2.6%** as it reopened after the holiday.",
+          "why": "Trump's rejection of Iran's Hormuz offer lifted oil and global bond yields, which hurts oil-importing emerging markets most.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-28/emerging-stocks-slide-as-oil-gains-on-renewed-mideast-tensions"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **Nifty 50** fell 1.56% to **22,780** on Monday and slipped about 0.8% more early Tuesday to around 22,605.",
+          "why": "Brent near $107 and a rupee weaker than 96 per dollar pushed foreign selling to ₹20,695 crore this month.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+        },
+        {
+          "emoji": "🐢",
+          "detail": "The US **Russell 2000** fell **0.69%** to about 2,821 on Monday, reversing Friday's small gain.",
+          "why": "A 10-year yield above 5.2% raises borrowing costs for debt-heavy small companies.",
+          "sourceName": "Investrade",
+          "sourceUrl": "https://investrade.com/market-review-september-28-2026/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** slid to about **$83,000** on Monday, down roughly 1.8% in 24 hours, and dropped further below its weekend range.",
+          "why": "Trump's snub of Iran's offer lifted oil, yields and the dollar, which weighed on assets that pay no yield.",
+          "sourceName": "Decrypt",
+          "sourceUrl": "https://decrypt.co/379438/bitcoin-price-falls-trump-iran-oil-yields"
+        },
+        {
+          "emoji": "🔷",
+          "detail": "**Ether** fell about 1% on Monday to around **$2,646**, back at last Thursday's low after a brief weekend pause.",
+          "why": "Rising bond yields and slower spot ETF inflows left no buyers to absorb profit-taking.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-september-28-2026-bitcoin-loses-ground-after-trump-rejects-irans-7-day-plan-113444329.html"
+        },
+        {
+          "emoji": "🚀",
+          "detail": "**Solana** held near **$122.68** on Monday and beat BTC and ETH as its Alpenglow speed upgrade began rolling out.",
+          "why": "US spot Solana ETFs took in a record $188 million last week, their best week since launch.",
+          "sourceName": "CoinStats",
+          "sourceUrl": "https://coinstats.app/ai/a/latest-news-for-solana"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** fell as much as 4% on Monday to **$4,111 an ounce**, its lowest since August 5, then held near $4,167 on Tuesday.",
+          "why": "The oil spike raised Fed hike bets and pushed yields and the dollar up, making gold less attractive.",
+          "sourceName": "Business Recorder",
+          "sourceUrl": "https://www.brecorder.com/news/40441740/gold-lingers-near-seven-week-low-ahead-of-us-economic-data"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Trump's rejection of Iran's Hormuz ceasefire plan sent oil back up, pushing the 10-year to a 19-year high and raising October hike odds, which hit stocks, emerging markets, crypto and gold together."
+}
