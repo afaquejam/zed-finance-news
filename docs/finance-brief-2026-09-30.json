@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T08:15:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **S&P 500** slipped 0.17% on Tuesday and the Nasdaq dipped 0.09% to 26,797.54, a quiet follow-up to Monday's selloff.",
+          "why": "A consumer confidence slump, record-high long yields and doubts over Anthropic's leaked IPO filing kept buyers cautious.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-29-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Odds of an October Fed hike fell to about **51.5%** from roughly 71% on Monday. This week's PCE and jobs reports could still swing them back.",
+          "why": "Consumer confidence hit its lowest level since 2014, and the New York Fed's Williams said there was no need to rush.",
+          "sourceName": "Kitco News",
+          "sourceUrl": "https://www.kitco.com/news/article/2026-09-29/gold-silver-rebound-soft-data-cools-october-fed-hike-bets-kitco-pm-report"
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The **30-year Treasury yield** hit 5.612% during Tuesday's session, its highest since 2002, after rising for a sixth straight day. The 10-year held near 5.25%.",
+          "why": "Inflation fears and heavy corporate bond issuance kept pressure on long-dated government debt.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/29/treasury-yields-bonds.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Asian stocks rose Wednesday after three losing sessions. The MSCI Asia Pacific index gained 0.4% and Korea's **Kospi** rose 0.65%.",
+          "why": "Brent fell 2.6% to $102.59 as Middle East oil exports recovered and the US offered to sell emergency reserve oil.",
+          "sourceName": "Invezz",
+          "sourceUrl": "https://invezz.com/news/2026/09/30/asian-stocks-rise-as-bonds-steady-ahead-of-key-us-inflation-data/"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **Nifty 50** recovered from early losses to close down only 0.28% at **22,716.20** on Tuesday, then traded flat Wednesday morning.",
+          "why": "Falling oil prices helped stocks bounce off the day's lows, though property shares dropped 2%.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/amp/markets/news/stock-market-live-updates-september-29-sensex-today-nifty50-gift-nifty-crude-oil-price-ipo-today-126092900092_1.html"
+        },
+        {
+          "emoji": "🐢",
+          "detail": "The US **Russell 2000** has trailed the S&P 500 by about **10 percentage points** this quarter, its biggest gap since 2020.",
+          "why": "The prospect of more Fed hikes and yields above 5% raises borrowing costs for small companies with heavy debt.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/29/small-cap-stocks-russell-2000-sp500.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** slipped under 1% to about $83,100 on Tuesday and stayed near Monday's weekly low of $82,630. US spot bitcoin ETFs have now taken in more than they lost this year.",
+          "why": "A 10-year yield near 5.25% outweighed last week's $2.4 billion of ETF inflows.",
+          "sourceName": "Coinstack",
+          "sourceUrl": "https://coinstack.substack.com/p/btc-etfs-flip-positive-for-2026"
+        },
+        {
+          "emoji": "💎",
+          "detail": "**Ether** edged up to about **$2,690**, above Monday's $2,646, but stayed below its $2,800 ceiling.",
+          "why": "Cheaper oil and lower Fed hike bets gave some relief, while record-high long yields held gains back.",
+          "sourceName": "MetaMask",
+          "sourceUrl": "https://metamask.io/price/ethereum"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** fell to about **$119.50**, down roughly 2.6% from Monday, lagging BTC and ETH this time.",
+          "why": "Traders took profits after a 68% two-month rally that had brought Solana nearly back to even for 2026.",
+          "sourceName": "Coinbase",
+          "sourceUrl": "https://www.coinbase.com/price/solana"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** rose 1.4% to about $4,172 on Tuesday, recovering from Monday's selloff, and held near **$4,180** on Wednesday.",
+          "why": "Weak job openings and consumer confidence data cut October hike bets, though high yields limited the rebound.",
+          "sourceName": "Kitco News",
+          "sourceUrl": "https://www.kitco.com/news/article/2026-09-29/gold-silver-rebound-soft-data-cools-october-fed-hike-bets-kitco-pm-report"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Oil's retreat and weak US data cut October hike odds to about 51%, lifting gold and Asian stocks, but 30-year yields at their highest since 2002 kept US stocks, small caps and crypto from recovering."
+}
