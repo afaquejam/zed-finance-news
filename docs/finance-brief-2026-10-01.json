@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T08:00:00+05:30",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "🔀",
+          "detail": "The **S&P 500** fell 0.3% to 7,651.54 on Wednesday, while the Nasdaq rose 0.24% to 26,861.06 to end the quarter.",
+          "why": "A softer inflation report gave stocks an early lift, but rising Treasury yields wiped out the S&P's morning gains.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-30-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Core PCE inflation came in at **3.0%** for August against 3.3% expected, and the odds of an October Fed hike dropped to about 37%.",
+          "why": "It was the Fed's preferred inflation gauge, and the cool reading made another rate hike look less urgent.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html"
+        },
+        {
+          "emoji": "💾",
+          "detail": "**Micron** beat forecasts with $54.23 billion in revenue and guided to $61.5 billion next quarter, yet its shares slipped about 1.2% after hours.",
+          "why": "After a huge run-up in memory-chip stocks, strong results were already expected, so the beat did little.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Asian stocks outside Japan slipped 0.2% on Thursday and Korea's **Kospi** dipped 0.14%, while China's markets closed for the week-long National Day holiday.",
+          "why": "Micron's record results lifted Samsung and SK Hynix, but a US 10-year yield near 5.3% held back gains.",
+          "sourceName": "Vantage Markets",
+          "sourceUrl": "https://www.vantagemarkets.com/market-news/asian-markets-bonds-treasury-yields-tankan-october-1-2026/"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **Nifty 50** fell 0.42% to **22,620.45** on Wednesday, though Bank Nifty rose 0.81%.",
+          "why": "Foreign investors sold ₹10,148 crore of shares, taking September outflows to about $2.7 billion.",
+          "sourceName": "Whalesbook",
+          "sourceUrl": "https://www.whalesbook.com/news/English/sebiexchange/Nifty-Closes-at-22620-as-FII-Selling-and-Oil-Prices-Weigh/6abcee5b5aacb956d0865043"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The US **Russell 2000** fell **0.7%** on Wednesday and trailed the S&P 500 again, even after the softer inflation report.",
+          "why": "Higher Treasury yields raise borrowing costs for small companies, which outweighed the drop in Fed hike odds.",
+          "sourceName": "investingLive",
+          "sourceUrl": "https://investinglive.com/stocks/us-stocks-close-lower-led-by-declines-in-the-small-cap-russell-2000-and-nasdaq-indices/"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** traded near **$83,500** on Thursday after failing to hold a move above $85,000.",
+          "why": "A 10-year yield at 5.3% outweighed spot ETF inflows, which slowed to $66.2 million on Tuesday.",
+          "sourceName": "UseTheBitcoin",
+          "sourceUrl": "https://usethebitcoin.com/bitcoin/bitcoin-price-october-1-2026/"
+        },
+        {
+          "emoji": "⚖️",
+          "detail": "**Ether** traded between about $2,670 and $2,725 on Wednesday, still below its $2,800 ceiling, as leveraged bets fell to their lowest level since March.",
+          "why": "Traders cut leverage while they wait for a clearer signal from yields and Fed policy.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-leverage-capital-cools-to-lowest-level-since-march-amid-consolidation-202609302341"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** held near **$119.72** to finish September about 19% higher, its best month of 2026.",
+          "why": "It rebounded from mid-$90s lows earlier in the month, and profit-taking near $125 capped the rally.",
+          "sourceName": "CoinDCX",
+          "sourceUrl": "https://coindcx.com/blog/price-predictions/solana-price-weekly/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** jumped to $4,219 on the PCE report, then reversed to end Wednesday down about 0.6% near **$4,157**, leaving gold futures down 6.85% for September.",
+          "why": "Treasury yields rose again in the afternoon, which outweighed the drop in Fed hike odds.",
+          "sourceName": "The Gold Forecast",
+          "sourceUrl": "https://thegoldforecast.com/gold/2026/gold-sells-soft-pce-report-surging-yields-overpower-falling-rate-hike-odds"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Cooler inflation cut October hike odds to 37%, but the 10-year Treasury yield rose to about 5.3%, its highest since 2002, and erased early gains in US stocks, small caps, gold and crypto."
+}
