@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T08:00:00-04:00",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **S&P 500** rose 0.19% to 7,666.45 on Thursday to start October, while the Nasdaq added just 0.04% to 26,871.60.",
+          "why": "The 10-year yield hit 5.344%, its highest since 2002, then fell back, and Micron and Alphabet's new AI model lifted tech.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "S&P 500 futures rose **0.26%** early Friday ahead of the September jobs report, where economists expect about 84,000 new jobs.",
+          "why": "This is the last big jobs reading before the Fed's October 28 decision, so it could swing rate-hike odds.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Hong Kong's **Hang Seng** fell 2.48% on Friday as it reopened after a holiday, while Korea's Kospi lost about 1%.",
+          "why": "A jump in oil on renewed US-Iran tensions raised fresh inflation fears across Asia.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/10/01/stock-market-today-live-updates-.html"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **Nifty 50** fell 0.88% to **22,421.95** on Thursday, its fourth straight loss, and markets are closed Friday for Gandhi Jayanti.",
+          "why": "Investors fear the RBI could raise rates at its October 7 meeting, and high energy prices add to the pressure.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/amp/markets/news/stock-market-live-october-1-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126100100095_1.html"
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The US **Russell 2000** rose about **0.8%** on Thursday and beat the S&P 500, a rebound after a September drop of more than 5%.",
+          "why": "Falling Treasury yields eased borrowing-cost worries, which weigh hardest on small companies.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/09/30/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** traded near **$83,900** on Friday after briefly topping $84,000 on Thursday, still stuck below $85,000.",
+          "why": "US crypto ETFs saw over $200 million in combined outflows on October 1, led by bitcoin funds.",
+          "sourceName": "Investing.com",
+          "sourceUrl": "https://www.investing.com/analysis/bitcoin-falls-as-record-etf-outflows-and-strategy-sale-hit-sentiment-200681446"
+        },
+        {
+          "emoji": "💎",
+          "detail": "**Ether** edged up to about **$2,720** on Friday, still under its $2,800 ceiling.",
+          "why": "Ether funds also had outflows, and high yields are keeping buyers cautious before the jobs report.",
+          "sourceName": "MetaMask",
+          "sourceUrl": "https://metamask.io/price/ethereum"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** slipped back below $120 to about **$118**, after trading between roughly $117 and $122.50 over 24 hours.",
+          "why": "Solana funds turned to outflows on October 1 after a strong September, so the rally lost steam.",
+          "sourceName": "Crypto Daily",
+          "sourceUrl": "https://cryptodaily.co.uk/2026/10/sol-price-prediction-reclaim-120"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** rose about 0.5% on Thursday to around **$4,177** and held steady ahead of Friday's US jobs report.",
+          "why": "Yields fell back from 2002 highs, but oil above $100 keeps Fed hike bets alive and limits gold's gains.",
+          "sourceName": "Kitco",
+          "sourceUrl": "https://www.kitco.com/charts/gold"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Brent oil is back above $100 as the US-Iran standoff over the Strait of Hormuz drags on, keeping inflation and Fed hike fears alive and limiting gains in stocks, crypto and gold ahead of payrolls."
+}
