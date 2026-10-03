@@ -273,6 +273,18 @@ function runClaudeCodeOnce(prompt: string): ClaudeCliJsonEnvelope {
  */
 const JSON_REPAIRS: Array<{ name: string; apply: (text: string) => string }> = [
   {
+    // Chat prose around the object, e.g. "Still researching — … writing the
+    // brief JSON.\n\n{…}". Cost a full daily run on 2026-10-03. Keeps the span
+    // from the first `{` to the last `}`; runs first so the end-anchored
+    // repairs below see the object's own tail.
+    name: "prose before/after the JSON object",
+    apply: (text) => {
+      const start = text.indexOf("{");
+      const end = text.lastIndexOf("}");
+      return start === -1 || end <= start ? text : text.slice(start, end + 1);
+    },
+  },
+  {
     // A statement-terminating semicolon after the final closing brace's value:
     // `"crossCuttingTheme": "…";\n}`. Cost a full weekly run on 2026-09-20.
     name: "trailing semicolon before the closing brace",
