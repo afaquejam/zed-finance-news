@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T08:00:00Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **S&P 500** slipped about **0.3%** on the week to 7,722.72, while the Nasdaq gained about 0.5% as Friday's rally erased most of Monday's selloff.",
+          "why": "Trump's rejection of Iran's ceasefire plan lifted oil early, then a weak jobs report cut Fed hike bets."
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Odds of an October Fed hike fell from about **71%** on Monday to the **mid-teens** by Friday.",
+          "why": "Cooler core PCE inflation and only 29,000 new jobs in September made another hike look unnecessary."
+        },
+        {
+          "emoji": "🏛️",
+          "detail": "The **30-year Treasury yield** hit its highest level since 2002 midweek and the 10-year touched **5.344%**, capping stock rallies until Friday.",
+          "why": "Inflation fears from oil and heavy corporate bond issuance kept pressure on long-dated government debt."
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "Emerging markets had a rough week, with Korea's Kospi sinking **2.6%** Monday and Hong Kong's **Hang Seng** falling 2.48% Friday as each reopened from holidays.",
+          "why": "Brent swinging above $100 on the US-Iran standoff lifted global yields, which hurts oil-importing economies most."
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "India's **Nifty 50** fell about **3%** over a holiday-shortened week to 22,421.95, ending on four straight losses.",
+          "why": "Foreign funds pulled over ₹26,000 crore in three sessions amid high oil and fears of an RBI hike October 7."
+        },
+        {
+          "emoji": "🔄",
+          "detail": "The US **Russell 2000** ended the week near 2,833, down about **0.3%**, as gains on Thursday and Friday recovered most of a midweek slide.",
+          "why": "Falling yields and fading Fed hike odds eased borrowing costs, which matter most for debt-heavy small companies."
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** rebounded from a Monday low of $82,630 to top **$85,000** on Friday, ending the week near the top of its range.",
+          "why": "Bitcoin ETFs swung back to inflows and short sellers closed bets as the jobs miss cut hike odds."
+        },
+        {
+          "emoji": "🔷",
+          "detail": "**Ether** spent the week in a narrow band below its $2,800 ceiling, ending near **$2,690**, barely above Monday's low.",
+          "why": "Record-high long yields and ether fund outflows kept buyers cautious, and leveraged bets fell to their lowest since March."
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** dipped below $120 midweek on profit-taking, then recovered to about **$122** by Friday, roughly where it began the week.",
+          "why": "Forced short liquidations and record weekly Solana ETF inflows offset early-October fund outflows."
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** plunged to $4,111 on Monday, its lowest since August 5, then recovered to about **$4,217** by Friday.",
+          "why": "Oil-driven hike bets lifted yields early, then the weak jobs report cut hike odds and sank the dollar."
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "The US-Iran standoff kept Brent above $100 and long yields at 2002 highs, until cooler inflation and a weak jobs report cut Fed hike odds and lifted nearly every market on Friday."
+}
