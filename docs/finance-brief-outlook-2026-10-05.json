@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T05:12:57Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "🏦",
+          "detail": "**Wednesday's Fed minutes** from the September meeting, the Fed's first hike since 2023, are the week's main event, with October hike odds already down to the mid-teens.",
+          "why": "A hawkish tone could revive hike bets and push yields higher again. Talk of a pause would extend Friday's rally.",
+          "sourceName": "WTOP / AP",
+          "sourceUrl": "https://wtop.com/national/2026/10/wall-street-week-ahead-fed-minutes-unemployment-data-consumer-sentiment-update"
+        },
+        {
+          "emoji": "📉",
+          "detail": "A **$39 billion 10-year auction** comes Wednesday, an hour before the minutes, and a **$22 billion 30-year** follows Thursday, with long yields near 2002 highs.",
+          "why": "Weak demand at either auction would lift yields and cap the rate-sensitive megacaps behind the Nasdaq's gain last week.",
+          "sourceName": "Irina's Weekly Trading Playbook",
+          "sourceUrl": "https://irinapchel.substack.com/p/october-5-weekly-trading-playbook"
+        },
+        {
+          "emoji": "📊",
+          "detail": "Earnings season opens with **PepsiCo Thursday** and **Delta Friday**, and no megacap tech names report, so the **S&P 500** enters at 7,722.72 driven by rates, not profits.",
+          "why": "Delta will show how much $100 oil hurts margins, and PepsiCo whether consumers still accept higher prices.",
+          "sourceName": "TradingKey",
+          "sourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262199038-weekly-preview-fed-september-minutes-pepsi-delta-earnings-tradingkey"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌏",
+          "detail": "**Mainland China reopens Thursday** after Golden Week as Stock Connect resumes, and **Brazil's September inflation** comes Friday after a 0.70% preview reading.",
+          "why": "Pent-up holiday flows will set China's direction, and a hot Brazil print would keep its rates high and weigh on EM.",
+          "sourceName": "investingLive",
+          "sourceUrl": "https://investinglive.com/news/what-china-s-golden-week-closures-mean-for-the-yuan-futures-and-asian-liquidity/"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **RBI decides Wednesday**, with many economists expecting a hike from **5.25% to 5.50%**, and **TCS** opens results season Thursday after the market closes.",
+          "why": "A hike is largely expected after weeks of foreign selling. A hold or hawkish surprise would decide whether outflows ease.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/finance/news/rbi-mpc-meeting-october-2026-monetary-policy-repo-rate-hike-retail-inflation-126100200188_1.html"
+        },
+        {
+          "emoji": "🏢",
+          "detail": "The US **Russell 2000** enters near **2,833** after six straight weekly losses, and Wednesday's Fed minutes and 10-year auction will test it.",
+          "why": "Small firms carry more floating-rate debt, so lower yields and signs of a Fed pause help them most.",
+          "sourceName": "JM Investments",
+          "sourceUrl": "https://jminvestments.substack.com/p/jms-weekly-brief-4th-oct-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** enters the week above **$85,000** after three straight weeks of ETF inflows, and Wednesday's Fed minutes are its main macro test.",
+          "why": "Bitcoin has traded on hike odds. Minutes that point to a pause would help ETF buying continue.",
+          "sourceName": "Crypto Briefing",
+          "sourceUrl": "https://cryptobriefing.com/spot-bitcoin-etfs-241m-inflows-third-week"
+        },
+        {
+          "emoji": "🔧",
+          "detail": "**Ether** sits near **$2,690**, below its $2,800 ceiling, as the **Glamsterdam upgrade** goes live on the Sepolia test network Tuesday.",
+          "why": "A smooth testnet launch keeps the upgrade on schedule, but ETF outflows still need to stop before ether can break $2,800.",
+          "sourceName": "Phemex",
+          "sourceUrl": "https://phemex.com/blogs/ethereum-price-analysis-2026-eth-etf-staking-glamsterdam-upgrade"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "**Solana** starts near **$122**, just below resistance at $125, with ETF inflows slowing to a trickle after a record week.",
+          "why": "Without fresh ETF demand, a breakout depends on Wednesday's Fed minutes and how risk appetite holds up.",
+          "sourceName": "Crypto Daily",
+          "sourceUrl": "https://cryptodaily.co.uk/2026/10/solana-price-prediction-etf-inflows-sol-125"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** enters near **$4,217**, with $4,100 as the first support, and Wednesday's Fed minutes are the catalyst most likely to move it.",
+          "why": "Gold pays no interest, so hawkish minutes that lift yields and the dollar would push it lower again.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/analysis/gold-weekly-forecast-precious-metal-extends-slide-but-safe-haven-flows-limit-losses-202610021435"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Wednesday's Fed minutes and 10-year auction will show whether long yields near 2002 highs can ease, and that path will move stocks, EM, crypto and gold together."
+}
