@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T05:02:38Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **S&P 500** rose 0.58% to 7,818.93 on Tuesday, its first close above 7,800 and first record since August, while the Nasdaq hit another record at 27,599.79.",
+          "why": "Treasury yields eased from their highest since 2002 and oil slid below $100, and Nvidia neared a $6 trillion value.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield** eased to about 5.27% from Monday's 5.35%, its highest since 2002, giving the rally its first relief from the bond selloff.",
+          "why": "The global bond selloff paused and the dollar pulled back from a one-year high.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/news/gold-recovers-from-two-month-lows-as-bond-selloff-takes-a-breather-202610061109"
+        },
+        {
+          "emoji": "📝",
+          "detail": "Next up are the **Fed's September meeting minutes** on Wednesday, the next clue on rate hikes before earnings season starts.",
+          "why": "With yields still near 24-year highs, any hint of another hike could test the new record.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌎",
+          "detail": "MSCI's emerging-market stock index rose for a **second straight day** on Tuesday, with Brazilian assets in demand and South Africa's rand up 0.8%.",
+          "why": "A conservative sweep in Brazil's first-round election, Brent below $100 and a weaker dollar lifted EM assets.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-06/emerging-markets-gain-as-oil-drop-brazil-vote-boost-sentiment"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The RBI raised its repo rate **25 basis points to 5.5%** on Wednesday, its first hike since 2023, and the Nifty dipped toward 22,650 after Tuesday's 0.98% gain.",
+          "why": "Inflation and a weak rupee forced the hike, but a higher growth forecast of 7.1% limited the selloff.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-october-7-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-rbi-mpc-repo-rate-ipo-today-126100700099_1.html"
+        },
+        {
+          "emoji": "📉",
+          "detail": "The US **Russell 2000** fell 0.6% to 2,830.30 on Tuesday, ending a three-day winning streak even as the big US indices hit records.",
+          "why": "Small caps gave up early gains despite easier yields as buyers moved into megacap tech instead.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/10/05/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** slipped to about **$85,600**, below Monday's $86,000, after failing again to break $87,000.",
+          "why": "Spot bitcoin ETFs had their first October outflow, $89.8 million, and about $172 million of positions were liquidated.",
+          "sourceName": "The Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/10/06/bitcoin-price-today-btc-holds-85500-as-172m-liquidations-etf-outflows-hit-before-fed-minutes/"
+        },
+        {
+          "emoji": "🔧",
+          "detail": "**Ether** held near **$2,705** after the Glamsterdam upgrade launched successfully on the Sepolia testnet on Tuesday.",
+          "why": "Upgrade progress is holding up the price, but ether ETFs posted a third straight outflow of about $51 million.",
+          "sourceName": "FXStreet",
+          "sourceUrl": "https://www.fxstreet.com/cryptocurrencies/news/ethereum-price-forecast-glamsterdam-upgrade-launches-on-sepolia-testnet-202610062318"
+        },
+        {
+          "emoji": "🟣",
+          "detail": "**Solana** is stuck near **$120**, down about 1.6% in a day, staying in a narrow range for a second session.",
+          "why": "With bitcoin stalled below $87,000 and only small Solana ETF inflows, no buyers are pushing it higher.",
+          "sourceName": "Investing News Network",
+          "sourceUrl": "https://investingnews.com/cryptocurrency-market-recap/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** recovered to about **$4,168** on Tuesday after hitting a two-month low of $4,104 earlier in the session.",
+          "why": "Treasury yields eased from 2002 highs and the dollar fell back from a one-year high, which made bullion cheaper.",
+          "sourceName": "USAGOLD",
+          "sourceUrl": "https://www.usagold.com/daily-precious-metals-market-report-october-6-2026/"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "A pause in the global bond selloff, with the 10-year yield easing from its 2002 high and oil below $100, lifted US stocks to records, extended EM gains and pulled gold off two-month lows."
+}
