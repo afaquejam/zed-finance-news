@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T08:00:00+00:00",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "The **S&P 500** fell 0.3% to 7,798.14 on Wednesday, slipping back below 7,800 a day after its record, while the Nasdaq eased 0.2% to 27,538.69.",
+          "why": "Oil rebounded, with Brent near $102 on Iranian attacks on Hormuz shipping, ending a four-day winning streak.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-07-2026"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **Fed's September minutes** showed most officials expect another rate hike this year, but gave no hint of timing, and stocks barely moved.",
+          "why": "Markets had already priced one more hike, with October odds cut to about 20% and December now favored.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/fed-minutes-point-another-rate-180521715.html"
+        },
+        {
+          "emoji": "💵",
+          "detail": "The **10-year Treasury yield** backed off its 24-year high after a solid 10-year note auction, helping stocks close well off their session lows.",
+          "why": "Strong auction demand eased fears that buyers are shunning US debt as yields climb.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/2026/10/07/treasury-yields-auction-fomc-minutes.html"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🌍",
+          "detail": "MSCI's emerging-market stock index **fell 1%** on Wednesday, ending its two-day rally, as South Korea's Kospi dropped 2%, its worst day this month.",
+          "why": "More Iranian attacks on Hormuz shipping lifted oil and the dollar, which hurts oil-importing emerging markets.",
+          "sourceName": "Bloomberg",
+          "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-07/emerging-stocks-halt-advance-as-hormuz-tensions-come-into-focus"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty** opened Thursday at 22,599, down **0.51%**, and slipped below 22,550 as markets kept digesting the RBI's rate hike.",
+          "why": "Tighter RBI policy, higher crude, foreign selling and a weak rupee all weighed on sentiment.",
+          "sourceName": "ANI",
+          "sourceUrl": "https://aninews.in/news/business/sensex-opens-over-300-points-down-nifty-below-22550-as-rbis-tighter-monetary-policy-weighs-on-markets20261008094812"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "The US **Russell 2000** fell **1.31%** to 2,793.36 on Wednesday, a second straight loss and much worse than the S&P 500's 0.3% dip.",
+          "why": "Treasury yields hit new highs during the session, and rate-sensitive small caps took the biggest hit.",
+          "sourceName": "TheStreet",
+          "sourceUrl": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-07-2026"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** slid to about **$84,200**, below Tuesday's $85,600, pulling further away from the $87,000 level it keeps failing to break.",
+          "why": "Fed minutes pointing to another hike this year hit bitcoin, even as spot ETFs took in about $119 million.",
+          "sourceName": "Analytics Insight",
+          "sourceUrl": "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-slips-to-usd-84200-as-etf-outflows-and-liquidations-test-support"
+        },
+        {
+          "emoji": "🔷",
+          "detail": "**Ether** fell **4.1%** to about $2,582, slipping from the $2,700 area despite last week's Glamsterdam testnet progress.",
+          "why": "Spot ether ETFs lost $202 million, a sixth straight day of outflows.",
+          "sourceName": "The Crypto Times",
+          "sourceUrl": "https://cryptotimes.io/2026/10/08/bitcoin-etfs-see-119m-inflows-as-ether-funds-lose-202m"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** broke below its $120 range, falling about **3.1%** to $116.63.",
+          "why": "Bitcoin's slide dragged altcoins lower, and Solana ETFs had a small outflow of about $3.7 million.",
+          "sourceName": "The Crypto Times",
+          "sourceUrl": "https://cryptotimes.io/2026/10/08/bitcoin-etfs-see-119m-inflows-as-ether-funds-lose-202m"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Spot gold** fell 0.98% to **$4,122.73** on Wednesday, giving back most of Tuesday's rebound, then edged back toward $4,150 early Thursday.",
+          "why": "The dollar rose 0.4% on Hormuz tensions, and hawkish Fed minutes made non-yielding bullion less attractive.",
+          "sourceName": "CNBC",
+          "sourceUrl": "https://www.cnbc.com/amp/2026/10/07/gold-edges-lower-with-focus-on-fed-minutes-rate-path-clues.html"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Iranian attacks on Hormuz shipping sent oil and the dollar back up, and Fed minutes confirmed another hike is coming, ending the relief rally in US stocks, emerging markets, small caps, crypto and gold."
+}
