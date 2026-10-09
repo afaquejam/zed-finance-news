@@ -1,0 +1,101 @@
+{
+  "date": "2026-10-09",
+  "generatedAt": "2026-10-09T05:02:35Z",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "🤖",
+          "detail": "The **Nasdaq** sank 1.25% Thursday, far worse than the S&P 500's 0.47% slip, as both indices fell for a second straight day after this week's records.",
+          "why": "A Financial Times report that OpenAI's revenue is lower than published figures hit AI-linked chip stocks.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/news/p-500-nasdaq-end-lower-203227225.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Oil jumped again Thursday, with Brent up about 5.6% to around **$106**, reviving inflation and rate-hike fears for stocks.",
+          "why": "Reports of possible US strikes on Iran, thinner Hormuz tanker traffic and Gulf hurricane shut-ins threatened supply.",
+          "sourceName": "Benzinga",
+          "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62255036/stock-market-today-sp-500-slips-oil-rallies-yields"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "The **10-year Treasury yield** briefly topped 5.35% before closing near 5.23%, the second day running that a strong auction pulled it back.",
+          "why": "Solid demand at the $22 billion 30-year bond sale eased fears that buyers are shunning US debt.",
+          "sourceName": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/10/08/stock-market-today-oct-8-tech-stocks-slide-as-treasury-yields-and-oil-prices-surge/"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "📉",
+          "detail": "South Korea's **Kospi** slid **2.62%** Thursday, a third straight loss, extending the emerging-market selloff even though Samsung reported strong quarterly profit.",
+          "why": "Foreign and institutional investors sold chip stocks as rising oil revived inflation worries.",
+          "sourceName": "Seoul Economic Daily",
+          "sourceUrl": "https://en.sedaily.com/finance/2026/10/08/kospi-falls-behind-as-us-japan-and-taiwan-markets-climb"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty** fell **1.64%** to 22,231.80 Thursday, touching a 52-week low, then opened higher on Friday.",
+          "why": "Brent above $102, rising US yields and a ninth straight session of foreign selling drove the slide.",
+          "sourceName": "Kotak Neo",
+          "sourceUrl": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-50-end-lower-as-crude-prices-rise-and-fii-selling-continues/"
+        },
+        {
+          "emoji": "🛡️",
+          "detail": "The US **Russell 2000** closed flat at **2,794.13** Thursday, after two straight losses, while the Nasdaq fell 1.25%.",
+          "why": "A strong 30-year Treasury auction pulled yields off their highs, easing pressure on rate-sensitive small firms.",
+          "sourceName": "Kitco",
+          "sourceUrl": "https://www.kitco.com/news/article/2026-10-08/gold-rises-silver-falls-strong-bond-auction-tempers-yield-pressure-kitco-pm"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** slipped to about **$82,300** early Friday, down from $84,200, and is drifting toward the $80,000 support level.",
+          "why": "Spot bitcoin ETFs lost about $485 million, their biggest outflow since June, as the dollar firmed.",
+          "sourceName": "KuCoin News",
+          "sourceUrl": "https://www.kucoin.com/news/flash/bitcoin-etf-outflows-hit-485m-as-btc-price-slides-toward-82-000"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "**Ether** fell about **4%** to roughly $2,480, breaking below $2,500.",
+          "why": "US spot ether ETFs kept losing money, shedding about 47,500 ETH on Thursday after a week of outflows.",
+          "sourceName": "Coinbase",
+          "sourceUrl": "https://www.coinbase.com/price/ethereum"
+        },
+        {
+          "emoji": "☀️",
+          "detail": "**Solana** fell to about **$112** after losing its $116 support, and analysts are now eyeing $106.",
+          "why": "Bitcoin's slide dragged altcoins lower, and Solana ETFs lost about $17.7 million over three sessions.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/solana-price-breaks-116-support-can-bulls-prevent-drop/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Gold** rose about 0.6% to around **$4,135** Thursday, recovering from a two-month low, and held near that level early Friday.",
+          "why": "A strong bond auction eased yield pressure, and Hormuz tensions brought back safe-haven demand.",
+          "sourceName": "Kitco",
+          "sourceUrl": "https://www.kitco.com/news/article/2026-10-08/gold-rises-silver-falls-strong-bond-auction-tempers-yield-pressure-kitco-pm"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Brent jumping toward $106 on Hormuz and US-Iran strike fears revived inflation and rate-hike worries, hitting tech, Asia, India and crypto, while a strong Treasury auction capped yields and steadied small caps and gold."
+}
