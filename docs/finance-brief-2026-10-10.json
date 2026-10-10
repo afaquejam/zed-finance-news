@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T08:00:00-04:00",
+  "sections": [
+    {
+      "key": "usa",
+      "label": "USA",
+      "items": [
+        {
+          "emoji": "📈",
+          "detail": "The **Nasdaq** rose 0.64% to 27,366.17 Friday and the S&P 500 gained 0.59% to 7,811.54. That ended a two-day slide and gave both indices a weekly gain.",
+          "why": "OpenAI told investors it expects $70 billion in annual revenue by year-end, easing fears and lifting chip stocks.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-9-dow-sp-500-nasdaq-080148117.html"
+        },
+        {
+          "emoji": "🛢️",
+          "detail": "Brent fell about 1.3% to near **$103** Friday, giving back part of Thursday's jump, though it still finished the week higher.",
+          "why": "Trump called the Iran talks productive and said the US would not strike Iran before the November 3 midterms.",
+          "sourceName": "The Detroit News",
+          "sourceUrl": "https://www.detroitnews.com/story/business/2026/10/09/oil-falls-trump-comments-iran-talks-ease-supply-concerns/92167970007/"
+        },
+        {
+          "emoji": "🏦",
+          "detail": "Earnings season starts next week with the biggest banks, while the **10-year Treasury yield** held near 5.24% Friday.",
+          "sourceName": "ETF Trends",
+          "sourceUrl": "https://www.etftrends.com/fixed-income-content-hub/treasury-yields-snapshot-october-9-2026/"
+        }
+      ]
+    },
+    {
+      "key": "emsmallcaps",
+      "label": "Emerging Markets and Small Caps",
+      "items": [
+        {
+          "emoji": "🇭🇰",
+          "detail": "Hong Kong's **Hang Seng** jumped 1.79% to 24,211.35 Friday, led by a 3.1% rise in the tech index. Korea and Taiwan were shut for holidays.",
+          "why": "Bargain hunters bought beaten-down Tencent, Xiaomi and other platform stocks as global chip shares bounced back.",
+          "sourceName": "BBN Times",
+          "sourceUrl": "https://www.bbntimes.com/financial/hang-seng-jumps-to-24-211-35-as-xiaomi-tencent-and-internet-stocks-lead-a-sharp-rebound-in-hong-kong"
+        },
+        {
+          "emoji": "🇮🇳",
+          "detail": "The **Nifty** rebounded about 1.3% to 22,520.45 Friday, pulling away from its 52-week low, and the Sensex added 879 points.",
+          "why": "Oil prices easing on Trump's Iran comments set off broad buying, with IT stocks leading.",
+          "sourceName": "Business Standard",
+          "sourceUrl": "https://www.business-standard.com/markets/news/stock-market-live-october-9-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-it-stocks-today-126100900099_1.html"
+        },
+        {
+          "emoji": "🐢",
+          "detail": "The US **Russell 2000** rose **0.46%** to 2,806.98 Friday but trailed the bigger indices, and it is still about 9% below its August high.",
+          "why": "Yields barely moved from about 5.2% after the Fed's September hike, which kept pressure on rate-sensitive small firms.",
+          "sourceName": "FXEmpire",
+          "sourceUrl": "https://www.fxempire.com/forecasts/article/russell-2000-forecast-small-cap-pullback-eyes-2500-retest-as-fed-cut-holds-firm-1636865"
+        }
+      ]
+    },
+    {
+      "key": "crypto",
+      "label": "Crypto",
+      "items": [
+        {
+          "emoji": "₿",
+          "detail": "**Bitcoin** held near **$82,600** early Saturday after a fourth straight losing day briefly took it below $81,000.",
+          "why": "Spot bitcoin ETFs lost about $729 million over two sessions before Friday's early data showed a small inflow.",
+          "sourceName": "Yahoo Finance",
+          "sourceUrl": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-rebounds-above-82k-082116450.html"
+        },
+        {
+          "emoji": "🔻",
+          "detail": "**Ether** stayed around **$2,500** Friday, up from a midweek low near $2,406, but it has not yet mounted a clear recovery.",
+          "why": "US spot ether ETFs posted an eighth straight day of outflows, and heavy long liquidations hurt sentiment.",
+          "sourceName": "The Crypto Times",
+          "sourceUrl": "https://www.cryptotimes.io/2026/10/09/ethereum-price-today-holds-near-2500-after-eighth-straight-etf-outflow/"
+        },
+        {
+          "emoji": "⚡",
+          "detail": "**Solana** slid about 4.7% to around **$110** Friday, even though its network switched to faster 200-millisecond blocks the same day.",
+          "why": "Standard Chartered cut its 2026 target to $250 from $310, and Solana ETFs kept losing money.",
+          "sourceName": "crypto.news",
+          "sourceUrl": "https://crypto.news/solana-network-upgrade-targets-faster-blocks-as-sol-price-struggles/"
+        }
+      ]
+    },
+    {
+      "key": "commodities",
+      "label": "Commodities",
+      "items": [
+        {
+          "emoji": "🥇",
+          "detail": "**Gold** rose about 1.3% to near **$4,194** Friday, briefly going above $4,200 as it extended its recovery from a two-month low.",
+          "why": "A weaker dollar, lower Treasury yields and easing fears of a US-Iran clash made gold more attractive.",
+          "sourceName": "Kitco",
+          "sourceUrl": "http://www.kitco.com/charts/gold"
+        }
+      ]
+    }
+  ],
+  "crossCuttingTheme": "Trump's pledge not to strike Iran before the midterms pulled Brent back toward $103, easing inflation fears and lifting US tech, Hong Kong, India and gold. Crypto stayed weak because ETF outflows outweighed the relief."
+}
